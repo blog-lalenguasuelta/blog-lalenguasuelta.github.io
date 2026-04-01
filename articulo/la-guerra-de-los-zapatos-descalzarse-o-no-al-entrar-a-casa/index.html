@@ -10,128 +10,165 @@
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2026-04-01T21:41:45Z"/>
 <meta property="article:section" content="society"/>
-
-<link rel="alternate" type="application/rss+xml" title="La Lengua Suelta RSS" href="/feed.xml"/>
+<link rel="alternate" type="application/rss+xml" title="La Lengua Suelta" href="/feed.xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#0b1326;--surface:#171f33;--surface-high:#222a3d;--surface-highest:#2d3449;
-  --text:#dae2fd;--text-secondary:#c2c6d6;--primary:#adc6ff;--secondary:#4edea3;
-  --tertiary:#ffb2b7;--outline:#8c909f;
+  --bg:#0b1326;--surface:#13192d;--surface-high:#1a2138;--surface-border:#252d44;
+  --text:#d8dff5;--text-muted:#9ea5b8;--text-dim:#6b7280;
+  --accent:#8fa8d4;--accent-hover:#a4bce6;
+  --link:#8fa8d4;--link-hover:#c4d5ef;
 }
-body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:var(--primary);text-decoration:none}a:hover{color:var(--secondary)}
-.container{max-width:800px;margin:0 auto;padding:0 1rem}
-.container-wide{max-width:1100px;margin:0 auto;padding:0 1rem}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased;font-size:16px}
+a{color:var(--link);text-decoration:none;transition:color .15s}
+a:hover{color:var(--link-hover)}
+
+/* Layout */
+.wrap{max-width:720px;margin:0 auto;padding:0 1.25rem}
+.wrap-wide{max-width:960px;margin:0 auto;padding:0 1.25rem}
 
 /* Header */
-.header{border-bottom:1px solid rgba(45,52,73,0.5);padding:1rem 0;position:sticky;top:0;background:rgba(11,19,38,0.92);backdrop-filter:blur(12px);z-index:50}
-.header-inner{display:flex;align-items:center;justify-content:space-between}
-.logo{display:flex;align-items:center;gap:0.75rem;text-decoration:none;color:var(--text)}
-.logo-icon{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,rgba(173,198,255,0.15),rgba(78,222,163,0.15));display:flex;align-items:center;justify-content:center;font-size:1.2rem}
-.logo-text{font-weight:700;font-size:1.1rem}
-.logo-sub{font-size:0.7rem;color:var(--text-secondary)}
-.nav{display:flex;gap:1rem;align-items:center;font-size:0.85rem;color:var(--text-secondary)}
-.nav a{color:var(--text-secondary)}
-
-/* Cards */
-.card{background:var(--surface);border:1px solid rgba(45,52,73,0.4);border-radius:12px;padding:1.5rem;transition:border-color 0.2s}
-.card:hover{border-color:rgba(173,198,255,0.3)}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem;margin:1.5rem 0}
-
-/* Article */
-.article-header{margin:2rem 0 1.5rem}
-.article-emoji{font-size:2rem}
-.article-title{font-size:2rem;font-weight:800;line-height:1.2;margin:0.75rem 0 0.5rem}
-.article-subtitle{font-size:1.1rem;color:var(--text-secondary);margin-bottom:1rem}
-.article-meta{display:flex;gap:1rem;font-size:0.8rem;color:var(--text-secondary);padding:0.75rem 0;border-top:1px solid rgba(45,52,73,0.3);border-bottom:1px solid rgba(45,52,73,0.3)}
-
-/* Prose */
-.prose h2{font-size:1.4rem;font-weight:700;margin:1.8rem 0 0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(45,52,73,0.3)}
-.prose p{color:var(--text-secondary);line-height:1.8;margin-bottom:1.1rem}
-.prose strong{color:var(--text);font-weight:600}
-.prose em{color:var(--primary)}
-.prose blockquote{border-left:3px solid var(--secondary);padding:0.8rem 1.2rem;margin:1.2rem 0;background:rgba(78,222,163,0.05);border-radius:0 8px 8px 0}
-.prose blockquote p{color:var(--text-secondary);margin:0}
-.prose a{text-decoration:underline;text-underline-offset:2px}
-.prose ul,.prose ol{padding-left:1.5rem;margin-bottom:1rem}
-.prose li{color:var(--text-secondary);margin-bottom:0.4rem}
-.prose hr{border:none;border-top:1px solid rgba(45,52,73,0.3);margin:1.5rem 0}
-
-/* Tags */
-.tag{display:inline-block;padding:0.2rem 0.7rem;border-radius:99px;font-size:0.75rem;background:var(--surface-high);color:var(--text-secondary)}
-.cat-badge{display:inline-block;padding:0.2rem 0.7rem;border-radius:99px;font-size:0.75rem;background:rgba(78,222,163,0.12);color:var(--secondary)}
-
-/* x-post embed */
-.x-embed{background:var(--surface);border:1px solid rgba(45,52,73,0.4);border-radius:12px;padding:1.2rem;margin-bottom:1.5rem;display:flex;gap:0.8rem}
-.x-avatar{width:32px;height:32px;border-radius:50%;background:rgba(173,198,255,0.15);display:flex;align-items:center;justify-content:center;font-size:0.85rem;flex-shrink:0}
-.x-handle{font-size:0.75rem;color:var(--text-secondary)}
-
-/* Sources */
-.sources{background:var(--surface);border:1px solid rgba(45,52,73,0.3);border-radius:12px;padding:1.2rem;margin-top:1.5rem}
-.sources h3{font-size:0.85rem;font-weight:600;margin-bottom:0.6rem}
-.source-item{display:flex;gap:0.5rem;font-size:0.85rem;margin-bottom:0.4rem;color:var(--text-secondary)}
-.source-item .arrow{color:var(--secondary)}
-.source-tag{font-size:0.7rem;color:var(--outline);margin-left:0.4rem}
-
-/* Navigation */
-.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}
-.article-nav a{background:var(--surface);border:1px solid rgba(45,52,73,0.3);border-radius:12px;padding:1rem;transition:border-color 0.2s}
-.article-nav a:hover{border-color:rgba(173,198,255,0.3)}
-.nav-label{font-size:0.7rem;color:var(--text-secondary)}
-.nav-title{font-size:0.85rem;font-weight:500;color:var(--text);margin-top:0.2rem}
-
-/* Footer */
-.footer{border-top:1px solid rgba(45,52,73,0.3);padding:2rem 0;margin-top:3rem;text-align:center}
-.footer p{font-size:0.8rem;color:var(--text-secondary)}
+.site-header{border-bottom:1px solid var(--surface-border);padding:1.125rem 0;position:sticky;top:0;background:rgba(11,19,38,0.95);backdrop-filter:blur(10px);z-index:50}
+.site-header .inner{display:flex;align-items:center;justify-content:space-between}
+.site-logo{font-family:'Space Grotesk','Inter',sans-serif;font-weight:700;font-size:1.1rem;color:var(--text);letter-spacing:-0.02em}
+.site-logo span{display:block;font-size:0.7rem;font-weight:400;color:var(--text-muted);letter-spacing:0}
+.site-nav{display:flex;gap:1.5rem;font-size:0.85rem;color:var(--text-muted)}
+.site-nav a{color:var(--text-muted)}
+.site-nav a:hover{color:var(--text)}
 
 /* Hero */
-.hero{padding:3rem 0 1rem;text-align:center}
-.hero-title{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#adc6ff,#4edea3,#ffb2b7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:0.5rem}
-.hero-sub{color:var(--text-secondary);font-size:1rem;max-width:500px;margin:0 auto}
+.hero{padding:3.5rem 0 2rem;border-bottom:1px solid var(--surface-border)}
+.hero h1{font-family:'Space Grotesk','Inter',sans-serif;font-size:2rem;font-weight:700;color:var(--text);letter-spacing:-0.03em;margin-bottom:0.5rem}
+.hero p{color:var(--text-muted);font-size:0.95rem;max-width:480px}
 
-/* Category pills */
-.cat-pills{display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1.5rem 0}
-.cat-pill{padding:0.4rem 1rem;border-radius:99px;font-size:0.8rem;background:var(--surface);border:1px solid rgba(45,52,73,0.4);color:var(--text-secondary);transition:all 0.2s}
-.cat-pill:hover{border-color:var(--primary);color:var(--primary)}
+/* Section headings */
+.section-title{font-family:'Space Grotesk','Inter',sans-serif;font-size:0.8rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-dim);margin-bottom:1.25rem}
+
+/* Category nav */
+.cat-nav{display:flex;flex-wrap:wrap;gap:0.5rem;margin:1.75rem 0}
+.cat-link{padding:0.375rem 0.875rem;border-radius:4px;font-size:0.8rem;color:var(--text-muted);border:1px solid var(--surface-border);transition:all .15s}
+.cat-link:hover,.cat-link.active{color:var(--text);border-color:var(--accent);background:rgba(143,168,212,0.06)}
+
+/* Featured */
+.featured{padding:2rem 0;border-bottom:1px solid var(--surface-border)}
+.featured-inner{display:block;color:var(--text);padding:1.75rem;background:var(--surface);border:1px solid var(--surface-border);border-radius:6px;transition:border-color .2s}
+.featured-inner:hover{border-color:var(--accent);color:var(--text)}
+.featured-cat{font-size:0.75rem;font-weight:500;color:var(--accent);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.75rem}
+.featured h2{font-family:'Space Grotesk','Inter',sans-serif;font-size:1.5rem;font-weight:700;line-height:1.3;margin-bottom:0.5rem;letter-spacing:-0.02em}
+.featured .summary{color:var(--text-muted);font-size:0.9rem;margin-bottom:0.875rem;line-height:1.6}
+.featured .meta{font-size:0.8rem;color:var(--text-dim)}
+
+/* Article list */
+.article-list{list-style:none;padding:2rem 0}
+.article-list li{padding:1.25rem 0;border-bottom:1px solid var(--surface-border)}
+.article-list li:last-child{border-bottom:none}
+.article-list a{display:block;color:var(--text);transition:color .15s}
+.article-list a:hover{color:var(--accent)}
+.article-list .cat{font-size:0.7rem;font-weight:500;color:var(--accent);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.25rem}
+.article-list h3{font-family:'Space Grotesk','Inter',sans-serif;font-size:1.1rem;font-weight:600;line-height:1.35;margin-bottom:0.3rem;letter-spacing:-0.01em}
+.article-list .excerpt{color:var(--text-muted);font-size:0.85rem;line-height:1.55;margin-bottom:0.4rem}
+.article-list .meta{font-size:0.75rem;color:var(--text-dim)}
+
+/* Article page */
+.breadcrumb{font-size:0.8rem;color:var(--text-dim);margin:1.5rem 0}
+.breadcrumb a{color:var(--text-muted)}
+.breadcrumb a:hover{color:var(--text)}
+.article-head{margin-bottom:2rem}
+.article-head .cat{font-size:0.75rem;font-weight:500;color:var(--accent);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.75rem}
+.article-head h1{font-family:'Space Grotesk','Inter',sans-serif;font-size:2rem;font-weight:700;line-height:1.25;letter-spacing:-0.03em;margin-bottom:0.5rem}
+.article-head .subtitle{font-size:1rem;color:var(--text-muted);margin-bottom:1rem;line-height:1.5}
+.article-head .meta{display:flex;gap:1.5rem;font-size:0.8rem;color:var(--text-dim);padding:0.75rem 0;border-top:1px solid var(--surface-border);border-bottom:1px solid var(--surface-border)}
+
+/* Prose */
+.prose{margin:2rem 0}
+.prose h2{font-family:'Space Grotesk','Inter',sans-serif;font-size:1.35rem;font-weight:700;color:var(--text);margin:2rem 0 0.75rem;letter-spacing:-0.02em}
+.prose h3{font-family:'Space Grotesk','Inter',sans-serif;font-size:1.1rem;font-weight:600;color:var(--text);margin:1.5rem 0 0.5rem}
+.prose p{color:var(--text-muted);line-height:1.8;margin-bottom:1.25rem;font-size:0.95rem}
+.prose strong{color:var(--text);font-weight:600}
+.prose em{color:var(--accent);font-style:italic}
+.prose blockquote{border-left:2px solid var(--accent);padding:0.75rem 1.25rem;margin:1.5rem 0;background:rgba(143,168,212,0.04);border-radius:0 4px 4px 0}
+.prose blockquote p{color:var(--text-muted);margin:0;font-size:0.9rem}
+.prose a{color:var(--link);text-decoration:underline;text-underline-offset:2px}
+.prose a:hover{color:var(--link-hover)}
+.prose ul,.prose ol{padding-left:1.5rem;margin-bottom:1.25rem}
+.prose li{color:var(--text-muted);margin-bottom:0.4rem;line-height:1.7;font-size:0.95rem}
+.prose hr{border:none;border-top:1px solid var(--surface-border);margin:2rem 0}
+.prose code{font-size:0.85em;background:var(--surface-high);padding:0.15em 0.35em;border-radius:3px}
+
+/* Tags */
+.tag-list{display:flex;flex-wrap:wrap;gap:0.4rem;margin:1.5rem 0;padding-top:1.25rem;border-top:1px solid var(--surface-border)}
+.tag{font-size:0.75rem;padding:0.25rem 0.65rem;border-radius:3px;background:var(--surface-high);color:var(--text-dim)}
+
+/* Sources */
+.sources{background:var(--surface);border:1px solid var(--surface-border);border-radius:6px;padding:1.25rem;margin:1.5rem 0}
+.sources h3{font-size:0.85rem;font-weight:600;color:var(--text);margin-bottom:0.75rem}
+.sources ul{list-style:none;padding:0}
+.sources li{font-size:0.85rem;margin-bottom:0.5rem;padding-left:1rem;position:relative;color:var(--text-muted)}
+.sources li::before{content:"—";position:absolute;left:0;color:var(--text-dim)}
+.sources a{color:var(--text-muted)}
+.sources a:hover{color:var(--link-hover)}
+.sources .src-name{font-size:0.75rem;color:var(--text-dim);margin-left:0.3rem}
+
+/* Prev/Next */
+.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2.5rem 0}
+.article-nav a{display:block;padding:1rem;background:var(--surface);border:1px solid var(--surface-border);border-radius:6px;transition:border-color .2s;color:var(--text)}
+.article-nav a:hover{border-color:var(--accent)}
+.nav-label{font-size:0.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.25rem}
+.nav-title{font-size:0.85rem;font-weight:500;line-height:1.35}
+
+/* Rating */
+.rating-section{margin:2rem 0;padding:1.5rem;background:var(--surface);border:1px solid var(--surface-border);border-radius:6px;text-align:center}
+.rating-title{font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem}
+.rating-stars{display:inline-flex;gap:0.25rem;margin-bottom:0.5rem}
+.rating-stars button{background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--surface-border);transition:color .1s;padding:0.125rem;line-height:1}
+.rating-stars button:hover,.rating-stars button.active{color:var(--accent)}
+.rating-stars button.filled{color:var(--accent)}
+.rating-info{font-size:0.75rem;color:var(--text-dim)}
+.rating-thanks{font-size:0.85rem;color:var(--accent);margin-top:0.5rem;display:none}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--surface-border);padding:2rem 0;margin-top:3rem}
+.site-footer .inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem}
+.site-footer .brand{font-size:0.85rem;color:var(--text-muted)}
+.site-footer .links{display:flex;gap:1.25rem;font-size:0.8rem}
+.site-footer .links a{color:var(--text-dim)}
+.site-footer .links a:hover{color:var(--text)}
+
+/* Empty state */
+.empty{text-align:center;padding:4rem 0;color:var(--text-dim)}
 
 @media(max-width:640px){
-  .article-title{font-size:1.5rem}
-  .hero-title{font-size:1.8rem}
-  .card-grid{grid-template-columns:1fr}
+  .hero h1{font-size:1.5rem}
+  .article-head h1{font-size:1.5rem}
+  .featured h2{font-size:1.25rem}
   .article-nav{grid-template-columns:1fr}
+  .article-head .meta{flex-wrap:wrap;gap:0.75rem}
+  .site-footer .inner{flex-direction:column;text-align:center}
 }
 </style>
 </head>
 <body>
-<header class="header">
-<div class="container-wide header-inner">
-<a href="/" class="logo">
-<div class="logo-icon">🗣️</div>
-<div><div class="logo-text">La Lengua Suelta</div><div class="logo-sub">Opinión sin filtros</div></div>
-</a>
-<nav class="nav">
+<header class="site-header">
+<div class="wrap-wide inner">
+<a href="/" class="site-logo">La Lengua Suelta<span>Opinión sin filtros</span></a>
+<nav class="site-nav">
 <a href="/">Inicio</a>
-<a href="/feed.xml" title="RSS">RSS</a>
+<a href="/feed.xml">RSS</a>
 </nav>
 </div>
 </header>
-<main class="container" style="padding-top:1rem;padding-bottom:2rem">
-<nav style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:1.5rem"><a href="/">Inicio</a> › <a href="/categoria/society/">Sociedad</a> › <span style="color:var(--outline)">Artículo</span></nav>
+<main class="wrap">
+<nav class="breadcrumb"><a href="/">Inicio</a> / <a href="/categoria/society/">Sociedad</a></nav>
 <article>
-<header class="article-header">
-<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem"><span class="article-emoji">🏘️</span><span class="cat-badge">Sociedad</span></div>
-<h1 class="article-title">La guerra de los zapatos: ¿descalzarse o no al entrar a casa?</h1>
-<p class="article-subtitle">En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no.</p>
-<div class="article-meta"><span>📅 1 abr 2026</span><span>⏱ 3 min lectura</span><span>🤖 IA + Humano</span></div>
+<header class="article-head">
+<div class="cat">Sociedad</div>
+<h1>La guerra de los zapatos: ¿descalzarse o no al entrar a casa?</h1>
+<p class="subtitle">En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no.</p>
+<div class="meta"><span>1 abr 2026</span><span>3 min de lectura</span></div>
 </header>
-<div class="x-embed">
-<div class="x-avatar">🗣️</div>
-<div>
-<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.3rem"><strong style="font-size:0.85rem">La Lengua Suelta</strong><span class="x-handle">@bloglengsuelta</span></div>
-<p style="font-size:0.95rem;line-height:1.5">ÚLTIMA HORA: España se divide entre los que se descalzan al entrar a casa y los que no. Mientras tanto, la AP-7 te cobra más por cada kilómetro que tu alquiler en Madrid. Y tú, esperando que tu alquiler baje como los precios del pollo en Mercadona. #LaLenguaSuelta</p>
-</div>
-</div>
 <div class="prose">
 <p><strong><em>En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no.</em></strong></p>
 <p>La actualidad nos regala debates de gran calado, como la aparición de la nueva estrella del fútbol, Lamine Yamal, que ha hecho frente a los cantos racistas en el fútbol. Pero, en el fondo, hay una discusión que nos toca a todos: la batalla sobre si descalzarse al entrar en casa es una costumbre de sabios o un acto de locura. Mientras tanto, en otro rincón de nuestra sociedad, la AP-7 nos cobra más por kilómetro que el alquiler de un piso en Madrid. Vamos, que el verdadero problema de España no son los políticos, sino los zapatos que nos empeñamos en arrastrar a casa.</p>
@@ -147,29 +184,81 @@ a{color:var(--primary);text-decoration:none}a:hover{color:var(--secondary)}
 <p><em>La Lengua Suelta — Opinión sin anestesia</em></p>
 <blockquote><p>💬 <em>Post en X:</em> «ÚLTIMA HORA: España se divide entre los que se descalzan al entrar a casa y los que no. Mientras tanto, la AP-7 te cobra más por cada kilómetro que tu alquiler en Madrid. Y tú, esperando que tu alquiler baje como los precios del pollo en Mercadona. #LaLenguaSuelta»</p></blockquote>
 </div>
-<div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(45,52,73,0.3);display:flex;flex-wrap:wrap;gap:0.4rem">
-<span class="tag">#society</span>
-<span class="tag">#LaLenguaSuelta</span>
-<span class="tag">#opinión</span>
-<span class="tag">#sarcastic</span>
+<div class="tag-list">
+<span class="tag">society</span>
+<span class="tag">LaLenguaSuelta</span>
+<span class="tag">opinión</span>
+<span class="tag">sarcastic</span>
 </div>
 <div class="sources">
-<h3>📎 Fuentes relacionadas</h3>
-<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/internacional/2026-04-01/el-supremo-muestra-su-escepticismo-sobre-la-legalidad-del-intento-de-trump-de-impedir-la-nacionalidad-a-los-hijos-de-inmigrantes-no-residentes.html">El Supremo muestra su escepticismo sobre la orden de Trump de denegar la nacionalidad a hijos de inmigrantes sin papeles<span class="source-tag">— El País</span></a></div>
-<div class="source-item"><span class="arrow">→</span><a href="https://www.bbc.com/mundo/articles/cn9qvd73wvgo?at_medium=RSS&amp;amp;at_campaign=rss">Qué medidas están tomando los gobiernos para aliviar el aumento de los precios de los combustibles en América Latina y el mundo<span class="source-tag">— BBC Mundo</span></a></div>
-<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/deportes/futbol/2026-04-01/lamine-yamal-soy-musulman-y-usar-la-religion-como-burla-en-un-campo-os-deja-como-ignorantes-y-racistas.html">Lamine Yamal: “Soy musulmán y usar la religión como burla en un campo os deja como ignorantes y racistas”<span class="source-tag">— El País</span></a></div>
-<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/espana/2026-04-01/los-inscritos-de-podemos-avalan-su-intento-de-ultima-hora-de-entrar-en-por-andalucia.html">Los inscritos de Podemos avalan su intento de última hora de entrar en Por Andalucía<span class="source-tag">— El País</span></a></div>
-<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/videos/2026-04-01/la-historia-del-inmigrante-de-origen-chino-que-aseguro-la-ciudadania-por-nacimiento-en-estados-unidos.html">La historia del cocinero de origen chino que aseguró la ciudadanía por nacimiento en Estados Unidos<span class="source-tag">— El País</span></a></div>
+<h3>Fuentes</h3>
+<ul>
+<li><a href="https://elpais.com/internacional/2026-04-01/el-supremo-muestra-su-escepticismo-sobre-la-legalidad-del-intento-de-trump-de-impedir-la-nacionalidad-a-los-hijos-de-inmigrantes-no-residentes.html" rel="noopener" target="_blank">El Supremo muestra su escepticismo sobre la orden de Trump de denegar la nacionalidad a hijos de inmigrantes sin papeles<span class="src-name">El País</span></a></li>
+<li><a href="https://www.bbc.com/mundo/articles/cn9qvd73wvgo?at_medium=RSS&amp;amp;at_campaign=rss" rel="noopener" target="_blank">Qué medidas están tomando los gobiernos para aliviar el aumento de los precios de los combustibles en América Latina y el mundo<span class="src-name">BBC Mundo</span></a></li>
+<li><a href="https://elpais.com/deportes/futbol/2026-04-01/lamine-yamal-soy-musulman-y-usar-la-religion-como-burla-en-un-campo-os-deja-como-ignorantes-y-racistas.html" rel="noopener" target="_blank">Lamine Yamal: “Soy musulmán y usar la religión como burla en un campo os deja como ignorantes y racistas”<span class="src-name">El País</span></a></li>
+<li><a href="https://elpais.com/espana/2026-04-01/los-inscritos-de-podemos-avalan-su-intento-de-ultima-hora-de-entrar-en-por-andalucia.html" rel="noopener" target="_blank">Los inscritos de Podemos avalan su intento de última hora de entrar en Por Andalucía<span class="src-name">El País</span></a></li>
+<li><a href="https://elpais.com/videos/2026-04-01/la-historia-del-inmigrante-de-origen-chino-que-aseguro-la-ciudadania-por-nacimiento-en-estados-unidos.html" rel="noopener" target="_blank">La historia del cocinero de origen chino que aseguró la ciudadanía por nacimiento en Estados Unidos<span class="src-name">El País</span></a></li>
+</ul>
+</div>
+<div class="rating-section" data-article-id="6a00bc7a" data-api-base="">
+<div class="rating-title">Valora este articulo</div>
+<div class="rating-stars">
+<button type="button" aria-label="1 estrellas">&#9733;</button>
+<button type="button" aria-label="2 estrellas">&#9733;</button>
+<button type="button" aria-label="3 estrellas">&#9733;</button>
+<button type="button" aria-label="4 estrellas">&#9733;</button>
+<button type="button" aria-label="5 estrellas">&#9733;</button>
+</div>
+<div class="rating-info">Sin valoraciones</div>
+<div class="rating-thanks"></div>
 </div>
 </article>
 <nav class="article-nav">
-<a href="/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/><div class="nav-label">← Anterior</div><div class="nav-title">El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el </div></a>
-<a href="/articulo/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler/" style="text-align:right"><div class="nav-label">Siguiente →</div><div class="nav-title">La NASA se va a la Luna mientras tú cuentas monedas para el </div></a>
+<a href="/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/"><div class="nav-label">Anterior</div><div class="nav-title">El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el </div></a>
+<a href="/articulo/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler/" style="text-align:right"><div class="nav-label">Siguiente</div><div class="nav-title">La NASA se va a la Luna mientras tú cuentas monedas para el </div></a>
 </nav>
 </main>
-<footer class="footer">
-<div class="container">
-<p>🗣️ La Lengua Suelta · Generado con IA · Opinión satírica · © 2026</p>
+<script>
+(function(){
+  var w=document.querySelector('.rating-section');
+  if(!w)return;
+  var id=w.dataset.articleId,
+      stars=w.querySelectorAll('.rating-stars button'),
+      info=w.querySelector('.rating-info'),
+      thanks=w.querySelector('.rating-thanks'),
+      apiBase=w.dataset.apiBase||'';
+  function fill(n){stars.forEach(function(s,i){s.classList.toggle('filled',i<n);s.classList.remove('active')})}
+  function show(data){
+    if(data.count>0){info.textContent=data.average+' / 5  —  '+data.count+(data.count===1?' voto':' votos')}
+    else{info.textContent='Sin valoraciones'}
+    if(data.your_score){fill(data.your_score);thanks.style.display='block';thanks.textContent='Tu voto: '+data.your_score+' / 5'}
+  }
+  // Fetch current rating
+  fetch(apiBase+'/api/blog-engine/articles/'+id+'/rating',{credentials:'include'})
+    .then(function(r){return r.json()}).then(show).catch(function(){});
+  // Hover
+  stars.forEach(function(s,i){
+    s.addEventListener('mouseenter',function(){stars.forEach(function(b,j){b.classList.toggle('active',j<=i)})});
+    s.addEventListener('mouseleave',function(){stars.forEach(function(b){b.classList.remove('active')})});
+    s.addEventListener('click',function(){
+      fetch(apiBase+'/api/blog-engine/articles/'+id+'/rate',{
+        method:'POST',credentials:'include',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({score:i+1})
+      }).then(function(r){return r.json()}).then(function(d){
+        show(d);thanks.style.display='block';thanks.textContent=d.updated?'Voto actualizado':'Gracias por tu voto'
+      }).catch(function(){thanks.style.display='block';thanks.textContent='Error al enviar'})
+    });
+  });
+})();
+</script>
+<footer class="site-footer">
+<div class="wrap-wide inner">
+<div class="brand">La Lengua Suelta &middot; 2026</div>
+<div class="links">
+<a href="/">Inicio</a>
+<a href="/feed.xml">RSS</a>
+</div>
 </div>
 </footer>
 </body>
