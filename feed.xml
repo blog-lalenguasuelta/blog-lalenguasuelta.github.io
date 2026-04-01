@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>La Lengua Suelta</title>
+    <link>/</link>
+    <description>Opinión sin filtros — Blog satírico generado con IA</description>
+    <language>es</language>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el numerito?</title>
+      <link>/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/</link>
+      <guid>/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/</guid>
+      <description>Mientras los políticos se lanzan dardos, Lavapiés se convierte en la verdadera atracción del mes. La política española parece haber tomado un giro de circo.</description>
+      <pubDate>Wed, 01 Apr 2026 22:00:34 +0000</pubDate>
+      <category>science</category>
+    </item>
+    <item>
+      <title>La guerra de los zapatos: ¿descalzarse o no al entrar a casa?</title>
+      <link>/articulo/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa/</link>
+      <guid>/articulo/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa/</guid>
+      <description>En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no. La actualidad nos regala debates de gran calado, como la aparición de la nueva estrella del fútbol, Lamine Yamal, que ha hecho frente a los cantos racistas en el fútbol.</description>
+      <pubDate>Wed, 01 Apr 2026 21:41:45 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
+      <title>La NASA se va a la Luna mientras tú cuentas monedas para el alquiler</title>
+      <link>/articulo/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler/</link>
+      <guid>/articulo/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler/</guid>
+      <description>¿Qué tienen en común la ciencia ficción y los pisos de 40m². Ambos son inalcanzables para el ciudadano medio.</description>
+      <pubDate>Wed, 01 Apr 2026 21:41:45 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
+      <title>El Alquiler En Madrid — La opinión que nadie te pidió</title>
+      <link>/articulo/el-alquiler-en-madrid-la-opinion-que-nadie-te-pidio/</link>
+      <guid>/articulo/el-alquiler-en-madrid-la-opinion-que-nadie-te-pidio/</guid>
+      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
+      <pubDate>Wed, 01 Apr 2026 21:41:45 +0000</pubDate>
+      <category>economy</category>
+    </item>
+  </channel>
+</rss>

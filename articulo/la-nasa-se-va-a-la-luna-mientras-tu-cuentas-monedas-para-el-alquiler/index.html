@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>La NASA se va a la Luna mientras tú cuentas monedas para el alquiler — La Lengua Suelta</title>
+<meta name="description" content="¿Qué tienen en común la ciencia ficción y los pisos de 40m²? Ambos son inalcanzables para el ciudadano medio."/>
+<meta property="og:title" content="La NASA se va a la Luna mientras tú cuentas monedas para el alquiler — La Lengua Suelta"/>
+<meta property="og:description" content="¿Qué tienen en común la ciencia ficción y los pisos de 40m²? Ambos son inalcanzables para el ciudadano medio."/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2026-04-01T21:41:45Z"/>
+<meta property="article:section" content="society"/>
+
+<link rel="alternate" type="application/rss+xml" title="La Lengua Suelta RSS" href="/blog/feed.xml"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0b1326;--surface:#171f33;--surface-high:#222a3d;--surface-highest:#2d3449;
+  --text:#dae2fd;--text-secondary:#c2c6d6;--primary:#adc6ff;--secondary:#4edea3;
+  --tertiary:#ffb2b7;--outline:#8c909f;
+}
+body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--secondary)}
+.container{max-width:800px;margin:0 auto;padding:0 1rem}
+.container-wide{max-width:1100px;margin:0 auto;padding:0 1rem}
+
+/* Header */
+.header{border-bottom:1px solid rgba(45,52,73,0.5);padding:1rem 0;position:sticky;top:0;background:rgba(11,19,38,0.92);backdrop-filter:blur(12px);z-index:50}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:0.75rem;text-decoration:none;color:var(--text)}
+.logo-icon{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,rgba(173,198,255,0.15),rgba(78,222,163,0.15));display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.logo-text{font-weight:700;font-size:1.1rem}
+.logo-sub{font-size:0.7rem;color:var(--text-secondary)}
+.nav{display:flex;gap:1rem;align-items:center;font-size:0.85rem;color:var(--text-secondary)}
+.nav a{color:var(--text-secondary)}
+
+/* Cards */
+.card{background:var(--surface);border:1px solid rgba(45,52,73,0.4);border-radius:12px;padding:1.5rem;transition:border-color 0.2s}
+.card:hover{border-color:rgba(173,198,255,0.3)}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem;margin:1.5rem 0}
+
+/* Article */
+.article-header{margin:2rem 0 1.5rem}
+.article-emoji{font-size:2rem}
+.article-title{font-size:2rem;font-weight:800;line-height:1.2;margin:0.75rem 0 0.5rem}
+.article-subtitle{font-size:1.1rem;color:var(--text-secondary);margin-bottom:1rem}
+.article-meta{display:flex;gap:1rem;font-size:0.8rem;color:var(--text-secondary);padding:0.75rem 0;border-top:1px solid rgba(45,52,73,0.3);border-bottom:1px solid rgba(45,52,73,0.3)}
+
+/* Prose */
+.prose h2{font-size:1.4rem;font-weight:700;margin:1.8rem 0 0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(45,52,73,0.3)}
+.prose p{color:var(--text-secondary);line-height:1.8;margin-bottom:1.1rem}
+.prose strong{color:var(--text);font-weight:600}
+.prose em{color:var(--primary)}
+.prose blockquote{border-left:3px solid var(--secondary);padding:0.8rem 1.2rem;margin:1.2rem 0;background:rgba(78,222,163,0.05);border-radius:0 8px 8px 0}
+.prose blockquote p{color:var(--text-secondary);margin:0}
+.prose a{text-decoration:underline;text-underline-offset:2px}
+.prose ul,.prose ol{padding-left:1.5rem;margin-bottom:1rem}
+.prose li{color:var(--text-secondary);margin-bottom:0.4rem}
+.prose hr{border:none;border-top:1px solid rgba(45,52,73,0.3);margin:1.5rem 0}
+
+/* Tags */
+.tag{display:inline-block;padding:0.2rem 0.7rem;border-radius:99px;font-size:0.75rem;background:var(--surface-high);color:var(--text-secondary)}
+.cat-badge{display:inline-block;padding:0.2rem 0.7rem;border-radius:99px;font-size:0.75rem;background:rgba(78,222,163,0.12);color:var(--secondary)}
+
+/* x-post embed */
+.x-embed{background:var(--surface);border:1px solid rgba(45,52,73,0.4);border-radius:12px;padding:1.2rem;margin-bottom:1.5rem;display:flex;gap:0.8rem}
+.x-avatar{width:32px;height:32px;border-radius:50%;background:rgba(173,198,255,0.15);display:flex;align-items:center;justify-content:center;font-size:0.85rem;flex-shrink:0}
+.x-handle{font-size:0.75rem;color:var(--text-secondary)}
+
+/* Sources */
+.sources{background:var(--surface);border:1px solid rgba(45,52,73,0.3);border-radius:12px;padding:1.2rem;margin-top:1.5rem}
+.sources h3{font-size:0.85rem;font-weight:600;margin-bottom:0.6rem}
+.source-item{display:flex;gap:0.5rem;font-size:0.85rem;margin-bottom:0.4rem;color:var(--text-secondary)}
+.source-item .arrow{color:var(--secondary)}
+.source-tag{font-size:0.7rem;color:var(--outline);margin-left:0.4rem}
+
+/* Navigation */
+.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}
+.article-nav a{background:var(--surface);border:1px solid rgba(45,52,73,0.3);border-radius:12px;padding:1rem;transition:border-color 0.2s}
+.article-nav a:hover{border-color:rgba(173,198,255,0.3)}
+.nav-label{font-size:0.7rem;color:var(--text-secondary)}
+.nav-title{font-size:0.85rem;font-weight:500;color:var(--text);margin-top:0.2rem}
+
+/* Footer */
+.footer{border-top:1px solid rgba(45,52,73,0.3);padding:2rem 0;margin-top:3rem;text-align:center}
+.footer p{font-size:0.8rem;color:var(--text-secondary)}
+
+/* Hero */
+.hero{padding:3rem 0 1rem;text-align:center}
+.hero-title{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#adc6ff,#4edea3,#ffb2b7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:0.5rem}
+.hero-sub{color:var(--text-secondary);font-size:1rem;max-width:500px;margin:0 auto}
+
+/* Category pills */
+.cat-pills{display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1.5rem 0}
+.cat-pill{padding:0.4rem 1rem;border-radius:99px;font-size:0.8rem;background:var(--surface);border:1px solid rgba(45,52,73,0.4);color:var(--text-secondary);transition:all 0.2s}
+.cat-pill:hover{border-color:var(--primary);color:var(--primary)}
+
+@media(max-width:640px){
+  .article-title{font-size:1.5rem}
+  .hero-title{font-size:1.8rem}
+  .card-grid{grid-template-columns:1fr}
+  .article-nav{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="container-wide header-inner">
+<a href="/blog/" class="logo">
+<div class="logo-icon">🗣️</div>
+<div><div class="logo-text">La Lengua Suelta</div><div class="logo-sub">Opinión sin filtros</div></div>
+</a>
+<nav class="nav">
+<a href="/blog/">Inicio</a>
+<a href="/blog/feed.xml" title="RSS">RSS</a>
+</nav>
+</div>
+</header>
+<main class="container" style="padding-top:1rem;padding-bottom:2rem">
+<nav style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:1.5rem"><a href="/blog/">Inicio</a> › <a href="/blog/categoria/society/">Sociedad</a> › <span style="color:var(--outline)">Artículo</span></nav>
+<article>
+<header class="article-header">
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem"><span class="article-emoji">🏘️</span><span class="cat-badge">Sociedad</span></div>
+<h1 class="article-title">La NASA se va a la Luna mientras tú cuentas monedas para el alquiler</h1>
+<p class="article-subtitle">¿Qué tienen en común la ciencia ficción y los pisos de 40m²? Ambos son inalcanzables para el ciudadano medio.</p>
+<div class="article-meta"><span>📅 1 abr 2026</span><span>⏱ 3 min lectura</span><span>🤖 IA + Humano</span></div>
+</header>
+<div class="x-embed">
+<div class="x-avatar">🗣️</div>
+<div>
+<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.3rem"><strong style="font-size:0.85rem">La Lengua Suelta</strong><span class="x-handle">@bloglengsuelta</span></div>
+<p style="font-size:0.95rem;line-height:1.5">El plan de la NASA para regresar a la Luna con Artemis II suena a ciencia ficción. Mientras yo cuento las monedas para pagar el alquiler de mi piso de 40m² por 1.200€, ellos hablan de cohetes y avances. ¿Qué pasa, que el wifi no llega hasta allí? #LaLenguaSuelta</p>
+</div>
+</div>
+<div class="prose">
+<p><strong><em>¿Qué tienen en común la ciencia ficción y los pisos de 40m²? Ambos son inalcanzables para el ciudadano medio.</em></strong></p>
+<p>Mientras en la Tierra las luchas diarias por llegar a fin de mes se intensifican, la NASA se prepara para lanzar su misión Artemis II, que marcará el regreso de los humanos a la Luna después de más de 50 años. Y mientras ellos planean su épica odisea espacial, nosotros seguimos contando monedas para pagar un alquiler que parece una broma de mal gusto. ¿Qué pasa, que el wifi no llega hasta allí?</p>
+<h2>La realidad sin filtros</h2>
+<p>La NASA ha lanzado al espacio su ambiciosa misión Artemis II, que despegará en menos de 24 horas y llevará a cuatro astronautas en un viaje de más de 800.000 kilómetros alrededor de la Luna, sin aterrizar, claro. Porque, al parecer, a la NASA no le basta con simplemente llegar al satélite, tiene que hacerlo de una forma que soltaría lágrimas de emoción a cualquier amante de la ciencia ficción. Según la BBC, esta misión está llena de peligros, pero ¿quién tiene tiempo para eso cuando en la Tierra hay que lidiar con el riesgo de convertirse en inquilinos eternos?</p>
+<p>La primera tripulación que volará hacia el satélite desde 1972, la última vez que un humano pisó la Luna, está compuesta por un equipo internacional que incluye a la astronauta Christina Koch, cuyo currículum es más impresionante que cualquier perfil de LinkedIn. Pero mientras ellos recorren la cara oculta de la Luna, aquí en la Tierra, los españoles nos conformamos con ver nuestra cara oculta en el espejo después de otro mes de facturas.</p>
+<h2>Lo que nadie te dice</h2>
+<p>Y aquí llega el análisis más profundo. La misión Artemis II no solo es un despilfarro de recursos, sino también un recordatorio mordaz de las prioridades de nuestra civilización. La NASA gasta miles de millones en un viaje a la Luna, mientras que en España, la gente se pregunta si le dará tiempo a cenar antes de que llegue la nueva factura del gas. Las razones de la NASA para volver a la Luna son variadas: desde la exploración de recursos naturales hasta la carrera espacial con potencias como China. Pero, seamos sinceros, ¿realmente necesitamos volver a la Luna antes de resolver los problemas en casa?</p>
+<p>El País menciona que la misión tiene como objetivo explorar la cara oculta de la Luna, una parte que ha sido un misterio desde tiempos inmemoriales. Sin embargo, el único misterio que parece perdurar aquí es cómo algunos logran salir adelante con sueldos de miseria y alquileres astronómicos. ¿Acaso hay recursos valiosos bajo la superficie lunar que podrían ayudar a solucionar la crisis de vivienda? Esperemos que, al menos, la NASA no encuentre propiedades de lujo en el espacio que nos dejen aún más desolados.</p>
+<h2>El resumen para tu cuñado</h2>
+<p>Para resumir, mientras la NASA se embarca en su espectacular aventura hacia la Luna, muchos de nosotros estamos atrapados en una realidad que parece de ciencia ficción, pero no de la buena. La misión Artemis II es un recordatorio de cómo el futuro puede ser brillante para algunos y sombrío para otros. Al fin y al cabo, ¿de qué sirve un cohete espectacular si al final del mes el único lanzamiento que hacemos es el de nuestras esperanzas de un alquiler asequible?</p>
+<hr/>
+<p><em>La Lengua Suelta — Opinión sin anestesia</em></p>
+<blockquote><p>💬 <em>Post en X:</em> «El plan de la NASA para regresar a la Luna con Artemis II suena a ciencia ficción. Mientras yo cuento las monedas para pagar el alquiler de mi piso de 40m² por 1.200€, ellos hablan de cohetes y avances. ¿Qué pasa, que el wifi no llega hasta allí? #LaLenguaSuelta»</p></blockquote>
+</div>
+<div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(45,52,73,0.3);display:flex;flex-wrap:wrap;gap:0.4rem">
+<span class="tag">#society</span>
+<span class="tag">#LaLenguaSuelta</span>
+<span class="tag">#opinión</span>
+<span class="tag">#philosophical</span>
+</div>
+<div class="sources">
+<h3>📎 Fuentes relacionadas</h3>
+<div class="source-item"><span class="arrow">→</span><a href="https://www.bbc.com/mundo/resources/idt-86aafe5a-17e2-479c-9e12-3a7a41e10e9e?at_medium=RSS&amp;amp;at_campaign=rss">Artemis II: cómo es la ambiciosa misión para regresar a la Luna después de 50 años<span class="source-tag">— BBC Mundo</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/videos/2026-04-01/los-diez-dias-para-volver-a-la-luna-dentro-de-la-mision-artemis-ii-de-la-nasa.html">Los diez días para volver a la Luna: dentro de la misión Artemis II de la NASA<span class="source-tag">— El País</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://www.eldiario.es/sociedad/artemisa-ii-claves-horarios-seguir-regreso-tripulado-luna-despues-medio-siglo_1_13111094.html">Artemisa II: claves y horarios para seguir el regreso tripulado a la Luna después de medio siglo<span class="source-tag">— El Diario</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/ciencia/2026-04-01/el-lanzamiento-de-artemis-2-a-la-luna-a-que-hora-es-y-donde-ver-el-despegue.html">El lanzamiento de Artemis 2 a la Luna: a qué hora es y dónde ver el despegue<span class="source-tag">— El País</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://www.bbc.com/mundo/articles/cp86v5ge9z1o?at_medium=RSS&amp;amp;at_campaign=rss">Artemis II: recursos naturales valiosos y otras 4 razones por las cuales la NASA quiere volver a la Luna después de 50 años<span class="source-tag">— BBC Mundo</span></a></div>
+</div>
+</article>
+<nav class="article-nav">
+<a href="/blog/articulo/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa/><div class="nav-label">← Anterior</div><div class="nav-title">La guerra de los zapatos: ¿descalzarse o no al entrar a casa</div></a>
+<a href="/blog/articulo/el-alquiler-en-madrid-la-opinion-que-nadie-te-pidio/" style="text-align:right"><div class="nav-label">Siguiente →</div><div class="nav-title">El Alquiler En Madrid — La opinión que nadie te pidió</div></a>
+</nav>
+</main>
+<footer class="footer">
+<div class="container">
+<p>🗣️ La Lengua Suelta · Generado con IA · Opinión satírica · © 2026</p>
+</div>
+</footer>
+</body>
+</html>

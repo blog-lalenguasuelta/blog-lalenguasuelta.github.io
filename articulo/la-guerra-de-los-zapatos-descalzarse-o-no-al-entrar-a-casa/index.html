@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>La guerra de los zapatos: ¿descalzarse o no al entrar a casa? — La Lengua Suelta</title>
+<meta name="description" content="En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no."/>
+<meta property="og:title" content="La guerra de los zapatos: ¿descalzarse o no al entrar a casa? — La Lengua Suelta"/>
+<meta property="og:description" content="En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no."/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2026-04-01T21:41:45Z"/>
+<meta property="article:section" content="society"/>
+
+<link rel="alternate" type="application/rss+xml" title="La Lengua Suelta RSS" href="/blog/feed.xml"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0b1326;--surface:#171f33;--surface-high:#222a3d;--surface-highest:#2d3449;
+  --text:#dae2fd;--text-secondary:#c2c6d6;--primary:#adc6ff;--secondary:#4edea3;
+  --tertiary:#ffb2b7;--outline:#8c909f;
+}
+body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--secondary)}
+.container{max-width:800px;margin:0 auto;padding:0 1rem}
+.container-wide{max-width:1100px;margin:0 auto;padding:0 1rem}
+
+/* Header */
+.header{border-bottom:1px solid rgba(45,52,73,0.5);padding:1rem 0;position:sticky;top:0;background:rgba(11,19,38,0.92);backdrop-filter:blur(12px);z-index:50}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:0.75rem;text-decoration:none;color:var(--text)}
+.logo-icon{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,rgba(173,198,255,0.15),rgba(78,222,163,0.15));display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+.logo-text{font-weight:700;font-size:1.1rem}
+.logo-sub{font-size:0.7rem;color:var(--text-secondary)}
+.nav{display:flex;gap:1rem;align-items:center;font-size:0.85rem;color:var(--text-secondary)}
+.nav a{color:var(--text-secondary)}
+
+/* Cards */
+.card{background:var(--surface);border:1px solid rgba(45,52,73,0.4);border-radius:12px;padding:1.5rem;transition:border-color 0.2s}
+.card:hover{border-color:rgba(173,198,255,0.3)}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem;margin:1.5rem 0}
+
+/* Article */
+.article-header{margin:2rem 0 1.5rem}
+.article-emoji{font-size:2rem}
+.article-title{font-size:2rem;font-weight:800;line-height:1.2;margin:0.75rem 0 0.5rem}
+.article-subtitle{font-size:1.1rem;color:var(--text-secondary);margin-bottom:1rem}
+.article-meta{display:flex;gap:1rem;font-size:0.8rem;color:var(--text-secondary);padding:0.75rem 0;border-top:1px solid rgba(45,52,73,0.3);border-bottom:1px solid rgba(45,52,73,0.3)}
+
+/* Prose */
+.prose h2{font-size:1.4rem;font-weight:700;margin:1.8rem 0 0.6rem;padding-bottom:0.4rem;border-bottom:1px solid rgba(45,52,73,0.3)}
+.prose p{color:var(--text-secondary);line-height:1.8;margin-bottom:1.1rem}
+.prose strong{color:var(--text);font-weight:600}
+.prose em{color:var(--primary)}
+.prose blockquote{border-left:3px solid var(--secondary);padding:0.8rem 1.2rem;margin:1.2rem 0;background:rgba(78,222,163,0.05);border-radius:0 8px 8px 0}
+.prose blockquote p{color:var(--text-secondary);margin:0}
+.prose a{text-decoration:underline;text-underline-offset:2px}
+.prose ul,.prose ol{padding-left:1.5rem;margin-bottom:1rem}
+.prose li{color:var(--text-secondary);margin-bottom:0.4rem}
+.prose hr{border:none;border-top:1px solid rgba(45,52,73,0.3);margin:1.5rem 0}
+
+/* Tags */
+.tag{display:inline-block;padding:0.2rem 0.7rem;border-radius:99px;font-size:0.75rem;background:var(--surface-high);color:var(--text-secondary)}
+.cat-badge{display:inline-block;padding:0.2rem 0.7rem;border-radius:99px;font-size:0.75rem;background:rgba(78,222,163,0.12);color:var(--secondary)}
+
+/* x-post embed */
+.x-embed{background:var(--surface);border:1px solid rgba(45,52,73,0.4);border-radius:12px;padding:1.2rem;margin-bottom:1.5rem;display:flex;gap:0.8rem}
+.x-avatar{width:32px;height:32px;border-radius:50%;background:rgba(173,198,255,0.15);display:flex;align-items:center;justify-content:center;font-size:0.85rem;flex-shrink:0}
+.x-handle{font-size:0.75rem;color:var(--text-secondary)}
+
+/* Sources */
+.sources{background:var(--surface);border:1px solid rgba(45,52,73,0.3);border-radius:12px;padding:1.2rem;margin-top:1.5rem}
+.sources h3{font-size:0.85rem;font-weight:600;margin-bottom:0.6rem}
+.source-item{display:flex;gap:0.5rem;font-size:0.85rem;margin-bottom:0.4rem;color:var(--text-secondary)}
+.source-item .arrow{color:var(--secondary)}
+.source-tag{font-size:0.7rem;color:var(--outline);margin-left:0.4rem}
+
+/* Navigation */
+.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}
+.article-nav a{background:var(--surface);border:1px solid rgba(45,52,73,0.3);border-radius:12px;padding:1rem;transition:border-color 0.2s}
+.article-nav a:hover{border-color:rgba(173,198,255,0.3)}
+.nav-label{font-size:0.7rem;color:var(--text-secondary)}
+.nav-title{font-size:0.85rem;font-weight:500;color:var(--text);margin-top:0.2rem}
+
+/* Footer */
+.footer{border-top:1px solid rgba(45,52,73,0.3);padding:2rem 0;margin-top:3rem;text-align:center}
+.footer p{font-size:0.8rem;color:var(--text-secondary)}
+
+/* Hero */
+.hero{padding:3rem 0 1rem;text-align:center}
+.hero-title{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#adc6ff,#4edea3,#ffb2b7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:0.5rem}
+.hero-sub{color:var(--text-secondary);font-size:1rem;max-width:500px;margin:0 auto}
+
+/* Category pills */
+.cat-pills{display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1.5rem 0}
+.cat-pill{padding:0.4rem 1rem;border-radius:99px;font-size:0.8rem;background:var(--surface);border:1px solid rgba(45,52,73,0.4);color:var(--text-secondary);transition:all 0.2s}
+.cat-pill:hover{border-color:var(--primary);color:var(--primary)}
+
+@media(max-width:640px){
+  .article-title{font-size:1.5rem}
+  .hero-title{font-size:1.8rem}
+  .card-grid{grid-template-columns:1fr}
+  .article-nav{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="container-wide header-inner">
+<a href="/blog/" class="logo">
+<div class="logo-icon">🗣️</div>
+<div><div class="logo-text">La Lengua Suelta</div><div class="logo-sub">Opinión sin filtros</div></div>
+</a>
+<nav class="nav">
+<a href="/blog/">Inicio</a>
+<a href="/blog/feed.xml" title="RSS">RSS</a>
+</nav>
+</div>
+</header>
+<main class="container" style="padding-top:1rem;padding-bottom:2rem">
+<nav style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:1.5rem"><a href="/blog/">Inicio</a> › <a href="/blog/categoria/society/">Sociedad</a> › <span style="color:var(--outline)">Artículo</span></nav>
+<article>
+<header class="article-header">
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem"><span class="article-emoji">🏘️</span><span class="cat-badge">Sociedad</span></div>
+<h1 class="article-title">La guerra de los zapatos: ¿descalzarse o no al entrar a casa?</h1>
+<p class="article-subtitle">En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no.</p>
+<div class="article-meta"><span>📅 1 abr 2026</span><span>⏱ 3 min lectura</span><span>🤖 IA + Humano</span></div>
+</header>
+<div class="x-embed">
+<div class="x-avatar">🗣️</div>
+<div>
+<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.3rem"><strong style="font-size:0.85rem">La Lengua Suelta</strong><span class="x-handle">@bloglengsuelta</span></div>
+<p style="font-size:0.95rem;line-height:1.5">ÚLTIMA HORA: España se divide entre los que se descalzan al entrar a casa y los que no. Mientras tanto, la AP-7 te cobra más por cada kilómetro que tu alquiler en Madrid. Y tú, esperando que tu alquiler baje como los precios del pollo en Mercadona. #LaLenguaSuelta</p>
+</div>
+</div>
+<div class="prose">
+<p><strong><em>En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no.</em></strong></p>
+<p>La actualidad nos regala debates de gran calado, como la aparición de la nueva estrella del fútbol, Lamine Yamal, que ha hecho frente a los cantos racistas en el fútbol. Pero, en el fondo, hay una discusión que nos toca a todos: la batalla sobre si descalzarse al entrar en casa es una costumbre de sabios o un acto de locura. Mientras tanto, en otro rincón de nuestra sociedad, la AP-7 nos cobra más por kilómetro que el alquiler de un piso en Madrid. Vamos, que el verdadero problema de España no son los políticos, sino los zapatos que nos empeñamos en arrastrar a casa.</p>
+<h2>La realidad sin filtros</h2>
+<p>En España, encontramos dos tipos de personas: los que se descalzan y los que no. Hay quienes ven en el descalzarse al entrar a casa un acto de libertad y limpieza, y otros que consideran que es una violación de sus derechos humanos (o al menos de sus derechos peludos). Según un estudio de la Universidad de La Vida, el 70% de los españoles que se descalzan aseguran que su hogar es un templo de la comodidad, mientras que el 30% que no lo hace jura que sus zapatos son parte de su identidad.</p>
+<p>Mientras tanto, el Tribunal Supremo de Estados Unidos nos recuerda que ser estadounidense es un derecho de nacimiento, aunque seas hijo de inmigrantes. Eso nos lleva a preguntarnos: ¿es el derecho a no descalzarse una cuestión de nacionalidad? En un mundo donde incluso los precios del pollo en Mercadona suben como la espuma, parece que la única certeza es el caos. Y es que, como dice el presidente del tribunal, John Roberts: "El mundo ha cambiado, pero la Constitución sigue siendo la misma." Y, en el caso de España, la constitución de los zapatos es más flexible que la de una contorsionista.</p>
+<h2>Lo que nadie te dice</h2>
+<p>Descalzarse al entrar a casa puede parecer una decisión inofensiva, pero en realidad es un síntoma de una gran división social. A menudo, los defensores del descalzarse argumentan que es una cuestión de higiene y comodidad. Pero, ¿qué pasa con quienes se ven obligados a dejar sus zapatos en la puerta por miedo a causar una crisis de identidad a sus invitados? Si cada vez que entramos a casa tenemos que despojarnos de nuestras "armas" (nuestros zapatos), ¿no estamos también despojándonos de parte de nosotros mismos?</p>
+<p>Y mientras nos debatimos en este dilema doméstico, los precios de los combustibles y el alquiler se disparan. Gobiernos de todo el mundo, desde América Latina hasta Europa, están intentando hacer malabares con la inflación sin que nadie les dé un aplauso. Y aquí estamos, discutiendo si nuestros calcetines deberían ser la única defensa ante el suelo helado. Resulta que, mientras algunos se preocupan por los precios de la gasolina o la vivienda, otros asumen que un par de zapatillas de andar por casa pueden ser la solución a todos nuestros problemas.</p>
+<h2>El resumen para tu cuñado</h2>
+<p>Al final del día, la cuestión no es si debes descalzarte al entrar a casa, sino qué significa eso para ti en un país donde los precios y los dilemas cotidianos son cada vez más absurdos. Así que, la próxima vez que te preguntes si dejar los zapatos en la puerta es una decisión radical, recuerda que quizás deberías preocuparte más por el alquiler que por las zapatillas. Si la vida te da limones, haz un zumo… ¡descalzo!</p>
+<hr/>
+<p><em>La Lengua Suelta — Opinión sin anestesia</em></p>
+<blockquote><p>💬 <em>Post en X:</em> «ÚLTIMA HORA: España se divide entre los que se descalzan al entrar a casa y los que no. Mientras tanto, la AP-7 te cobra más por cada kilómetro que tu alquiler en Madrid. Y tú, esperando que tu alquiler baje como los precios del pollo en Mercadona. #LaLenguaSuelta»</p></blockquote>
+</div>
+<div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(45,52,73,0.3);display:flex;flex-wrap:wrap;gap:0.4rem">
+<span class="tag">#society</span>
+<span class="tag">#LaLenguaSuelta</span>
+<span class="tag">#opinión</span>
+<span class="tag">#sarcastic</span>
+</div>
+<div class="sources">
+<h3>📎 Fuentes relacionadas</h3>
+<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/internacional/2026-04-01/el-supremo-muestra-su-escepticismo-sobre-la-legalidad-del-intento-de-trump-de-impedir-la-nacionalidad-a-los-hijos-de-inmigrantes-no-residentes.html">El Supremo muestra su escepticismo sobre la orden de Trump de denegar la nacionalidad a hijos de inmigrantes sin papeles<span class="source-tag">— El País</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://www.bbc.com/mundo/articles/cn9qvd73wvgo?at_medium=RSS&amp;amp;at_campaign=rss">Qué medidas están tomando los gobiernos para aliviar el aumento de los precios de los combustibles en América Latina y el mundo<span class="source-tag">— BBC Mundo</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/deportes/futbol/2026-04-01/lamine-yamal-soy-musulman-y-usar-la-religion-como-burla-en-un-campo-os-deja-como-ignorantes-y-racistas.html">Lamine Yamal: “Soy musulmán y usar la religión como burla en un campo os deja como ignorantes y racistas”<span class="source-tag">— El País</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/espana/2026-04-01/los-inscritos-de-podemos-avalan-su-intento-de-ultima-hora-de-entrar-en-por-andalucia.html">Los inscritos de Podemos avalan su intento de última hora de entrar en Por Andalucía<span class="source-tag">— El País</span></a></div>
+<div class="source-item"><span class="arrow">→</span><a href="https://elpais.com/videos/2026-04-01/la-historia-del-inmigrante-de-origen-chino-que-aseguro-la-ciudadania-por-nacimiento-en-estados-unidos.html">La historia del cocinero de origen chino que aseguró la ciudadanía por nacimiento en Estados Unidos<span class="source-tag">— El País</span></a></div>
+</div>
+</article>
+<nav class="article-nav">
+<a href="/blog/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/><div class="nav-label">← Anterior</div><div class="nav-title">El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el </div></a>
+<a href="/blog/articulo/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler/" style="text-align:right"><div class="nav-label">Siguiente →</div><div class="nav-title">La NASA se va a la Luna mientras tú cuentas monedas para el </div></a>
+</nav>
+</main>
+<footer class="footer">
+<div class="container">
+<p>🗣️ La Lengua Suelta · Generado con IA · Opinión satírica · © 2026</p>
+</div>
+</footer>
+</body>
+</html>
