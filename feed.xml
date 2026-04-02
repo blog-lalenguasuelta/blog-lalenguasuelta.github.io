@@ -3,9 +3,105 @@
   <channel>
     <title>La Lengua Suelta</title>
     <link>https://blog-lalenguasuelta.github.io/</link>
-    <description>Opinión sin filtros</description>
+    <description>El blog que piensa lo que tú no te atreves a decir</description>
     <language>es</language>
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>España lee menos, escucha más: ¿Hemos dimitido de pensar?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/espana-lee-menos-escucha-mas-hemos-dimitido-de-pensar/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/espana-lee-menos-escucha-mas-hemos-dimitido-de-pensar/</guid>
+      <description>Mientras los audios nos invaden, la concentración es un bien de lujo que parece que ya nadie se puede permitir. Y un día, la noticia.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>culture</category>
+    </item>
+    <item>
+      <title>Festivales: la ruina disfrazada de &#x27;experiencia&#x27; cultural</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/festivales-la-ruina-disfrazada-de-experiencia-cultural/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/festivales-la-ruina-disfrazada-de-experiencia-cultural/</guid>
+      <description>Los jóvenes se gastan una fortuna en eventos, mientras el mundo real ofrece auténticas aventuras a precios de verdad. A ver, que me expliquen.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>culture</category>
+    </item>
+    <item>
+      <title>La estafa del streaming: pagas más por ver el mismo truño de siempre</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-estafa-del-streaming-pagas-mas-por-ver-el-mismo-truno-de-siempre/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-estafa-del-streaming-pagas-mas-por-ver-el-mismo-truno-de-siempre/</guid>
+      <description>Netflix y la inflación de la pantalla: una metáfora de cómo nos venden humo mientras el bolsillo se nos desangra. Mira, es que me da la risa floja cada vez que veo un titular de estos.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>culture</category>
+    </item>
+    <item>
+      <title>Europa, regulando la IA mientras China y EEUU ya vuelan a la Luna</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/europa-regulando-la-ia-mientras-china-y-eeuu-ya-vuelan-a-la-luna/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/europa-regulando-la-ia-mientras-china-y-eeuu-ya-vuelan-a-la-luna/</guid>
+      <description>Mientras Bruselas discute el manual de uso, Washington lanza cohetes y Pekín ya tiene el algoritmo para el desayuno, dejando a Europa en la casilla de salida. Mientras aquí en Europa seguimos debatiendo si la IA debe llevar casco o chaleco reflectante, en Estados Unidos, mira tú por dónde, acaban de</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>technology</category>
+    </item>
+    <item>
+      <title>El gran timo de las redes: conectados al mundo, solos en la barra</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-gran-timo-de-las-redes-conectados-al-mundo-solos-en-la-barra/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-gran-timo-de-las-redes-conectados-al-mundo-solos-en-la-barra/</guid>
+      <description>Quince años después, la promesa de la hiperconexión nos ha dejado más vacíos que nunca, con una factura psicológica que pagamos todos. A ver, que me expliquen.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>technology</category>
+    </item>
+    <item>
+      <title>Apple y su IA: el mayordomo que te roba el alma</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/apple-y-su-ia-el-mayordomo-que-te-roba-el-alma/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/apple-y-su-ia-el-mayordomo-que-te-roba-el-alma/</guid>
+      <description>La nueva Inteligencia Artificial de la manzana promete simplificarte la vida mientras devora tu privacidad con una sonrisa digital. Seamos sinceros: lo que Apple nos ha presentado esta semana no es una revolución, es la constatación de que hemos claudicado.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>technology</category>
+    </item>
+    <item>
+      <title>El dopaje es la Luna de cartón del deporte</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-dopaje-es-la-luna-de-carton-del-deporte/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-dopaje-es-la-luna-de-carton-del-deporte/</guid>
+      <description>Mientras cuatro valientes viajan a la Luna, aquí seguimos creyendo que los récords caen sin ayuda química. A ver, que levante la mano el que de verdad se crea que en el atletismo o en cualquier deporte de élite, para el caso los récords se rompen solo con sudor y una dieta de brócoli.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>sports</category>
+    </item>
+    <item>
+      <title>76.000 millones: La NBA ya no bota, cotiza en bolsa y nos mira desde arriba</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/76000-millones-la-nba-ya-no-bota-cotiza-en-bolsa-y-nos-mira-desde-arriba/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/76000-millones-la-nba-ya-no-bota-cotiza-en-bolsa-y-nos-mira-desde-arriba/</guid>
+      <description>Cuando el amor por la canasta se transforma en una cifra astronómica que te deja con la boca abierta y la cartera vacía, la pasión se subasta. Mira, es que me da la risa floja y un poco de mala hostia.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>sports</category>
+    </item>
+    <item>
+      <title>Un año de ley de vivienda: el alquiler sube y los políticos miran a otro lado</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/un-ano-de-ley-de-vivienda-el-alquiler-sube-y-los-politicos-miran-a-otro-lado/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/un-ano-de-ley-de-vivienda-el-alquiler-sube-y-los-politicos-miran-a-otro-lado/</guid>
+      <description>Mientras el precio de la vivienda desboca a las familias, el Gobierno presume de una norma que solo sirve para la foto. Mira que me cuesta sorprenderme ya, después de quince años viendo de todo en este circo, pero lo de la Ley de Vivienda es de traca.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
+      <title>Europa se indigna con Rusia, pero su gas sigue llenando los depósitos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/europa-se-indigna-con-rusia-pero-su-gas-sigue-llenando-los-depositos/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/europa-se-indigna-con-rusia-pero-su-gas-sigue-llenando-los-depositos/</guid>
+      <description>Mientras los líderes condenan a Putin en público, los números revelan un pacto energético vergonzoso por la puerta de atrás. A ver, que me expliquen esto.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
+      <title>La inflación del INE es de risa (si no tuviéramos que llenar la nevera)</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-inflacion-del-ine-es-de-risa-si-no-tuvieramos-que-llenar-la-nevera/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-inflacion-del-ine-es-de-risa-si-no-tuvieramos-que-llenar-la-nevera/</guid>
+      <description>Nos venden que la economía va de lujo mientras el carrito de la compra te susurra otra verdad muy distinta al oído. A ver, vamos a ser claros.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
+      <title>El &#x27;boom&#x27; turístico es una tomadura de pelo si tu sueldo no se entera</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-boom-turistico-es-una-tomadura-de-pelo-si-tu-sueldo-no-se-entera/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-boom-turistico-es-una-tomadura-de-pelo-si-tu-sueldo-no-se-entera/</guid>
+      <description>España bate récords de visitantes, pero el dinero se esfuma antes de llegar a los bolsillos de quienes curran aquí. A ver, que me expliquen esto.</description>
+      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <category>economy</category>
+    </item>
     <item>
       <title>El algoritmo español: indignación, memes y el bucle infinito.</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/el-algoritmo-espanol-indignacion-memes-y-el-bucle-infinito/</link>

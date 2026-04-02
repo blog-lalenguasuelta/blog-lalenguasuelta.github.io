@@ -166,11 +166,36 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 /* Home cover thumbnail */
 .feat-img{width:100%;max-height:280px;object-fit:cover;border-radius:var(--r);margin-bottom:0.75rem}
 .al-img{width:100%;max-height:180px;object-fit:cover;border-radius:var(--rs);margin-bottom:0.5rem}
+/* Author intro */
+.author-intro{padding:2rem 0 1.5rem;border-bottom:1px solid var(--border);margin-bottom:1.5rem;text-align:center}
+.author-greeting{font-family:var(--fd);font-size:1.3rem;font-weight:700;margin-bottom:0.3rem;color:var(--text-s)}
+.author-tagline{font-size:0.88rem;color:var(--text-d);line-height:1.6;max-width:560px;margin:0 auto 0.75rem}
+.author-cta{font-family:var(--fui);font-size:0.78rem}.author-cta a{color:var(--gold);font-weight:600}
+/* Newsletter CTA */
+.newsletter-cta{text-align:center;padding:2.5rem 1.5rem;margin:2rem 0;background:var(--bg-s);border:1px solid var(--border);border-radius:var(--r)}
+.newsletter-cta h2{font-family:var(--fd);font-size:1.15rem;margin-bottom:0.5rem;color:var(--text-s)}
+.newsletter-cta p{font-size:0.82rem;color:var(--text-d);margin-bottom:1rem;max-width:420px;margin-left:auto;margin-right:auto}
+.nl-btn{display:inline-block;padding:0.6rem 1.8rem;background:var(--gold);color:#1a1a1a;font-family:var(--fui);font-size:0.8rem;font-weight:700;border-radius:var(--rs);text-decoration:none;transition:opacity 0.15s}.nl-btn:hover{opacity:0.85}
+/* About page */
+.about-wrap{max-width:640px;margin:0 auto;padding:2rem 0}
+.about-wrap h1{font-family:var(--fd);font-size:1.6rem;margin-bottom:1.5rem;color:var(--text-s)}
+.about-wrap .bio{font-family:var(--fd);font-size:0.92rem;line-height:1.8;color:var(--text-s)}
+.about-wrap .bio p{margin-bottom:1.2rem}
+/* Newsletter page */
+.nl-wrap{max-width:520px;margin:0 auto;padding:2rem 0;text-align:center}
+.nl-wrap h1{font-family:var(--fd);font-size:1.6rem;margin-bottom:0.5rem;color:var(--text-s)}
+.nl-wrap .nl-desc{font-size:0.85rem;color:var(--text-d);line-height:1.6;margin-bottom:1.5rem}
+.nl-form{display:flex;gap:0.5rem;justify-content:center;flex-wrap:wrap}
+.nl-form input[type="email"]{padding:0.6rem 1rem;border:1px solid var(--border);border-radius:var(--rs);font-size:0.82rem;background:var(--bg-s);color:var(--text-s);font-family:var(--fui);width:260px}
+.nl-form button{padding:0.6rem 1.5rem;background:var(--gold);color:#1a1a1a;font-family:var(--fui);font-size:0.8rem;font-weight:700;border:none;border-radius:var(--rs);cursor:pointer;transition:opacity 0.15s}.nl-form button:hover{opacity:0.85}
+.nl-msg{margin-top:1rem;font-size:0.8rem;color:var(--gold);display:none}
 /* Responsive */
 @media(max-width:768px){
   .feat h1{font-size:1.35rem}
   .ah h1{font-size:1.5rem}
   .anav{grid-template-columns:1fr}.ah .mbar{gap:0.6rem}
+  .nl-form{flex-direction:column;align-items:center}
+  .nl-form input[type="email"]{width:100%;max-width:300px}
 }
 @media(max-width:540px){
   .s-nav{gap:0.75rem}.sh .inner{padding:0.6rem 0}
@@ -178,15 +203,18 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
   .ah h1{font-size:1.3rem}
   .prose p{font-size:0.88rem}
   .sf .inner{flex-direction:column;text-align:center}
+  .author-greeting{font-size:1.1rem}
 }
 </style>
 </head>
 <body>
 <header class="sh">
 <div class="wrap-w inner">
-<a href="/" class="s-logo"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="28" height="28" rx="6" fill="#1a73e8"/><path d="M7 9.5C7 8.12 8.12 7 9.5 7h9C19.88 7 21 8.12 21 9.5v5c0 1.38-1.12 2.5-2.5 2.5H13l-3.5 3v-3H9.5C8.12 17 7 15.88 7 14.5v-5z" fill="#fff"/><path d="M12 13.5c0 0 0.5 2 2 2s2-2 2-2" stroke="#ea4335" stroke-width="1.5" stroke-linecap="round"/></svg><span class="ln">La Lengua Suelta</span></a>
+<a href="/" class="s-logo"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#1a1a1a"/><path d="M22.5 7.5c-1.5 2-4 6-5.5 10.5-.5 1.5-1 3-1.3 4.2-.2.7-.6 1-1 .8-.5-.2-.3-1 0-2 .5-2 1.5-4.5 3-7.5 1.5-3 3-5.5 4.8-8" stroke="#c9a84c" stroke-width="1.8" stroke-linecap="round"/><path d="M22.5 7.5c.5-.3 1.5-.5 2-.2.5.3.2 1-.5 2-.7 1-2 2.5-3.5 4.5" stroke="#c9a84c" stroke-width="1.2" stroke-linecap="round"/><path d="M14.7 23c-.3.8-.8 1.5-1.2 1.5s-.5-.4-.2-1.2c.3-.8.8-1.5 1.2-1.5s.5.4.2 1.2z" fill="#c9a84c"/><circle cx="10" cy="24" r="0.6" fill="#c9a84c" opacity="0.6"/><circle cx="11.5" cy="24.5" r="0.4" fill="#c9a84c" opacity="0.4"/></svg><span class="ln">La Lengua Suelta</span></a>
 <nav class="s-nav">
 <a href="/">Inicio</a>
+<a href="/sobre-marcos/">Sobre Marcos</a>
+<a href="/newsletter/">Newsletter</a>
 <a href="/feed.xml">RSS</a>
 </nav>
 </div>
@@ -198,6 +226,20 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </div>
 <ul class="al">
 <li>
+<a href="/articulo/el-dopaje-es-la-luna-de-carton-del-deporte/">
+<h3>El dopaje es la Luna de cartón del deporte</h3>
+<p class="exc">Mientras cuatro valientes viajan a la Luna, aquí seguimos creyendo que los récords caen sin ayuda química. A ver, que levante la mano el que de verdad se crea que en el atletismo o</p>
+<div class="mr"><span>2 abr 2026</span><span class="ms">5 min</span><span class="st">El País</span></div>
+</a>
+</li>
+<li>
+<a href="/articulo/76000-millones-la-nba-ya-no-bota-cotiza-en-bolsa-y-nos-mira-desde-arriba/">
+<h3>76.000 millones: La NBA ya no bota, cotiza en bolsa y nos mira desde arriba</h3>
+<p class="exc">Cuando el amor por la canasta se transforma en una cifra astronómica que te deja con la boca abierta y la cartera vacía, la pasión se subasta. Mira, es que me da la risa floja y un</p>
+<div class="mr"><span>2 abr 2026</span><span class="ms">4 min</span><span class="st">El Mundo</span></div>
+</a>
+</li>
+<li>
 <a href="/articulo/fluminense-corinthians-el-partidazo-del-siglo-o-una-broma-de-mal-gusto/">
 <h3>Fluminense-Corinthians: ¿El Partidazo del Siglo o una Broma de Mal Gusto?</h3>
 <p class="exc">Entre el fútbol y el espectáculo, siempre hay algo que nos distrae de lo realmente importante. En un mundo donde la atención es el nuevo oro, el fútbol sigue siendo ese evento que </p>
@@ -208,9 +250,11 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </div>
 <footer class="sf">
 <div class="wrap-w inner">
-<div class="brand">La Lengua Suelta &middot; 2026</div>
+<div class="brand">La Lengua Suelta &middot; por Marcos Delgado &middot; 2026</div>
 <div class="links">
 <a href="/">Inicio</a>
+<a href="/sobre-marcos/">Sobre Marcos</a>
+<a href="/newsletter/">Newsletter</a>
 <a href="/feed.xml">RSS</a>
 <a href="/terminos/">Terminos</a>
 <a href="/privacidad/">Privacidad</a>
