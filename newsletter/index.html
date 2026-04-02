@@ -253,7 +253,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
     // Try API subscription
     var apiUrl=window.LLS_API||'';
     if(apiUrl){
-      fetch(apiUrl+'/api/blog/newsletter/subscribe',{
+      fetch(apiUrl+'/api/blog-engine/newsletter/subscribe',{
         method:'POST',headers:{'Content-Type':'application/json'},
         body:JSON.stringify({email:email})
       }).then(function(r){return r.json()}).then(function(d){
