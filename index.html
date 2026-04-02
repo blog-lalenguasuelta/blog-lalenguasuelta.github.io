@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="google-site-verification" content="sRYo_Aq5FSqm5v4mH0nj3WQhHQisTOdAO5FpjarJ7Rc" />
 <title>La Lengua Suelta</title>
-<meta name="description" content="El blog que piensa lo que tú no te atreves a decir"/>
+<meta name="description" content="Crónicas anónimas, verdades incómodas y el periodismo que otros prefieren ignorar"/>
 <meta property="og:title" content="La Lengua Suelta"/>
-<meta property="og:description" content="El blog que piensa lo que tú no te atreves a decir"/>
+<meta property="og:description" content="Crónicas anónimas, verdades incómodas y el periodismo que otros prefieren ignorar"/>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="La Lengua Suelta"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="La Lengua Suelta"/>
-<meta name="twitter:description" content="El blog que piensa lo que tú no te atreves a decir"/>
+<meta name="twitter:description" content="Crónicas anónimas, verdades incómodas y el periodismo que otros prefieren ignorar"/>
 <link rel="alternate" type="application/rss+xml" title="La Lengua Suelta" href="/feed.xml"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -91,7 +91,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .prose h2{font-family:var(--fd);font-size:1.4rem;font-weight:700;color:var(--text);margin:2.5rem 0 0.75rem;font-style:italic}
 .prose h3{font-family:var(--fd);font-size:1.1rem;font-weight:600;color:var(--text);margin:1.75rem 0 0.5rem}
 .prose p{color:var(--text);line-height:1.9;margin-bottom:1.35rem;font-size:1rem}
-.prose>p:first-child::first-letter{font-size:3.2em;float:left;line-height:0.8;margin:0.05em 0.12em 0 0;font-weight:700;color:var(--primary)}
+.prose>p:first-child::first-letter{font-size:3.2em;float:left;line-height:0.8;margin:0.05em 0.12em 0 0;font-weight:700;color:var(--gold)}
 .prose strong{color:var(--text);font-weight:600}
 .prose em{font-style:italic}
 .prose blockquote{border-left:3px solid var(--primary);padding:0.85rem 1.5rem;margin:1.75rem 0;background:var(--primary-light);border-radius:0 var(--rs) var(--rs) 0}
@@ -189,6 +189,11 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .nl-form input[type="email"]{padding:0.6rem 1rem;border:1px solid var(--border);border-radius:var(--rs);font-size:0.82rem;background:var(--bg-s);color:var(--text-s);font-family:var(--fui);width:260px}
 .nl-form button{padding:0.6rem 1.5rem;background:var(--gold);color:#1a1a1a;font-family:var(--fui);font-size:0.8rem;font-weight:700;border:none;border-radius:var(--rs);cursor:pointer;transition:opacity 0.15s}.nl-form button:hover{opacity:0.85}
 .nl-msg{margin-top:1rem;font-size:0.8rem;color:var(--gold);display:none}
+/* Image placeholder for articles without covers */
+.img-ph{width:100%;height:180px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:1.8rem;font-weight:700;font-style:italic;color:rgba(255,255,255,0.7);margin-bottom:0.75rem}
+.img-ph-feat{max-height:280px;height:200px}
+.img-ph-cover{max-height:420px;height:240px;margin:0 -1.25rem 2rem;border-radius:0}
+.ph-economy{background:linear-gradient(135deg,#1e8e3e,#156b2e)}.ph-society{background:linear-gradient(135deg,#e8710a,#c45e08)}.ph-science{background:linear-gradient(135deg,#4a6fa5,#375282)}.ph-politics{background:linear-gradient(135deg,#c0392b,#962d22)}.ph-sports{background:linear-gradient(135deg,#d4a017,#a67e12)}.ph-culture,.ph-pop_culture{background:linear-gradient(135deg,#7b2d8e,#5e2270)}.ph-general{background:linear-gradient(135deg,#5f6368,#494d51)}.ph-international{background:linear-gradient(135deg,#2e86ab,#236987)}.ph-tech{background:linear-gradient(135deg,#4a6fa5,#375282)}.ph-weather{background:linear-gradient(135deg,#2e86ab,#236987)}
 /* Responsive */
 @media(max-width:768px){
   .feat h1{font-size:1.35rem}
@@ -229,6 +234,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </section>
 <section class="feat">
 <a href="/articulo/la-piscina-ilegal-de-pedro-j-chapuzon-de-hipocresia-en-baleares/">
+<div class="img-ph img-ph-feat ph-politics">Política</div>
 <span class="cb b-politics">Política</span>
 <h1>La piscina ilegal de Pedro J.: chapuzón de hipocresía en Baleares</h1>
 <p class="sum">Mientras unos se ahogan en burocracia, otros construyen sin licencia y la justicia tarda una década en mojarse el culo. Vamos a ver, que me da la risa floja, la carcajada amarga, la de quien ha visto ya demasiado.</p>
@@ -250,6 +256,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <ul class="al">
 <li>
 <a href="/articulo/espana-lee-menos-escucha-mas-hemos-dimitido-de-pensar/">
+<div class="img-ph ph-culture" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Cultura</div>
 <span class="cb b-culture">Cultura</span>
 <h3>España lee menos, escucha más: ¿Hemos dimitido de pensar?</h3>
 <p class="exc">Mientras los audios nos invaden, la concentración es un bien de lujo que parece que ya nadie se puede permitir. Y un día, la noticia.</p>
@@ -258,6 +265,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/festivales-la-ruina-disfrazada-de-experiencia-cultural/">
+<div class="img-ph ph-culture" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Cultura</div>
 <span class="cb b-culture">Cultura</span>
 <h3>Festivales: la ruina disfrazada de &#x27;experiencia&#x27; cultural</h3>
 <p class="exc">Los jóvenes se gastan una fortuna en eventos, mientras el mundo real ofrece auténticas aventuras a precios de verdad. A ver, que me expliquen.</p>
@@ -308,6 +316,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <ul class="al">
 <li>
 <a href="/articulo/el-dopaje-es-la-luna-de-carton-del-deporte/">
+<div class="img-ph ph-sports" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Deportes</div>
 <span class="cb b-sports">Deportes</span>
 <h3>El dopaje es la Luna de cartón del deporte</h3>
 <p class="exc">Mientras cuatro valientes viajan a la Luna, aquí seguimos creyendo que los récords caen sin ayuda química. A ver, que levante la mano el que de verdad se crea que en el atletismo o</p>
@@ -325,6 +334,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/fluminense-corinthians-el-partidazo-del-siglo-o-una-broma-de-mal-gusto/">
+<div class="img-ph ph-sports" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Deportes</div>
 <span class="cb b-sports">Deportes</span>
 <h3>Fluminense-Corinthians: ¿El Partidazo del Siglo o una Broma de Mal Gusto?</h3>
 <p class="exc">Entre el fútbol y el espectáculo, siempre hay algo que nos distrae de lo realmente importante. En un mundo donde la atención es el nuevo oro, el fútbol sigue siendo ese evento que </p>
@@ -336,6 +346,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <ul class="al">
 <li>
 <a href="/articulo/un-ano-de-ley-de-vivienda-el-alquiler-sube-y-los-politicos-miran-a-otro-lado/">
+<div class="img-ph ph-politics" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Política</div>
 <span class="cb b-politics">Política</span>
 <h3>Un año de ley de vivienda: el alquiler sube y los políticos miran a otro lado</h3>
 <p class="exc">Mientras el precio de la vivienda desboca a las familias, el Gobierno presume de una norma que solo sirve para la foto. Mira que me cuesta sorprenderme ya, después de quince años v</p>
@@ -365,6 +376,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <ul class="al">
 <li>
 <a href="/articulo/la-inflacion-del-ine-es-de-risa-si-no-tuvieramos-que-llenar-la-nevera/">
+<div class="img-ph ph-economy" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Economía</div>
 <span class="cb b-economy">Economía</span>
 <h3>La inflación del INE es de risa (si no tuviéramos que llenar la nevera)</h3>
 <p class="exc">Nos venden que la economía va de lujo mientras el carrito de la compra te susurra otra verdad muy distinta al oído. A ver, vamos a ser claros.</p>
@@ -373,6 +385,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/el-boom-turistico-es-una-tomadura-de-pelo-si-tu-sueldo-no-se-entera/">
+<div class="img-ph ph-economy" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Economía</div>
 <span class="cb b-economy">Economía</span>
 <h3>El &#x27;boom&#x27; turístico es una tomadura de pelo si tu sueldo no se entera</h3>
 <p class="exc">España bate récords de visitantes, pero el dinero se esfuma antes de llegar a los bolsillos de quienes curran aquí. A ver, que me expliquen esto.</p>
@@ -381,6 +394,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/el-alquiler-en-espana-vivir-es-un-deporte-de-riesgo-con-hipoteca-emocional/">
+<div class="img-ph ph-economy" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Economía</div>
 <span class="cb b-economy">Economía</span>
 <h3>El alquiler en España: vivir es un deporte de riesgo con hipoteca emocional</h3>
 <p class="exc">Mientras algunos buscan bares de carretera y la selección calienta motores, otros sudan tinta para no vivir debajo de un puente en un país que se desentiende. Vamos a ver, que la c</p>
@@ -392,6 +406,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <ul class="al">
 <li>
 <a href="/articulo/el-algoritmo-espanol-indignacion-memes-y-el-bucle-infinito/">
+<div class="img-ph ph-society" style="height:120px;font-size:1.2rem;border-radius:var(--rs);margin-bottom:0.5rem">Sociedad</div>
 <span class="cb b-society">Sociedad</span>
 <h3>El algoritmo español: indignación, memes y el bucle infinito.</h3>
 <p class="exc">Una mañana cualquiera te levantas y compruebas que los temas &quot;del momento&quot; son los dramas de siempre. ¿No hay nada nuevo bajo el sol digital.</p>
@@ -418,14 +433,14 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 </ul>
 <section class="newsletter-cta">
-<h2>¿Te mola lo que lees?</h2>
-<p>Cada semana te mando un resumen con las mejores piezas directo al correo. Sin spam, sin tonterías.</p>
-<a href="/newsletter/" class="nl-btn">Suscribirme gratis</a>
+<h2>Recibe la verdad en tu buzón</h2>
+<p>Cada semana, lo que nadie más se atreve a publicar. Sin algoritmos, sin censura, directo a la fuente.</p>
+<a href="/newsletter/" class="nl-btn">Suscribirme</a>
 </section>
 </div>
 <footer class="sf">
 <div class="wrap-w inner">
-<div class="brand">La Lengua Suelta &middot; 2026</div>
+<div class="brand">La Lengua Suelta &middot; 2026 &middot; <em style="font-family:var(--fd);font-size:0.72rem;color:#4a4a4a">&ldquo;La verdad no necesita nombre para ser verdad.&rdquo;</em></div>
 <div class="links">
 <a href="/">Inicio</a>
 <a href="/sobre/">El Autor</a>

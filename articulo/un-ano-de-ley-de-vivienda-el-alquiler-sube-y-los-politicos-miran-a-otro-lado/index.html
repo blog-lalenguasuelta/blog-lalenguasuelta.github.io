@@ -107,7 +107,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .prose h2{font-family:var(--fd);font-size:1.4rem;font-weight:700;color:var(--text);margin:2.5rem 0 0.75rem;font-style:italic}
 .prose h3{font-family:var(--fd);font-size:1.1rem;font-weight:600;color:var(--text);margin:1.75rem 0 0.5rem}
 .prose p{color:var(--text);line-height:1.9;margin-bottom:1.35rem;font-size:1rem}
-.prose>p:first-child::first-letter{font-size:3.2em;float:left;line-height:0.8;margin:0.05em 0.12em 0 0;font-weight:700;color:var(--primary)}
+.prose>p:first-child::first-letter{font-size:3.2em;float:left;line-height:0.8;margin:0.05em 0.12em 0 0;font-weight:700;color:var(--gold)}
 .prose strong{color:var(--text);font-weight:600}
 .prose em{font-style:italic}
 .prose blockquote{border-left:3px solid var(--primary);padding:0.85rem 1.5rem;margin:1.75rem 0;background:var(--primary-light);border-radius:0 var(--rs) var(--rs) 0}
@@ -205,6 +205,11 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .nl-form input[type="email"]{padding:0.6rem 1rem;border:1px solid var(--border);border-radius:var(--rs);font-size:0.82rem;background:var(--bg-s);color:var(--text-s);font-family:var(--fui);width:260px}
 .nl-form button{padding:0.6rem 1.5rem;background:var(--gold);color:#1a1a1a;font-family:var(--fui);font-size:0.8rem;font-weight:700;border:none;border-radius:var(--rs);cursor:pointer;transition:opacity 0.15s}.nl-form button:hover{opacity:0.85}
 .nl-msg{margin-top:1rem;font-size:0.8rem;color:var(--gold);display:none}
+/* Image placeholder for articles without covers */
+.img-ph{width:100%;height:180px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:1.8rem;font-weight:700;font-style:italic;color:rgba(255,255,255,0.7);margin-bottom:0.75rem}
+.img-ph-feat{max-height:280px;height:200px}
+.img-ph-cover{max-height:420px;height:240px;margin:0 -1.25rem 2rem;border-radius:0}
+.ph-economy{background:linear-gradient(135deg,#1e8e3e,#156b2e)}.ph-society{background:linear-gradient(135deg,#e8710a,#c45e08)}.ph-science{background:linear-gradient(135deg,#4a6fa5,#375282)}.ph-politics{background:linear-gradient(135deg,#c0392b,#962d22)}.ph-sports{background:linear-gradient(135deg,#d4a017,#a67e12)}.ph-culture,.ph-pop_culture{background:linear-gradient(135deg,#7b2d8e,#5e2270)}.ph-general{background:linear-gradient(135deg,#5f6368,#494d51)}.ph-international{background:linear-gradient(135deg,#2e86ab,#236987)}.ph-tech{background:linear-gradient(135deg,#4a6fa5,#375282)}.ph-weather{background:linear-gradient(135deg,#2e86ab,#236987)}
 /* Responsive */
 @media(max-width:768px){
   .feat h1{font-size:1.35rem}
@@ -249,6 +254,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <span class="st">El País</span>
 </div>
 </header>
+<div class="img-ph img-ph-cover ph-politics">Política</div>
 <div class="prose">
 <p><strong>Mientras el precio de la vivienda desboca a las familias, el Gobierno presume de una norma que solo sirve para la foto.</strong></p>
 <p>Mira que me cuesta sorprenderme ya, después de quince años viendo de todo en este circo, pero lo de la Ley de Vivienda es de traca. Se cumple un año de su entrada en vigor, y el alquiler, ese monstruo que devora la cartera de la gente de a pie, sigue subiendo sin freno. ¿Alguien esperaba otra cosa? Porque yo, la verdad, no. Es que te lo juro, es el cuento de la buena pipa pero con ladrillos.</p>
@@ -330,7 +336,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 </ul>
 </section>
-<div class="rat" data-article-id="89c2c929" data-api-base="https://192.168.1.24">
+<div class="rat" data-article-id="89c2c929">
 <div class="rat-t">Valora este articulo</div>
 <div class="rat-s">
 <button type="button" aria-label="1 estrellas">&#9733;</button>
@@ -364,26 +370,21 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
       stars=w.querySelectorAll('.rat-s button'),
       info=w.querySelector('.rat-i'),
       thanks=w.querySelector('.rat-th'),
-      apiBase=w.dataset.apiBase||'';
+      key='lls_rate_'+id;
   function fill(n){stars.forEach(function(s,i){s.classList.toggle('filled',i<n);s.classList.remove('active')})}
-  function show(data){
-    if(data.count>0){info.textContent=data.average+' / 5  \u00b7  '+data.count+(data.count===1?' voto':' votos')}
-    else{info.textContent='Sin valoraciones'}
-    if(data.your_score){fill(data.your_score);thanks.style.display='block';thanks.textContent='Tu voto: '+data.your_score+' / 5'}
+  function loadLocal(){
+    try{var d=JSON.parse(localStorage.getItem('lls_ratings')||'{}');
+    var a=d[id];if(a){fill(a);info.textContent='Tu voto: '+a+' / 5';thanks.style.display='block';thanks.textContent='Gracias por tu voto'}}catch(e){}
   }
-  fetch(apiBase+'/api/blog-engine/articles/'+id+'/rating',{credentials:'include'})
-    .then(function(r){return r.json()}).then(show).catch(function(){});
+  loadLocal();
   stars.forEach(function(s,i){
     s.addEventListener('mouseenter',function(){stars.forEach(function(b,j){b.classList.toggle('active',j<=i)})});
     s.addEventListener('mouseleave',function(){stars.forEach(function(b){b.classList.remove('active')})});
     s.addEventListener('click',function(){
-      fetch(apiBase+'/api/blog-engine/articles/'+id+'/rate',{
-        method:'POST',credentials:'include',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({score:i+1})
-      }).then(function(r){return r.json()}).then(function(d){
-        show(d);thanks.style.display='block';thanks.textContent=d.updated?'Voto actualizado':'Gracias por tu voto'
-      }).catch(function(){thanks.style.display='block';thanks.textContent='Error al enviar'})
+      var score=i+1;
+      try{var d=JSON.parse(localStorage.getItem('lls_ratings')||'{}');var isUpdate=!!d[id];d[id]=score;localStorage.setItem('lls_ratings',JSON.stringify(d))}catch(e){}
+      fill(score);info.textContent='Tu voto: '+score+' / 5';
+      thanks.style.display='block';thanks.textContent=isUpdate?'Voto actualizado':'Gracias por tu voto';
     });
   });
 })();
@@ -401,7 +402,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </script>
 <footer class="sf">
 <div class="wrap-w inner">
-<div class="brand">La Lengua Suelta &middot; 2026</div>
+<div class="brand">La Lengua Suelta &middot; 2026 &middot; <em style="font-family:var(--fd);font-size:0.72rem;color:#4a4a4a">&ldquo;La verdad no necesita nombre para ser verdad.&rdquo;</em></div>
 <div class="links">
 <a href="/">Inicio</a>
 <a href="/sobre/">El Autor</a>

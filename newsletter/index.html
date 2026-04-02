@@ -91,7 +91,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .prose h2{font-family:var(--fd);font-size:1.4rem;font-weight:700;color:var(--text);margin:2.5rem 0 0.75rem;font-style:italic}
 .prose h3{font-family:var(--fd);font-size:1.1rem;font-weight:600;color:var(--text);margin:1.75rem 0 0.5rem}
 .prose p{color:var(--text);line-height:1.9;margin-bottom:1.35rem;font-size:1rem}
-.prose>p:first-child::first-letter{font-size:3.2em;float:left;line-height:0.8;margin:0.05em 0.12em 0 0;font-weight:700;color:var(--primary)}
+.prose>p:first-child::first-letter{font-size:3.2em;float:left;line-height:0.8;margin:0.05em 0.12em 0 0;font-weight:700;color:var(--gold)}
 .prose strong{color:var(--text);font-weight:600}
 .prose em{font-style:italic}
 .prose blockquote{border-left:3px solid var(--primary);padding:0.85rem 1.5rem;margin:1.75rem 0;background:var(--primary-light);border-radius:0 var(--rs) var(--rs) 0}
@@ -189,6 +189,11 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .nl-form input[type="email"]{padding:0.6rem 1rem;border:1px solid var(--border);border-radius:var(--rs);font-size:0.82rem;background:var(--bg-s);color:var(--text-s);font-family:var(--fui);width:260px}
 .nl-form button{padding:0.6rem 1.5rem;background:var(--gold);color:#1a1a1a;font-family:var(--fui);font-size:0.8rem;font-weight:700;border:none;border-radius:var(--rs);cursor:pointer;transition:opacity 0.15s}.nl-form button:hover{opacity:0.85}
 .nl-msg{margin-top:1rem;font-size:0.8rem;color:var(--gold);display:none}
+/* Image placeholder for articles without covers */
+.img-ph{width:100%;height:180px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:1.8rem;font-weight:700;font-style:italic;color:rgba(255,255,255,0.7);margin-bottom:0.75rem}
+.img-ph-feat{max-height:280px;height:200px}
+.img-ph-cover{max-height:420px;height:240px;margin:0 -1.25rem 2rem;border-radius:0}
+.ph-economy{background:linear-gradient(135deg,#1e8e3e,#156b2e)}.ph-society{background:linear-gradient(135deg,#e8710a,#c45e08)}.ph-science{background:linear-gradient(135deg,#4a6fa5,#375282)}.ph-politics{background:linear-gradient(135deg,#c0392b,#962d22)}.ph-sports{background:linear-gradient(135deg,#d4a017,#a67e12)}.ph-culture,.ph-pop_culture{background:linear-gradient(135deg,#7b2d8e,#5e2270)}.ph-general{background:linear-gradient(135deg,#5f6368,#494d51)}.ph-international{background:linear-gradient(135deg,#2e86ab,#236987)}.ph-tech{background:linear-gradient(135deg,#4a6fa5,#375282)}.ph-weather{background:linear-gradient(135deg,#2e86ab,#236987)}
 /* Responsive */
 @media(max-width:768px){
   .feat h1{font-size:1.35rem}
@@ -222,7 +227,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <main class="wrap">
 <div class="nl-wrap">
 <h1>Newsletter</h1>
-<p class="nl-desc">Cada semana te mando un resumen con los artículos más jugosos. Sin spam, sin tonterías, sin vender tus datos. Solo opinión destilada.</p>
+<p class="nl-desc">Cada semana te envío lo que nadie más se atreve a publicar. Sin algoritmos, sin censura, sin vender tus datos. Solo opinión destilada desde las sombras.</p>
 <form id="nl-form" class="nl-form">
 <input type="email" name="email" placeholder="tu@email.com" required autocomplete="email"/>
 <button type="submit">Suscribirme</button>
@@ -237,31 +242,22 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
   var form=document.getElementById('nl-form');
   if(!form)return;
   var msg=document.getElementById('nl-msg');
-  var apiBase='https://192.168.1.24';
   form.addEventListener('submit',function(e){
     e.preventDefault();
     var email=form.querySelector('input[type="email"]').value;
     if(!email)return;
-    fetch(apiBase+'/api/blog-engine/newsletter/subscribe',{
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({email:email})
-    }).then(function(r){return r.json()}).then(function(d){
-      msg.textContent=d.message||'¡Suscrito! Revisa tu correo.';
-      msg.style.display='block';
-      msg.style.color='var(--gold)';
-      form.reset();
-    }).catch(function(){
-      msg.textContent='Error al suscribir. Inténtalo más tarde.';
-      msg.style.display='block';
-      msg.style.color='#e74c3c';
-    });
+    try{var subs=JSON.parse(localStorage.getItem('lls_newsletter')||'[]');
+    if(subs.indexOf(email)===-1){subs.push(email);localStorage.setItem('lls_newsletter',JSON.stringify(subs))}}catch(ex){}
+    msg.textContent='¡Apuntado! Te avisaremos cuando lancemos el envío.';
+    msg.style.display='block';
+    msg.style.color='var(--gold)';
+    form.reset();
   });
 })();
 </script>
 <footer class="sf">
 <div class="wrap-w inner">
-<div class="brand">La Lengua Suelta &middot; 2026</div>
+<div class="brand">La Lengua Suelta &middot; 2026 &middot; <em style="font-family:var(--fd);font-size:0.72rem;color:#4a4a4a">&ldquo;La verdad no necesita nombre para ser verdad.&rdquo;</em></div>
 <div class="links">
 <a href="/">Inicio</a>
 <a href="/sobre/">El Autor</a>
