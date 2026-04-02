@@ -237,21 +237,45 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <p style="margin-top:1rem;font-size:0.82rem"><a href="/">← Volver al inicio</a></p>
 </div>
 </main>
+<script>window.LLS_API="https://192.168.1.24";</script>
 <script>
 (function(){
   var form=document.getElementById('nl-form');
   if(!form)return;
   var msg=document.getElementById('nl-msg');
+  var btn=form.querySelector('button');
   form.addEventListener('submit',function(e){
     e.preventDefault();
     var email=form.querySelector('input[type="email"]').value;
     if(!email)return;
-    try{var subs=JSON.parse(localStorage.getItem('lls_newsletter')||'[]');
-    if(subs.indexOf(email)===-1){subs.push(email);localStorage.setItem('lls_newsletter',JSON.stringify(subs))}}catch(ex){}
-    msg.textContent='¡Apuntado! Te avisaremos cuando lancemos el envío.';
-    msg.style.display='block';
-    msg.style.color='var(--gold)';
-    form.reset();
+    btn.disabled=true;btn.textContent='Enviando...';
+    msg.style.display='none';
+    // Try API subscription
+    var apiUrl=window.LLS_API||'';
+    if(apiUrl){
+      fetch(apiUrl+'/api/blog/newsletter/subscribe',{
+        method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({email:email})
+      }).then(function(r){return r.json()}).then(function(d){
+        msg.textContent=d.message||'¡Suscrito!';
+        msg.style.display='block';msg.style.color='var(--gold)';
+        form.reset();
+      }).catch(function(){
+        // API unreachable — save locally as backup
+        try{var s=JSON.parse(localStorage.getItem('lls_nl_pending')||'[]');
+        if(s.indexOf(email)===-1){s.push(email);localStorage.setItem('lls_nl_pending',JSON.stringify(s))}}catch(x){}
+        msg.textContent='¡Registrado! Tu suscripción se confirmará pronto.';
+        msg.style.display='block';msg.style.color='var(--gold)';
+        form.reset();
+      }).finally(function(){btn.disabled=false;btn.textContent='Suscribirme'});
+    } else {
+      // No API configured — save to localStorage pending list
+      try{var s=JSON.parse(localStorage.getItem('lls_nl_pending')||'[]');
+      if(s.indexOf(email)===-1){s.push(email);localStorage.setItem('lls_nl_pending',JSON.stringify(s))}}catch(x){}
+      msg.textContent='¡Registrado! Tu suscripción se confirmará pronto.';
+      msg.style.display='block';msg.style.color='var(--gold)';
+      form.reset();btn.disabled=false;btn.textContent='Suscribirme';
+    }
   });
 })();
 </script>
