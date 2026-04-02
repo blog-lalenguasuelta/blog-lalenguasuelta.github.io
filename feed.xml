@@ -7,164 +7,60 @@
     <language>es</language>
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Trump y su promesa eterna: ¿cuándo acaba esto, de verdad?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/trump-y-su-promesa-eterna-cuando-acaba-esto-de-verdad/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/trump-y-su-promesa-eterna-cuando-acaba-esto-de-verdad/</guid>
-      <description>Mientras el mundo se asoma al abismo, Trump insiste en que la guerra &quot;está a punto de acabar&quot;, como si eso no fuera un mantra repetido desde hace años. ¿Paciencia.</description>
-      <pubDate>Thu, 02 Apr 2026 15:30:38 +0000</pubDate>
+      <title>¿Quién puede permitirse volar? El queroseno se convierte en un lujo en Europa</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/quien-puede-permitirse-volar-el-queroseno-se-convierte-en-un-lujo-en-europa/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/quien-puede-permitirse-volar-el-queroseno-se-convierte-en-un-lujo-en-europa/</guid>
+      <description>Con el último cargamento de queroseno a la vista, el verano se perfila como una temporada de vuelos cancelados y desilusiones económicas. Así que, amigos, si tienes en mente esa escapadita al Caribe, mejor búscate un plan B o un plan C, o D, porque esto pinta mal.</description>
+      <pubDate>Thu, 02 Apr 2026 19:00:40 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
+      <title>El turismo masivo: de ciudades vibrantes a parques temáticos con wifi</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-turismo-masivo-de-ciudades-vibrantes-a-parques-tematicos-con-wifi/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-turismo-masivo-de-ciudades-vibrantes-a-parques-tematicos-con-wifi/</guid>
+      <description>La era del turismo masivo está desdibujando las identidades de nuestras ciudades, convertidas en meros decorados para selfies en Instagram. Cuando pienso en el turismo masivo en España, la imagen que me viene a la mente es la de una estampida de turistas con cámaras, colas interminables y un sinfín </description>
+      <pubDate>Mon, 30 Mar 2026 03:01:25 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
+      <title>¡Explosivo escándalo en el Ministerio de Cultura!</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/explosivo-escandalo-en-el-ministerio-de-cultura/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/explosivo-escandalo-en-el-ministerio-de-cultura/</guid>
+      <description>En una rueda de prensa que promete ser histórica, la periodista de investigación Elena Navarro ha revelado un escándalo de corrupción de dimensiones alarmantes en el Ministerio de Cultura. Según sus investigaciones, un grupo de funcionarios habría desviado fondos destinados a la conservación del pat</description>
+      <pubDate>Sun, 29 Mar 2026 07:41:56 +0000</pubDate>
+      <category>politica</category>
+    </item>
+    <item>
+      <title>Europa quiere regular la IA y acaba regulando su propia irrelevancia</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/europa-quiere-regular-la-ia-y-acaba-regulando-su-propia-irrelevancia/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/europa-quiere-regular-la-ia-y-acaba-regulando-su-propia-irrelevancia/</guid>
+      <description>El viejo continente parece atrapado entre la nostalgia por un liderazgo que ya no tiene y el miedo de no ser parte del futuro. Uno se pregunta, ¿realmente Europa se cree el cuento de que puede regular la inteligencia artificial y, de paso, evitar que su relevancia se disuelva como azúcar en café frí</description>
+      <pubDate>Sun, 29 Mar 2026 03:12:10 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
+      <title>La trampa del IRPF: ¿Sabes realmente lo que te están cobrando?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-trampa-del-irpf-sabes-realmente-lo-que-te-estan-cobrando/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-trampa-del-irpf-sabes-realmente-lo-que-te-estan-cobrando/</guid>
+      <description>El sistema fiscal español es como una película de miedo: te prometen un final feliz, pero lo que te encuentras es un laberinto de impuestos que ni los mejores guionistas podrían haber imaginado. El IRPF, ese gran desconocido que se cuela en tu nómina y se lleva una parte considerable de tu salario s</description>
+      <pubDate>Sat, 28 Mar 2026 11:27:19 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
+      <title>La IA va a sustituir a muchos, pero sobre todo a los escépticos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-ia-va-a-sustituir-a-muchos-pero-sobre-todo-a-los-escepticos/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-ia-va-a-sustituir-a-muchos-pero-sobre-todo-a-los-escepticos/</guid>
+      <description>Un nuevo estudio muestra que la inteligencia artificial no solo mejora la detección del cáncer, sino que también podría dejar atrás a quienes se niegan a ver su potencial. En un mundo donde la tecnología avanza a una velocidad que haría que un cheetah se sintiera lento, hay quienes aún se aferran a </description>
+      <pubDate>Sat, 28 Mar 2026 07:31:02 +0000</pubDate>
       <category>tech</category>
     </item>
     <item>
-      <title>Que si a Vox se le pasa el arroz, y tú sin un techo decente en Carabanchel</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/que-si-a-vox-se-le-pasa-el-arroz-y-tu-sin-un-techo-decente-en-carabanchel/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/que-si-a-vox-se-le-pasa-el-arroz-y-tu-sin-un-techo-decente-en-carabanchel/</guid>
-      <description>Mientras debatimos la futilidad de una extrema derecha desinflada, el mundo real sigue su curso, entre vuelos espaciales y robotaxis varados. Que si a Vox se le pasa el arroz, dicen.</description>
-      <pubDate>Thu, 02 Apr 2026 12:00:59 +0000</pubDate>
-      <category>pop_culture</category>
-    </item>
-    <item>
-      <title>La piscina ilegal de Pedro J.: chapuzón de hipocresía en Baleares</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-piscina-ilegal-de-pedro-j-chapuzon-de-hipocresia-en-baleares/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-piscina-ilegal-de-pedro-j-chapuzon-de-hipocresia-en-baleares/</guid>
-      <description>Mientras unos se ahogan en burocracia, otros construyen sin licencia y la justicia tarda una década en mojarse el culo. Vamos a ver, que me da la risa floja, la carcajada amarga, la de quien ha visto ya demasiado.</description>
-      <pubDate>Thu, 02 Apr 2026 09:01:00 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>España lee menos, escucha más: ¿Hemos dimitido de pensar?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/espana-lee-menos-escucha-mas-hemos-dimitido-de-pensar/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/espana-lee-menos-escucha-mas-hemos-dimitido-de-pensar/</guid>
-      <description>Mientras los audios nos invaden, la concentración es un bien de lujo que parece que ya nadie se puede permitir. Y un día, la noticia.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>culture</category>
-    </item>
-    <item>
-      <title>Festivales: la ruina disfrazada de &#x27;experiencia&#x27; cultural</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/festivales-la-ruina-disfrazada-de-experiencia-cultural/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/festivales-la-ruina-disfrazada-de-experiencia-cultural/</guid>
-      <description>Los jóvenes se gastan una fortuna en eventos, mientras el mundo real ofrece auténticas aventuras a precios de verdad. A ver, que me expliquen.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>culture</category>
-    </item>
-    <item>
-      <title>La estafa del streaming: pagas más por ver el mismo truño de siempre</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-estafa-del-streaming-pagas-mas-por-ver-el-mismo-truno-de-siempre/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-estafa-del-streaming-pagas-mas-por-ver-el-mismo-truno-de-siempre/</guid>
-      <description>Netflix y la inflación de la pantalla: una metáfora de cómo nos venden humo mientras el bolsillo se nos desangra. Mira, es que me da la risa floja cada vez que veo un titular de estos.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>culture</category>
-    </item>
-    <item>
-      <title>Europa, regulando la IA mientras China y EEUU ya vuelan a la Luna</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/europa-regulando-la-ia-mientras-china-y-eeuu-ya-vuelan-a-la-luna/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/europa-regulando-la-ia-mientras-china-y-eeuu-ya-vuelan-a-la-luna/</guid>
-      <description>Mientras Bruselas discute el manual de uso, Washington lanza cohetes y Pekín ya tiene el algoritmo para el desayuno, dejando a Europa en la casilla de salida. Mientras aquí en Europa seguimos debatiendo si la IA debe llevar casco o chaleco reflectante, en Estados Unidos, mira tú por dónde, acaban de</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>technology</category>
-    </item>
-    <item>
-      <title>El gran timo de las redes: conectados al mundo, solos en la barra</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-gran-timo-de-las-redes-conectados-al-mundo-solos-en-la-barra/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-gran-timo-de-las-redes-conectados-al-mundo-solos-en-la-barra/</guid>
-      <description>Quince años después, la promesa de la hiperconexión nos ha dejado más vacíos que nunca, con una factura psicológica que pagamos todos. A ver, que me expliquen.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>technology</category>
-    </item>
-    <item>
-      <title>Apple y su IA: el mayordomo que te roba el alma</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/apple-y-su-ia-el-mayordomo-que-te-roba-el-alma/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/apple-y-su-ia-el-mayordomo-que-te-roba-el-alma/</guid>
-      <description>La nueva Inteligencia Artificial de la manzana promete simplificarte la vida mientras devora tu privacidad con una sonrisa digital. Seamos sinceros: lo que Apple nos ha presentado esta semana no es una revolución, es la constatación de que hemos claudicado.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>technology</category>
-    </item>
-    <item>
-      <title>El dopaje es la Luna de cartón del deporte</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-dopaje-es-la-luna-de-carton-del-deporte/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-dopaje-es-la-luna-de-carton-del-deporte/</guid>
-      <description>Mientras cuatro valientes viajan a la Luna, aquí seguimos creyendo que los récords caen sin ayuda química. A ver, que levante la mano el que de verdad se crea que en el atletismo o en cualquier deporte de élite, para el caso los récords se rompen solo con sudor y una dieta de brócoli.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>sports</category>
-    </item>
-    <item>
-      <title>76.000 millones: La NBA ya no bota, cotiza en bolsa y nos mira desde arriba</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/76000-millones-la-nba-ya-no-bota-cotiza-en-bolsa-y-nos-mira-desde-arriba/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/76000-millones-la-nba-ya-no-bota-cotiza-en-bolsa-y-nos-mira-desde-arriba/</guid>
-      <description>Cuando el amor por la canasta se transforma en una cifra astronómica que te deja con la boca abierta y la cartera vacía, la pasión se subasta. Mira, es que me da la risa floja y un poco de mala hostia.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>sports</category>
-    </item>
-    <item>
-      <title>Un año de ley de vivienda: el alquiler sube y los políticos miran a otro lado</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/un-ano-de-ley-de-vivienda-el-alquiler-sube-y-los-politicos-miran-a-otro-lado/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/un-ano-de-ley-de-vivienda-el-alquiler-sube-y-los-politicos-miran-a-otro-lado/</guid>
-      <description>Mientras el precio de la vivienda desboca a las familias, el Gobierno presume de una norma que solo sirve para la foto. Mira que me cuesta sorprenderme ya, después de quince años viendo de todo en este circo, pero lo de la Ley de Vivienda es de traca.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>Europa se indigna con Rusia, pero su gas sigue llenando los depósitos</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/europa-se-indigna-con-rusia-pero-su-gas-sigue-llenando-los-depositos/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/europa-se-indigna-con-rusia-pero-su-gas-sigue-llenando-los-depositos/</guid>
-      <description>Mientras los líderes condenan a Putin en público, los números revelan un pacto energético vergonzoso por la puerta de atrás. A ver, que me expliquen esto.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>La inflación del INE es de risa (si no tuviéramos que llenar la nevera)</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-inflacion-del-ine-es-de-risa-si-no-tuvieramos-que-llenar-la-nevera/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-inflacion-del-ine-es-de-risa-si-no-tuvieramos-que-llenar-la-nevera/</guid>
-      <description>Nos venden que la economía va de lujo mientras el carrito de la compra te susurra otra verdad muy distinta al oído. A ver, vamos a ser claros.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
+      <title>La Vivienda Española: De problema a meme, con la NASA de fondo</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-vivienda-espanola-de-problema-a-meme-con-la-nasa-de-fondo/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-vivienda-espanola-de-problema-a-meme-con-la-nasa-de-fondo/</guid>
+      <description>Mientras la humanidad se lanza a la Luna con un retrete estropeado, aquí seguimos sin poder pagar un alquiler que no sea una estafa piramidal. Mira que he visto cosas en esta vida: crisis económicas que se cocinaban a fuego lento en despachos de moqueta, juicios políticos que parecían sacados de un </description>
+      <pubDate>Sat, 28 Mar 2026 03:23:18 +0000</pubDate>
       <category>economy</category>
-    </item>
-    <item>
-      <title>El &#x27;boom&#x27; turístico es una tomadura de pelo si tu sueldo no se entera</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-boom-turistico-es-una-tomadura-de-pelo-si-tu-sueldo-no-se-entera/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-boom-turistico-es-una-tomadura-de-pelo-si-tu-sueldo-no-se-entera/</guid>
-      <description>España bate récords de visitantes, pero el dinero se esfuma antes de llegar a los bolsillos de quienes curran aquí. A ver, que me expliquen esto.</description>
-      <pubDate>Thu, 02 Apr 2026 08:46:48 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>El algoritmo español: indignación, memes y el bucle infinito.</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-algoritmo-espanol-indignacion-memes-y-el-bucle-infinito/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-algoritmo-espanol-indignacion-memes-y-el-bucle-infinito/</guid>
-      <description>Una mañana cualquiera te levantas y compruebas que los temas &quot;del momento&quot; son los dramas de siempre. ¿No hay nada nuevo bajo el sol digital.</description>
-      <pubDate>Thu, 02 Apr 2026 08:11:07 +0000</pubDate>
-      <category>society</category>
-    </item>
-    <item>
-      <title>El alquiler en España: vivir es un deporte de riesgo con hipoteca emocional</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-alquiler-en-espana-vivir-es-un-deporte-de-riesgo-con-hipoteca-emocional/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-alquiler-en-espana-vivir-es-un-deporte-de-riesgo-con-hipoteca-emocional/</guid>
-      <description>Mientras algunos buscan bares de carretera y la selección calienta motores, otros sudan tinta para no vivir debajo de un puente en un país que se desentiende. Vamos a ver, que la cosa está que arde y ya no hay por dónde cogerla.</description>
-      <pubDate>Thu, 02 Apr 2026 08:10:04 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>Fluminense-Corinthians: ¿El Partidazo del Siglo o una Broma de Mal Gusto?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/fluminense-corinthians-el-partidazo-del-siglo-o-una-broma-de-mal-gusto/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/fluminense-corinthians-el-partidazo-del-siglo-o-una-broma-de-mal-gusto/</guid>
-      <description>Entre el fútbol y el espectáculo, siempre hay algo que nos distrae de lo realmente importante. En un mundo donde la atención es el nuevo oro, el fútbol sigue siendo ese evento que congrega a millones, pero la realidad es que hay cosas más impactantes que un partido de Fluminense contra Corinthians.</description>
-      <pubDate>Thu, 02 Apr 2026 05:30:38 +0000</pubDate>
-      <category>sports</category>
-    </item>
-    <item>
-      <title>El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el numerito?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/</guid>
-      <description>Mientras los políticos se lanzan dardos, Lavapiés se convierte en la verdadera atracción del mes. La política española parece haber tomado un giro de circo.</description>
-      <pubDate>Wed, 01 Apr 2026 22:00:34 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>La guerra de los zapatos: ¿descalzarse o no al entrar a casa?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa/</guid>
-      <description>En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no. La actualidad nos regala debates de gran calado, como la aparición de la nueva estrella del fútbol, Lamine Yamal, que ha hecho frente a los cantos racistas en el fútbol.</description>
-      <pubDate>Wed, 01 Apr 2026 21:41:45 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
