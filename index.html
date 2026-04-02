@@ -147,6 +147,18 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 .share a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;text-decoration:none;color:#fff;font-size:0.85rem;transition:transform 0.15s,opacity 0.15s}
 .share a:hover{transform:scale(1.1);opacity:0.85}
 .share .s-wa{background:#25d366}.share .s-tg{background:#0088cc}.share .s-x{background:#000}.share .s-fb{background:#1877f2}.share .s-li{background:#0a66c2}
+/* Cover image */
+.cover{margin:0 -1.25rem 2rem;text-align:center}
+.cover img{width:100%;max-height:420px;object-fit:cover;border-radius:var(--r)}
+.cover figcaption{font-size:0.7rem;color:var(--text-d);margin-top:0.4rem;font-style:italic}
+/* Media gallery */
+.media-gallery{margin:1.5rem 0;display:grid;gap:0.75rem}
+.media-fig{margin:0;text-align:center}
+.media-fig img{width:100%;max-height:360px;object-fit:cover;border-radius:var(--r);border:1px solid var(--border)}
+.media-fig figcaption{font-size:0.68rem;color:var(--text-d);margin-top:0.3rem;font-style:italic}
+/* Home cover thumbnail */
+.feat-img{width:100%;max-height:280px;object-fit:cover;border-radius:var(--r);margin-bottom:0.75rem}
+.al-img{width:100%;max-height:180px;object-fit:cover;border-radius:var(--rs);margin-bottom:0.5rem}
 /* Responsive */
 @media(max-width:768px){
   .feat h1{font-size:1.35rem}
@@ -174,10 +186,10 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </header>
 <div class="wrap-w">
 <section class="feat">
-<a href="/articulo/fluminense-corinthians-el-partidazo-del-siglo-o-una-broma-de-mal-gusto/">
-<span class="cb b-politics">Politica</span>
-<h1>Fluminense-Corinthians: ¿El Partidazo del Siglo o una Broma de Mal Gusto?</h1>
-<p class="sum">Entre el fútbol y el espectáculo, siempre hay algo que nos distrae de lo realmente importante. En un mundo donde la atención es el nuevo oro, el fútbol sigue siendo ese evento que congrega a millones, pero la realidad es</p>
+<a href="/articulo/el-trending-del-dia-de-verdad-nos-importa/">
+<span class="cb b-general">General</span>
+<h1>El Trending del Día: ¿De Verdad Nos Importa?</h1>
+<p class="sum">Dedicado a los que siguen tendencias como si fueran los nuevos evangelios. En la era de la inmediatez y la sobreexposición digital, la pregunta que ronda por nuestras cabezas es: ¿realmente nos importa lo que está de mod</p>
 <div class="mr">
 <span>2 abr 2026</span><span class="ms">3 min de lectura</span>
 </div>
@@ -188,11 +200,21 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 <a href="/categoria/society/" class="cp">Sociedad</a>
 <a href="/categoria/science/" class="cp">Ciencia</a>
 <a href="/categoria/politics/" class="cp">Politica</a>
+<a href="/categoria/general/" class="cp">General</a>
 </nav>
 <div class="sec"><span>Publicaciones recientes</span></div>
 <ul class="al">
 <li>
+<a href="/articulo/fluminense-corinthians-el-partidazo-del-siglo-o-una-broma-de-mal-gusto/">
+<span class="cb b-politics">Politica</span>
+<h3>Fluminense-Corinthians: ¿El Partidazo del Siglo o una Broma de Mal Gusto?</h3>
+<p class="exc">Entre el fútbol y el espectáculo, siempre hay algo que nos distrae de lo realmente importante. En un mundo donde la atención es el nuevo oro, el fútbol sigue siendo ese evento que </p>
+<div class="mr"><span>2 abr 2026</span><span class="ms">3 min</span></div>
+</a>
+</li>
+<li>
 <a href="/articulo/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito/">
+<img class="al-img" src="/img/el-circo-del-espacio-aereo-sanchez-o-el-pp-quien-hace-el-numerito.jpg" alt="El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el numerito?" loading="lazy"/>
 <span class="cb b-science">Ciencia</span>
 <h3>El circo del espacio aéreo: ¿Sánchez o el PP, quién hace el numerito?</h3>
 <p class="exc">Mientras los políticos se lanzan dardos, Lavapiés se convierte en la verdadera atracción del mes. La política española parece haber tomado un giro de circo.</p>
@@ -201,6 +223,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa/">
+<img class="al-img" src="/img/la-guerra-de-los-zapatos-descalzarse-o-no-al-entrar-a-casa.jpg" alt="La guerra de los zapatos: ¿descalzarse o no al entrar a casa?" loading="lazy"/>
 <span class="cb b-society">Sociedad</span>
 <h3>La guerra de los zapatos: ¿descalzarse o no al entrar a casa?</h3>
 <p class="exc">En una España dividida, el verdadero dilema no es la política, sino si dejar los zapatos en la puerta o no. La actualidad nos regala debates de gran calado, como la aparición de la</p>
@@ -209,6 +232,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler/">
+<img class="al-img" src="/img/la-nasa-se-va-a-la-luna-mientras-tu-cuentas-monedas-para-el-alquiler.jpg" alt="La NASA se va a la Luna mientras tú cuentas monedas para el alquiler" loading="lazy"/>
 <span class="cb b-society">Sociedad</span>
 <h3>La NASA se va a la Luna mientras tú cuentas monedas para el alquiler</h3>
 <p class="exc">¿Qué tienen en común la ciencia ficción y los pisos de 40m². Ambos son inalcanzables para el ciudadano medio.</p>
@@ -217,6 +241,7 @@ a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{c
 </li>
 <li>
 <a href="/articulo/el-alquiler-en-madrid-la-opinion-que-nadie-te-pidio/">
+<img class="al-img" src="/img/el-alquiler-en-madrid-la-opinion-que-nadie-te-pidio.jpg" alt="El Alquiler En Madrid — La opinión que nadie te pidió" loading="lazy"/>
 <span class="cb b-economy">Economia</span>
 <h3>El Alquiler En Madrid — La opinión que nadie te pidió</h3>
 <p class="exc">Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</p>
