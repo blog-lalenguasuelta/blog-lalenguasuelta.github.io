@@ -6,18 +6,18 @@
 <meta name="google-site-verification" content="sRYo_Aq5FSqm5v4mH0nj3WQhHQisTOdAO5FpjarJ7Rc" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"/>
 <meta name="author" content="La Lengua Suelta"/>
-<link rel="canonical" href="https://blog-lalenguasuelta.github.io/newsletter/"/>
-<title>Newsletter — La Lengua Suelta</title>
-<meta name="description" content="Recibe las mejores piezas de La Lengua Suelta directo en tu correo"/>
-<meta property="og:title" content="Newsletter — La Lengua Suelta"/>
-<meta property="og:description" content="Recibe las mejores piezas de La Lengua Suelta directo en tu correo"/>
+<link rel="canonical" href="https://blog-lalenguasuelta.github.io/categoria/pop_culture/"/>
+<title>Cultura Pop \u2014 La Lengua Suelta</title>
+<meta name="description" content="Lo viral, lo efímero y lo que define nuestra era."/>
+<meta property="og:title" content="Cultura Pop \u2014 La Lengua Suelta"/>
+<meta property="og:description" content="Lo viral, lo efímero y lo que define nuestra era."/>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="La Lengua Suelta"/>
 <meta property="og:locale" content="es_ES"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Newsletter — La Lengua Suelta"/>
-<meta name="twitter:description" content="Recibe las mejores piezas de La Lengua Suelta directo en tu correo"/>
-<meta property="og:url" content="https://blog-lalenguasuelta.github.io/newsletter/"/>
+<meta name="twitter:title" content="Cultura Pop \u2014 La Lengua Suelta"/>
+<meta name="twitter:description" content="Lo viral, lo efímero y lo que define nuestra era."/>
+<meta property="og:url" content="https://blog-lalenguasuelta.github.io/categoria/pop_culture/"/>
 <link rel="alternate" type="application/rss+xml" title="La Lengua Suelta" href="/feed.xml"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -345,61 +345,48 @@ img{max-width:100%;height:auto;display:block}
 </nav>
 </div>
 </header>
-<main class="wrap">
-<div class="nl-wrap">
-<h1>Newsletter</h1>
-<p class="nl-desc">Cada semana te envío lo que nadie más se atreve a publicar. Sin algoritmos, sin censura, sin vender tus datos. Solo opinión destilada desde las sombras.</p>
-<form id="nl-form" class="nl-form">
-<input type="email" name="email" placeholder="tu@email.com" required autocomplete="email"/>
-<button type="submit">Suscribirme</button>
-</form>
-<div id="nl-msg" class="nl-msg"></div>
-<p style="margin-top:2rem;font-size:0.75rem;color:var(--text-d)">Puedes darte de baja en cualquier momento.</p>
-<p style="margin-top:1rem;font-size:0.82rem"><a href="/">← Volver al inicio</a></p>
+<main class="wrap-w">
+<header class="cat-header" style="border-left-color:var(--c-pop_culture)">
+<div class="cat-label c-pop_culture">CULTURA POP</div>
+<h1>Cultura Pop</h1>
+<p class="cat-desc">Lo viral, lo efímero y lo que define nuestra era.</p>
+<p class="cat-count">1 artículos</p>
+</header>
+<nav class="cpnav" style="border-bottom:1px solid var(--border);padding-bottom:1.5rem;margin-bottom:1rem">
+<a href="/categoria/economy/">Economía</a>
+<a href="/categoria/tech/">Tecnología</a>
+<a href="/categoria/politics/">Política</a>
+<a href="/categoria/sucesos/">Sucesos</a>
+<a href="/categoria/society/">Sociedad</a>
+<a href="/categoria/pop_culture/" class="active">Cultura Pop</a>
+<a href="/categoria/sports/">Deportes</a>
+<a href="/categoria/culture/">Cultura</a>
+<a href="/categoria/general/">General</a>
+</nav>
+<ul class="cat-list">
+<li>
+<a href="/articulo/tiktok-y-la-politica-un-coctel-explosivo-que-deberia-asustarnos/">
+<div class="cl-body">
+<div class="badges">
+<span class="cb b-pop_culture">Cultura Pop</span>
+<span class="ct" style="color:#4a6fa5;background:#e8f0fe">🗣️ Opinión</span>
 </div>
+<h3>TikTok y la política: un cóctel explosivo que debería asustarnos</h3>
+<p class="exc">La política se ha convertido en un espectáculo que nos hace reír y llorar al mismo tiempo, pero, ¿qué pasa con la seriedad que debería acompañarla. El otro día navegando por mi feed de TikTok, me enco</p>
+<div class="mr"><span>1 abr 2026</span><span class="dot"></span><span>4 min de lectura</span></div>
+</div>
+<div class="cl-img">
+<img src="/img/tiktok-y-la-politica-un-coctel-explosivo-que-deberia-asustarnos.jpg" alt="TikTok y la política: un cóctel explosivo que debería asustarnos" loading="lazy"/>
+</div>
+</a>
+</li>
+</ul>
+<section class="nl-cta">
+<h2>Recibe la verdad en tu buzón</h2>
+<p>Periodismo brutal, sin filtros y directo a tu conciencia cada domingo.</p>
+<a href="/newsletter/" class="nl-btn">Suscribirme</a>
+</section>
 </main>
-<script>window.LLS_API="https://192.168.1.24";</script>
-<script>
-(function(){
-  var form=document.getElementById('nl-form');
-  if(!form)return;
-  var msg=document.getElementById('nl-msg');
-  var btn=form.querySelector('button');
-  form.addEventListener('submit',function(e){
-    e.preventDefault();
-    var email=form.querySelector('input[type="email"]').value;
-    if(!email)return;
-    btn.disabled=true;btn.textContent='Enviando...';
-    msg.style.display='none';
-    // Try API subscription
-    var apiUrl=window.LLS_API||'';
-    if(apiUrl){
-      fetch(apiUrl+'/api/blog-engine/newsletter/subscribe',{
-        method:'POST',headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({email:email})
-      }).then(function(r){return r.json()}).then(function(d){
-        msg.textContent=d.message||'¡Suscrito!';
-        msg.style.display='block';msg.style.color='var(--gold)';
-        form.reset();
-      }).catch(function(){
-        // API unreachable — save locally as backup
-        try{var s=JSON.parse(localStorage.getItem('lls_nl_pending')||'[]');
-        if(s.indexOf(email)===-1){s.push(email);localStorage.setItem('lls_nl_pending',JSON.stringify(s))}}catch(x){}
-        msg.textContent='¡Registrado! Tu suscripción se confirmará pronto.';
-        msg.style.display='block';msg.style.color='var(--gold)';
-        form.reset();
-      }).finally(function(){btn.disabled=false;btn.textContent='Suscribirme'});
-    } else {
-      // No API configured — save to localStorage pending list
-      try{var s=JSON.parse(localStorage.getItem('lls_nl_pending')||'[]');
-      if(s.indexOf(email)===-1){s.push(email);localStorage.setItem('lls_nl_pending',JSON.stringify(s))}}catch(x){}
-      msg.textContent='¡Registrado! Tu suscripción se confirmará pronto.';
-      msg.style.display='block';msg.style.color='var(--gold)';
-      form.reset();btn.disabled=false;btn.textContent='Suscribirme';
-    }
-  });
-})();
-</script>
 
 <button class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Volver arriba">
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 15l-6-6-6 6"/></svg>
