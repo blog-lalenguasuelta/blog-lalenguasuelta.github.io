@@ -6,6 +6,7 @@
     <description>Crónicas anónimas, verdades incómodas y el periodismo que otros prefieren ignorar</description>
     <language>es</language>
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
       <title>Álex Fuentes: &quot;La vida es arte, y el arte es vivir&quot;</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/alex-fuentes-la-vida-es-arte-y-el-arte-es-vivir/</link>
@@ -13,6 +14,7 @@
       <description>En una soleada tarde en Madrid, Álex Fuentes, el prometedor artista español nonbinary, brilla en una sesión de fotos que se siente más como un viaje personal que una simple presentación visual. Con un aire relajado y auténtico, Álex comparte sus pensamientos sobre la vida, el arte y lo que significa</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>culture</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/alex-fuentes-la-vida-es-arte-y-el-arte-es-vivir.jpg" type="image/jpeg" length="126134"/>
     </item>
     <item>
       <title>Tomar decisiones bajo presión: la guía honesta que nadie te da</title>
@@ -21,6 +23,7 @@
       <description>La presión puede hacer que tomemos decisiones brillantes o que hagamos el ridículo, y a menudo es cuestión de un kebab frío o una conversación difícil. Aquí van mis enseñanzas.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>society</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/tomar-decisiones-bajo-presion-la-guia-honesta-que-nadie-te-da.jpg" type="image/jpeg" length="142396"/>
     </item>
     <item>
       <title>España vs Andorra: ¿Por qué allí los autónomos pagan menos y aquí no?</title>
@@ -29,6 +32,7 @@
       <description>Los números no mienten, pero los políticos sí. Descubre el abismo fiscal que separa a estos dos territorios tan cercanos y tan lejanos.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>economy</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/espana-vs-andorra-por-que-alli-los-autonomos-pagan-menos-y-aqui-no.jpg" type="image/jpeg" length="33072"/>
     </item>
     <item>
       <title>Carlos Cuerpo, De Apenas Recibir Preguntas Del Pp Al Duelo Semanal Con Ester Muñoz En El Congreso — La opinión que nadie te pidió</title>
@@ -37,6 +41,7 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>economy</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/carlos-cuerpo-de-apenas-recibir-preguntas-del-pp-al-duelo-semanal-con-ester-muno-2.jpg" type="image/jpeg" length="113436"/>
     </item>
     <item>
       <title>Decir que las criptomonedas son una estafa es la misma inteligencia que creer que el euro está respaldado por oro</title>
@@ -45,6 +50,7 @@
       <description>No es magia negra, es matemática volátil. Y Hacienda ya tiene sus tenazas preparadas para cobrarte el peaje.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>economy</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/decir-que-las-criptomonedas-son-una-estafa-es-la-misma-inteligencia-que-creer-qu.jpg" type="image/jpeg" length="39114"/>
     </item>
     <item>
       <title>Artemis II va a la Luna, yo intento pagar el alquiler: así es la vida, chavales.</title>
@@ -53,6 +59,7 @@
       <description>Mientras la NASA celebra un &quot;salto para la humanidad&quot;, la mayoría seguimos saltando obstáculos para llegar a fin de mes, con o sin incidentes menores. Y un día, te levantas, te haces un café que sabe a derrota sí, el de máquina, qué le vamos a hacer, y te enteras de que la Orión y los astronautas de</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>tech</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/artemis-ii-va-a-la-luna-yo-intento-pagar-el-alquiler-asi-es-la-vida-chavales.jpg" type="image/jpeg" length="36154"/>
     </item>
     <item>
       <title>¡CANASTA ROTA! ¡GAME, SET Y RUPTURA!</title>
@@ -61,6 +68,7 @@
       <description>Madrid, España – El mundo del deporte y, por extensión, el de la prensa rosa, se ha despertado con la noticia que nadie quería escuchar: Amara Diop, la imponente estrella del baloncesto, y Marco Beltrán, el talentoso tenista que siempre coquetea con la gloria, han decidido emprender caminos separado</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>entretenimiento</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/canasta-rota-game-set-y-ruptura.jpg" type="image/jpeg" length="222346"/>
     </item>
     <item>
       <title>La coalición de Ormuz: Feijóo se queja del aislamiento, yo respiro aliviado.</title>
@@ -69,6 +77,7 @@
       <description>Mientras cuarenta países se preparan para un conflicto global, la ausencia de España en esa foto es la única buena noticia que he leído hoy, y a Feijóo le jode. Leo esta mañana a Feijóo lamentándose de que España quede &quot;aislada&quot; de la coalición que Londres ha convocado para presionar a Irán por el E</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>politics</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/la-coalicion-de-ormuz-feijoo-se-queja-del-aislamiento-yo-respiro-aliviado.jpg" type="image/jpeg" length="95009"/>
     </item>
     <item>
       <title>Nos escandalizan los gritos en el campo, pero el hambre global ya está al ataque.</title>
@@ -77,6 +86,7 @@
       <description>Mientras el Gobierno se avergüenza de cánticos xenófobos, una guerra lejana amenaza nuestra mesa más de lo que imaginamos. Vaya semanita, la verdad.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>sucesos</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/nos-escandalizan-los-gritos-en-el-campo-pero-el-hambre-global-ya-esta-al-ataque.jpg" type="image/jpeg" length="292668"/>
     </item>
     <item>
       <title>El fantasma de Irán se carga un general y los Presupuestos de Sánchez</title>
@@ -85,6 +95,7 @@
       <description>Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta. Las milicias chiíes en Irak han soltado la perla del día: &quot;Irán no empezó la guerra&quot;.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>politics</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg" type="image/jpeg" length="170943"/>
     </item>
     <item>
       <title>Eco-mentira en el ático: La ‘espontaneidad’ calculada de Inés Albornoz y el batacazo verde de Paula Merino</title>
@@ -93,6 +104,7 @@
       <description>Anoche, Chueca no durmió. O, al menos, no lo hizo el algoritmo.</description>
       <pubDate>Fri, 03 Apr 2026 12:16:44 +0000</pubDate>
       <category>entretenimiento</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/eco-mentira-en-el-atico-la-espontaneidad-calculada-de-ines-albornoz-y-el-batacaz.jpg" type="image/jpeg" length="133686"/>
     </item>
     <item>
       <title>Yasmina rompió su jaula matrimonial mientras nosotros miramos a las estrellas</title>
@@ -101,6 +113,7 @@
       <description>Mientras Artemis 2 viaja a la Luna y Indra cambia de directivos por deporte, una mujer nos recuerda qué cuesta la libertad. Llevo tres días dándole vueltas a una frase que me ha dejado el estómago revuelto y la conciencia en carne viva.</description>
       <pubDate>Fri, 03 Apr 2026 06:16:25 +0000</pubDate>
       <category>sociedad</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/yasmina-rompio-su-jaula-matrimonial-mientras-nosotros-miramos-a-las-estrellas.jpg" type="image/jpeg" length="177791"/>
     </item>
     <item>
       <title>Alemania: mezquitas y templos en auge mientras las iglesias se cierran</title>
@@ -109,6 +122,7 @@
       <description>El paisaje religioso de Alemania está cambiando: cada vez más mezquitas y menos iglesias cristianas. ¿Es este el nuevo rostro de la Europa multicultural.</description>
       <pubDate>Fri, 03 Apr 2026 03:12:33 +0000</pubDate>
       <category>sociedad</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/alemania-mezquitas-y-templos-en-auge-mientras-las-iglesias-se-cierran.jpg" type="image/jpeg" length="116776"/>
     </item>
     <item>
       <title>La IA nos salva del cáncer, ¿y aún discutimos por el botón de ChatGPT?</title>
@@ -117,6 +131,7 @@
       <description>Mientras algunos le temen a Skynet y otros a los trabajos que quita, la inteligencia artificial ya está encontrando tumores que los médicos no ven. Hay veces que lees una noticia por la mañana, con el café ya frío y la resaca de la geopolítica en la nuca, y te das cuenta de que el mundo, por muy cha</description>
       <pubDate>Fri, 03 Apr 2026 03:12:07 +0000</pubDate>
       <category>tech</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/la-ia-nos-salva-del-cancer-y-aun-discutimos-por-el-boton-de-chatgpt.jpg" type="image/jpeg" length="64393"/>
     </item>
     <item>
       <title>¿Cuánto valerá mi salud? El engañoso blindaje de los precios de los medicamentos en España</title>
@@ -125,6 +140,7 @@
       <description>El Gobierno y Farmaindustria defienden la opacidad de precios en medicamentos, mientras Civio clama por transparencia. Las cifras que no quieren que veas.</description>
       <pubDate>Fri, 03 Apr 2026 00:12:16 +0000</pubDate>
       <category>politics</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/cuanto-valera-mi-salud-el-enganoso-blindaje-de-los-precios-de-los-medicamentos-e.jpg" type="image/jpeg" length="116836"/>
     </item>
     <item>
       <title>La Alianza Inesperada: ¿Risa o Tragedia?</title>
@@ -133,6 +149,7 @@
       <description>Cuando vi a Pablo Navajas y Rosa Maldonado juntos en la rueda de prensa, no pude evitar sentir un escalofrío. Dos titanes de disciplinas aparentemente opuestas se unían en un intento de abordar las tensiones sociales y económicas que nos atraviesan.</description>
       <pubDate>Thu, 02 Apr 2026 22:43:54 +0000</pubDate>
       <category>general</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/la-alianza-inesperada-risa-o-tragedia.jpg" type="image/jpeg" length="145876"/>
     </item>
     <item>
       <title>Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos</title>
@@ -141,6 +158,7 @@
       <description>Disfruta de unos días de descanso sin que tu conciencia te haga el vacío, mientras la Semana Santa se asoma entre las sombras. Las vacaciones de Semana Santa se acercan, y con ellas la eterna lucha entre la tradición culinaria y la culpa que nos provoca ese potaje de garbanzos que parece mirar desde</description>
       <pubDate>Thu, 02 Apr 2026 22:02:50 +0000</pubDate>
       <category>culture</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg" type="image/jpeg" length="80545"/>
     </item>
     <item>
       <title>Vox y el arte de besar el suelo que pisan Trump y Netanyahu</title>
@@ -149,6 +167,7 @@
       <description>El partido de Abascal prefiere el silencio a contradecir a sus ídolos, aunque eso signifique tragarse sus principios y algunas misas bloqueadas en Jerusalén. Yo, desde esta terraza frente al Estrecho donde el viento trae rumores de conflictos que a nadie importan, leo las noticias y me pregunto: ¿en</description>
       <pubDate>Thu, 02 Apr 2026 21:18:10 +0000</pubDate>
       <category>politics</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/vox-y-el-arte-de-besar-el-suelo-que-pisan-trump-y-netanyahu.jpg" type="image/jpeg" length="49292"/>
     </item>
     <item>
       <title>Francia en la coctelera: de la droga en el bolso a los insultos de Trump</title>
@@ -157,6 +176,7 @@
       <description>Mientras París arde en tensiones y sus políticos se enredan, Macron sonríe en Tokio, ajeno al esperpento que le rodea. Pues sí, colegas, la política francesa ha decidido que hoy no íbamos a aburrirnos.</description>
       <pubDate>Thu, 02 Apr 2026 21:12:10 +0000</pubDate>
       <category>economy</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/francia-en-la-coctelera-de-la-droga-en-el-bolso-a-los-insultos-de-trump.jpg" type="image/jpeg" length="105171"/>
     </item>
     <item>
       <title>La eurodiputada que se metió en un lío: Rima Hassan y el juego peligroso de la política</title>
@@ -165,6 +185,7 @@
       <description>La detención de Rima Hassan por apología del terrorismo y posesión de drogas nos revela lo ridículo y complejo del juego político. ¿Un escándalo o una cortina de humo.</description>
       <pubDate>Thu, 02 Apr 2026 21:12:09 +0000</pubDate>
       <category>economy</category>
+      <enclosure url="https://blog-lalenguasuelta.github.io/img/la-eurodiputada-que-se-metio-en-un-lio-rima-hassan-y-el-juego-peligroso-de-la-po.jpg" type="image/jpeg" length="72570"/>
     </item>
   </channel>
 </rss>
