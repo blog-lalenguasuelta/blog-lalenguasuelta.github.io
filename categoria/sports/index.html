@@ -44,9 +44,64 @@
   --shadow-sm:0 1px 2px rgba(0,0,0,0.04),0 1px 3px rgba(0,0,0,0.06);
   --shadow-md:0 4px 6px rgba(0,0,0,0.05),0 2px 4px rgba(0,0,0,0.04);
   --shadow-lg:0 10px 25px rgba(0,0,0,0.08),0 4px 10px rgba(0,0,0,0.04);
+  --nav-bg:rgba(26,26,26,0.97);
 }
-html{scroll-behavior:smooth;scroll-padding-top:4rem}
-body{background:var(--bg);color:var(--text);font-family:var(--fb);line-height:1.8;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:17px;overflow-x:hidden}
+/* ── Theme: Sunset (Atardecer) ── */
+[data-theme="sunset"]{
+  --bg:#2d1b0e;--bg-s:#3a2415;--surface:#4a3020;--surface-high:#5a3d2a;
+  --border:#8b6914;--border-light:#6b4e1a;
+  --text:#f5e6d0;--text-s:#e8d5b8;--text-d:#c9a87c;--text-muted:#a08060;
+  --primary:#ff8c42;--primary-dark:#e07030;--gold:#ff8c42;
+  --dark:#1a0e05;--dark-s:#0d0703;
+  --nav-bg:rgba(30,15,5,0.95);
+  --shadow-sm:0 1px 3px rgba(0,0,0,0.3);--shadow-md:0 4px 8px rgba(0,0,0,0.3);--shadow-lg:0 10px 25px rgba(0,0,0,0.4);
+}
+/* ── Theme: Beach Sunrise (Amanecer en Playa) ── */
+[data-theme="beach"]{
+  --bg:#fff8f0;--bg-s:#ffeedd;--surface:#ffe4cc;--surface-high:#ffd9b8;
+  --border:#e8b88a;--border-light:#f0d0a8;
+  --text:#3d2b1f;--text-s:#5a4030;--text-d:#8a6a50;--text-muted:#b09070;
+  --primary:#e06820;--primary-dark:#c05010;--gold:#e06820;
+  --dark:#2a1a10;--dark-s:#1a0e08;
+  --nav-bg:rgba(42,26,16,0.95);
+  --shadow-sm:0 1px 3px rgba(180,100,50,0.1);--shadow-md:0 4px 8px rgba(180,100,50,0.12);--shadow-lg:0 10px 25px rgba(180,100,50,0.15);
+}
+/* ── Theme: Space (Espacial) ── */
+[data-theme="space"]{
+  --bg:#0a0a1a;--bg-s:#0f0f2a;--surface:#151530;--surface-high:#1a1a40;
+  --border:#2a2a5a;--border-light:#20204a;
+  --text:#e0e0ff;--text-s:#c0c0e0;--text-d:#8888bb;--text-muted:#6666aa;
+  --primary:#7c4dff;--primary-dark:#5c30cc;--gold:#7c4dff;
+  --dark:#050510;--dark-s:#020208;
+  --nav-bg:rgba(5,5,20,0.95);
+  --shadow-sm:0 1px 3px rgba(100,50,255,0.1);--shadow-md:0 4px 8px rgba(100,50,255,0.12);--shadow-lg:0 10px 25px rgba(100,50,255,0.15);
+}
+/* ── Theme: Gloomy Gray (Gris Tétrico) ── */
+[data-theme="gloomy"]{
+  --bg:#1a1a1a;--bg-s:#222;--surface:#2a2a2a;--surface-high:#333;
+  --border:#444;--border-light:#383838;
+  --text:#b0b0b0;--text-s:#909090;--text-d:#707070;--text-muted:#555;
+  --primary:#8a8a8a;--primary-dark:#666;--gold:#8a8a8a;
+  --dark:#111;--dark-s:#0a0a0a;
+  --nav-bg:rgba(15,15,15,0.97);
+  --shadow-sm:0 1px 3px rgba(0,0,0,0.4);--shadow-md:0 4px 8px rgba(0,0,0,0.4);--shadow-lg:0 10px 25px rgba(0,0,0,0.5);
+}
+html{scroll-behavior:smooth;scroll-padding-top:4rem;overflow-x:hidden}
+body{background:var(--bg);color:var(--text);font-family:var(--fb);line-height:1.8;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:17px;overflow-x:hidden;position:relative;min-height:100vh}
+/* ── Theme background canvas ── */
+#theme-bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+/* ── Theme switcher ── */
+.theme-sw{position:relative;margin-left:0.5rem}
+.theme-btn{background:none;border:1px solid rgba(201,168,76,0.3);border-radius:50%;width:32px;height:32px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--primary);transition:all 0.3s ease;padding:0}
+.theme-btn:hover{border-color:var(--primary);background:rgba(201,168,76,0.1);transform:rotate(30deg)}
+.theme-menu{position:absolute;top:calc(100% + 8px);right:0;background:var(--dark);border:1px solid var(--border);border-radius:var(--r);padding:0.5rem;display:none;flex-direction:column;gap:0.25rem;min-width:160px;box-shadow:var(--shadow-lg);z-index:200}
+.theme-menu.open{display:flex}
+.theme-opt{display:flex;align-items:center;gap:0.6rem;padding:0.45rem 0.7rem;border:none;background:none;color:var(--text-muted);cursor:pointer;border-radius:var(--rs);font-family:var(--fl);font-size:0.75rem;font-weight:600;letter-spacing:0.03em;transition:all 0.2s ease;white-space:nowrap}
+.theme-opt:hover{background:rgba(201,168,76,0.1);color:var(--primary)}
+.theme-opt.active{color:var(--primary);background:rgba(201,168,76,0.08)}
+.theme-dot{width:14px;height:14px;border-radius:50%;border:2px solid rgba(255,255,255,0.2);flex-shrink:0}
+/* ── Organic transition overlay ── */
+.theme-wave{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;pointer-events:none;opacity:0}
 ::selection{background:rgba(201,168,76,0.3)}
 a{color:var(--primary);text-decoration:none;transition:color var(--tr)}a:hover{color:var(--primary-dark)}
 img{max-width:100%;height:auto;display:block}
@@ -143,7 +198,7 @@ img{max-width:100%;height:auto;display:block}
 .img-ph::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.1) 0%,transparent 50%);pointer-events:none}
 .img-ph-feat{aspect-ratio:16/10}
 .img-ph-card{aspect-ratio:16/10;border-radius:var(--r) var(--r) 0 0}
-.img-ph-cover{aspect-ratio:21/9;max-height:480px;margin:0 -1.5rem 2rem;border-radius:0}
+.img-ph-cover{aspect-ratio:21/9;max-height:480px;margin:0 auto 2rem;border-radius:0;width:calc(100% + 3rem);max-width:100vw;margin-left:-1.5rem}
 .img-ph-cat{width:100%;height:180px;border-radius:var(--rs);filter:grayscale(0.5)}
 /* ── Newsletter CTA ── */
 .nl-cta{margin:3rem 0;background:var(--dark);border-radius:12px;padding:3rem 2rem;text-align:center;position:relative;overflow:hidden}
@@ -192,7 +247,7 @@ img{max-width:100%;height:auto;display:block}
 .ah .mbar{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;font-family:var(--fl);font-size:0.8rem;color:var(--text-d);padding:0.75rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);text-transform:uppercase;letter-spacing:0.05em}
 .ah .mbar .author{font-weight:700;color:var(--text-s);font-style:italic}
 /* Cover image (article) */
-.cover{margin:0 -1.5rem 2rem;position:relative;overflow:hidden;max-height:480px;border-radius:0}
+.cover{margin:0 auto 2rem;position:relative;overflow:hidden;max-height:480px;border-radius:0;width:calc(100% + 3rem);max-width:100vw;margin-left:-1.5rem}
 .cover img{width:100%;height:100%;object-fit:cover;filter:grayscale(0.2);opacity:0.9;transition:filter 0.6s ease}
 .cover .overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,26,26,0.3),transparent 60%);z-index:1}
 .cover figcaption{font-size:0.68rem;color:var(--text-d);margin-top:0.4rem;font-style:italic;text-align:center}
@@ -213,8 +268,8 @@ img{max-width:100%;height:auto;display:block}
 .prose li{color:var(--text-s);margin-bottom:0.4rem;line-height:1.8;font-size:1.05rem}
 .prose hr{border:none;height:1px;background:var(--border);margin:2.5rem auto;max-width:120px}
 .prose code{font-size:0.85em;background:var(--surface);padding:0.15em 0.3em;border-radius:var(--rs)}
-.prose-img{margin:2rem -1.5rem;text-align:center}
-.prose-img img{max-width:calc(100% + 3rem);width:calc(100% + 3rem);height:auto}
+.prose-img{margin:2rem 0;text-align:center;overflow:hidden}
+.prose-img img{max-width:100%;width:100%;height:auto}
 .prose-img figcaption{font-family:var(--fl);font-size:0.7rem;color:var(--text-d);margin-top:0.5rem;font-style:italic;padding:0 1.5rem}
 /* Tags */
 .tl{display:flex;flex-wrap:wrap;gap:0.4rem;margin:2rem 0;padding-top:1.5rem;border-top:1px solid var(--border)}
@@ -377,6 +432,8 @@ img{max-width:100%;height:auto;display:block}
 </style>
 </head>
 <body>
+<canvas id="theme-bg"></canvas>
+<div class="theme-wave" id="themeWave"></div>
 <header class="sh" id="sh">
 <div class="sh-inner">
 <a href="/" class="s-logo"><span class="lm">LS</span><span class="lt">La Lengua Suelta</span></a>
@@ -389,6 +446,18 @@ img{max-width:100%;height:auto;display:block}
 <a href="/newsletter/">Newsletter</a>
 <a href="/feed.xml">RSS</a>
 </nav>
+<div class="theme-sw">
+<button class="theme-btn" id="themeBtn" aria-label="Cambiar tema" title="Cambiar tema">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+</button>
+<div class="theme-menu" id="themeMenu">
+<button class="theme-opt active" data-theme="default"><span class="theme-dot" style="background:linear-gradient(135deg,#faf9f6,#c9a84c)"></span>Clásico</button>
+<button class="theme-opt" data-theme="sunset"><span class="theme-dot" style="background:linear-gradient(135deg,#ff8c42,#2d1b0e)"></span>Atardecer</button>
+<button class="theme-opt" data-theme="beach"><span class="theme-dot" style="background:linear-gradient(135deg,#ffe4cc,#e06820)"></span>Amanecer</button>
+<button class="theme-opt" data-theme="space"><span class="theme-dot" style="background:linear-gradient(135deg,#7c4dff,#0a0a1a)"></span>Espacial</button>
+<button class="theme-opt" data-theme="gloomy"><span class="theme-dot" style="background:linear-gradient(135deg,#8a8a8a,#1a1a1a)"></span>Tétrico</button>
+</div>
+</div>
 </div>
 </header>
 <main class="wrap-w">
@@ -764,6 +833,285 @@ document.addEventListener('DOMContentLoaded',function(){
 
   ScrollTrigger.refresh();
 });
+</script>
+<script>
+/* ══════════════════════════════════════════════════════════════
+   THEME ENGINE — Animated backgrounds + organic transitions
+   ══════════════════════════════════════════════════════════════ */
+(function(){
+  var canvas=document.getElementById('theme-bg');
+  if(!canvas)return;
+  var ctx=canvas.getContext('2d');
+  var W,H,animId=null,currentTheme='default';
+  var time=0;
+
+  function resize(){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight}
+  window.addEventListener('resize',resize);
+  resize();
+
+  /* ── Theme background renderers ── */
+  var renderers={
+    'default':function(){
+      ctx.clearRect(0,0,W,H);
+    },
+    'sunset':function(){
+      time+=0.003;
+      /* Sky gradient */
+      var sky=ctx.createLinearGradient(0,0,0,H*0.65);
+      sky.addColorStop(0,'#1a0a2e');
+      sky.addColorStop(0.3,'#4a1942');
+      sky.addColorStop(0.6,'#c0392b');
+      sky.addColorStop(0.85,'#ff8c42');
+      sky.addColorStop(1,'#ffcc80');
+      ctx.fillStyle=sky;
+      ctx.fillRect(0,0,W,H*0.65);
+      /* Sun */
+      var sunY=H*0.48+Math.sin(time*0.5)*8;
+      var sunR=Math.min(W,H)*0.06;
+      var sg=ctx.createRadialGradient(W*0.7,sunY,0,W*0.7,sunY,sunR*3);
+      sg.addColorStop(0,'rgba(255,200,50,0.9)');
+      sg.addColorStop(0.3,'rgba(255,140,50,0.5)');
+      sg.addColorStop(1,'rgba(255,100,30,0)');
+      ctx.fillStyle=sg;
+      ctx.fillRect(0,0,W,H);
+      ctx.beginPath();ctx.arc(W*0.7,sunY,sunR,0,Math.PI*2);
+      ctx.fillStyle='#ffd54f';ctx.fill();
+      /* Horizon land */
+      ctx.fillStyle='#2d1b0e';
+      ctx.fillRect(0,H*0.62,W,H*0.38);
+      /* Wheat field */
+      ctx.strokeStyle='#8b6914';ctx.lineWidth=1.5;
+      for(var i=0;i<80;i++){
+        var bx=i*(W/80)+Math.sin(time*2+i*0.3)*3;
+        var by=H*0.62+Math.random()*H*0.05;
+        var bh=15+Math.random()*20;
+        ctx.beginPath();
+        ctx.moveTo(bx,by);
+        ctx.quadraticCurveTo(bx+Math.sin(time*2.5+i)*5,by-bh*0.6,bx+Math.sin(time*3+i)*3,by-bh);
+        ctx.stroke();
+      }
+      /* Distant clouds */
+      ctx.fillStyle='rgba(255,140,80,0.08)';
+      for(var c=0;c<4;c++){
+        var cx=((c*250+time*20)%((W+300)))-150;
+        var cy=H*0.12+c*30;
+        ctx.beginPath();ctx.ellipse(cx,cy,100+c*20,20+c*5,0,0,Math.PI*2);ctx.fill();
+      }
+    },
+    'beach':function(){
+      time+=0.004;
+      /* Sky */
+      var sky=ctx.createLinearGradient(0,0,0,H*0.55);
+      sky.addColorStop(0,'#87ceeb');
+      sky.addColorStop(0.5,'#ffd1a4');
+      sky.addColorStop(1,'#ff9e6d');
+      ctx.fillStyle=sky;ctx.fillRect(0,0,W,H*0.55);
+      /* Sun glow */
+      var sx=W*0.3,sy=H*0.35+Math.sin(time*0.4)*5;
+      var rg=ctx.createRadialGradient(sx,sy,0,sx,sy,Math.min(W,H)*0.15);
+      rg.addColorStop(0,'rgba(255,230,150,0.8)');
+      rg.addColorStop(1,'rgba(255,180,80,0)');
+      ctx.fillStyle=rg;ctx.fillRect(0,0,W,H);
+      /* Sea */
+      ctx.fillStyle='#3a9fbf';
+      ctx.fillRect(0,H*0.52,W,H*0.14);
+      /* Waves */
+      ctx.strokeStyle='rgba(255,255,255,0.3)';ctx.lineWidth=2;
+      for(var w=0;w<5;w++){
+        ctx.beginPath();
+        var wy=H*0.54+w*8;
+        for(var x=0;x<W;x+=4){
+          ctx.lineTo(x,wy+Math.sin(x*0.02+time*3+w)*4);
+        }
+        ctx.stroke();
+      }
+      /* Sand */
+      var sand=ctx.createLinearGradient(0,H*0.65,0,H);
+      sand.addColorStop(0,'#f5deb3');sand.addColorStop(1,'#d2b48c');
+      ctx.fillStyle=sand;ctx.fillRect(0,H*0.65,W,H*0.35);
+      /* Palm tree silhouette */
+      ctx.strokeStyle='#3d2b1f';ctx.lineWidth=5;
+      ctx.beginPath();ctx.moveTo(W*0.85,H*0.7);
+      ctx.quadraticCurveTo(W*0.84,H*0.5,W*0.82,H*0.38);ctx.stroke();
+      ctx.fillStyle='#2d5a27';
+      for(var l=0;l<5;l++){
+        ctx.save();ctx.translate(W*0.82,H*0.38);
+        ctx.rotate(-0.8+l*0.4+Math.sin(time*2)*0.05);
+        ctx.beginPath();ctx.ellipse(30,0,40,8,0,0,Math.PI*2);ctx.fill();
+        ctx.restore();
+      }
+    },
+    'space':function(){
+      time+=0.002;
+      ctx.fillStyle='#050510';ctx.fillRect(0,0,W,H);
+      /* Stars */
+      if(!renderers._stars){
+        renderers._stars=[];
+        for(var s=0;s<200;s++)renderers._stars.push({x:Math.random()*W,y:Math.random()*H,s:Math.random()*2+0.5,b:Math.random()});
+      }
+      renderers._stars.forEach(function(st){
+        var a=0.3+0.7*Math.abs(Math.sin(time*2+st.b*6));
+        ctx.fillStyle='rgba(200,200,255,'+a+')';
+        ctx.beginPath();ctx.arc(st.x,st.y,st.s,0,Math.PI*2);ctx.fill();
+      });
+      /* Nebula */
+      var ng=ctx.createRadialGradient(W*0.3,H*0.4,0,W*0.3,H*0.4,W*0.3);
+      ng.addColorStop(0,'rgba(124,77,255,0.06)');ng.addColorStop(1,'rgba(124,77,255,0)');
+      ctx.fillStyle=ng;ctx.fillRect(0,0,W,H);
+      var ng2=ctx.createRadialGradient(W*0.7,H*0.6,0,W*0.7,H*0.6,W*0.25);
+      ng2.addColorStop(0,'rgba(255,50,100,0.04)');ng2.addColorStop(1,'rgba(255,50,100,0)');
+      ctx.fillStyle=ng2;ctx.fillRect(0,0,W,H);
+      /* Shooting star */
+      if(Math.random()<0.003){
+        var sx2=Math.random()*W,sy2=Math.random()*H*0.5;
+        ctx.strokeStyle='rgba(200,200,255,0.6)';ctx.lineWidth=1;
+        ctx.beginPath();ctx.moveTo(sx2,sy2);ctx.lineTo(sx2+60,sy2+30);ctx.stroke();
+      }
+    },
+    'gloomy':function(){
+      time+=0.002;
+      ctx.fillStyle='#111';ctx.fillRect(0,0,W,H);
+      /* Fog layers */
+      for(var f=0;f<3;f++){
+        ctx.fillStyle='rgba(60,60,60,'+(0.02+f*0.01)+')';
+        ctx.beginPath();
+        var fy=H*0.3+f*80;
+        ctx.moveTo(0,fy);
+        for(var x=0;x<W;x+=20){
+          ctx.lineTo(x,fy+Math.sin(x*0.005+time*0.5+f)*40);
+        }
+        ctx.lineTo(W,H);ctx.lineTo(0,H);ctx.fill();
+      }
+      /* Rain */
+      ctx.strokeStyle='rgba(150,150,150,0.15)';ctx.lineWidth=1;
+      for(var r=0;r<60;r++){
+        var rx=Math.random()*W;
+        var ry=(time*500+r*30)%(H+40)-20;
+        ctx.beginPath();ctx.moveTo(rx,ry);ctx.lineTo(rx-2,ry+15);ctx.stroke();
+      }
+    }
+  };
+
+  function animate(){
+    if(renderers[currentTheme])renderers[currentTheme]();
+    animId=requestAnimationFrame(animate);
+  }
+
+  /* ── Organic wave transition ── */
+  function organicTransition(newTheme,clickX,clickY){
+    if(typeof gsap==='undefined')return applyThemeDirect(newTheme);
+    var wave=document.getElementById('themeWave');
+    if(!wave)return applyThemeDirect(newTheme);
+
+    /* Get all styleable elements */
+    var allEls=document.querySelectorAll('h1,h2,h3,h4,h5,p,a,span,li,button,img,div.art-card,div.sorbo,div.feat,section,footer,header,nav,blockquote,input');
+    var elements=Array.from(allEls).filter(function(el){
+      var r=el.getBoundingClientRect();
+      return r.width>0&&r.height>0&&r.top<window.innerHeight+200&&r.bottom>-200;
+    });
+
+    /* Sort by distance from click point — organic wave spreading */
+    elements.sort(function(a,b){
+      var ar=a.getBoundingClientRect(),br=b.getBoundingClientRect();
+      var da=Math.hypot(ar.left+ar.width/2-clickX,ar.top+ar.height/2-clickY);
+      var db=Math.hypot(br.left+br.width/2-clickX,br.top+br.height/2-clickY);
+      return da-db;
+    });
+
+    /* Phase 1: Ripple wave overlay */
+    var themeColors={
+      'default':'rgba(201,168,76,0.15)',
+      'sunset':'rgba(255,140,66,0.2)',
+      'beach':'rgba(255,200,150,0.2)',
+      'space':'rgba(124,77,255,0.2)',
+      'gloomy':'rgba(100,100,100,0.2)'
+    };
+
+    wave.style.background='radial-gradient(circle at '+clickX+'px '+clickY+'px,'+
+      (themeColors[newTheme]||'rgba(200,200,200,0.15)')+' 0%,transparent 70%)';
+
+    var tl=gsap.timeline({
+      onComplete:function(){gsap.set(wave,{opacity:0})}
+    });
+
+    /* Wave pulse */
+    tl.fromTo(wave,
+      {opacity:0,scale:0.3,transformOrigin:clickX+'px '+clickY+'px'},
+      {opacity:1,scale:3,duration:0.8,ease:'power2.out'}
+    );
+
+    /* Phase 2: Elements morph — each element briefly distorts then settles */
+    tl.add(function(){
+      applyThemeDirect(newTheme);
+    },0.25);
+
+    /* Stagger elements: slight scale + hue shift + settle */
+    elements.forEach(function(el,i){
+      var delay=0.15+i*0.008;
+      if(delay>1.5)delay=1.5;
+      gsap.fromTo(el,
+        {filter:'brightness(1.3) blur(1px)',scale:0.98},
+        {filter:'brightness(1) blur(0px)',scale:1,duration:0.5,delay:delay,ease:'power2.out',clearProps:'filter,scale'}
+      );
+    });
+
+    /* Phase 3: Wave fade out */
+    tl.to(wave,{opacity:0,duration:0.6,ease:'power2.in'},1.0);
+  }
+
+  function applyThemeDirect(theme){
+    if(theme==='default')document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme',theme);
+    currentTheme=theme;
+    /* Reset stars cache on theme change */
+    renderers._stars=null;
+    time=0;
+    try{localStorage.setItem('ls-theme',theme)}catch(e){}
+    /* Update active button */
+    document.querySelectorAll('.theme-opt').forEach(function(b){
+      b.classList.toggle('active',b.dataset.theme===theme);
+    });
+    /* Update nav background for theme */
+    var sh=document.getElementById('sh');
+    if(sh)sh.style.background='var(--nav-bg)';
+  }
+
+  /* ── Theme menu toggle ── */
+  var themeBtn=document.getElementById('themeBtn');
+  var themeMenu=document.getElementById('themeMenu');
+  if(themeBtn&&themeMenu){
+    themeBtn.addEventListener('click',function(e){
+      e.stopPropagation();
+      themeMenu.classList.toggle('open');
+      if(typeof gsap!=='undefined'&&themeMenu.classList.contains('open')){
+        gsap.from(themeMenu.querySelectorAll('.theme-opt'),{
+          autoAlpha:0,x:10,stagger:0.04,duration:0.25,ease:'power2.out'
+        });
+      }
+    });
+    themeMenu.addEventListener('click',function(e){
+      var opt=e.target.closest('.theme-opt');
+      if(!opt)return;
+      var theme=opt.dataset.theme;
+      if(theme===currentTheme)return;
+      var rect=opt.getBoundingClientRect();
+      organicTransition(theme,rect.left+rect.width/2,rect.top+rect.height/2);
+      themeMenu.classList.remove('open');
+    });
+    document.addEventListener('click',function(){
+      themeMenu.classList.remove('open');
+    });
+  }
+
+  /* ── Restore saved theme ── */
+  var saved;try{saved=localStorage.getItem('ls-theme')}catch(e){}
+  if(saved&&saved!=='default'){
+    applyThemeDirect(saved);
+  }
+
+  /* ── Start background animation ── */
+  animate();
+})();
 </script>
 </body>
 </html>
