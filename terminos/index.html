@@ -22,6 +22,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
 <script async type="application/javascript" src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
 <script>(self.SWG_BASIC=self.SWG_BASIC||[]).push(basicSubscriptions=>{basicSubscriptions.init({type:"NewsArticle",isPartOfType:["Product"],isPartOfProductId:"CAownPLKDA:openaccess",clientOptions:{theme:"light",lang:"es"}})})</script>
 <style>
@@ -52,9 +54,11 @@ img{max-width:100%;height:auto;display:block}
 .wrap{max-width:720px;margin:0 auto;padding:0 1.5rem}
 .wrap-w{max-width:960px;margin:0 auto;padding:0 1.5rem}
 .wrap-n{max-width:640px;margin:0 auto;padding:0 1.5rem}
-/* ── Fade-in Animation ── */
+/* ── GSAP Animation Initial States ── */
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 .fade-in{animation:fadeUp 0.5s ease both}
+.gs-hidden{opacity:0;transform:translateY(40px)}
+.hero,.feat,.art-card,.sorbo,.sec-h,.nl-cta,.sf,.cpnav a,.about-header,.cat-header,.ah,.cover,.related,.anav{will-change:transform,opacity}
 /* ── Site Header — Dark Sticky Nav with backdrop ── */
 .sh{position:sticky;top:0;z-index:100;background:rgba(26,26,26,0.97);border-bottom:1px solid rgba(201,168,76,0.15);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:box-shadow 0.3s ease}
 .sh.scrolled{box-shadow:0 4px 24px rgba(0,0,0,0.35)}
@@ -112,7 +116,7 @@ img{max-width:100%;height:auto;display:block}
 /* ── Section header with line ── */
 .sec-h{display:flex;align-items:center;gap:1rem;margin:2.5rem 0 1.25rem}
 .sec-h h3{font-family:var(--fl);font-size:0.7rem;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
-.sec-h::after{content:'';flex:1;height:1px;background:var(--border)}
+.sec-h::after{content:'';flex:1;height:1px;background:var(--border);transform:scaleX(var(--line-scale,1));transform-origin:left}
 .sec-h a{font-family:var(--fl);font-size:0.65rem;color:var(--text-d);white-space:nowrap;transition:color var(--tr)}
 .sec-h a:hover{color:var(--primary)}
 /* ── Article grid (2-col) ── */
@@ -457,6 +461,294 @@ Canal
     last=y;
   },{passive:true});
 })();
+</script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  if(typeof gsap==='undefined')return;
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* ── Respect reduced motion ── */
+  var prefersReduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(prefersReduced)return;
+
+  gsap.defaults({duration:0.8,ease:'power3.out'});
+
+  /* ── Hero entrance ── */
+  var hero=document.querySelector('.hero');
+  if(hero){
+    var htl=gsap.timeline({defaults:{ease:'power3.out'}});
+    htl.from('.hero-title',{y:60,autoAlpha:0,duration:1})
+       .from('.hero-desc',{y:40,autoAlpha:0,duration:0.8},'-=0.6')
+       .from('.hero-links a',{y:30,autoAlpha:0,stagger:0.12,duration:0.6,ease:'back.out(1.4)'},'-=0.4')
+       .from('.hero::after',{scaleX:0,duration:0.8,ease:'power2.inOut'},'-=0.3');
+  }
+
+  /* ── Featured article ── */
+  var feat=document.querySelector('.feat');
+  if(feat){
+    var ftl=gsap.timeline({
+      scrollTrigger:{trigger:'.feat',start:'top 85%',end:'bottom 20%',toggleActions:'play none none none'}
+    });
+    ftl.from('.feat-body',{x:-60,autoAlpha:0,duration:1})
+       .from('.feat-img, .feat .img-ph',{x:60,autoAlpha:0,duration:1,ease:'power2.out'},'-=0.7')
+       .from('.feat .cb',{scale:0,autoAlpha:0,duration:0.4,ease:'back.out(2)'},'-=0.5')
+       .from('.feat .mr',{y:20,autoAlpha:0,duration:0.5},'-=0.3');
+  }
+
+  /* ── Category pills nav ── */
+  var cpnav=document.querySelectorAll('.cpnav a');
+  if(cpnav.length){
+    gsap.from(cpnav,{
+      scale:0.5,autoAlpha:0,y:20,
+      stagger:{each:0.06,from:'start'},
+      duration:0.5,ease:'back.out(1.7)',
+      scrollTrigger:{trigger:'.cpnav',start:'top 90%',toggleActions:'play none none none'}
+    });
+  }
+
+  /* ── Section headers — line draw + title slide ── */
+  document.querySelectorAll('.sec-h').forEach(function(sh){
+    var stl=gsap.timeline({
+      scrollTrigger:{trigger:sh,start:'top 88%',toggleActions:'play none none none'}
+    });
+    stl.from(sh.querySelector('h3'),{x:-40,autoAlpha:0,duration:0.6})
+       .from(sh,{
+         '--line-scale':'0',duration:0.8,ease:'power2.inOut',
+         onStart:function(){sh.style.setProperty('--line-scale','0')},
+         onUpdate:function(){
+           var p=this.progress();
+           if(sh.querySelector('a'))sh.querySelector('a').style.opacity=p;
+         }
+       },'-=0.3');
+    var link=sh.querySelector('a');
+    if(link){
+      stl.from(link,{autoAlpha:0,x:20,duration:0.4},'-=0.3');
+    }
+  });
+
+  /* ── Article cards — batch reveal on scroll ── */
+  var artCards=document.querySelectorAll('.art-card');
+  if(artCards.length){
+    gsap.set(artCards,{autoAlpha:0,y:50});
+    ScrollTrigger.batch(artCards,{
+      onEnter:function(batch){
+        gsap.to(batch,{
+          autoAlpha:1,y:0,
+          stagger:0.12,duration:0.7,ease:'power2.out',
+          overwrite:true
+        });
+      },
+      onLeaveBack:function(batch){
+        gsap.set(batch,{autoAlpha:0,y:50,overwrite:true});
+      },
+      start:'top 88%',
+      once:false
+    });
+  }
+
+  /* ── Sorbo cards — alternating slide-in ── */
+  document.querySelectorAll('.sorbo').forEach(function(s,i){
+    var fromX=i%2===0?-60:60;
+    gsap.from(s,{
+      x:fromX,autoAlpha:0,rotation:fromX>0?2:-2,
+      duration:0.9,ease:'power3.out',
+      scrollTrigger:{trigger:s,start:'top 88%',toggleActions:'play none none none'}
+    });
+  });
+
+  /* ── Newsletter CTA — dramatic entrance ── */
+  var nlcta=document.querySelector('.nl-cta');
+  if(nlcta){
+    var ntl=gsap.timeline({
+      scrollTrigger:{trigger:nlcta,start:'top 80%',toggleActions:'play none none none'}
+    });
+    ntl.from(nlcta,{autoAlpha:0,scale:0.95,duration:0.8,ease:'power2.out'})
+       .from(nlcta.querySelector('h2'),{y:40,autoAlpha:0,duration:0.7},'-=0.4')
+       .from(nlcta.querySelector('p'),{y:30,autoAlpha:0,duration:0.6},'-=0.4')
+       .from(nlcta.querySelectorAll('input,button'),{
+         y:20,autoAlpha:0,stagger:0.15,duration:0.5,ease:'back.out(1.4)'
+       },'-=0.3');
+  }
+
+  /* ── Footer entrance ── */
+  var sf=document.querySelector('.sf');
+  if(sf){
+    var fttl=gsap.timeline({
+      scrollTrigger:{trigger:sf,start:'top 92%',toggleActions:'play none none none'}
+    });
+    fttl.from('.sf-brand',{y:30,autoAlpha:0,duration:0.7})
+        .from('.sf-tagline',{y:25,autoAlpha:0,duration:0.6},'-=0.4')
+        .from('.sf-social a',{scale:0,autoAlpha:0,stagger:0.08,duration:0.4,ease:'back.out(2)'},'-=0.3')
+        .from('.sf-links a',{y:15,autoAlpha:0,stagger:0.05,duration:0.4},'-=0.2')
+        .from('.sf-copy',{autoAlpha:0,duration:0.5},'-=0.2');
+  }
+
+  /* ── Article page: cover parallax + header ── */
+  var cover=document.querySelector('.cover');
+  if(cover){
+    gsap.to(cover.querySelector('img')||cover,{
+      y:-40,ease:'none',
+      scrollTrigger:{trigger:cover,start:'top bottom',end:'bottom top',scrub:true}
+    });
+  }
+  var ah=document.querySelector('.ah');
+  if(ah){
+    var atl=gsap.timeline({defaults:{ease:'power3.out'}});
+    atl.from('.ah .badges span',{scale:0,autoAlpha:0,stagger:0.1,duration:0.4,ease:'back.out(2)'})
+       .from('.ah h1',{y:50,autoAlpha:0,duration:1},'-=0.2')
+       .from('.ah .sub',{y:30,autoAlpha:0,duration:0.7},'-=0.5')
+       .from('.ah .mbar',{y:20,autoAlpha:0,duration:0.5},'-=0.3');
+  }
+
+  /* ── Article page: prose paragraphs fade in ── */
+  var prose=document.querySelectorAll('.prose > p, .prose > h2, .prose > h3, .prose > blockquote');
+  if(prose.length){
+    gsap.set(prose,{autoAlpha:0,y:25});
+    ScrollTrigger.batch(prose,{
+      onEnter:function(batch){
+        gsap.to(batch,{autoAlpha:1,y:0,stagger:0.08,duration:0.6,ease:'power2.out',overwrite:true});
+      },
+      start:'top 90%',
+      once:true
+    });
+  }
+
+  /* ── Related articles ── */
+  var relCards=document.querySelectorAll('.rel-card');
+  if(relCards.length){
+    gsap.from(relCards,{
+      y:50,autoAlpha:0,stagger:0.15,duration:0.7,ease:'power2.out',
+      scrollTrigger:{trigger:'.related',start:'top 85%',toggleActions:'play none none none'}
+    });
+  }
+
+  /* ── Article nav (prev/next) ── */
+  var anav=document.querySelector('.anav');
+  if(anav){
+    var kids=anav.children;
+    if(kids.length){
+      gsap.from(kids[0],{x:-50,autoAlpha:0,duration:0.7,
+        scrollTrigger:{trigger:anav,start:'top 88%',toggleActions:'play none none none'}
+      });
+      if(kids[1])gsap.from(kids[1],{x:50,autoAlpha:0,duration:0.7,
+        scrollTrigger:{trigger:anav,start:'top 88%',toggleActions:'play none none none'}
+      });
+    }
+  }
+
+  /* ── Share buttons pop ── */
+  var shareBtns=document.querySelectorAll('.share-btns a');
+  if(shareBtns.length){
+    gsap.from(shareBtns,{
+      scale:0,rotation:180,autoAlpha:0,
+      stagger:0.08,duration:0.5,ease:'back.out(1.7)',
+      scrollTrigger:{trigger:'.share',start:'top 88%',toggleActions:'play none none none'}
+    });
+  }
+
+  /* ── Tags ── */
+  var tags=document.querySelectorAll('.tag');
+  if(tags.length){
+    gsap.from(tags,{
+      scale:0.5,autoAlpha:0,stagger:0.04,duration:0.4,ease:'back.out(1.5)',
+      scrollTrigger:{trigger:'.tl',start:'top 90%',toggleActions:'play none none none'}
+    });
+  }
+
+  /* ── Sources section ── */
+  var srcItems=document.querySelectorAll('.src-item');
+  if(srcItems.length){
+    gsap.from(srcItems,{
+      x:-30,autoAlpha:0,stagger:0.08,duration:0.5,
+      scrollTrigger:{trigger:'.src-sec',start:'top 88%',toggleActions:'play none none none'}
+    });
+  }
+
+  /* ── Category page header ── */
+  var catH=document.querySelector('.cat-header');
+  if(catH){
+    var ctl=gsap.timeline();
+    ctl.from(catH,{x:-40,autoAlpha:0,duration:0.8})
+       .from('.cat-header .cat-label',{y:20,autoAlpha:0,duration:0.5},'-=0.4')
+       .from('.cat-header .cat-desc',{y:20,autoAlpha:0,duration:0.5},'-=0.3')
+       .from('.cat-header .cat-count',{autoAlpha:0,duration:0.4},'-=0.2');
+  }
+
+  /* ── Category list items ── */
+  var catItems=document.querySelectorAll('.cat-list li');
+  if(catItems.length){
+    gsap.set(catItems,{autoAlpha:0,x:-30});
+    ScrollTrigger.batch(catItems,{
+      onEnter:function(batch){
+        gsap.to(batch,{autoAlpha:1,x:0,stagger:0.06,duration:0.5,ease:'power2.out',overwrite:true});
+      },
+      start:'top 90%',
+      once:true
+    });
+  }
+
+  /* ── About page ── */
+  var aboutH=document.querySelector('.about-header');
+  if(aboutH){
+    var abtl=gsap.timeline();
+    abtl.from('.about-avatar',{scale:0,rotation:-15,autoAlpha:0,duration:0.8,ease:'back.out(1.5)'})
+        .from('.about-header h1',{y:40,autoAlpha:0,duration:0.7},'-=0.4')
+        .from('.about-header p',{y:30,autoAlpha:0,duration:0.6},'-=0.3');
+  }
+
+  /* ── Back-to-top smooth spring ── */
+  var btt=document.getElementById('btt');
+  if(btt){
+    btt.addEventListener('mouseenter',function(){
+      gsap.to(btt,{scale:1.15,duration:0.3,ease:'back.out(2)'});
+    });
+    btt.addEventListener('mouseleave',function(){
+      gsap.to(btt,{scale:1,duration:0.3,ease:'power2.out'});
+    });
+  }
+
+  /* ── Nav links hover underline enhance ── */
+  document.querySelectorAll('.s-nav a').forEach(function(a){
+    a.addEventListener('mouseenter',function(){
+      gsap.to(a,{y:-2,duration:0.2,ease:'power2.out'});
+    });
+    a.addEventListener('mouseleave',function(){
+      gsap.to(a,{y:0,duration:0.2,ease:'power2.out'});
+    });
+  });
+
+  /* ── Article card image hover: grayscale lift ── */
+  document.querySelectorAll('.art-card').forEach(function(card){
+    var img=card.querySelector('img');
+    if(!img)return;
+    card.addEventListener('mouseenter',function(){
+      gsap.to(img,{filter:'grayscale(0)',scale:1.05,duration:0.4,ease:'power2.out'});
+    });
+    card.addEventListener('mouseleave',function(){
+      gsap.to(img,{filter:'grayscale(0.15)',scale:1,duration:0.4,ease:'power2.out'});
+    });
+  });
+
+  /* ── Rating stars bounce ── */
+  document.querySelectorAll('.rat-s button').forEach(function(btn){
+    btn.addEventListener('mouseenter',function(){
+      gsap.to(btn,{scale:1.3,duration:0.2,ease:'back.out(2)'});
+    });
+    btn.addEventListener('mouseleave',function(){
+      gsap.to(btn,{scale:1,duration:0.2,ease:'power2.out'});
+    });
+  });
+
+  /* ── Breadcrumb entrance ── */
+  var bc=document.querySelector('.bc');
+  if(bc){
+    gsap.from(bc.querySelectorAll('a, span'),{
+      autoAlpha:0,x:-15,stagger:0.08,duration:0.4
+    });
+  }
+
+  ScrollTrigger.refresh();
+});
 </script>
 </body>
 </html>
