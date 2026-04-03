@@ -505,6 +505,15 @@ img{max-width:100%;height:auto;display:block}
 <h3>También te puede interesar</h3>
 <div class="rel-grid">
 <div class="rel-card">
+<a href="/articulo/la-eurodiputada-que-se-metio-en-un-lio-rima-hassan-y-el-juego-peligroso-de-la-po/">
+<img src="/img/la-eurodiputada-que-se-metio-en-un-lio-rima-hassan-y-el-juego-peligroso-de-la-po.jpg" alt="La eurodiputada que se metió en un lío: Rima Hassan y el juego peligroso de la política" loading="lazy"/>
+<div class="rel-body">
+<h4>La eurodiputada que se metió en un lío: Rima Hassan y el juego peligroso de la p</h4>
+<div class="mr"><span>2 abr 2026</span><span class="dot"></span><span>4 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
 <a href="/articulo/carlos-cuerpo-de-apenas-recibir-preguntas-del-pp-al-duelo-semanal-con-ester-muno-2/">
 <img src="/img/carlos-cuerpo-de-apenas-recibir-preguntas-del-pp-al-duelo-semanal-con-ester-muno-2.jpg" alt="Carlos Cuerpo, De Apenas Recibir Preguntas Del Pp Al Duelo Semanal Con Ester Muñoz En El Congreso — La opinión que nadie te pidió" loading="lazy"/>
 <div class="rel-body">
@@ -514,20 +523,11 @@ img{max-width:100%;height:auto;display:block}
 </a>
 </div>
 <div class="rel-card">
-<a href="/articulo/espana-vs-andorra-por-que-alli-los-autonomos-pagan-menos-y-aqui-no/">
-<img src="/img/espana-vs-andorra-por-que-alli-los-autonomos-pagan-menos-y-aqui-no.jpg" alt="España vs Andorra: ¿Por qué allí los autónomos pagan menos y aquí no?" loading="lazy"/>
+<a href="/articulo/la-trampa-del-irpf-todo-lo-que-te-cobran-y-nadie-te-explica/">
+<img src="/img/la-trampa-del-irpf-todo-lo-que-te-cobran-y-nadie-te-explica.jpg" alt="La trampa del IRPF: todo lo que te cobran y nadie te explica" loading="lazy"/>
 <div class="rel-body">
-<h4>España vs Andorra: ¿Por qué allí los autónomos pagan menos y aquí no?</h4>
-<div class="mr"><span>3 abr 2026</span><span class="dot"></span><span>5 min</span></div>
-</div>
-</a>
-</div>
-<div class="rel-card">
-<a href="/articulo/las-startups-espanolas-juegan-con-fuego-y-el-dinero-ajeno/">
-<img src="/img/las-startups-espanolas-juegan-con-fuego-y-el-dinero-ajeno.jpg" alt="Las startups españolas juegan con fuego y el dinero ajeno" loading="lazy"/>
-<div class="rel-body">
-<h4>Las startups españolas juegan con fuego y el dinero ajeno</h4>
-<div class="mr"><span>30 mar 2026</span><span class="dot"></span><span>4 min</span></div>
+<h4>La trampa del IRPF: todo lo que te cobran y nadie te explica</h4>
+<div class="mr"><span>28 mar 2026</span><span class="dot"></span><span>5 min</span></div>
 </div>
 </a>
 </div>
@@ -587,51 +587,16 @@ img{max-width:100%;height:auto;display:block}
 </script>
 <script>
 (function(){
-  var KEY='lls_analytics',MAX=500;
   try{
-    var d=JSON.parse(localStorage.getItem(KEY)||'{}');
-    var p=location.pathname,now=Date.now();
-    // Page view
-    if(!d.views)d.views={};
-    if(!d.views[p])d.views[p]={c:0,first:now,last:0};
-    d.views[p].c++;d.views[p].last=now;
-    // Session
-    if(!d.sessions)d.sessions=[];
-    var last=d.sessions[d.sessions.length-1];
-    if(!last||now-last.t>1800000){
-      d.sessions.push({t:now,pages:[p]});
-      if(d.sessions.length>MAX)d.sessions=d.sessions.slice(-100);
-    }else{
-      if(last.pages.indexOf(p)===-1)last.pages.push(p);
-      last.t=now;
-    }
-    // Referrer
-    if(document.referrer&&document.referrer.indexOf(location.host)===-1){
-      if(!d.refs)d.refs={};
-      var ref=new URL(document.referrer).hostname;
-      d.refs[ref]=(d.refs[ref]||0)+1;
-    }
-    // Scroll depth (article pages)
-    if(p.indexOf('/articulo/')!==-1){
-      var maxScroll=0;
-      window.addEventListener('scroll',function(){
-        var h=document.documentElement;
-        var pct=Math.round(h.scrollTop/(h.scrollHeight-h.clientHeight)*100);
-        if(pct>maxScroll)maxScroll=pct;
-      },{passive:true});
-      window.addEventListener('beforeunload',function(){
-        try{
-          var d2=JSON.parse(localStorage.getItem(KEY)||'{}');
-          if(!d2.depth)d2.depth={};
-          d2.depth[p]=Math.max(d2.depth[p]||0,maxScroll);
-          // Read time (seconds on page)
-          if(!d2.time)d2.time={};
-          d2.time[p]=(d2.time[p]||0)+Math.round((Date.now()-now)/1000);
-          localStorage.setItem(KEY,JSON.stringify(d2));
-        }catch(e){}
-      });
-    }
-    localStorage.setItem(KEY,JSON.stringify(d));
+    var api='https://192.168.1.24/api/blog-engine/analytics/track';
+    var p=location.pathname;
+    var sid=sessionStorage.getItem('lls_sid');
+    if(!sid){sid=Math.random().toString(36).substr(2,12);sessionStorage.setItem('lls_sid',sid);}
+    var ref='';
+    if(document.referrer&&document.referrer.indexOf(location.host)===-1)ref=document.referrer;
+    var d={path:p,referrer:ref,screen_w:screen.width||0,screen_h:screen.height||0,session_id:sid};
+    if(navigator.sendBeacon){navigator.sendBeacon(api,JSON.stringify(d));}
+    else{fetch(api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d),keepalive:true}).catch(function(){});}
   }catch(e){}
 })();
 </script>

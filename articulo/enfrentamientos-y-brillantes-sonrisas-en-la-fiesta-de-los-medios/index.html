@@ -450,20 +450,20 @@ img{max-width:100%;height:auto;display:block}
 <h3>También te puede interesar</h3>
 <div class="rel-grid">
 <div class="rel-card">
+<a href="/articulo/las-5-trampas-psicologicas-que-te-hacen-perder-dinero-y-como-evitarlas/">
+<img src="/img/las-5-trampas-psicologicas-que-te-hacen-perder-dinero-y-como-evitarlas.jpg" alt="Las 5 trampas psicológicas que te hacen perder dinero (y cómo evitarlas)" loading="lazy"/>
+<div class="rel-body">
+<h4>Las 5 trampas psicológicas que te hacen perder dinero (y cómo evitarlas)</h4>
+<div class="mr"><span>1 abr 2026</span><span class="dot"></span><span>5 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
 <a href="/articulo/tomar-decisiones-bajo-presion-la-guia-honesta-que-nadie-te-da/">
 <img src="/img/tomar-decisiones-bajo-presion-la-guia-honesta-que-nadie-te-da.jpg" alt="Tomar decisiones bajo presión: la guía honesta que nadie te da" loading="lazy"/>
 <div class="rel-body">
 <h4>Tomar decisiones bajo presión: la guía honesta que nadie te da</h4>
 <div class="mr"><span>3 abr 2026</span><span class="dot"></span><span>5 min</span></div>
-</div>
-</a>
-</div>
-<div class="rel-card">
-<a href="/articulo/la-clase-media-espanola-el-gran-teatro-de-la-supervivencia/">
-<img src="/img/la-clase-media-espanola-el-gran-teatro-de-la-supervivencia.jpg" alt="La clase media española: el gran teatro de la supervivencia" loading="lazy"/>
-<div class="rel-body">
-<h4>La clase media española: el gran teatro de la supervivencia</h4>
-<div class="mr"><span>2 abr 2026</span><span class="dot"></span><span>4 min</span></div>
 </div>
 </a>
 </div>
@@ -532,51 +532,16 @@ img{max-width:100%;height:auto;display:block}
 </script>
 <script>
 (function(){
-  var KEY='lls_analytics',MAX=500;
   try{
-    var d=JSON.parse(localStorage.getItem(KEY)||'{}');
-    var p=location.pathname,now=Date.now();
-    // Page view
-    if(!d.views)d.views={};
-    if(!d.views[p])d.views[p]={c:0,first:now,last:0};
-    d.views[p].c++;d.views[p].last=now;
-    // Session
-    if(!d.sessions)d.sessions=[];
-    var last=d.sessions[d.sessions.length-1];
-    if(!last||now-last.t>1800000){
-      d.sessions.push({t:now,pages:[p]});
-      if(d.sessions.length>MAX)d.sessions=d.sessions.slice(-100);
-    }else{
-      if(last.pages.indexOf(p)===-1)last.pages.push(p);
-      last.t=now;
-    }
-    // Referrer
-    if(document.referrer&&document.referrer.indexOf(location.host)===-1){
-      if(!d.refs)d.refs={};
-      var ref=new URL(document.referrer).hostname;
-      d.refs[ref]=(d.refs[ref]||0)+1;
-    }
-    // Scroll depth (article pages)
-    if(p.indexOf('/articulo/')!==-1){
-      var maxScroll=0;
-      window.addEventListener('scroll',function(){
-        var h=document.documentElement;
-        var pct=Math.round(h.scrollTop/(h.scrollHeight-h.clientHeight)*100);
-        if(pct>maxScroll)maxScroll=pct;
-      },{passive:true});
-      window.addEventListener('beforeunload',function(){
-        try{
-          var d2=JSON.parse(localStorage.getItem(KEY)||'{}');
-          if(!d2.depth)d2.depth={};
-          d2.depth[p]=Math.max(d2.depth[p]||0,maxScroll);
-          // Read time (seconds on page)
-          if(!d2.time)d2.time={};
-          d2.time[p]=(d2.time[p]||0)+Math.round((Date.now()-now)/1000);
-          localStorage.setItem(KEY,JSON.stringify(d2));
-        }catch(e){}
-      });
-    }
-    localStorage.setItem(KEY,JSON.stringify(d));
+    var api='https://192.168.1.24/api/blog-engine/analytics/track';
+    var p=location.pathname;
+    var sid=sessionStorage.getItem('lls_sid');
+    if(!sid){sid=Math.random().toString(36).substr(2,12);sessionStorage.setItem('lls_sid',sid);}
+    var ref='';
+    if(document.referrer&&document.referrer.indexOf(location.host)===-1)ref=document.referrer;
+    var d={path:p,referrer:ref,screen_w:screen.width||0,screen_h:screen.height||0,session_id:sid};
+    if(navigator.sendBeacon){navigator.sendBeacon(api,JSON.stringify(d));}
+    else{fetch(api,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d),keepalive:true}).catch(function(){});}
   }catch(e){}
 })();
 </script>
