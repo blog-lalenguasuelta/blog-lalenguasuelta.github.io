@@ -19,7 +19,7 @@
 <meta name="twitter:description" content="Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta."/>
 <meta property="og:url" content="https://blog-lalenguasuelta.github.io/articulo/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez/"/>
 <meta property="article:published_time" content="2026-04-03T12:16:44Z"/>
-<meta property="article:section" content="Cultura Pop"/>
+<meta property="article:section" content="Política"/>
 <meta property="article:author" content="La Lengua Suelta"/>
 <meta property="article:tag" content="pop_culture"/>
 <meta property="article:tag" content="LaLenguaSuelta"/>
@@ -30,7 +30,7 @@
 <meta property="og:image:width" content="768"/>
 <meta property="og:image:height" content="512"/>
 <meta name="twitter:image" content="https://blog-lalenguasuelta.github.io/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","headline":"El fantasma de Irán se carga un general y los Presupuestos de Sánchez","description":"Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta.","image":"https://blog-lalenguasuelta.github.io/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg","datePublished":"2026-04-03T12:16:44Z","dateModified":"2026-04-03T12:16:44Z","articleSection":"Cultura Pop","wordCount":1086,"mainEntityOfPage":"https://blog-lalenguasuelta.github.io/articulo/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez/","author":{"@type":"Person","name":"La Lengua Suelta"},"publisher":{"@type":"Organization","name":"La Lengua Suelta","url":"https://blog-lalenguasuelta.github.io"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://blog-lalenguasuelta.github.io/"},{"@type":"ListItem","position":2,"name":"Cultura Pop","item":"https://blog-lalenguasuelta.github.io/categoria/pop_culture/"},{"@type":"ListItem","position":3,"name":"El fantasma de Irán se carga un general y los Presupuestos d"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","headline":"El fantasma de Irán se carga un general y los Presupuestos de Sánchez","description":"Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta.","image":"https://blog-lalenguasuelta.github.io/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg","datePublished":"2026-04-03T12:16:44Z","dateModified":"2026-04-03T12:16:44Z","articleSection":"Política","wordCount":1086,"mainEntityOfPage":"https://blog-lalenguasuelta.github.io/articulo/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez/","author":{"@type":"Person","name":"La Lengua Suelta"},"publisher":{"@type":"Organization","name":"La Lengua Suelta","url":"https://blog-lalenguasuelta.github.io"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://blog-lalenguasuelta.github.io/"},{"@type":"ListItem","position":2,"name":"Política","item":"https://blog-lalenguasuelta.github.io/categoria/politics/"},{"@type":"ListItem","position":3,"name":"El fantasma de Irán se carga un general y los Presupuestos d"}]}]}</script>
 <link rel="alternate" type="application/rss+xml" title="La Lengua Suelta" href="/feed.xml"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -335,12 +335,37 @@ img{max-width:100%;height:auto;display:block}
 }
 /* ── Print styles ── */
 @media print{
-  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav{display:none!important}
+  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav,.related{display:none!important}
   body{font-size:12pt;line-height:1.6}
   .prose{max-width:none}
   a{color:#000;text-decoration:underline}
   .ah h1{font-size:1.5rem}
 }
+/* ── Estimated reading bar (article) ── */
+.read-bar{display:flex;align-items:center;gap:0.75rem;font-family:var(--fl);font-size:0.72rem;color:var(--text-d);margin:1.25rem 0 0;text-transform:uppercase;letter-spacing:0.08em}
+.read-bar .rb-track{flex:1;height:3px;background:var(--border-light);border-radius:2px;overflow:hidden}
+.read-bar .rb-fill{height:100%;border-radius:2px;width:0;transition:width 0.15s linear}
+.read-bar .rb-label{white-space:nowrap}
+/* ── Related Articles ── */
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border)}
+.related h3{font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem}
+.rel-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.rel-grid{grid-template-columns:1fr 1fr 1fr}}
+.rel-card{display:flex;flex-direction:column;border-radius:var(--r);overflow:hidden;transition:transform var(--tr),box-shadow var(--tr)}
+.rel-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.rel-card a{text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1}
+.rel-card img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:grayscale(0.2);transition:filter 0.4s ease}
+.rel-card:hover img{filter:grayscale(0)}
+.rel-card .rel-body{padding:0.75rem 0.5rem;flex:1;display:flex;flex-direction:column}
+.rel-card h4{font-family:var(--fh);font-size:1rem;font-weight:700;line-height:1.3;margin-bottom:0.3rem;transition:color var(--tr)}
+.rel-card:hover h4{color:var(--primary)}
+.rel-card .mr{margin-top:auto}
+/* ── Smooth image loading (blur-up) ── */
+.img-blur{opacity:0;filter:blur(12px) saturate(1.2);transition:opacity 0.5s ease,filter 0.7s ease}
+.img-blur.loaded{opacity:1;filter:blur(0) saturate(1)}
+/* ── Reading time estimate on cards ── */
+.card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
+.card-time svg{width:12px;height:12px}
 </style>
 </head>
 <body>
@@ -358,13 +383,13 @@ img{max-width:100%;height:auto;display:block}
 </nav>
 </div>
 </header>
-<div class="pbar bar-pop_culture" id="pbar"></div>
+<div class="pbar bar-politics" id="pbar"></div>
 <main class="wrap">
-<nav class="bc"><a href="/">Inicio</a><span class="sep">/</span><a href="/categoria/pop_culture/">Cultura Pop</a></nav>
+<nav class="bc"><a href="/">Inicio</a><span class="sep">/</span><a href="/categoria/politics/">Política</a></nav>
 <article>
 <header class="ah">
 <div class="badges">
-<span class="cb b-pop_culture">Cultura Pop</span>
+<span class="cb b-politics">Política</span>
 <span class="ct" style="color:#4a6fa5;background:#e8f0fe">🗣️ Opinión</span>
 </div>
 <h1>El fantasma de Irán se carga un general y los Presupuestos de Sánchez</h1>
@@ -377,7 +402,7 @@ img{max-width:100%;height:auto;display:block}
 </header>
 <figure class="cover">
 <div class="overlay"></div>
-<img src="/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg" alt="El fantasma de Irán se carga un general y los Presupuestos de Sánchez" loading="lazy"/>
+<img class="img-blur" src="/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg" alt="El fantasma de Irán se carga un general y los Presupuestos de Sánchez" loading="lazy"/>
 </figure>
 <div class="prose">
 <p><strong>Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta.</strong></p>
@@ -486,8 +511,40 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </div>
 </article>
+<section class="related">
+<h3>También te puede interesar</h3>
+<div class="rel-grid">
+<div class="rel-card">
+<a href="/articulo/cuanto-valera-mi-salud-el-enganoso-blindaje-de-los-precios-de-los-medicamentos-e/">
+<img src="/img/cuanto-valera-mi-salud-el-enganoso-blindaje-de-los-precios-de-los-medicamentos-e.jpg" alt="¿Cuánto valerá mi salud? El engañoso blindaje de los precios de los medicamentos en España" loading="lazy"/>
+<div class="rel-body">
+<h4>¿Cuánto valerá mi salud? El engañoso blindaje de los precios de los medicamentos</h4>
+<div class="mr"><span>3 abr 2026</span><span class="dot"></span><span>4 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
+<a href="/articulo/la-sanidad-publica-se-desangra-mientras-los-politicos-se-obsesionan-con-los-pron/">
+<img src="/img/la-sanidad-publica-se-desangra-mientras-los-politicos-se-obsesionan-con-los-pron.jpg" alt="La sanidad pública se desangra mientras los políticos se obsesionan con los pronombres" loading="lazy"/>
+<div class="rel-body">
+<h4>La sanidad pública se desangra mientras los políticos se obsesionan con los pron</h4>
+<div class="mr"><span>1 abr 2026</span><span class="dot"></span><span>4 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
+<a href="/articulo/europa-regula-la-ia-y-se-convierte-en-un-museo-de-la-tecnologia/">
+<img src="/img/europa-regula-la-ia-y-se-convierte-en-un-museo-de-la-tecnologia.jpg" alt="Europa regula la IA y se convierte en un museo de la tecnología" loading="lazy"/>
+<div class="rel-body">
+<h4>Europa regula la IA y se convierte en un museo de la tecnología</h4>
+<div class="mr"><span>29 mar 2026</span><span class="dot"></span><span>4 min</span></div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <nav class="anav">
-<a href="/articulo/feijoo-grita-aislamiento-mientras-el-estrecho-de-ormuz-se-cierra-sin-espana/"><div class="nlb">&larr; Anterior</div><div class="nt">Feijóo grita «aislamiento» mientras el estrecho de Ormuz se </div></a>
+<a href="/articulo/nos-escandalizan-los-gritos-en-el-campo-pero-el-hambre-global-ya-esta-al-ataque/"><div class="nlb">&larr; Anterior</div><div class="nt">Nos escandalizan los gritos en el campo, pero el hambre glob</div></a>
 <a href="/articulo/eco-mentira-en-el-atico-la-espontaneidad-calculada-de-ines-albornoz-y-el-batacaz/" style="text-align:right"><div class="nlb">Siguiente &rarr;</div><div class="nt">Eco-mentira en el ático: La ‘espontaneidad’ calculada de Iné</div></a>
 </nav>
 </main>
@@ -527,6 +584,15 @@ img{max-width:100%;height:auto;display:block}
     var pct=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
     bar.style.width=Math.min(pct,100)+'%';
   },{passive:true});
+})();
+</script>
+<script>
+(function(){
+  document.querySelectorAll('img.img-blur').forEach(function(img){
+    if(img.complete){img.classList.add('loaded');return;}
+    img.addEventListener('load',function(){img.classList.add('loaded');});
+    img.addEventListener('error',function(){img.classList.add('loaded');});
+  });
 })();
 </script>
 <script>

@@ -322,12 +322,37 @@ img{max-width:100%;height:auto;display:block}
 }
 /* ── Print styles ── */
 @media print{
-  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav{display:none!important}
+  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav,.related{display:none!important}
   body{font-size:12pt;line-height:1.6}
   .prose{max-width:none}
   a{color:#000;text-decoration:underline}
   .ah h1{font-size:1.5rem}
 }
+/* ── Estimated reading bar (article) ── */
+.read-bar{display:flex;align-items:center;gap:0.75rem;font-family:var(--fl);font-size:0.72rem;color:var(--text-d);margin:1.25rem 0 0;text-transform:uppercase;letter-spacing:0.08em}
+.read-bar .rb-track{flex:1;height:3px;background:var(--border-light);border-radius:2px;overflow:hidden}
+.read-bar .rb-fill{height:100%;border-radius:2px;width:0;transition:width 0.15s linear}
+.read-bar .rb-label{white-space:nowrap}
+/* ── Related Articles ── */
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border)}
+.related h3{font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem}
+.rel-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.rel-grid{grid-template-columns:1fr 1fr 1fr}}
+.rel-card{display:flex;flex-direction:column;border-radius:var(--r);overflow:hidden;transition:transform var(--tr),box-shadow var(--tr)}
+.rel-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.rel-card a{text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1}
+.rel-card img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:grayscale(0.2);transition:filter 0.4s ease}
+.rel-card:hover img{filter:grayscale(0)}
+.rel-card .rel-body{padding:0.75rem 0.5rem;flex:1;display:flex;flex-direction:column}
+.rel-card h4{font-family:var(--fh);font-size:1rem;font-weight:700;line-height:1.3;margin-bottom:0.3rem;transition:color var(--tr)}
+.rel-card:hover h4{color:var(--primary)}
+.rel-card .mr{margin-top:auto}
+/* ── Smooth image loading (blur-up) ── */
+.img-blur{opacity:0;filter:blur(12px) saturate(1.2);transition:opacity 0.5s ease,filter 0.7s ease}
+.img-blur.loaded{opacity:1;filter:blur(0) saturate(1)}
+/* ── Reading time estimate on cards ── */
+.card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
+.card-time svg{width:12px;height:12px}
 </style>
 </head>
 <body>
@@ -361,6 +386,7 @@ img{max-width:100%;height:auto;display:block}
 <a href="/categoria/sports/">Deportes</a>
 <a href="/categoria/culture/">Cultura</a>
 <a href="/categoria/general/" class="active">General</a>
+<a href="/categoria/sociedad/">Sociedad</a>
 <a href="/categoria/entretenimiento/">Entretenimiento</a>
 </nav>
 <ul class="cat-list">

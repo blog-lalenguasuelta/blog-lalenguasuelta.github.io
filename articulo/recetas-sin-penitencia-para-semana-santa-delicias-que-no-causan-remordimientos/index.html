@@ -19,7 +19,7 @@
 <meta name="twitter:description" content="Disfruta de unos días de descanso sin que tu conciencia te haga el vacío, mientras la Semana Santa se asoma entre las sombras."/>
 <meta property="og:url" content="https://blog-lalenguasuelta.github.io/articulo/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos/"/>
 <meta property="article:published_time" content="2026-04-02T22:02:50Z"/>
-<meta property="article:section" content="Tecnología"/>
+<meta property="article:section" content="Cultura"/>
 <meta property="article:author" content="La Lengua Suelta"/>
 <meta property="article:tag" content="tech"/>
 <meta property="article:tag" content="LaLenguaSuelta"/>
@@ -30,7 +30,7 @@
 <meta property="og:image:width" content="768"/>
 <meta property="og:image:height" content="512"/>
 <meta name="twitter:image" content="https://blog-lalenguasuelta.github.io/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","headline":"Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos","description":"Disfruta de unos días de descanso sin que tu conciencia te haga el vacío, mientras la Semana Santa se asoma entre las sombras.","image":"https://blog-lalenguasuelta.github.io/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg","datePublished":"2026-04-02T22:02:50Z","dateModified":"2026-04-02T22:02:50Z","articleSection":"Tecnología","wordCount":848,"mainEntityOfPage":"https://blog-lalenguasuelta.github.io/articulo/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos/","author":{"@type":"Person","name":"La Lengua Suelta"},"publisher":{"@type":"Organization","name":"La Lengua Suelta","url":"https://blog-lalenguasuelta.github.io"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://blog-lalenguasuelta.github.io/"},{"@type":"ListItem","position":2,"name":"Tecnología","item":"https://blog-lalenguasuelta.github.io/categoria/tech/"},{"@type":"ListItem","position":3,"name":"Recetas sin Penitencia para Semana Santa: Delicias que No Ca"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","headline":"Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos","description":"Disfruta de unos días de descanso sin que tu conciencia te haga el vacío, mientras la Semana Santa se asoma entre las sombras.","image":"https://blog-lalenguasuelta.github.io/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg","datePublished":"2026-04-02T22:02:50Z","dateModified":"2026-04-02T22:02:50Z","articleSection":"Cultura","wordCount":848,"mainEntityOfPage":"https://blog-lalenguasuelta.github.io/articulo/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos/","author":{"@type":"Person","name":"La Lengua Suelta"},"publisher":{"@type":"Organization","name":"La Lengua Suelta","url":"https://blog-lalenguasuelta.github.io"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://blog-lalenguasuelta.github.io/"},{"@type":"ListItem","position":2,"name":"Cultura","item":"https://blog-lalenguasuelta.github.io/categoria/culture/"},{"@type":"ListItem","position":3,"name":"Recetas sin Penitencia para Semana Santa: Delicias que No Ca"}]}]}</script>
 <link rel="alternate" type="application/rss+xml" title="La Lengua Suelta" href="/feed.xml"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -335,12 +335,37 @@ img{max-width:100%;height:auto;display:block}
 }
 /* ── Print styles ── */
 @media print{
-  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav{display:none!important}
+  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav,.related{display:none!important}
   body{font-size:12pt;line-height:1.6}
   .prose{max-width:none}
   a{color:#000;text-decoration:underline}
   .ah h1{font-size:1.5rem}
 }
+/* ── Estimated reading bar (article) ── */
+.read-bar{display:flex;align-items:center;gap:0.75rem;font-family:var(--fl);font-size:0.72rem;color:var(--text-d);margin:1.25rem 0 0;text-transform:uppercase;letter-spacing:0.08em}
+.read-bar .rb-track{flex:1;height:3px;background:var(--border-light);border-radius:2px;overflow:hidden}
+.read-bar .rb-fill{height:100%;border-radius:2px;width:0;transition:width 0.15s linear}
+.read-bar .rb-label{white-space:nowrap}
+/* ── Related Articles ── */
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border)}
+.related h3{font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem}
+.rel-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.rel-grid{grid-template-columns:1fr 1fr 1fr}}
+.rel-card{display:flex;flex-direction:column;border-radius:var(--r);overflow:hidden;transition:transform var(--tr),box-shadow var(--tr)}
+.rel-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.rel-card a{text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1}
+.rel-card img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:grayscale(0.2);transition:filter 0.4s ease}
+.rel-card:hover img{filter:grayscale(0)}
+.rel-card .rel-body{padding:0.75rem 0.5rem;flex:1;display:flex;flex-direction:column}
+.rel-card h4{font-family:var(--fh);font-size:1rem;font-weight:700;line-height:1.3;margin-bottom:0.3rem;transition:color var(--tr)}
+.rel-card:hover h4{color:var(--primary)}
+.rel-card .mr{margin-top:auto}
+/* ── Smooth image loading (blur-up) ── */
+.img-blur{opacity:0;filter:blur(12px) saturate(1.2);transition:opacity 0.5s ease,filter 0.7s ease}
+.img-blur.loaded{opacity:1;filter:blur(0) saturate(1)}
+/* ── Reading time estimate on cards ── */
+.card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
+.card-time svg{width:12px;height:12px}
 </style>
 </head>
 <body>
@@ -358,13 +383,13 @@ img{max-width:100%;height:auto;display:block}
 </nav>
 </div>
 </header>
-<div class="pbar bar-tech" id="pbar"></div>
+<div class="pbar bar-culture" id="pbar"></div>
 <main class="wrap">
-<nav class="bc"><a href="/">Inicio</a><span class="sep">/</span><a href="/categoria/tech/">Tecnología</a></nav>
+<nav class="bc"><a href="/">Inicio</a><span class="sep">/</span><a href="/categoria/culture/">Cultura</a></nav>
 <article>
 <header class="ah">
 <div class="badges">
-<span class="cb b-tech">Tecnología</span>
+<span class="cb b-culture">Cultura</span>
 <span class="ct" style="color:#4a6fa5;background:#e8f0fe">🗣️ Opinión</span>
 </div>
 <h1>Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos</h1>
@@ -377,7 +402,7 @@ img{max-width:100%;height:auto;display:block}
 </header>
 <figure class="cover">
 <div class="overlay"></div>
-<img src="/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg" alt="Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos" loading="lazy"/>
+<img class="img-blur" src="/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg" alt="Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos" loading="lazy"/>
 </figure>
 <div class="prose">
 <p><strong>Disfruta de unos días de descanso sin que tu conciencia te haga el vacío, mientras la Semana Santa se asoma entre las sombras.</strong></p>
@@ -485,6 +510,38 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </div>
 </article>
+<section class="related">
+<h3>También te puede interesar</h3>
+<div class="rel-grid">
+<div class="rel-card">
+<a href="/articulo/alex-fuentes-la-vida-es-arte-y-el-arte-es-vivir/">
+<img src="/img/alex-fuentes-la-vida-es-arte-y-el-arte-es-vivir.jpg" alt="Álex Fuentes: &quot;La vida es arte, y el arte es vivir&quot;" loading="lazy"/>
+<div class="rel-body">
+<h4>Álex Fuentes: &quot;La vida es arte, y el arte es vivir&quot;</h4>
+<div class="mr"><span>3 abr 2026</span><span class="dot"></span><span>3 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
+<a href="/articulo/el-amor-que-se-apaga-valentina-reig-y-dario-rueda-rompen-tras-rumores-de-infidel/">
+<img src="/img/el-amor-que-se-apaga-valentina-reig-y-dario-rueda-rompen-tras-rumores-de-infidel.jpg" alt="El Amor Que Se Apaga: Valentina Reig y Darío Rueda Rompen Tras Rumores de Infidelidad" loading="lazy"/>
+<div class="rel-body">
+<h4>El Amor Que Se Apaga: Valentina Reig y Darío Rueda Rompen Tras Rumores de Infide</h4>
+<div class="mr"><span>2 abr 2026</span><span class="dot"></span><span>3 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
+<a href="/articulo/la-television-ha-muerto-la-revolucion-de-los-podcasts-largos-y-lo-que-revelan-de/">
+<img src="/img/la-television-ha-muerto-la-revolucion-de-los-podcasts-largos-y-lo-que-revelan-de.jpg" alt="¿La televisión ha muerto? La revolución de los podcasts largos y lo que revelan de nosotros" loading="lazy"/>
+<div class="rel-body">
+<h4>¿La televisión ha muerto? La revolución de los podcasts largos y lo que revelan </h4>
+<div class="mr"><span>2 abr 2026</span><span class="dot"></span><span>5 min</span></div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <nav class="anav">
 <a href="/articulo/la-alianza-inesperada-risa-o-tragedia/"><div class="nlb">&larr; Anterior</div><div class="nt">La Alianza Inesperada: ¿Risa o Tragedia?</div></a>
 <a href="/articulo/vox-y-el-arte-de-besar-el-suelo-que-pisan-trump-y-netanyahu/" style="text-align:right"><div class="nlb">Siguiente &rarr;</div><div class="nt">Vox y el arte de besar el suelo que pisan Trump y Netanyahu</div></a>
@@ -526,6 +583,15 @@ img{max-width:100%;height:auto;display:block}
     var pct=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
     bar.style.width=Math.min(pct,100)+'%';
   },{passive:true});
+})();
+</script>
+<script>
+(function(){
+  document.querySelectorAll('img.img-blur').forEach(function(img){
+    if(img.complete){img.classList.add('loaded');return;}
+    img.addEventListener('load',function(){img.classList.add('loaded');});
+    img.addEventListener('error',function(){img.classList.add('loaded');});
+  });
 })();
 </script>
 <script>

@@ -323,12 +323,37 @@ img{max-width:100%;height:auto;display:block}
 }
 /* ── Print styles ── */
 @media print{
-  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav{display:none!important}
+  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav,.related{display:none!important}
   body{font-size:12pt;line-height:1.6}
   .prose{max-width:none}
   a{color:#000;text-decoration:underline}
   .ah h1{font-size:1.5rem}
 }
+/* ── Estimated reading bar (article) ── */
+.read-bar{display:flex;align-items:center;gap:0.75rem;font-family:var(--fl);font-size:0.72rem;color:var(--text-d);margin:1.25rem 0 0;text-transform:uppercase;letter-spacing:0.08em}
+.read-bar .rb-track{flex:1;height:3px;background:var(--border-light);border-radius:2px;overflow:hidden}
+.read-bar .rb-fill{height:100%;border-radius:2px;width:0;transition:width 0.15s linear}
+.read-bar .rb-label{white-space:nowrap}
+/* ── Related Articles ── */
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border)}
+.related h3{font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem}
+.rel-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.rel-grid{grid-template-columns:1fr 1fr 1fr}}
+.rel-card{display:flex;flex-direction:column;border-radius:var(--r);overflow:hidden;transition:transform var(--tr),box-shadow var(--tr)}
+.rel-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.rel-card a{text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1}
+.rel-card img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:grayscale(0.2);transition:filter 0.4s ease}
+.rel-card:hover img{filter:grayscale(0)}
+.rel-card .rel-body{padding:0.75rem 0.5rem;flex:1;display:flex;flex-direction:column}
+.rel-card h4{font-family:var(--fh);font-size:1rem;font-weight:700;line-height:1.3;margin-bottom:0.3rem;transition:color var(--tr)}
+.rel-card:hover h4{color:var(--primary)}
+.rel-card .mr{margin-top:auto}
+/* ── Smooth image loading (blur-up) ── */
+.img-blur{opacity:0;filter:blur(12px) saturate(1.2);transition:opacity 0.5s ease,filter 0.7s ease}
+.img-blur.loaded{opacity:1;filter:blur(0) saturate(1)}
+/* ── Reading time estimate on cards ── */
+.card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
+.card-time svg{width:12px;height:12px}
 </style>
 </head>
 <body>
@@ -377,6 +402,7 @@ img{max-width:100%;height:auto;display:block}
 <a href="/categoria/sports/">Deportes</a>
 <a href="/categoria/culture/">Cultura</a>
 <a href="/categoria/general/">General</a>
+<a href="/categoria/sociedad/">Sociedad</a>
 <a href="/categoria/entretenimiento/">Entretenimiento</a>
 </nav>
 <div class="sec-h">
@@ -482,14 +508,14 @@ img{max-width:100%;height:auto;display:block}
 </a>
 </div>
 <div class="art-card">
-<a href="/articulo/cuanto-pagas-por-tus-medicamentos-el-secreto-mejor-guardado-de-la-salud-en-espan/">
-<img src="/img/cuanto-pagas-por-tus-medicamentos-el-secreto-mejor-guardado-de-la-salud-en-espan.jpg" alt="¿Cuánto pagas por tus medicamentos? El secreto mejor guardado de la salud en España" loading="lazy"/>
+<a href="/articulo/francia-en-la-coctelera-de-la-droga-en-el-bolso-a-los-insultos-de-trump/">
+<img src="/img/francia-en-la-coctelera-de-la-droga-en-el-bolso-a-los-insultos-de-trump.jpg" alt="Francia en la coctelera: de la droga en el bolso a los insultos de Trump" loading="lazy"/>
 <div class="card-body">
 <span class="cb b-economy">Economía</span>
-<h4>¿Cuánto pagas por tus medicamentos? El secreto mejor guardado de la salud en España</h4>
-<p class="exc">El blindaje de los precios netos de los medicamentos en España impide conocer el verdadero coste de tu salud, y esto ya se está convirtiendo en una pesadilla burocrática. ¿Alguna v</p>
+<h4>Francia en la coctelera: de la droga en el bolso a los insultos de Trump</h4>
+<p class="exc">Mientras París arde en tensiones y sus políticos se enredan, Macron sonríe en Tokio, ajeno al esperpento que le rodea. Pues sí, colegas, la política francesa ha decidido que hoy no</p>
 <div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
+<span>2 abr 2026</span><span class="dot"></span><span>5 min</span>
 </div>
 </div>
 </a>
@@ -500,19 +526,6 @@ img{max-width:100%;height:auto;display:block}
 <a href="/categoria/tech/">Ver todos &rarr;</a>
 </div>
 <div class="art-grid">
-<div class="art-card">
-<a href="/articulo/yasmina-logro-romper-su-matrimonio-forzado-tras-cuatro-anos-en-catalunya-fue-el--1/">
-<img src="/img/yasmina-logro-romper-su-matrimonio-forzado-tras-cuatro-anos-en-catalunya-fue-el--1.jpg" alt="Yasmina Logró Romper Su Matrimonio Forzado Tras Cuatro Años En Catalunya: &quot;Fue El Peor Y El Mejor Día De Mi Vida&quot; — La opinión que nadie te pidió" loading="lazy"/>
-<div class="card-body">
-<span class="cb b-tech">Tecnología</span>
-<h4>Yasmina Logró Romper Su Matrimonio Forzado Tras Cuatro Años En Catalunya: &quot;Fue El Peor Y El Mejor Día De Mi Vida&quot; — La opinión que nadie te pidió</h4>
-<p class="exc">Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</p>
-<div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>2 min</span>
-</div>
-</div>
-</a>
-</div>
 <div class="art-card">
 <a href="/articulo/artemis-ii-va-a-la-luna-yo-intento-pagar-el-alquiler-asi-es-la-vida-chavales/">
 <img src="/img/artemis-ii-va-a-la-luna-yo-intento-pagar-el-alquiler-asi-es-la-vida-chavales.jpg" alt="Artemis II va a la Luna, yo intento pagar el alquiler: así es la vida, chavales." loading="lazy"/>
@@ -527,27 +540,40 @@ img{max-width:100%;height:auto;display:block}
 </a>
 </div>
 <div class="art-card">
-<a href="/articulo/yasmina-rompio-su-jaula-matrimonial-mientras-nosotros-miramos-a-las-estrellas/">
-<img src="/img/yasmina-rompio-su-jaula-matrimonial-mientras-nosotros-miramos-a-las-estrellas.jpg" alt="Yasmina rompió su jaula matrimonial mientras nosotros miramos a las estrellas" loading="lazy"/>
+<a href="/articulo/la-ia-nos-salva-del-cancer-y-aun-discutimos-por-el-boton-de-chatgpt/">
+<img src="/img/la-ia-nos-salva-del-cancer-y-aun-discutimos-por-el-boton-de-chatgpt.jpg" alt="La IA nos salva del cáncer, ¿y aún discutimos por el botón de ChatGPT?" loading="lazy"/>
 <div class="card-body">
 <span class="cb b-tech">Tecnología</span>
-<h4>Yasmina rompió su jaula matrimonial mientras nosotros miramos a las estrellas</h4>
-<p class="exc">Mientras Artemis 2 viaja a la Luna y Indra cambia de directivos por deporte, una mujer nos recuerda qué cuesta la libertad. Llevo tres días dándole vueltas a una frase que me ha de</p>
+<h4>La IA nos salva del cáncer, ¿y aún discutimos por el botón de ChatGPT?</h4>
+<p class="exc">Mientras algunos le temen a Skynet y otros a los trabajos que quita, la inteligencia artificial ya está encontrando tumores que los médicos no ven. Hay veces que lees una noticia p</p>
 <div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
+<span>3 abr 2026</span><span class="dot"></span><span>5 min</span>
 </div>
 </div>
 </a>
 </div>
 <div class="art-card">
-<a href="/articulo/alemania-templos-que-abren-iglesias-que-cierran-y-la-vida-que-sigue/">
-<img src="/img/alemania-templos-que-abren-iglesias-que-cierran-y-la-vida-que-sigue.jpg" alt="Alemania: Templos que abren, iglesias que cierran y la vida que sigue" loading="lazy"/>
+<a href="/articulo/la-burbuja-de-la-ia-quien-va-a-ganar-quien-va-a-perder-y-por-que-tu-estas-en-med/">
+<img src="/img/la-burbuja-de-la-ia-quien-va-a-ganar-quien-va-a-perder-y-por-que-tu-estas-en-med.jpg" alt="La burbuja de la IA: ¿Quién va a ganar, quién va a perder, y por qué tú estás en medio?" loading="lazy"/>
 <div class="card-body">
 <span class="cb b-tech">Tecnología</span>
-<h4>Alemania: Templos que abren, iglesias que cierran y la vida que sigue</h4>
-<p class="exc">La transformación religiosa en Alemania está dejando a los cristianos mirando hacia otro lado mientras los nuevos templos florecen en un paisaje en constante cambio. Alemania, la t</p>
+<h4>La burbuja de la IA: ¿Quién va a ganar, quién va a perder, y por qué tú estás en medio?</h4>
+<p class="exc">En un mundo donde la inteligencia artificial promete revolucionar todos los sectores, el dilema no es solo cómo aprovecharla, sino quién se quedará con el trozo de pastel más grand</p>
 <div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
+<span>31 mar 2026</span><span class="dot"></span><span>5 min</span>
+</div>
+</div>
+</a>
+</div>
+<div class="art-card">
+<a href="/articulo/la-ia-va-a-sustituir-a-los-que-creen-en-la-ia-y-a-los-que-no/">
+<img src="/img/la-ia-va-a-sustituir-a-los-que-creen-en-la-ia-y-a-los-que-no.jpg" alt="La IA va a sustituir a los que creen en la IA… y a los que no" loading="lazy"/>
+<div class="card-body">
+<span class="cb b-tech">Tecnología</span>
+<h4>La IA va a sustituir a los que creen en la IA… y a los que no</h4>
+<p class="exc">Los escépticos de la inteligencia artificial pueden estar abocados a la obsolescencia, aunque no lo sepan. La inteligencia artificial es el nuevo “café del día”, y por cierto, este</p>
+<div class="mr">
+<span>28 mar 2026</span><span class="dot"></span><span>4 min</span>
 </div>
 </div>
 </a>
@@ -604,27 +630,14 @@ img{max-width:100%;height:auto;display:block}
 </a>
 </div>
 <div class="art-card">
-<a href="/articulo/ultima-hora-politica-en-directo-feijoo-critica-que-espana-quede-aislada-de-la-co/">
-<img src="/img/ultima-hora-politica-en-directo-feijoo-critica-que-espana-quede-aislada-de-la-co.jpg" alt="Última Hora Política, En Directo | Feijóo Critica Que España Quede &quot;Aislada&quot; De La Coalición Para Reabrir El Estrecho De Ormuz — La opinión que nadie te pidió" loading="lazy"/>
+<a href="/articulo/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez/">
+<img src="/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg" alt="El fantasma de Irán se carga un general y los Presupuestos de Sánchez" loading="lazy"/>
 <div class="card-body">
 <span class="cb b-politics">Política</span>
-<h4>Última Hora Política, En Directo | Feijóo Critica Que España Quede &quot;Aislada&quot; De La Coalición Para Reabrir El Estrecho De Ormuz — La opinión que nadie te pidió</h4>
-<p class="exc">Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</p>
+<h4>El fantasma de Irán se carga un general y los Presupuestos de Sánchez</h4>
+<p class="exc">Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta. Las milicias chiíes en Irak han soltado la perla</p>
 <div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>2 min</span>
-</div>
-</div>
-</a>
-</div>
-<div class="art-card">
-<a href="/articulo/feijoo-grita-aislamiento-mientras-el-estrecho-de-ormuz-se-cierra-sin-espana/">
-<img src="/img/feijoo-grita-aislamiento-mientras-el-estrecho-de-ormuz-se-cierra-sin-espana.jpg" alt="Feijóo grita «aislamiento» mientras el estrecho de Ormuz se cierra sin España" loading="lazy"/>
-<div class="card-body">
-<span class="cb b-politics">Política</span>
-<h4>Feijóo grita «aislamiento» mientras el estrecho de Ormuz se cierra sin España</h4>
-<p class="exc">La coalición de cuarenta naciones avanza sin Madrid y el precio de la harina dispara la factura del supermercado. Leo la noticia en el móvil mientras la cafetera de cápsula escupe </p>
-<div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
+<span>3 abr 2026</span><span class="dot"></span><span>5 min</span>
 </div>
 </div>
 </a>
@@ -642,25 +655,25 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </a>
 </div>
+<div class="art-card">
+<a href="/articulo/vox-y-el-arte-de-besar-el-suelo-que-pisan-trump-y-netanyahu/">
+<img src="/img/vox-y-el-arte-de-besar-el-suelo-que-pisan-trump-y-netanyahu.jpg" alt="Vox y el arte de besar el suelo que pisan Trump y Netanyahu" loading="lazy"/>
+<div class="card-body">
+<span class="cb b-politics">Política</span>
+<h4>Vox y el arte de besar el suelo que pisan Trump y Netanyahu</h4>
+<p class="exc">El partido de Abascal prefiere el silencio a contradecir a sus ídolos, aunque eso signifique tragarse sus principios y algunas misas bloqueadas en Jerusalén. Yo, desde esta terraza</p>
+<div class="mr">
+<span>2 abr 2026</span><span class="dot"></span><span>5 min</span>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="sec-h">
 <h3>Sucesos</h3>
 <a href="/categoria/sucesos/">Ver todos &rarr;</a>
 </div>
 <div class="art-grid">
-<div class="art-card">
-<a href="/articulo/cornella-los-canticos-que-nadie-condena-y-la-hipocresia-que-nos-ahoga/">
-<img src="/img/cornella-los-canticos-que-nadie-condena-y-la-hipocresia-que-nos-ahoga.jpg" alt="Cornellá, los cánticos que nadie condena y la hipocresía que nos ahoga" loading="lazy"/>
-<div class="card-body">
-<span class="cb b-sucesos">Sucesos</span>
-<h4>Cornellá, los cánticos que nadie condena y la hipocresía que nos ahoga</h4>
-<p class="exc">El Gobierno se rasga las vestiduras por gritos de &#x27;musulmán el que no bote&#x27;, mientras algunos políticos callan y el problema sigue ahí, tan real como el césped. Mira que lo he vist</p>
-<div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
-</div>
-</div>
-</a>
-</div>
 <div class="art-card">
 <a href="/articulo/nos-escandalizan-los-gritos-en-el-campo-pero-el-hambre-global-ya-esta-al-ataque/">
 <img src="/img/nos-escandalizan-los-gritos-en-el-campo-pero-el-hambre-global-ya-esta-al-ataque.jpg" alt="Nos escandalizan los gritos en el campo, pero el hambre global ya está al ataque." loading="lazy"/>
@@ -670,19 +683,6 @@ img{max-width:100%;height:auto;display:block}
 <p class="exc">Mientras el Gobierno se avergüenza de cánticos xenófobos, una guerra lejana amenaza nuestra mesa más de lo que imaginamos. Vaya semanita, la verdad.</p>
 <div class="mr">
 <span>3 abr 2026</span><span class="dot"></span><span>5 min</span>
-</div>
-</div>
-</a>
-</div>
-<div class="art-card">
-<a href="/articulo/el-gobierno-expresa-vergenza-por-los-canticos-xenofobos-en-cornella-y-responsabi/">
-<img src="/img/el-gobierno-expresa-vergenza-por-los-canticos-xenofobos-en-cornella-y-responsabi.jpg" alt="El Gobierno Expresa &quot;Vergüenza&quot; Por Los Cánticos Xenófobos En Cornellá Y Responsabiliza A La &quot;Política Ultra&quot; Mientras Vox No Los Condena — La opinión que nadie te pidió" loading="lazy"/>
-<div class="card-body">
-<span class="cb b-sucesos">Sucesos</span>
-<h4>El Gobierno Expresa &quot;Vergüenza&quot; Por Los Cánticos Xenófobos En Cornellá Y Responsabiliza A La &quot;Política Ultra&quot; Mientras Vox No Los Condena — La opinión que nadie te pidió</h4>
-<p class="exc">Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</p>
-<div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>2 min</span>
 </div>
 </div>
 </a>
@@ -700,34 +700,60 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </a>
 </div>
-</div>
-<div class="sec-h">
-<h3>Cultura Pop</h3>
-<a href="/categoria/pop_culture/">Ver todos &rarr;</a>
-</div>
-<div class="art-grid">
 <div class="art-card">
-<a href="/articulo/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez/">
-<img src="/img/el-fantasma-de-iran-se-carga-un-general-y-los-presupuestos-de-sanchez.jpg" alt="El fantasma de Irán se carga un general y los Presupuestos de Sánchez" loading="lazy"/>
+<a href="/articulo/las-ciberestafas-se-han-multiplicado-por-diez-y-tu-banco-sigue-mandandote-sms-qu/">
+<img src="/img/las-ciberestafas-se-han-multiplicado-por-diez-y-tu-banco-sigue-mandandote-sms-qu.jpg" alt="Las Ciberestafas Se Han Multiplicado Por Diez Y Tu Banco Sigue Mandándote Sms Que Parecen Phishing — La opinión que nadie te pidió" loading="lazy"/>
 <div class="card-body">
-<span class="cb b-pop_culture">Cultura Pop</span>
-<h4>El fantasma de Irán se carga un general y los Presupuestos de Sánchez</h4>
-<p class="exc">Mientras las milicias chiíes juran que Irán no empezó nada, en Washington ruedan cabezas y en Moncloa ya tienen la excusa perfecta. Las milicias chiíes en Irak han soltado la perla</p>
+<span class="cb b-sucesos">Sucesos</span>
+<h4>Las Ciberestafas Se Han Multiplicado Por Diez Y Tu Banco Sigue Mandándote Sms Que Parecen Phishing — La opinión que nadie te pidió</h4>
+<p class="exc">Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</p>
 <div class="mr">
-<span>3 abr 2026</span><span class="dot"></span><span>5 min</span>
+<span>2 abr 2026</span><span class="dot"></span><span>2 min</span>
 </div>
 </div>
 </a>
 </div>
 <div class="art-card">
-<a href="/articulo/tiktok-y-la-politica-un-coctel-explosivo-que-deberia-asustarnos/">
-<img src="/img/tiktok-y-la-politica-un-coctel-explosivo-que-deberia-asustarnos.jpg" alt="TikTok y la política: un cóctel explosivo que debería asustarnos" loading="lazy"/>
+<a href="/articulo/el-narcotrafico-en-el-campo-de-gibraltar-una-lucha-de-sombras-que-el-estado-quie/">
+<img src="/img/el-narcotrafico-en-el-campo-de-gibraltar-una-lucha-de-sombras-que-el-estado-quie.jpg" alt="El narcotráfico en el Campo de Gibraltar: una lucha de sombras que el Estado quiere ignorar" loading="lazy"/>
 <div class="card-body">
-<span class="cb b-pop_culture">Cultura Pop</span>
-<h4>TikTok y la política: un cóctel explosivo que debería asustarnos</h4>
-<p class="exc">La política se ha convertido en un espectáculo que nos hace reír y llorar al mismo tiempo, pero, ¿qué pasa con la seriedad que debería acompañarla. El otro día navegando por mi fee</p>
+<span class="cb b-sucesos">Sucesos</span>
+<h4>El narcotráfico en el Campo de Gibraltar: una lucha de sombras que el Estado quiere ignorar</h4>
+<p class="exc">Mientras el mundo mira hacia el espacio, el Campo de Gibraltar se hunde en un mar de droga y complicidad. ¿Quién necesita ir a la Luna cuando el verdadero espectáculo está aquí, en</p>
 <div class="mr">
-<span>1 abr 2026</span><span class="dot"></span><span>4 min</span>
+<span>31 mar 2026</span><span class="dot"></span><span>4 min</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="sec-h">
+<h3>Sociedad</h3>
+<a href="/categoria/sociedad/">Ver todos &rarr;</a>
+</div>
+<div class="art-grid">
+<div class="art-card">
+<a href="/articulo/yasmina-rompio-su-jaula-matrimonial-mientras-nosotros-miramos-a-las-estrellas/">
+<img src="/img/yasmina-rompio-su-jaula-matrimonial-mientras-nosotros-miramos-a-las-estrellas.jpg" alt="Yasmina rompió su jaula matrimonial mientras nosotros miramos a las estrellas" loading="lazy"/>
+<div class="card-body">
+<span class="cb b-sociedad">Sociedad</span>
+<h4>Yasmina rompió su jaula matrimonial mientras nosotros miramos a las estrellas</h4>
+<p class="exc">Mientras Artemis 2 viaja a la Luna y Indra cambia de directivos por deporte, una mujer nos recuerda qué cuesta la libertad. Llevo tres días dándole vueltas a una frase que me ha de</p>
+<div class="mr">
+<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
+</div>
+</div>
+</a>
+</div>
+<div class="art-card">
+<a href="/articulo/alemania-mezquitas-y-templos-en-auge-mientras-las-iglesias-se-cierran/">
+<img src="/img/alemania-mezquitas-y-templos-en-auge-mientras-las-iglesias-se-cierran.jpg" alt="Alemania: mezquitas y templos en auge mientras las iglesias se cierran" loading="lazy"/>
+<div class="card-body">
+<span class="cb b-sociedad">Sociedad</span>
+<h4>Alemania: mezquitas y templos en auge mientras las iglesias se cierran</h4>
+<p class="exc">El paisaje religioso de Alemania está cambiando: cada vez más mezquitas y menos iglesias cristianas. ¿Es este el nuevo rostro de la Europa multicultural.</p>
+<div class="mr">
+<span>3 abr 2026</span><span class="dot"></span><span>4 min</span>
 </div>
 </div>
 </a>
@@ -757,6 +783,19 @@ img{max-width:100%;height:auto;display:block}
 <a href="/categoria/culture/">Ver todos &rarr;</a>
 </div>
 <div class="art-grid">
+<div class="art-card">
+<a href="/articulo/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos/">
+<img src="/img/recetas-sin-penitencia-para-semana-santa-delicias-que-no-causan-remordimientos.jpg" alt="Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos" loading="lazy"/>
+<div class="card-body">
+<span class="cb b-culture">Cultura</span>
+<h4>Recetas sin Penitencia para Semana Santa: Delicias que No Causan Remordimientos</h4>
+<p class="exc">Disfruta de unos días de descanso sin que tu conciencia te haga el vacío, mientras la Semana Santa se asoma entre las sombras. Las vacaciones de Semana Santa se acercan, y con ella</p>
+<div class="mr">
+<span>2 abr 2026</span><span class="dot"></span><span>4 min</span>
+</div>
+</div>
+</a>
+</div>
 <div class="art-card">
 <a href="/articulo/el-amor-que-se-apaga-valentina-reig-y-dario-rueda-rompen-tras-rumores-de-infidel/">
 <img src="/img/el-amor-que-se-apaga-valentina-reig-y-dario-rueda-rompen-tras-rumores-de-infidel.jpg" alt="El Amor Que Se Apaga: Valentina Reig y Darío Rueda Rompen Tras Rumores de Infidelidad" loading="lazy"/>
@@ -798,6 +837,25 @@ img{max-width:100%;height:auto;display:block}
 <p class="exc">Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</p>
 <div class="mr">
 <span>2 abr 2026</span><span class="dot"></span><span>2 min</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="sec-h">
+<h3>Cultura Pop</h3>
+<a href="/categoria/pop_culture/">Ver todos &rarr;</a>
+</div>
+<div class="art-grid">
+<div class="art-card">
+<a href="/articulo/tiktok-y-la-politica-un-coctel-explosivo-que-deberia-asustarnos/">
+<img src="/img/tiktok-y-la-politica-un-coctel-explosivo-que-deberia-asustarnos.jpg" alt="TikTok y la política: un cóctel explosivo que debería asustarnos" loading="lazy"/>
+<div class="card-body">
+<span class="cb b-pop_culture">Cultura Pop</span>
+<h4>TikTok y la política: un cóctel explosivo que debería asustarnos</h4>
+<p class="exc">La política se ha convertido en un espectáculo que nos hace reír y llorar al mismo tiempo, pero, ¿qué pasa con la seriedad que debería acompañarla. El otro día navegando por mi fee</p>
+<div class="mr">
+<span>1 abr 2026</span><span class="dot"></span><span>4 min</span>
 </div>
 </div>
 </a>

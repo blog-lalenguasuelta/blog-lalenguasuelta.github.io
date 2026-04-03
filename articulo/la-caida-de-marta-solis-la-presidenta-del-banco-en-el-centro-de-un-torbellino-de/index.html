@@ -333,12 +333,37 @@ img{max-width:100%;height:auto;display:block}
 }
 /* ── Print styles ── */
 @media print{
-  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav{display:none!important}
+  .sh,.sf,.btt,.share,.rat,.nl-cta,.anav,.pbar,.cpnav,.related{display:none!important}
   body{font-size:12pt;line-height:1.6}
   .prose{max-width:none}
   a{color:#000;text-decoration:underline}
   .ah h1{font-size:1.5rem}
 }
+/* ── Estimated reading bar (article) ── */
+.read-bar{display:flex;align-items:center;gap:0.75rem;font-family:var(--fl);font-size:0.72rem;color:var(--text-d);margin:1.25rem 0 0;text-transform:uppercase;letter-spacing:0.08em}
+.read-bar .rb-track{flex:1;height:3px;background:var(--border-light);border-radius:2px;overflow:hidden}
+.read-bar .rb-fill{height:100%;border-radius:2px;width:0;transition:width 0.15s linear}
+.read-bar .rb-label{white-space:nowrap}
+/* ── Related Articles ── */
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border)}
+.related h3{font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem}
+.rel-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+@media(min-width:640px){.rel-grid{grid-template-columns:1fr 1fr 1fr}}
+.rel-card{display:flex;flex-direction:column;border-radius:var(--r);overflow:hidden;transition:transform var(--tr),box-shadow var(--tr)}
+.rel-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.rel-card a{text-decoration:none;color:inherit;display:flex;flex-direction:column;flex:1}
+.rel-card img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:grayscale(0.2);transition:filter 0.4s ease}
+.rel-card:hover img{filter:grayscale(0)}
+.rel-card .rel-body{padding:0.75rem 0.5rem;flex:1;display:flex;flex-direction:column}
+.rel-card h4{font-family:var(--fh);font-size:1rem;font-weight:700;line-height:1.3;margin-bottom:0.3rem;transition:color var(--tr)}
+.rel-card:hover h4{color:var(--primary)}
+.rel-card .mr{margin-top:auto}
+/* ── Smooth image loading (blur-up) ── */
+.img-blur{opacity:0;filter:blur(12px) saturate(1.2);transition:opacity 0.5s ease,filter 0.7s ease}
+.img-blur.loaded{opacity:1;filter:blur(0) saturate(1)}
+/* ── Reading time estimate on cards ── */
+.card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
+.card-time svg{width:12px;height:12px}
 </style>
 </head>
 <body>
@@ -375,7 +400,7 @@ img{max-width:100%;height:auto;display:block}
 </header>
 <figure class="cover">
 <div class="overlay"></div>
-<img src="/img/la-caida-de-marta-solis-la-presidenta-del-banco-en-el-centro-de-un-torbellino-de.jpg" alt="La Caída de Marta Solís: La Presidenta del Banco en el Centro de un Torbellino de Corrupción" loading="lazy"/>
+<img class="img-blur" src="/img/la-caida-de-marta-solis-la-presidenta-del-banco-en-el-centro-de-un-torbellino-de.jpg" alt="La Caída de Marta Solís: La Presidenta del Banco en el Centro de un Torbellino de Corrupción" loading="lazy"/>
 </figure>
 <div class="prose">
 <p>El mundo financiero español se tambalea tras la denuncia impactante contra Marta Solís, presidenta del Banco Nacional de Inversiones. Un grupo de empleados anónimos ha hecho públicos testimonios alarmantes que revelan presiones indebidas para ocultar pérdidas millonarias. La situación se vuelve más crítica a medida que un video comprometedor, en el que Solís minimiza las preocupaciones de sus trabajadores, circula desenfrenadamente en las redes sociales.</p>
@@ -419,6 +444,38 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </div>
 </article>
+<section class="related">
+<h3>También te puede interesar</h3>
+<div class="rel-grid">
+<div class="rel-card">
+<a href="/articulo/vox-y-el-arte-de-besar-el-suelo-que-pisan-trump-y-netanyahu/">
+<img src="/img/vox-y-el-arte-de-besar-el-suelo-que-pisan-trump-y-netanyahu.jpg" alt="Vox y el arte de besar el suelo que pisan Trump y Netanyahu" loading="lazy"/>
+<div class="rel-body">
+<h4>Vox y el arte de besar el suelo que pisan Trump y Netanyahu</h4>
+<div class="mr"><span>2 abr 2026</span><span class="dot"></span><span>5 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
+<a href="/articulo/la-sanidad-publica-se-desangra-mientras-los-politicos-se-obsesionan-con-los-pron/">
+<img src="/img/la-sanidad-publica-se-desangra-mientras-los-politicos-se-obsesionan-con-los-pron.jpg" alt="La sanidad pública se desangra mientras los políticos se obsesionan con los pronombres" loading="lazy"/>
+<div class="rel-body">
+<h4>La sanidad pública se desangra mientras los políticos se obsesionan con los pron</h4>
+<div class="mr"><span>1 abr 2026</span><span class="dot"></span><span>4 min</span></div>
+</div>
+</a>
+</div>
+<div class="rel-card">
+<a href="/articulo/europa-regula-la-ia-y-se-convierte-en-un-museo-de-la-tecnologia/">
+<img src="/img/europa-regula-la-ia-y-se-convierte-en-un-museo-de-la-tecnologia.jpg" alt="Europa regula la IA y se convierte en un museo de la tecnología" loading="lazy"/>
+<div class="rel-body">
+<h4>Europa regula la IA y se convierte en un museo de la tecnología</h4>
+<div class="mr"><span>29 mar 2026</span><span class="dot"></span><span>4 min</span></div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <nav class="anav">
 <a href="/articulo/otro-feminicidio-en-espana-un-pais-que-se-muerde-la-lengua-mientras-llora/"><div class="nlb">&larr; Anterior</div><div class="nt">Otro feminicidio en España: un país que se muerde la lengua </div></a>
 <a href="/articulo/europa-regula-la-ia-y-se-convierte-en-un-museo-de-la-tecnologia/" style="text-align:right"><div class="nlb">Siguiente &rarr;</div><div class="nt">Europa regula la IA y se convierte en un museo de la tecnolo</div></a>
@@ -460,6 +517,15 @@ img{max-width:100%;height:auto;display:block}
     var pct=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
     bar.style.width=Math.min(pct,100)+'%';
   },{passive:true});
+})();
+</script>
+<script>
+(function(){
+  document.querySelectorAll('img.img-blur').forEach(function(img){
+    if(img.complete){img.classList.add('loaded');return;}
+    img.addEventListener('load',function(){img.classList.add('loaded');});
+    img.addEventListener('error',function(){img.classList.add('loaded');});
+  });
 })();
 </script>
 <script>
