@@ -358,6 +358,20 @@ img{max-width:100%;height:auto;display:block}
 /* ── Reading time estimate on cards ── */
 .card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
 .card-time svg{width:12px;height:12px}
+/* ── Sorbos de Lengua (content pills) ── */
+.sorbo{background:var(--surface);border-left:4px solid var(--primary);border-radius:0 var(--r) var(--r) 0;padding:1.25rem 1.5rem;margin:0.75rem 0;position:relative;transition:box-shadow var(--tr),transform var(--tr)}
+.sorbo:hover{box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.sorbo-top{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem}
+.sorbo-badge{display:inline-flex;align-items:center;gap:0.3rem;font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:9999px;background:rgba(201,168,76,0.12);color:var(--primary-dark)}
+.sorbo-emoji{font-size:0.85rem;line-height:1}
+.sorbo-body{font-family:var(--fb);font-size:0.95rem;line-height:1.75;color:var(--text-s);font-style:italic}
+.sorbo-body p{margin:0 0 0.5rem}
+.sorbo-body p:last-child{margin-bottom:0}
+.sorbo-foot{display:flex;align-items:center;justify-content:space-between;margin-top:0.75rem;padding-top:0.5rem;border-top:1px solid var(--border-light)}
+.sorbo-sig{font-family:var(--fh);font-size:0.72rem;font-style:italic;color:var(--primary);font-weight:600}
+.sorbo-date{font-family:var(--fl);font-size:0.6rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em}
+.sorbo-row{display:grid;grid-template-columns:1fr;gap:1rem;margin:1.5rem 0}
+@media(min-width:640px){.sorbo-row{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -470,6 +484,35 @@ img{max-width:100%;height:auto;display:block}
 </a>
 </div>
 </div>
+<div class="sorbo-row">
+<div class="sorbo">
+<div class="sorbo-top">
+<span class="sorbo-badge"><span class="sorbo-emoji">🐙</span> Fauna</span>
+</div>
+<div class="sorbo-body">
+<p>La mantis marina, tío, esos bichos son pura maravilla. Tiene 16 receptores de color... 16. ¿Te imaginas? Nosotros, con tres, y ellos viendo un espectro que ni soñamos. Esto debería dar que pensar. ¿Por qué no le damos más respeto a criaturas así? Son como los genios del océano, con una visión que fliparía hasta a Van Gogh.</p>
+<p>Lo que no entiendo es cómo una bestia tan fascinante no ocupa portadas de revistas. Ah, claro, estamos más ocupados viendo a influencers de gimnasio… Es un poco absurdo, ¿no? (Sí, a las 3 de la mañana. ¿Y qué?). Si alguien me explica por qué la gente no siente curiosidad por estas maravillas del mundo marino, le invito a un café. O a una excursión a la playa, que igual nos sorprende lo que nos rodea. La naturaleza tiene más matices que cualquier paleta de colores.</p>
+</div>
+<div class="sorbo-foot">
+<span class="sorbo-sig">Sorbo de Lengua</span>
+<span class="sorbo-date">3 abr 2026</span>
+</div>
+</div>
+<div class="sorbo">
+<div class="sorbo-top">
+<span class="sorbo-badge"><span class="sorbo-emoji">📷</span> Fotografía</span>
+</div>
+<div class="sorbo-body">
+<p>A ver si me explico... Hacer astrofotografía con un trípode malo es como intentar correr un rally con un coche de ciudad. La otra noche, bajo un cielo despejado, la Vía Láctea me llamaba, pero cada vez que intentaba disparar, el trípode temblaba como si estuviera bailando un reggaetón (y ya sabes que eso es inaceptable).</p>
+<p>Me pasé horas ajustando la configuración, pero la cámara seguía capturando más movimiento del que tenía previsto. Las estrellas aparecían como manchas borrosas, como si el universo estuviese riéndose de mí. Hostia, uno pensaría que un poco de calidad cuesta menos, pero en realidad, la frustración tiene un precio... y cada foto fallida duele.</p>
+<p>Aún así, ahí estaba yo, con una taza de café frío (la culpa de no hacerme uno nuevo a esa hora), intentando retratar lo inasible. La belleza del cielo profundo no se rinde fácilmente. ¿A qué estamos jugando, misiles de luz en un mar de oscuridad? Ni idea, pero me encanta el reto. La próxima vez, quizás el trípode sea el primero en mejorar.</p>
+</div>
+<div class="sorbo-foot">
+<span class="sorbo-sig">Sorbo de Lengua</span>
+<span class="sorbo-date">3 abr 2026</span>
+</div>
+</div>
+</div>
 <div class="sec-h">
 <h3>Sociedad</h3>
 <a href="/categoria/society/">Ver todos &rarr;</a>
@@ -526,6 +569,22 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </div>
 </a>
+</div>
+</div>
+<div class="sorbo-row">
+<div class="sorbo">
+<div class="sorbo-top">
+<span class="sorbo-badge"><span class="sorbo-emoji">☕</span> Café</span>
+</div>
+<div class="sorbo-body">
+<p>Hoy me he levantado pensando en el café que me preparé esta mañana. Era un etíope, de esos con notas florales y un brillo que te hace flipar. Me senté en el balcón, mirando el humo de la taza bailar en el aire frío. La mezcla era tan perfecta que empecé a imaginarme viviendo en una pequeña casa en medio de una plantación de café. Hostia, sería un sueño.</p>
+<p>El sol asomándose detrás de las montañas, el aroma del grano fresco a mi alrededor... Me pregunto si ahí se plantearían las jornadas de trabajo de una forma diferente. A ver si me explico: ¿es posible que un buen café te haga replantearte la vida entera? No sé, a veces creo que el sabor de lo cotidiano puede ser un faro en la neblina.</p>
+<p>Pero luego pienso en la gente, en los ruidos de la ciudad... y vuelvo a la realidad. Quizá solo necesito un buen café al día. O tal vez, un par de ellos.</p>
+</div>
+<div class="sorbo-foot">
+<span class="sorbo-sig">Sorbo de Lengua</span>
+<span class="sorbo-date">3 abr 2026</span>
+</div>
 </div>
 </div>
 <div class="sec-h">
@@ -586,6 +645,32 @@ img{max-width:100%;height:auto;display:block}
 </a>
 </div>
 </div>
+<div class="sorbo-row">
+<div class="sorbo">
+<div class="sorbo-top">
+<span class="sorbo-badge"><span class="sorbo-emoji">💭</span> Filosofía</span>
+</div>
+<div class="sorbo-body">
+<p>A ver si me explico... hoy, mientras curraba con un par de letras, me vino a la cabeza Wittgenstein. “Los límites de mi lengua son los límites de mi mundo”, decía. Y, hostia, me pregunté si los límites de WhatsApp son los límites de mi comunicación. Es un dilema, ¿no? Cuántas veces lo que quiero decir se queda atrapado en un GIF o en un emoticono. El martes fue un microcosmos de esto: mensajes malinterpretados, conversaciones que se estiran hasta hacerse extrañas. Todo ese ruido que, al final, no dice nada. Me quedó un sabor a rancio, como si el café de esta mañana no hubiera sido suficiente para despertar las neuronas. ¿Es la tecnología un puente o una muralla? Flipante que, en la era de la sobreinformación, nos entendemos cada vez menos. Quizá un toque de estoicismo para mañana... o simplemente un buen libro y un café bien hecho. Pero, ¿qué sé yo?</p>
+</div>
+<div class="sorbo-foot">
+<span class="sorbo-sig">Sorbo de Lengua</span>
+<span class="sorbo-date">3 abr 2026</span>
+</div>
+</div>
+<div class="sorbo">
+<div class="sorbo-top">
+<span class="sorbo-badge"><span class="sorbo-emoji">🧀</span> Cocina</span>
+</div>
+<div class="sorbo-body">
+<p>A ver si me explico... hoy me ha dado por pensar en esa reacción de Maillard que pasa cuando tuestas el pan. Hostia, es una maravilla química. Esos azúcares y aminoácidos que se encuentran, y que al calentarse se transforman, creando ese color dorado y el aroma que me hace salivar. Pero, ¿quién pensó en esto por primera vez? Imagina a un tipo en la Edad Media, quemando pan y pensando “mola, esto tiene un sabor diferente”. La ciencia detrás de eso es como un fractal; cada vez que desentrañas algo, aparece un nuevo patrón. Y me flipan esos momentos. No es solo calor; es una sinfonía de moléculas bailando. Por cierto, no sabía que se lleva haciendo desde hace siglos. Si alguien me explica esto, le invito a un café. Quizás un tostado, claro.</p>
+</div>
+<div class="sorbo-foot">
+<span class="sorbo-sig">Sorbo de Lengua</span>
+<span class="sorbo-date">3 abr 2026</span>
+</div>
+</div>
+</div>
 <div class="sec-h">
 <h3>Tecnología</h3>
 <a href="/categoria/tech/">Ver todos &rarr;</a>
@@ -642,6 +727,21 @@ img{max-width:100%;height:auto;display:block}
 </div>
 </div>
 </a>
+</div>
+</div>
+<div class="sorbo-row">
+<div class="sorbo">
+<div class="sorbo-top">
+<span class="sorbo-badge"><span class="sorbo-emoji">🌦️</span> Cielos</span>
+</div>
+<div class="sorbo-body">
+<p>A ver si me explico... anoche, mientras el café hacía efecto y me asomaba a mi telescopio, vi unas nubes lenticulares que flipaban. Eran como sombreros de bruja, pero a lo grande, y me recordaron a ovnis de películas de los 80. Hostia, me quedé ahí parado, mirando cómo se deformaban con el viento, como si fueran un truco visual de algún artista surrealista.</p>
+<p>El cielo profundo suele ser mi obsesión, pero en ese momento no podía evitar pensar en lo que los antiguos veían en esas formas. ¿Qué misterio encierra la naturaleza? Me gustaría tener una cámara de carrete lista para capturarlo, aunque no soy un experto. Pero, claro, esas nubes desaparecieron tan rápido como vinieron. Nota mental: siempre tener la cámara lista. La realidad es un lienzo en constante cambio... y yo, un mero espectador nocturno.</p>
+</div>
+<div class="sorbo-foot">
+<span class="sorbo-sig">Sorbo de Lengua</span>
+<span class="sorbo-date">3 abr 2026</span>
+</div>
 </div>
 </div>
 <div class="sec-h">

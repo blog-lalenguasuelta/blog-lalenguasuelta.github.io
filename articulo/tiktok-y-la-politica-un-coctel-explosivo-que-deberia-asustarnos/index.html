@@ -370,6 +370,20 @@ img{max-width:100%;height:auto;display:block}
 /* ── Reading time estimate on cards ── */
 .card-time{display:inline-flex;align-items:center;gap:0.25rem;font-family:var(--fl);font-size:0.65rem;color:var(--text-muted);background:rgba(0,0,0,0.03);padding:0.15rem 0.5rem;border-radius:9999px}
 .card-time svg{width:12px;height:12px}
+/* ── Sorbos de Lengua (content pills) ── */
+.sorbo{background:var(--surface);border-left:4px solid var(--primary);border-radius:0 var(--r) var(--r) 0;padding:1.25rem 1.5rem;margin:0.75rem 0;position:relative;transition:box-shadow var(--tr),transform var(--tr)}
+.sorbo:hover{box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.sorbo-top{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem}
+.sorbo-badge{display:inline-flex;align-items:center;gap:0.3rem;font-family:var(--fl);font-size:0.65rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:9999px;background:rgba(201,168,76,0.12);color:var(--primary-dark)}
+.sorbo-emoji{font-size:0.85rem;line-height:1}
+.sorbo-body{font-family:var(--fb);font-size:0.95rem;line-height:1.75;color:var(--text-s);font-style:italic}
+.sorbo-body p{margin:0 0 0.5rem}
+.sorbo-body p:last-child{margin-bottom:0}
+.sorbo-foot{display:flex;align-items:center;justify-content:space-between;margin-top:0.75rem;padding-top:0.5rem;border-top:1px solid var(--border-light)}
+.sorbo-sig{font-family:var(--fh);font-size:0.72rem;font-style:italic;color:var(--primary);font-weight:600}
+.sorbo-date{font-family:var(--fl);font-size:0.6rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em}
+.sorbo-row{display:grid;grid-template-columns:1fr;gap:1rem;margin:1.5rem 0}
+@media(min-width:640px){.sorbo-row{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
