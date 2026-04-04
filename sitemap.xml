@@ -7,6 +7,60 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-heroe-anonima-detras-de-20000-vacunas-julia-paredes-y-el-absurdo-del-sistema-/</loc>
+    <lastmod>2026-04-04T05:45:48Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-soberania-alimentaria-en-tiempos-de-guerra-quien-se-lo-come/</loc>
+    <lastmod>2026-04-04T05:25:47Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-soberania-alimentaria-en-europa-el-ultimo-bastion-antes-de-la-guerra/</loc>
+    <lastmod>2026-04-04T05:25:34Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-soberania-alimentaria-en-europa-entre-la-guerra-y-la-ley-del-mas-fuerte/</loc>
+    <lastmod>2026-04-04T05:25:15Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-era-de-la-incertidumbre-economica-adios-a-la-primacia-geoeconomica/</loc>
+    <lastmod>2026-04-04T02:25:53Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/africa-paga-la-factura-de-una-guerra-que-no-eligio/</loc>
+    <lastmod>2026-04-04T02:25:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-estrecho-de-ormuz-o-la-excusa-perfecta-para-sanchez-y-el-aislamiento/</loc>
+    <lastmod>2026-04-04T02:25:36Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/los-picaos-de-san-vicente-ritual-o-reality-show/</loc>
+    <lastmod>2026-04-04T02:25:30Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/feijoo-y-sanchez-heroes-o-villanos-en-el-lio-del-estrecho-de-ormuz/</loc>
+    <lastmod>2026-04-04T02:25:14Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/artemisa-ii-mientras-miramos-a-la-luna-aqui-en-la-tierra-seguimos-en-el-barro/</loc>
     <lastmod>2026-04-03T15:33:49Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -320,6 +374,12 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/entretenimiento/</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/international/</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
