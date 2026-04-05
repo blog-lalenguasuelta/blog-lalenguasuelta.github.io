@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-broma-de-la-salud-optima-mientras-madrid-te-desahucia-el-alma/</loc>
+    <lastmod>2026-04-05T09:01:28Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-rio-que-se-traga-el-silencio/</loc>
     <lastmod>2026-04-05T07:28:27Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -14,6 +20,12 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/sucesos/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/society/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
