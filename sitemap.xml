@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-senado-o-un-plato-de-television-la-eleccion-andaluza-en-plena-funcion/</loc>
+    <lastmod>2026-04-05T15:32:08Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/el-arte-de-miro-y-la-locura-del-alquiler-que-se-le-va-a-hacer/</loc>
     <lastmod>2026-04-05T12:47:03Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -44,6 +50,12 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/economy/</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/tech/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
