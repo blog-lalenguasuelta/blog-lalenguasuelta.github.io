@@ -2,9 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog-lalenguasuelta.github.io/</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-reconstruccion-de-la-dana-milagro-o-farsa/</loc>
+    <lastmod>2026-04-06T05:31:34Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-gran-comedia-espanola-marcha-funebre-o-simple-entreacto/</loc>
+    <lastmod>2026-04-06T03:29:43Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/el-senado-o-un-plato-de-television-la-eleccion-andaluza-en-plena-funcion/</loc>
@@ -38,25 +50,37 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/sucesos/</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/society/</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/economy/</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/tech/</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/international/</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/politics/</loc>
+    <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
