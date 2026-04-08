@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro de las Sombras</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras/</guid>
+      <description>María, una mujer de Madrid, fue encontrada muerta en su hogar; las autoridades lo catalogaron como suicidio, pero los vecinos sabían que era un feminicidio. Su historia, marcada por el abuso y la violencia, es un recordatorio de las muchas voces que aún claman por justicia en la oscuridad.</description>
+      <pubDate>Wed, 08 Apr 2026 18:01:51 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: Ecos de la Oscuridad</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-oscuridad/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-oscuridad/</guid>
@@ -159,14 +167,6 @@
       <description>Vendemos el alma al colágeno y la maca andina mientras el precio del metro cuadrado nos roba hasta las ganas de respirar. Dicen que el bienestar es la nueva religión, que hay que perseguir la &quot;salud óptima&quot; como si fuera el Santo Grial.</description>
       <pubDate>Sun, 05 Apr 2026 09:01:28 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Río que se Traga el Silencio</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-rio-que-se-traga-el-silencio/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-rio-que-se-traga-el-silencio/</guid>
-      <description>El periodista Dom Phillips y el indigenista Bruno Pereira desaparecieron y fueron brutalmente asesinados en el Valle del Javari, Amazonía brasileña, en junio de 2022, tras denunciar actividades ilegales en la región. Su caso simboliza la violencia impune que enfrentan los defensores ambientales y lo</description>
-      <pubDate>Sun, 05 Apr 2026 07:28:27 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
