@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Sombra del Ritual</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-ritual/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-ritual/</guid>
+      <description>Un crimen ritual en un pueblo aislado revela secretos oscuros y la lucha de una comunidad por enfrentar su pasado. La historia de Rosa, una madre asesinada, nos invita a reflexionar sobre la justicia y las voces olvidadas.</description>
+      <pubDate>Thu, 09 Apr 2026 18:01:34 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Sombra del Silencio</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-1/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-1/</guid>
@@ -158,14 +166,6 @@
       <description>Zulima Pérez, comisionada del Gobierno, se sorprende ante las afirmaciones de la Generalitat sobre la pronta finalización de la reconstrucción. Mientras tanto, nosotros seguimos esperando.</description>
       <pubDate>Mon, 06 Apr 2026 05:31:34 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>La Gran Comedia Española: ¿Marcha Fúnebre o Simple Entreacto?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-gran-comedia-espanola-marcha-funebre-o-simple-entreacto/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-gran-comedia-espanola-marcha-funebre-o-simple-entreacto/</guid>
-      <description>En tiempos de crisis, España se convierte en un escenario donde la tragedia y la comedia bailan un vals macabro. ¿Estamos ante un drama geoeconómico o solo un interludio cómico?</description>
-      <pubDate>Mon, 06 Apr 2026 03:29:43 +0000</pubDate>
-      <category>international</category>
     </item>
   </channel>
 </rss>
