@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/se-mostro-frio-como-el-hielo-el-asesino-en-serie-que-confeso-haber-matado-a-8-mu/</loc>
+    <lastmod>2026-04-09T19:03:40Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-sombras-1/</loc>
     <lastmod>2026-04-09T18:01:49Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -206,6 +212,12 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/science/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/pop_culture/</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
