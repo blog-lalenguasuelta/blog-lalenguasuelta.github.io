@@ -1393,8 +1393,7 @@ document.addEventListener('DOMContentLoaded',function(){
           var r=range.getBoundingClientRect();
           if(r.width<0.5||r.height<0.5)continue;
           var ch=node.textContent[i];
-          if(ch===' '||ch==='
-'||ch==='	')continue;
+          if(ch===' '||ch==='\n'||ch==='\t')continue;
           ranges.push({
             ch:ch,
             x:r.left+window.scrollX,
