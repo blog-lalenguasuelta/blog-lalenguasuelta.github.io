@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>La nueva ley de minas en Venezuela: ¿la solución o un episodio más de la corrupción?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-nueva-ley-de-minas-en-venezuela-la-solucion-o-un-episodio-mas-de-la-corrupcio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-nueva-ley-de-minas-en-venezuela-la-solucion-o-un-episodio-mas-de-la-corrupcio/</guid>
+      <description>La reciente aprobación de una nueva ley de minas en Venezuela promete un renacer económico, pero ¿realmente será efectiva ante la corrupción y el saqueo sistemático. Me hace gracia que, justo cuando pienso que he visto de todo en este teatro del absurdo que es la política venezolana, aparece esta nu</description>
+      <pubDate>Fri, 10 Apr 2026 19:01:59 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Susurro de las Sombras</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-1/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-1/</guid>
@@ -158,14 +166,6 @@
       <description>Los humanos más lejos de la Tierra están a mil millas de nuestro sofá, donde la única aventura es intentar no caer en la DANA de la hipoteca. ¿Quién no ha soñado con ser astronauta.</description>
       <pubDate>Mon, 06 Apr 2026 22:01:26 +0000</pubDate>
       <category>science</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Rito de la Soledad</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-rito-de-la-soledad/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-rito-de-la-soledad/</guid>
-      <description>El caso de Clara, una joven artista que fue asesinada en un ritual oscuro en un pueblo aislado de España, revela el horror de la violencia y el silencio que rodea a las víctimas. A través de su historia, se expone la indiferencia de una comunidad que elige olvidar.</description>
-      <pubDate>Mon, 06 Apr 2026 18:01:39 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
