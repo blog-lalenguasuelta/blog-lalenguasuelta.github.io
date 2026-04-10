@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,48148,t=>{"use strict";var r=t.i(61745);function o(t,r){return(...t)=>{try{return r(...t)}catch{throw Error(void 0)}}}let e=o(0,r.useTranslations);o(0,r.useFormatter),t.s(["useTranslations",0,e])}]);
