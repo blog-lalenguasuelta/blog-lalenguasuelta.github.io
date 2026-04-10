@@ -598,26 +598,26 @@ Tu navegador no soporta audio.
 <h3>También te puede interesar</h3>
 <div class="rel-grid">
 <div class="rel-card">
-<a href="/articulo/cronica-negra-el-rito-de-la-soledad/">
+<a href="/articulo/cronica-negra-ecos-de-silencio/">
 <div class="rel-body">
-<h4>Crónica Negra: El Rito de la Soledad</h4>
-<div class="mr"><span>6 abr 2026</span><span class="dot"></span><span>4 min</span></div>
+<h4>Crónica Negra: Ecos de Silencio</h4>
+<div class="mr"><span>5 abr 2026</span><span class="dot"></span><span>3 min</span></div>
 </div>
 </a>
 </div>
 <div class="rel-card">
-<a href="/articulo/cronica-negra-en-el-silencio-de-la-noche/">
+<a href="/articulo/cronica-negra-la-sombra-del-silencio/">
 <div class="rel-body">
-<h4>Crónica Negra: En el Silencio de la Noche</h4>
+<h4>Crónica Negra: La Sombra del Silencio</h4>
 <div class="mr"><span>6 abr 2026</span><span class="dot"></span><span>3 min</span></div>
 </div>
 </a>
 </div>
 <div class="rel-card">
-<a href="/articulo/cronica-negra-ecos-de-la-oscuridad/">
+<a href="/articulo/cronica-negra-el-silencio-de-las-sombras/">
 <div class="rel-body">
-<h4>Crónica Negra: Ecos de la Oscuridad</h4>
-<div class="mr"><span>8 abr 2026</span><span class="dot"></span><span>4 min</span></div>
+<h4>Crónica Negra: El Silencio de las Sombras</h4>
+<div class="mr"><span>7 abr 2026</span><span class="dot"></span><span>3 min</span></div>
 </div>
 </a>
 </div>
@@ -1524,7 +1524,7 @@ document.addEventListener('DOMContentLoaded',function(){
       if(cont.closest('.gm-hud,.gm-pick,.gm-over,.gm-fab,.gm-touch'))return;
       var rect=cont.getBoundingClientRect();
       /* Only decompose elements within generous viewport range */
-      if(rect.bottom<-200||rect.top>vh+600)return;
+      if(rect.bottom<-100||rect.top>vh-100)return;
 
       var text=cont.textContent;
       if(!text||text.trim().length<2)return;
@@ -1633,6 +1633,7 @@ document.addEventListener('DOMContentLoaded',function(){
      ══════════════════════════════════════════════════════════════ */
   function reconstruct(){
     overEl.classList.remove('open');
+    document.body.style.overflow='';
     var tl=gsap.timeline({onComplete:function(){
       /* Remove all char spans and debris */
       charEls.forEach(function(c){if(c.el.parentNode)c.el.parentNode.removeChild(c.el);});
@@ -1700,6 +1701,10 @@ document.addEventListener('DOMContentLoaded',function(){
     mode=gm;active=true;score=0;level=1;lives=3;
     pick.classList.remove('open');pickOpen=false;
 
+    /* Scroll to top so content is in the viewport */
+    window.scrollTo(0,0);
+    document.body.style.overflow='hidden';
+
     vw=window.innerWidth;vh=window.innerHeight;
     resizeCvs();
     cvs.style.display='block';
@@ -1757,8 +1762,8 @@ document.addEventListener('DOMContentLoaded',function(){
       var ny=c.oy+invDropY;
       c.el.style.left=nx+'px';
       c.el.style.top=ny+'px';
-      /* If they reach the player zone */
-      if(ny-scrollOff>vh-80){ endGame(); return; }
+      /* If they reach the player zone (only after fleet has actually dropped) */
+      if(invDropY>10&&ny-scrollOff>vh-80){ endGame(); return; }
     }
 
     /* Player shoot */
@@ -1817,10 +1822,12 @@ document.addEventListener('DOMContentLoaded',function(){
       }
     }
 
-    /* Level cleared? */
-    var any=false;
-    for(var k=0;k<charEls.length;k++)if(charEls[k].alive){any=true;break;}
-    if(!any)endGame();
+    /* Level cleared? (only if we actually had chars to play with) */
+    if(charEls.length>0){
+      var any=false;
+      for(var k=0;k<charEls.length;k++)if(charEls[k].alive){any=true;break;}
+      if(!any)endGame();
+    }
   }
 
   /* ════════════════════════════════════════════════════════════
@@ -1902,7 +1909,7 @@ document.addEventListener('DOMContentLoaded',function(){
         break;
       }
     }
-    if(!anyAlive)endGame();
+    if(charEls.length>0&&!anyAlive)endGame();
   }
 
   /* ══════════════════════════════════════════════════════════════
@@ -2017,6 +2024,7 @@ document.addEventListener('DOMContentLoaded',function(){
     cvs.style.display='none';
     hudEl.style.display='none';
     touchEl.classList.remove('active');
+    document.body.style.overflow='';
     gsap.to(fab,{autoAlpha:1,duration:0.3});
   }
 
