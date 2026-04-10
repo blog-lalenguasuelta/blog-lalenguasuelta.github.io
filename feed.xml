@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro de las Sombras</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-1/</guid>
+      <description>Un crimen ritual en un pueblo de Soria, donde la desaparición de una joven desata el miedo y la desconfianza. A medida que se desentierra la verdad, se revelan secretos oscuros que ponen en jaque a la comunidad.</description>
+      <pubDate>Fri, 10 Apr 2026 18:01:58 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Perú: La economía zombi que nunca fue el milagro que prometía</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/peru-la-economia-zombi-que-nunca-fue-el-milagro-que-prometia/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/peru-la-economia-zombi-que-nunca-fue-el-milagro-que-prometia/</guid>
@@ -158,14 +166,6 @@
       <description>El caso de Clara, una joven artista que fue asesinada en un ritual oscuro en un pueblo aislado de España, revela el horror de la violencia y el silencio que rodea a las víctimas. A través de su historia, se expone la indiferencia de una comunidad que elige olvidar.</description>
       <pubDate>Mon, 06 Apr 2026 18:01:39 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>El Gurú de la República Fácil: ¿Y si España fuera un Kebab de Pollo?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-guru-de-la-republica-facil-y-si-espana-fuera-un-kebab-de-pollo/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-guru-de-la-republica-facil-y-si-espana-fuera-un-kebab-de-pollo/</guid>
-      <description>Un consultor que ve repúblicas en el horizonte mientras el resto busca curro, esquiva narcotúneles y se ahoga en el &#x27;caso Kitchen&#x27;. Luis Arroyo, el tipo que le ha pulido los gestos a más de un presidente para que no parezca que está vendiendo crecepelo en la tele, suelta la perla: &quot;No es tan complic</description>
-      <pubDate>Mon, 06 Apr 2026 09:28:47 +0000</pubDate>
-      <category>politics</category>
     </item>
   </channel>
 </rss>
