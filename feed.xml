@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>La UCI, el paritorio de la tragedia: ¿Dónde está el límite de la vida?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-uci-el-paritorio-de-la-tragedia-donde-esta-el-limite-de-la-vida/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-uci-el-paritorio-de-la-tragedia-donde-esta-el-limite-de-la-vida/</guid>
+      <description>Un accidente ferroviario se convierte en el escenario surrealista de un nacimiento, pero ¿dónde queda el dolor de 46 vidas perdidas. En Adamuz, la realidad se ha vuelto tan surrealista que parece sacada de una novela de Kafka.</description>
+      <pubDate>Sat, 11 Apr 2026 22:02:04 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
       <title>Crónica Negra: Ecos de la Noche: El Ritual Olvidado</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-noche-el-ritual-olvidado/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-noche-el-ritual-olvidado/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-tunel-de-ceuta-la-ingenieria-del-narco-que-nos-da-un-bano-de-realidad-y-verge/</guid>
       <description>Mientras el Estado se queja de impuestos y no tiene ni sensores para trenes, bajo tierra el ingenio español se vuelca en sacar hachís. Mira que he visto cosas en esta vida.</description>
       <pubDate>Wed, 08 Apr 2026 07:31:21 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>El problema no es Mbappé, es el PSG y su magia de pacotilla</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-problema-no-es-mbappe-es-el-psg-y-su-magia-de-pacotilla/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-problema-no-es-mbappe-es-el-psg-y-su-magia-de-pacotilla/</guid>
-      <description>A veces parece que el fútbol se ha convertido en un circo donde los fichajes son los payasos y las victorias las palomitas que se nos atragantan. ¿Alguien se ha preguntado qué demonios le pasa al PSG.</description>
-      <pubDate>Tue, 07 Apr 2026 22:01:25 +0000</pubDate>
       <category>tech</category>
     </item>
   </channel>
