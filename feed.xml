@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de la Noche: El Ritual Olvidado</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-noche-el-ritual-olvidado/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-noche-el-ritual-olvidado/</guid>
+      <description>El crimen ritual de Clara en Villacastín es un eco de la violencia y el sufrimiento en una comunidad olvidada. Su historia, aunque oscura, revela las profundidades de un sistema que falla en proteger a los más vulnerables.</description>
+      <pubDate>Sat, 11 Apr 2026 18:02:01 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Silencio de las Sombras</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-sombras-2/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-sombras-2/</guid>
@@ -158,14 +166,6 @@
       <description>A veces parece que el fútbol se ha convertido en un circo donde los fichajes son los payasos y las victorias las palomitas que se nos atragantan. ¿Alguien se ha preguntado qué demonios le pasa al PSG.</description>
       <pubDate>Tue, 07 Apr 2026 22:01:25 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>¿Para qué queremos datos? La comedia de errores en la administración española</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/para-que-queremos-datos-la-comedia-de-errores-en-la-administracion-espanola/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/para-que-queremos-datos-la-comedia-de-errores-en-la-administracion-espanola/</guid>
-      <description>En un país donde la burocracia es más lenta que una tortuga con jet lag, la ex presidenta de la AIReF se lamenta de su lucha por acceder a datos que podrían salvarnos. Pero, ¿realmente queremos saber la verdad o preferimos seguir viviendo en nuestra burbuja?</description>
-      <pubDate>Tue, 07 Apr 2026 18:42:30 +0000</pubDate>
-      <category>economy</category>
     </item>
   </channel>
 </rss>
