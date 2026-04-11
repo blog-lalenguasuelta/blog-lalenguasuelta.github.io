@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog-lalenguasuelta.github.io/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/peru-el-pais-donde-el-crecimiento-economico-es-solo-un-efecto-especial/</loc>
+    <lastmod>2026-04-11T01:32:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/gaza-lo-que-espana-no-sabe-y-tampoco-le-importa/</loc>
+    <lastmod>2026-04-10T22:29:10Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-arte-de-la-sorpresa-como-los-accidentes-de-coche-se-convirtieron-en-la-nueva-/</loc>
+    <lastmod>2026-04-10T19:31:09Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/la-nueva-ley-de-minas-en-venezuela-la-solucion-o-un-episodio-mas-de-la-corrupcio/</loc>
@@ -200,49 +218,49 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/sucesos/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/society/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/economy/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/tech/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/international/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/politics/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/science/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/pop_culture/</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
