@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>&quot;Las mañanas y las noches ya no existen&quot;: el calor como nuevo reloj biológico</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/las-mananas-y-las-noches-ya-no-existen-el-calor-como-nuevo-reloj-biologico/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/las-mananas-y-las-noches-ya-no-existen-el-calor-como-nuevo-reloj-biologico/</guid>
+      <description>La vida en los lugares más cálidos del planeta convierte cada jornada en un ciclo de sufrimiento y adaptación, donde cambiar de hora no es una opción y el sudor es el único compañero fiel. ¿Alguna vez te has preguntado cómo sería vivir en un lugar donde el calor no solo abrasa, sino que reconfigura </description>
+      <pubDate>Mon, 08 Jun 2026 21:32:34 +0000</pubDate>
+      <category>science</category>
+    </item>
+    <item>
       <title>El Mapa del Ignorado: ¿Un paso hacia la transparencia o solo otro juego de sombras?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/el-mapa-del-ignorado-un-paso-hacia-la-transparencia-o-solo-otro-juego-de-sombras/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-mapa-del-ignorado-un-paso-hacia-la-transparencia-o-solo-otro-juego-de-sombras/</guid>
@@ -158,14 +166,6 @@
       <description>La vida en España es un eterno juego de luces y sombras, pero esta vez la broma ha pasado de ser un chiste a un drama. Los nuevos audios entre Red Eléctrica y empresas revelan que el verdadero apagón es el sentido común.</description>
       <pubDate>Wed, 08 Apr 2026 19:31:13 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Susurro de las Sombras</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras/</guid>
-      <description>María, una mujer de Madrid, fue encontrada muerta en su hogar; las autoridades lo catalogaron como suicidio, pero los vecinos sabían que era un feminicidio. Su historia, marcada por el abuso y la violencia, es un recordatorio de las muchas voces que aún claman por justicia en la oscuridad.</description>
-      <pubDate>Wed, 08 Apr 2026 18:01:51 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
