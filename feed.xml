@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Las Sombras del Olvido</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-olvido/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-olvido/</guid>
+      <description>En las sombras de un barrio olvidado de Barcelona, un asesino en serie menor dejó un rastro de dolor y desesperación. A través de la lucha de las familias de las víctimas, la historia de cada vida perdida se convierte en un grito de justicia.</description>
+      <pubDate>Mon, 08 Jun 2026 18:02:00 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La UCI, el paritorio de la tragedia: ¿Dónde está el límite de la vida?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-uci-el-paritorio-de-la-tragedia-donde-esta-el-limite-de-la-vida/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-uci-el-paritorio-de-la-tragedia-donde-esta-el-limite-de-la-vida/</guid>
@@ -158,14 +166,6 @@
       <description>La historia de un asesino en serie que operó en España sin ser detectado durante años, dejando un rastro de dolor y olvido. Este capítulo explora las vidas de las víctimas y critica un sistema que falló en protegerlas.</description>
       <pubDate>Wed, 08 Apr 2026 18:01:34 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>El túnel de Ceuta: la ingeniería del narco que nos da un baño de realidad (y vergüenza)</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-tunel-de-ceuta-la-ingenieria-del-narco-que-nos-da-un-bano-de-realidad-y-verge/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-tunel-de-ceuta-la-ingenieria-del-narco-que-nos-da-un-bano-de-realidad-y-verge/</guid>
-      <description>Mientras el Estado se queja de impuestos y no tiene ni sensores para trenes, bajo tierra el ingenio español se vuelca en sacar hachís. Mira que he visto cosas en esta vida.</description>
-      <pubDate>Wed, 08 Apr 2026 07:31:21 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
