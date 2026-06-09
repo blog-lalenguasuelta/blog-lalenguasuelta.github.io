@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Cuerpos de Noche</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-cuerpos-de-noche/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-cuerpos-de-noche/</guid>
+      <description>El crimen de Clara, una joven de un pequeño pueblo de la costa, revela las sombras de una relación tóxica y la lucha por la justicia en un sistema que ignora a las víctimas. Su historia, aunque olvidada, sigue gritando en la memoria de aquellos que la amaron.</description>
+      <pubDate>Tue, 09 Jun 2026 18:01:38 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Vetada La Entrada Del Mejor Árbitro De África: La Presión Migratoria De La Administración Trump Marca El Inicio Del Mundial — La opinión que nadie te pidió</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/vetada-la-entrada-del-mejor-arbitro-de-africa-la-presion-migratoria-de-la-admini/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/vetada-la-entrada-del-mejor-arbitro-de-africa-la-presion-migratoria-de-la-admini/</guid>
+      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
+      <pubDate>Tue, 09 Jun 2026 16:48:29 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Alemania Se Resigna Ante El Fin Del Caza Europeo: “El Proyecto Se Ha Estrellado Contra La Realidad” — La opinión que nadie te pidió</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/alemania-se-resigna-ante-el-fin-del-caza-europeo-el-proyecto-se-ha-estrellado-co/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/alemania-se-resigna-ante-el-fin-del-caza-europeo-el-proyecto-se-ha-estrellado-co/</guid>
@@ -150,22 +166,6 @@
       <description>Un crimen ritual en un pueblo de Soria, donde la desaparición de una joven desata el miedo y la desconfianza. A medida que se desentierra la verdad, se revelan secretos oscuros que ponen en jaque a la comunidad.</description>
       <pubDate>Fri, 10 Apr 2026 18:01:58 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>Perú: La economía zombi que nunca fue el milagro que prometía</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/peru-la-economia-zombi-que-nunca-fue-el-milagro-que-prometia/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/peru-la-economia-zombi-que-nunca-fue-el-milagro-que-prometia/</guid>
-      <description>Las crisis políticas han dejado a Perú atrapado en un ciclo de inestabilidad, desmitificando el cuento de hadas de su crecimiento económico. ¿Acaso hay algo más irónico que una economía que crece a lo largo de los años, pero que sufre como una planta de plástico en un hogar sin luz.</description>
-      <pubDate>Fri, 10 Apr 2026 04:29:34 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>Afrika Bambaataa: ¿De icono de la paz a protagonista de un culebrón de abusos?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/afrika-bambaataa-de-icono-de-la-paz-a-protagonista-de-un-culebron-de-abusos/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/afrika-bambaataa-de-icono-de-la-paz-a-protagonista-de-un-culebron-de-abusos/</guid>
-      <description>Un mito del hiphop se desmorona mientras cuatro denuncias revelan un lado oscuro que podría cambiarlo todo. ¿Desde cuándo el tipo que nos enseñó a bailar bajo el mantra de la paz y la unidad se convierte en el principal sospechoso de un escándalo de abusos.</description>
-      <pubDate>Thu, 09 Apr 2026 22:00:54 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
