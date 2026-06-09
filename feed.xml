@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>¿Qué dirán de mí cuando me demijoe el 1.200 € al mes?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/que-diran-de-mi-cuando-me-demijoe-el-1200-al-mes/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/que-diran-de-mi-cuando-me-demijoe-el-1200-al-mes/</guid>
+      <description>El precio del miedo no está en la factura, está en la etiqueta que colgarán en la pared de tus colegas. Yo me quedé con la idea de que la gente no te muere por la guerra, por la bomba o por el terremoto; no, la gente te “muerte” cuando el anuncio de tu trágica desaparición se vuelve meme.</description>
+      <pubDate>Tue, 09 Jun 2026 19:02:27 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
       <title>Crónica Negra: La corrosiva sombra de Alcázar</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-corrosiva-sombra-de-alcazar/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-corrosiva-sombra-de-alcazar/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-noche-el-ritual-olvidado/</guid>
       <description>El crimen ritual de Clara en Villacastín es un eco de la violencia y el sufrimiento en una comunidad olvidada. Su historia, aunque oscura, revela las profundidades de un sistema que falla en proteger a los más vulnerables.</description>
       <pubDate>Sat, 11 Apr 2026 18:02:01 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Silencio de las Sombras</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-sombras-2/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-sombras-2/</guid>
-      <description>La historia de Herminia Martínez, asesinada en un pueblo español, revela el silencio cómplice de una comunidad. Años después, jóvenes deciden romper ese silencio y buscar justicia, mostrando cómo el miedo puede encubrir la verdad.</description>
-      <pubDate>Sat, 11 Apr 2026 18:01:39 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
