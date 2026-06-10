@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>El Ministerio de Transportes: Donde los Accidentes son Publicidad y la Seguridad es un Espejismo</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-ministerio-de-transportes-donde-los-accidentes-son-publicidad-y-la-seguridad-/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-ministerio-de-transportes-donde-los-accidentes-son-publicidad-y-la-seguridad-/</guid>
+      <description>Una paseo en coche por la realidad de un ministerio que invierte en anuncios mientras sus carreteras siguen siendo un colador. Vamos en coche, esquivando baches que parecen más cráteres que otra cosa, y de repente, un anuncio del Ministerio de Transportes salta del reproductor como si fuera una seña</description>
+      <pubDate>Wed, 10 Jun 2026 19:01:41 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Crónica Negra: Bajo las Estrellas, Sangre en la Tierra</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-bajo-las-estrellas-sangre-en-la-tierra/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-bajo-las-estrellas-sangre-en-la-tierra/</guid>
@@ -158,14 +166,6 @@
       <description>A medida que las olas de calor arrasan España, la gente prefiere las frases motivacionales de Sharma a los alertas de la AEMET. ¿Qué nos dice esto sobre nuestra locura colectiva.</description>
       <pubDate>Tue, 09 Jun 2026 22:01:47 +0000</pubDate>
       <category>science</category>
-    </item>
-    <item>
-      <title>La Rioja: El Parque de Atracciones de la Política</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-rioja-el-parque-de-atracciones-de-la-politica/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-rioja-el-parque-de-atracciones-de-la-politica/</guid>
-      <description>La Rioja no es solo tierra de vino, sino un auténtico parque de atracciones donde la política se convierte en un espectáculo grotesco. Entre debates sin fin y propuestas vacías, los riojanos se preguntan si algún día habrá una montaña rusa que los lleve a la solución de sus problemas.</description>
-      <pubDate>Tue, 09 Jun 2026 19:51:50 +0000</pubDate>
-      <category>international</category>
     </item>
   </channel>
 </rss>
