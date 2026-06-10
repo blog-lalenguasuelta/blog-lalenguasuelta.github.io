@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La noche que el silencio se quebró en La Cueva</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-noche-que-el-silencio-se-quebro-en-la-cueva/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-noche-que-el-silencio-se-quebro-en-la-cueva/</guid>
+      <description>Una violencia doméstica escaló hasta la muerte de la madre y la lesión de sus hijos en un pueblo de Castilla y León; la falta de intervención institucional permitió la tragedia. El juicio reveló fallos del sistema de protección y dejó una familia destrozada bajo la sombra de la impunidad.</description>
+      <pubDate>Wed, 10 Jun 2026 06:10:59 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>¿El Papa, un influencer en declive? La España que ya no se arrodilla</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/el-papa-un-influencer-en-declive-la-espana-que-ya-no-se-arrodilla/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-papa-un-influencer-en-declive-la-espana-que-ya-no-se-arrodilla/</guid>
@@ -158,14 +166,6 @@
       <description>En un país donde la realidad parece un guion de comedia, analizamos cómo los problemas sistémicos se convierten en memes y trending topics sin solución a la vista.</description>
       <pubDate>Mon, 08 Jun 2026 22:52:15 +0000</pubDate>
       <category>pop_culture</category>
-    </item>
-    <item>
-      <title>La CIA, Trump y la caída de Sánchez: ¿una novela de espías o un día cualquiera en Madrid?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-cia-trump-y-la-caida-de-sanchez-una-novela-de-espias-o-un-dia-cualquiera-en-m/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-cia-trump-y-la-caida-de-sanchez-una-novela-de-espias-o-un-dia-cualquiera-en-m/</guid>
-      <description>Mientras la atención se centra en los giros judiciales y la visita del Papa, la CIA parece tener planes alternativos para España. ¿O tal vez no.</description>
-      <pubDate>Mon, 08 Jun 2026 22:02:22 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
