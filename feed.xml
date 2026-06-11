@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El susurro del balcón: la muerte que el silencio convirtió en suicidio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-balcon-la-muerte-que-el-silencio-convirtio-en-suici/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-balcon-la-muerte-que-el-silencio-convirtio-en-suici/</guid>
+      <description>Carmen Ruiz fue asesinada por su marido, pero las autoridades cerraron el caso como suicidio. La investigación periodística y la presión social revelaron pruebas de homicidio, aunque la justicia quedó estancada.</description>
+      <pubDate>Thu, 11 Jun 2026 06:09:23 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La trampa del alto el fuego: cuando la paz se vuelve un juego de “toma y deja”</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-trampa-del-alto-el-fuego-cuando-la-paz-se-vuelve-un-juego-de-toma-y-deja/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-trampa-del-alto-el-fuego-cuando-la-paz-se-vuelve-un-juego-de-toma-y-deja/</guid>
@@ -162,14 +170,6 @@ Yo no soy un político, pero esto no es un tema abstracto. Es algo que vive, que
       <description>Este capítulo narra el asesinato de Marta Torres, una joven artista en un pequeño pueblo de España, y cómo su caso fue encubierto durante décadas. A través de la investigación de un grupo de jóvenes, se revela un entramado de complicidades y el poder del silencio en la búsqueda de justicia.</description>
       <pubDate>Wed, 10 Jun 2026 18:01:43 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>La IA promete salvarnos del fuego, pero el fuego ya está dentro de nuestras oficinas</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-ia-promete-salvarnos-del-fuego-pero-el-fuego-ya-esta-dentro-de-nuestras-ofici/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-ia-promete-salvarnos-del-fuego-pero-el-fuego-ya-esta-dentro-de-nuestras-ofici/</guid>
-      <description>Mientras los drones patrullan los bosques de Huelva y los algoritmos dictan el futuro del trabajo, la inteligencia artificial parece más un espejo que una solución. Me desperté esta mañana con el crujido de mi router que, como siempre, parece conspirar contra mí.</description>
-      <pubDate>Wed, 10 Jun 2026 16:51:09 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
