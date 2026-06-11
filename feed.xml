@@ -8,6 +8,30 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de la Montaña: El Silencio de Lucía</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-montana-el-silencio-de-lucia/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-montana-el-silencio-de-lucia/</guid>
+      <description>El caso del asesinato de Lucía Álvarez, una estudiante de arquitectura, expone la vulnerabilidad de las mujeres en zonas rurales y los fallos del sistema de seguridad. Su trágica desaparición y el descubrimiento de su cuerpo meses después resaltan la traición de aquellos que deberían proteger la vid</description>
+      <pubDate>Thu, 11 Jun 2026 18:27:45 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: Ecos de Silencio: El Caso Ana Pérez</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-silencio-el-caso-ana-perez/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-silencio-el-caso-ana-perez/</guid>
+      <description>El caso de Ana Pérez es un sombrío recordatorio de los peligros que enfrentan los periodistas en un contexto de corrupción y crimen organizado. Su historia, aunque poco conocida, expone la fragilidad del sistema que debería proteger la libertad de expresión.</description>
+      <pubDate>Thu, 11 Jun 2026 18:19:07 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: Voces Silenciadas: El Eco del Feminicidio de María José Ríos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-voces-silenciadas-el-eco-del-feminicidio-de-maria-jose-rios/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-voces-silenciadas-el-eco-del-feminicidio-de-maria-jose-rios/</guid>
+      <description>María José Ríos, activista contra la violencia de género, fue secuestrada y asesinada en 2021 en la Ciudad de México. Su caso, lleno de irregularidades y presiones políticas, evidencia la impunidad del sistema judicial ante los feminicidios en el país.</description>
+      <pubDate>Thu, 11 Jun 2026 18:11:05 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: Ecos de la Oscuridad: El Asesino Silencioso</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-oscuridad-el-asesino-silencioso/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-oscuridad-el-asesino-silencioso/</guid>
@@ -146,30 +170,6 @@ Yo no soy un político, pero esto no es un tema abstracto. Es algo que vive, que
       <description>Mientras el mundo arde en protestas y tiroteos, Lamine, el saharaui musulmán, espera al Papa con amor y esperanza en su corazón. ¿Puede un hombre marcado por la guerra y la represión encontrar consuelo en la figura de un líder religioso.</description>
       <pubDate>Wed, 10 Jun 2026 22:48:56 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>El Caza Europeo: ¿Un Proyecto o Un Chiste de Mal Gusto?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-caza-europeo-un-proyecto-o-un-chiste-de-mal-gusto/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-caza-europeo-un-proyecto-o-un-chiste-de-mal-gusto/</guid>
-      <description>La historia del caza europeo no solo es un fracaso industrial, sino que revela la hilarante falta de coordinación de la UE. En un mundo donde la defensa parece un juego de niños, ¿quién se ríe al final?</description>
-      <pubDate>Wed, 10 Jun 2026 19:51:38 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>El Gran Circo Político: ¿Quién Necesita un Guion Cuando Tienes a Sumar?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-gran-circo-politico-quien-necesita-un-guion-cuando-tienes-a-sumar/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-gran-circo-politico-quien-necesita-un-guion-cuando-tienes-a-sumar/</guid>
-      <description>En un país donde la política parece un espectáculo de variedades, Sumar se convierte en la estrella del show. La pregunta es: ¿quién está dirigiendo esta tragicomedia?</description>
-      <pubDate>Wed, 10 Jun 2026 19:51:24 +0000</pubDate>
-      <category>international</category>
-    </item>
-    <item>
-      <title>Albert Rivera: ¿El último mohicano o el último meme?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/albert-rivera-el-ultimo-mohicano-o-el-ultimo-meme/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/albert-rivera-el-ultimo-mohicano-o-el-ultimo-meme/</guid>
-      <description>La figura de Albert Rivera ha trascendido la política española para convertirse en un fenómeno de memes y comentarios sarcásticos. En un país donde la risa es la mejor medicina, analizamos la relevancia de su presencia en un contexto de crisis y polarización.</description>
-      <pubDate>Wed, 10 Jun 2026 19:50:36 +0000</pubDate>
-      <category>science</category>
     </item>
   </channel>
 </rss>
