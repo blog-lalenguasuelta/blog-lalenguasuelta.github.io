@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de la Oscuridad: El Asesino Silencioso</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-oscuridad-el-asesino-silencioso/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-oscuridad-el-asesino-silencioso/</guid>
+      <description>La historia de un asesino en serie que operó en España durante los años 90, ignorado por un sistema que falló en proteger a sus víctimas. Reflexiones sobre la oscuridad que acecha en nuestra sociedad y la necesidad de recordar a quienes han sido olvidados.</description>
+      <pubDate>Thu, 11 Jun 2026 18:02:13 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: La sombra del silencio</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-3/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-3/</guid>
@@ -162,14 +170,6 @@ Yo no soy un político, pero esto no es un tema abstracto. Es algo que vive, que
       <description>La figura de Albert Rivera ha trascendido la política española para convertirse en un fenómeno de memes y comentarios sarcásticos. En un país donde la risa es la mejor medicina, analizamos la relevancia de su presencia en un contexto de crisis y polarización.</description>
       <pubDate>Wed, 10 Jun 2026 19:50:36 +0000</pubDate>
       <category>science</category>
-    </item>
-    <item>
-      <title>El Ministerio de Transportes: Donde los Accidentes son Publicidad y la Seguridad es un Espejismo</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-ministerio-de-transportes-donde-los-accidentes-son-publicidad-y-la-seguridad-/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-ministerio-de-transportes-donde-los-accidentes-son-publicidad-y-la-seguridad-/</guid>
-      <description>Una paseo en coche por la realidad de un ministerio que invierte en anuncios mientras sus carreteras siguen siendo un colador. Vamos en coche, esquivando baches que parecen más cráteres que otra cosa, y de repente, un anuncio del Ministerio de Transportes salta del reproductor como si fuera una seña</description>
-      <pubDate>Wed, 10 Jun 2026 19:01:41 +0000</pubDate>
-      <category>politics</category>
     </item>
   </channel>
 </rss>
