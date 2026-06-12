@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Las Sombras del Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-silencio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-silencio/</guid>
+      <description>Clara, una madre de dos niños, fue hallada muerta en su hogar, y las autoridades archivaron el caso como un suicidio. Sin embargo, los vecinos sabían la verdad y comenzaron una lucha por justicia en su memoria.</description>
+      <pubDate>Fri, 12 Jun 2026 18:03:57 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Susurro del Silencio</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio/</guid>
@@ -159,14 +167,6 @@ Imagínate esto: el Papa, voz grave y mirada inquebrantable, subiendo a un avió
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-papa-se-apoya-en-la-m30-y-la-economia-se-queda-en-el-tintero/</guid>
       <description>Cuando el Santo Padre se planteaba la ruta de la inmigración, yo estaba calculando el 15 % de descuento que me daría el banco de la tercera edad. El 11 de junio, el Papa León XIV apareció en el muelle de Arguineguín con la misma dignidad que un vendedor ambulante que, en vez de vender helados, vende</description>
       <pubDate>Thu, 11 Jun 2026 13:51:50 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>¿Quién paga la fiesta? El peso del bolsillo en la fuga o el éxito de las selecciones latinas y la española en el Mundial 2026</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/quien-paga-la-fiesta-el-peso-del-bolsillo-en-la-fuga-o-el-exito-de-las-seleccion/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/quien-paga-la-fiesta-el-peso-del-bolsillo-en-la-fuga-o-el-exito-de-las-seleccion/</guid>
-      <description>Una mirada mordaz a cómo la economía global, los salarios de los futbolistas y la capacidad de los fans para comprar cerveza influyen (más) que la táctica de entrenamiento en los resultados de América Latina y España en el próximo Mundial.</description>
-      <pubDate>Thu, 11 Jun 2026 13:51:31 +0000</pubDate>
       <category>politics</category>
     </item>
   </channel>
