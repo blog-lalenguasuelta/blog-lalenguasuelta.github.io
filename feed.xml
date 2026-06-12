@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro del Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio/</guid>
+      <description>El caso de Clara, una mujer cuyo feminicidio fue encubierto como suicidio, revela las fallas del sistema de justicia en España. Su historia, olvidada por muchos, es un grito para que las voces de las víctimas sean escuchadas.</description>
+      <pubDate>Fri, 12 Jun 2026 18:02:00 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: La sombra del hogar</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-hogar/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-hogar/</guid>
@@ -160,14 +168,6 @@ Imagínate esto: el Papa, voz grave y mirada inquebrantable, subiendo a un avió
       <description>Una mirada mordaz a cómo la economía global, los salarios de los futbolistas y la capacidad de los fans para comprar cerveza influyen (más) que la táctica de entrenamiento en los resultados de América Latina y España en el próximo Mundial.</description>
       <pubDate>Thu, 11 Jun 2026 13:51:31 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>El Mapa Del Precio Real De La Vivienda En España, Calle A Calle — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-mapa-del-precio-real-de-la-vivienda-en-espana-calle-a-calle-la-opinion-que-na/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-mapa-del-precio-real-de-la-vivienda-en-espana-calle-a-calle-la-opinion-que-na/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Thu, 11 Jun 2026 12:02:10 +0000</pubDate>
-      <category>economy</category>
     </item>
   </channel>
 </rss>
