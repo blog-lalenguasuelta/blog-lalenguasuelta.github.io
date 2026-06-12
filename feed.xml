@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Cuando la “suerte” se convierte en pronóstico político: ¿Qué le espera al tri‑de‑fuegos y a la Roja en 2026?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cuando-la-suerte-se-convierte-en-pronostico-politico-que-le-espera-al-tridefuego/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cuando-la-suerte-se-convierte-en-pronostico-politico-que-le-espera-al-tridefuego/</guid>
+      <description>En medio de la fiebre de Qatar 2026, la BBC de Segunda Maratón ofrece predicciones que parecen sacadas de un guion de sitcom. Yo, la Voz Anónima, las desconstruyo y las concatena con un café que ya se ha ido de la taza.</description>
+      <pubDate>Fri, 12 Jun 2026 09:02:55 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>El Papay la M-30: Un contraste que duele</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/el-papay-la-m-30-un-contraste-que-duele/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-papay-la-m-30-un-contraste-que-duele/</guid>
@@ -159,14 +167,6 @@ Imagínate esto: el Papa, voz grave y mirada inquebrantable, subiendo a un avió
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-espejo-roto-de-la-cooperativa-del-sol/</guid>
       <description>Una cooperativa que prometía rendimientos se convirtió en una estafa que dejó a cientos sin fondos. El fraude reveló fallos regulatorios y la fragilidad de las comunidades rurales.</description>
       <pubDate>Thu, 11 Jun 2026 06:21:59 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Sombras sobre la Ruta del Norte</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-sobre-la-ruta-del-norte/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-sobre-la-ruta-del-norte/</guid>
-      <description>La familia Pérez desapareció tras ser secuestrada por la banda narco Los Cañones; solo la madre fue hallada, mientras la investigación quedó paralizada por la colusión entre criminales y autoridades. El caso muestra la impunidad que acecha a Guatemala y la fragilidad de sus instituciones.</description>
-      <pubDate>Thu, 11 Jun 2026 06:13:26 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
