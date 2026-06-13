@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La sombra del hogar</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-hogar-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-hogar-1/</guid>
+      <description>La historia de María, una víctima de violencia doméstica, pone de manifiesto las fallas del sistema en la protección de las mujeres. Su trágica muerte revela un eco de negligencia y un llamado a la acción social.</description>
+      <pubDate>Sat, 13 Jun 2026 18:01:24 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Eco de los Gritos Olvidados</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-los-gritos-olvidados/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-los-gritos-olvidados/</guid>
@@ -161,14 +169,6 @@ Yo estoy en una terraza del norte de África, mirando el estrellado cielo del at
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio/</guid>
       <description>El caso de Clara, una mujer cuyo feminicidio fue encubierto como suicidio, revela las fallas del sistema de justicia en España. Su historia, olvidada por muchos, es un grito para que las voces de las víctimas sean escuchadas.</description>
       <pubDate>Fri, 12 Jun 2026 18:02:00 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: La sombra del hogar</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-hogar/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-hogar/</guid>
-      <description>La tragedia de María y sus hijos revela la cruda realidad de la violencia doméstica en España. Un caso olvidado que destaca la inacción del sistema ante el sufrimiento de muchas mujeres.</description>
-      <pubDate>Fri, 12 Jun 2026 18:01:14 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
