@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Sedade los Esquís</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sedade-los-esquis/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sedade-los-esquis/</guid>
+      <description>Un feminicidio en España archivado como suicidio, donde los vecinos conocían la verdad pero el sistema falló. Una historia de silencio y traición.</description>
+      <pubDate>Sun, 14 Jun 2026 06:04:35 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La Paz: Un Producto de Lujo que Nunca Sale a la Venta</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-paz-un-producto-de-lujo-que-nunca-sale-a-la-venta/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-paz-un-producto-de-lujo-que-nunca-sale-a-la-venta/</guid>
@@ -164,14 +172,6 @@ Yo estoy en una terraza del norte de África, mirando el estrellado cielo del at
       <description>Mientras el pontífice caminaba entre multitudes, una fábrica aragonesa cosía 5.000 prendas en siete días; la moda sacra se convirtió en la nueva cara del “greenwashing” de la élite española. El número que más me dejó helado no es la cifra de 5.000, sino los 1,2 kg de tela que, según la propia Zarasa</description>
       <pubDate>Sat, 13 Jun 2026 10:49:13 +0000</pubDate>
       <category>international</category>
-    </item>
-    <item>
-      <title>Cerca De 30.000 Ricos En España Declaran Joyas Y Bienes De Lujo, Con Un Valor Medio De 41.500 Euros — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cerca-de-30000-ricos-en-espana-declaran-joyas-y-bienes-de-lujo-con-un-valor-medi/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cerca-de-30000-ricos-en-espana-declaran-joyas-y-bienes-de-lujo-con-un-valor-medi/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Sat, 13 Jun 2026 10:49:08 +0000</pubDate>
-      <category>economy</category>
     </item>
   </channel>
 </rss>
