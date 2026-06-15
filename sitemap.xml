@@ -7,6 +7,36 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cuando-volveran-las-economias-mundiales-a-la-normalidad-tras-el-acuerdo-entre-ee/</loc>
+    <lastmod>2026-06-15T18:01:38Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-semper-el-muro-se-les-cae-cada-semana-es-una-men/</loc>
+    <lastmod>2026-06-15T15:01:50Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/zapatero-joyas-y-la-ilusion-de-la-justicia-cuando-el-juicio-se-vuelve-espectacul/</loc>
+    <lastmod>2026-06-15T12:02:57Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-no-suizo-es-una-victoria-del-absurdo/</loc>
+    <lastmod>2026-06-15T09:03:26Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/abascal-el-ultimo-gladiador-del-circo-politico-espanol/</loc>
+    <lastmod>2026-06-15T06:02:47Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-no-olvidamos/</loc>
     <lastmod>2026-06-15T06:02:31Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -577,36 +607,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-ana/</loc>
-    <lastmod>2026-06-09T18:25:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-oscuridad/</loc>
-    <lastmod>2026-06-09T18:17:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-la-selva/</loc>
-    <lastmod>2026-06-09T18:09:51Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-cuerpos-de-noche/</loc>
-    <lastmod>2026-06-09T18:01:38Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/vetada-la-entrada-del-mejor-arbitro-de-africa-la-presion-migratoria-de-la-admini/</loc>
-    <lastmod>2026-06-09T16:48:29Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/sucesos/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -650,6 +650,12 @@
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/pop_culture/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/categoria/general/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
