@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La noche que el silencio rompió los cristales</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-noche-que-el-silencio-rompio-los-cristales/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-noche-que-el-silencio-rompio-los-cristales/</guid>
+      <description>Una violencia doméstica en Valencia acabó con la vida de una madre y sus dos hijos, y la justicia tardó en reconocer la falla del sistema. El caso, casi olvidado, muestra la impunidad que rodea a la violencia de género.</description>
+      <pubDate>Mon, 15 Jun 2026 18:05:06 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>¿Cuándo Volverán Las Economías Mundiales A La Normalidad Tras El Acuerdo Entre Ee.Uu. E Irán? — La opinión que nadie te pidió</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cuando-volveran-las-economias-mundiales-a-la-normalidad-tras-el-acuerdo-entre-ee/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cuando-volveran-las-economias-mundiales-a-la-normalidad-tras-el-acuerdo-entre-ee/</guid>
@@ -163,14 +171,6 @@ Yo era Carmen, una de esas vejez que no quiere que la nazca la palabra “vacía
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-sombra/</guid>
       <description>El caso de Ana Lucía Pérez, asesinada por su exnovio en 2019, expone la crudeza de la violencia de género en Colombia y la ineficacia del sistema judicial. Su historia se convierte en un símbolo de resistencia y un grito de justicia que aún resuena.</description>
       <pubDate>Sat, 13 Jun 2026 18:05:21 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El eco de un grito ahogado</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-un-grito-ahogado/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-un-grito-ahogado/</guid>
-      <description>Lucía Martínez, una joven de 19 años, fue secuestrada y asesinada en Villa del Río, Córdoba, en 2018. Su caso pone de relieve las fallas del sistema judicial y policial en la lucha contra la violencia de género en España.</description>
-      <pubDate>Sat, 13 Jun 2026 18:04:02 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
