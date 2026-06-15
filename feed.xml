@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Cuando las entradas del Mundial valen más que tu alquiler: el absurdo de los precios dinámicos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cuando-las-entradas-del-mundial-valen-mas-que-tu-alquiler-el-absurdo-de-los-prec/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cuando-las-entradas-del-mundial-valen-mas-que-tu-alquiler-el-absurdo-de-los-prec/</guid>
+      <description>La FIFA ha decidido que los sueños de un Mundial se paguen con precios que dejan temblando el bolsillo de cualquiera. ¿A qué precio la pasión.</description>
+      <pubDate>Mon, 15 Jun 2026 19:00:44 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Crónica Negra: El eco de la celda</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-la-celda/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-la-celda/</guid>
@@ -163,16 +171,6 @@ Imagínate que un país decide no imponer un tope poblacional de 10 millones. Su
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Sat, 13 Jun 2026 22:16:02 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>Cuando una jubilada nota la luz de otro mundo</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cuando-una-jubilada-nota-la-luz-de-otro-mundo/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cuando-una-jubilada-nota-la-luz-de-otro-mundo/</guid>
-      <description>En un pueblo de Toledo la amistad trasciende la ceguera y la burocracia
-
-Yo era Carmen, una de esas vejez que no quiere que la nazca la palabra “vacía”. Vivía en un pueblito de Toledo, con el ruido de las campanas y el olor a pasto recién cortado, y pensaba que la soledad era mi compañera fiel.</description>
-      <pubDate>Sat, 13 Jun 2026 19:48:20 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
