@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Las sombras que no olvidamos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-no-olvidamos/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-no-olvidamos/</guid>
+      <description>Un asesino en serie menor operó en la penumbra de España, dejando un rastro de dolor en la comunidad. Este caso olvidado nos recuerda la importancia de no silenciar las voces de las víctimas.</description>
+      <pubDate>Mon, 15 Jun 2026 06:02:31 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: Sombras en la Tierra</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-tierra/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-tierra/</guid>
@@ -160,14 +168,6 @@ Yo era Carmen, una de esas vejez que no quiere que la nazca la palabra “vacía
       <description>Cuando el gobierno de EE. UU.</description>
       <pubDate>Sat, 13 Jun 2026 16:48:48 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>Zapatero y el brillo que encandila a Hacienda: ¿socialista de Rolex?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/zapatero-y-el-brillo-que-encandila-a-hacienda-socialista-de-rolex/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/zapatero-y-el-brillo-que-encandila-a-hacienda-socialista-de-rolex/</guid>
-      <description>Cuando el defensor de los humildes es pillado con un millón de euros en joyas sin declarar, la hipocresía brilla más que los diamantes. Recuerdo a Zapatero, ese que nos hablaba de &quot;la gente&quot; y de los derechos sociales con una convicción que casi te hacía creer en algo.</description>
-      <pubDate>Sat, 13 Jun 2026 15:31:30 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
