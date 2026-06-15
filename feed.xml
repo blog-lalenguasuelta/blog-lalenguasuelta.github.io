@@ -8,6 +8,31 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El eco de la celda</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-la-celda/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-la-celda/</guid>
+      <description>El caso de Javier Ortega, detenido por un delito menor y encontrado muerto con golpes de alto calibre, reveló una grave falla en la custodia policial en España. La investigación mostró que el guardia había disparado a Ortega, lo que llevó a una reforma profunda de los protocolos de custodia y uso de</description>
+      <pubDate>Mon, 15 Jun 2026 18:12:38 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: El banco de los fantasmas</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-banco-de-los-fantasmas/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-banco-de-los-fantasmas/</guid>
+      <description>El Banco Fantasma estafó a miles de argentinos con promesas de altos rendimientos, robando 12 mil millones de pesos y quedando sin justicia. La falta de regulación financiera permitió la estafa y dejó a las víctimas sin reparación.
+</description>
+      <pubDate>Mon, 15 Jun 2026 18:10:26 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: Ecos de un grito en el descampado</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-un-grito-en-el-descampado/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-un-grito-en-el-descampado/</guid>
+      <description>Ana María Sánchez, estudiante de arquitectura, desaparece tras un mensaje de auxilio y su cuerpo es hallado torturado, revelando graves fallos policiales. El caso expone la negligencia en la atención de denuncias de violencia de género y la necesidad de reformas estructurales.</description>
+      <pubDate>Mon, 15 Jun 2026 18:05:39 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: La noche que el silencio rompió los cristales</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-noche-que-el-silencio-rompio-los-cristales/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-noche-que-el-silencio-rompio-los-cristales/</guid>
@@ -148,30 +173,6 @@ Imagínate que un país decide no imponer un tope poblacional de 10 millones. Su
 Yo era Carmen, una de esas vejez que no quiere que la nazca la palabra “vacía”. Vivía en un pueblito de Toledo, con el ruido de las campanas y el olor a pasto recién cortado, y pensaba que la soledad era mi compañera fiel.</description>
       <pubDate>Sat, 13 Jun 2026 19:48:20 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Ecos de la Muerte: Las Sombras de San Joaquín</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-muerte-las-sombras-de-san-joaquin/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-muerte-las-sombras-de-san-joaquin/</guid>
-      <description>El caso de los asesinatos de San Joaquín revela cómo la incompetencia del sistema forense permitió que un asesino actuara impunemente durante años. Este horroroso relato expone la vulnerabilidad de las mujeres en una sociedad donde sus voces son a menudo ignoradas.</description>
-      <pubDate>Sat, 13 Jun 2026 18:07:28 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: La Sangre y el Hilo: Masacre en la Fábrica Textil</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sangre-y-el-hilo-masacre-en-la-fabrica-textil/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sangre-y-el-hilo-masacre-en-la-fabrica-textil/</guid>
-      <description>La masacre de la fábrica textil en 2021 expone la violencia laboral y la corrupción policial en España. Un recordatorio escalofriante de que la lucha por derechos básicos puede costar vidas.</description>
-      <pubDate>Sat, 13 Jun 2026 18:06:13 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Ecos de una Sombra</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-sombra/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-sombra/</guid>
-      <description>El caso de Ana Lucía Pérez, asesinada por su exnovio en 2019, expone la crudeza de la violencia de género en Colombia y la ineficacia del sistema judicial. Su historia se convierte en un símbolo de resistencia y un grito de justicia que aún resuena.</description>
-      <pubDate>Sat, 13 Jun 2026 18:05:21 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
