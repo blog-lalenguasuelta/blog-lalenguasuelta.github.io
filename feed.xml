@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Amor y Sangre en la Penumbra</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</guid>
+      <description>Un crimen pasional en un barrio olvidado pone de manifiesto la fragilidad del amor y el silencioso sufrimiento de las víctimas. La historia de Clara, una artista que perdió la vida en manos de su pareja celoso, revela la indiferencia de un sistema que olvida a los que ya no están.</description>
+      <pubDate>Tue, 16 Jun 2026 06:01:02 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Cisjordania: De la Parcelita a Airbnb, ¡Qué Gran Oportunidad de Negocio!</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cisjordania-de-la-parcelita-a-airbnb-que-gran-oportunidad-de-negocio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cisjordania-de-la-parcelita-a-airbnb-que-gran-oportunidad-de-negocio/</guid>
+      <description>El drama de la propiedad en Cisjordania se convierte en una oferta turística. ¿Quién necesita un hogar cuando puedes tener una experiencia en un asentamiento israelí?</description>
+      <pubDate>Mon, 15 Jun 2026 21:02:44 +0000</pubDate>
+      <category>tech</category>
+    </item>
+    <item>
       <title>Cuando las entradas del Mundial valen más que tu alquiler: el absurdo de los precios dinámicos</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cuando-las-entradas-del-mundial-valen-mas-que-tu-alquiler-el-absurdo-de-los-prec/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cuando-las-entradas-del-mundial-valen-mas-que-tu-alquiler-el-absurdo-de-los-prec/</guid>
@@ -155,22 +171,6 @@ Imagínate que un país decide no imponer un tope poblacional de 10 millones. Su
       <description>Un feminicidio en España archivado como suicidio, donde los vecinos conocían la verdad pero el sistema falló. Una historia de silencio y traición.</description>
       <pubDate>Sun, 14 Jun 2026 06:04:35 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>La Paz: Un Producto de Lujo que Nunca Sale a la Venta</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-paz-un-producto-de-lujo-que-nunca-sale-a-la-venta/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-paz-un-producto-de-lujo-que-nunca-sale-a-la-venta/</guid>
-      <description>Mientras los judíos llevan consigo un legado de memoria y resistencia, el resto del mundo parece estar más interesado en sus IPOs que en una paz que nunca llega. ¿Es la paz solo otra acción en la bolsa de promesas vacías?</description>
-      <pubDate>Sun, 14 Jun 2026 01:50:07 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>Maxi Iglesias: “Intento Seguir Mi Vida Sin Hacer Mucho Caso Al Ruido Que Generan Mis Decisiones” — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/maxi-iglesias-intento-seguir-mi-vida-sin-hacer-mucho-caso-al-ruido-que-generan-m/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/maxi-iglesias-intento-seguir-mi-vida-sin-hacer-mucho-caso-al-ruido-que-generan-m/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Sat, 13 Jun 2026 22:16:02 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
