@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro de las Sombras</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-2/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-2/</guid>
+      <description>El caso de Ángeles, una joven cuyo feminicidio fue clasificado como suicidio, revela la tragedia del silencio y la impunidad. Esta historia olvidada nos recuerda que las voces de las víctimas merecen ser escuchadas.</description>
+      <pubDate>Tue, 16 Jun 2026 06:01:48 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: Amor y Sangre en la Penumbra</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</guid>
@@ -163,14 +171,6 @@ Imagínate que un país decide no imponer un tope poblacional de 10 millones. Su
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Sun, 14 Jun 2026 09:16:23 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>Crónica Negra: La Sedade los Esquís</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sedade-los-esquis/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sedade-los-esquis/</guid>
-      <description>Un feminicidio en España archivado como suicidio, donde los vecinos conocían la verdad pero el sistema falló. Una historia de silencio y traición.</description>
-      <pubDate>Sun, 14 Jun 2026 06:04:35 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
