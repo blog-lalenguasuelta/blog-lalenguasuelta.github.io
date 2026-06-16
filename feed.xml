@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>El asesinato de un artista: ¿Crimen común o mensaje de terror?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-asesinato-de-un-artista-crimen-comun-o-mensaje-de-terror/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-asesinato-de-un-artista-crimen-comun-o-mensaje-de-terror/</guid>
+      <description>La brutalidad del arte y la política se cruzan en la vida y muerte de Semyon Skrepetsky, un artista ruso que desafió el régimen de Putin hasta el final. Ayer, Polonia se despertó con la noticia del asesinato de Robert Kuzovkov, más conocido como Semyon Skrepetsky, un caricaturista ruso que se atrevi</description>
+      <pubDate>Tue, 16 Jun 2026 19:00:54 +0000</pubDate>
+      <category>pop_culture</category>
+    </item>
+    <item>
       <title>Crónica Negra: El susurro del acero bajo la lluvia</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</guid>
@@ -162,14 +170,6 @@ Imagínate que un país decide no imponer un tope poblacional de 10 millones. Su
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-no-olvidamos/</guid>
       <description>Un asesino en serie menor operó en la penumbra de España, dejando un rastro de dolor en la comunidad. Este caso olvidado nos recuerda la importancia de no silenciar las voces de las víctimas.</description>
       <pubDate>Mon, 15 Jun 2026 06:02:31 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Sombras en la Tierra</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-tierra/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-tierra/</guid>
-      <description>En un pequeño pueblo español, el asesinato de María, una joven soñadora, fue olvidado durante décadas, ahogado entre secretos y complicidades. Su madre luchó incansablemente por justicia, y su historia se convirtió en un símbolo de resistencia contra el olvido.</description>
-      <pubDate>Mon, 15 Jun 2026 06:00:56 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
