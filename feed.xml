@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El susurro del acero bajo la lluvia</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</guid>
+      <description>María Luisa Ortega fue empujada al suicidio por su agresor, pero la investigación oficial lo encubrió como un acto voluntario, silenciando la verdad. El caso muestra la falla del sistema judicial y mediático ante la violencia de género.</description>
+      <pubDate>Tue, 16 Jun 2026 18:04:19 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: Sombras en la Sierra de Guadarrama</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-sierra-de-guadarrama/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-sierra-de-guadarrama/</guid>
+      <description>María Luisa Puente desapareció en 2014 y sus restos fueron hallados cuatro años después, revelando una violencia doméstica encubierta por la policía y la autoridad local. El caso muestra cómo el encubrimiento institucional retrasa la justicia y perpetúa la impunidad.</description>
+      <pubDate>Tue, 16 Jun 2026 18:03:56 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La Izquierda Recurre A Los Tribunales Contra El Proyecto De Ayuso De Condicionar Al Padrón El Acceso A La Tarjeta De Transportes — La opinión que nadie te pidió</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-izquierda-recurre-a-los-tribunales-contra-el-proyecto-de-ayuso-de-condicionar/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-izquierda-recurre-a-los-tribunales-contra-el-proyecto-de-ayuso-de-condicionar/</guid>
@@ -155,22 +171,6 @@ Imagínate que un país decide no imponer un tope poblacional de 10 millones. Su
       <description>En un pequeño pueblo español, el asesinato de María, una joven soñadora, fue olvidado durante décadas, ahogado entre secretos y complicidades. Su madre luchó incansablemente por justicia, y su historia se convirtió en un símbolo de resistencia contra el olvido.</description>
       <pubDate>Mon, 15 Jun 2026 06:00:56 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>Vinicius: el salvador de un Brasil en crisis, ¿o el nuevo Mesías del fútbol?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/vinicius-el-salvador-de-un-brasil-en-crisis-o-el-nuevo-mesias-del-futbol/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/vinicius-el-salvador-de-un-brasil-en-crisis-o-el-nuevo-mesias-del-futbol/</guid>
-      <description>Un gol de Vinicius Júnior en el Mundial ha reavivado la pasión por el fútbol en Brasil, pero, ¿es suficiente para ocultar los problemas del equipo y del país?</description>
-      <pubDate>Mon, 15 Jun 2026 00:05:19 +0000</pubDate>
-      <category>society</category>
-    </item>
-    <item>
-      <title>¿Un expolio de joyas o un escándalo a la altura de los Goya? La herencia de Zapatero en el banquillo</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/un-expolio-de-joyas-o-un-escandalo-a-la-altura-de-los-goya-la-herencia-de-zapate/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/un-expolio-de-joyas-o-un-escandalo-a-la-altura-de-los-goya-la-herencia-de-zapate/</guid>
-      <description>La historia del ex presidente español se entrelaza con joyas, tramas criminales y una herencia que deja mucho que desear. ¿Estamos ante un nuevo capítulo del culebrón nacional.</description>
-      <pubDate>Sun, 14 Jun 2026 21:01:44 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
