@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de un Silencio Mortal</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-un-silencio-mortal-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-un-silencio-mortal-1/</guid>
+      <description>Este capítulo narra un caso de violencia doméstica extrema que culminó en tragedia múltiple, resaltando la necesidad de dar voz a historias olvidadas. A través de la vida de Marta, se exploran los efectos devastadores de la violencia en el hogar y los fallos del sistema que permitieron que ocurriera</description>
+      <pubDate>Wed, 17 Jun 2026 06:01:36 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Londres a la UE: ¿una carrera de fondo o un sprint de locos?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/londres-a-la-ue-una-carrera-de-fondo-o-un-sprint-de-locos/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/londres-a-la-ue-una-carrera-de-fondo-o-un-sprint-de-locos/</guid>
@@ -159,14 +167,6 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Mon, 15 Jun 2026 18:01:38 +0000</pubDate>
       <category>economy</category>
-    </item>
-    <item>
-      <title>Última Hora Política, En Directo | Sémper: &quot;El Muro Se Les Cae, Cada Semana Es Una Menos De Joyas, Agendas, Prostitución Y Falsa Superioridad Moral&quot; — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-semper-el-muro-se-les-cae-cada-semana-es-una-men/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-semper-el-muro-se-les-cae-cada-semana-es-una-men/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Mon, 15 Jun 2026 15:01:50 +0000</pubDate>
-      <category>general</category>
     </item>
   </channel>
 </rss>
