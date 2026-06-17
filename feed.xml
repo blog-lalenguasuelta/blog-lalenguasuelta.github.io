@@ -8,6 +8,32 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Susurros en la Escalera: El silencio que enterró a Ana</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-escalera-el-silencio-que-enterro-a-ana/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-escalera-el-silencio-que-enterro-a-ana/</guid>
+      <description>Una mujer asesinada por su pareja fue declarada suicida por la policía, pese a la evidencia de sus vecinos; la presión social y periodística reabrió el caso, revelando una agresión previa. El caso muestra la falla del sistema judicial frente a la violencia de género.</description>
+      <pubDate>Wed, 17 Jun 2026 18:05:30 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Zapatero entrega el “consentimiento expreso” y la Justicia sigue sin encontrar la señal de salida</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/zapatero-entrega-el-consentimiento-expreso-y-la-justicia-sigue-sin-encontrar-la-/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/zapatero-entrega-el-consentimiento-expreso-y-la-justicia-sigue-sin-encontrar-la-/</guid>
+      <description>El expresidente firma papeles como quien entrega el recibo del alquiler, mientras la ciudadanía se pregunta si algún día volverá a confiar en los tribunales. ¿Será que la única forma de demostrar inocencia en España hoy es firmar cada línea que el juez le pida, como quien entrega la llave de su casa</description>
+      <pubDate>Wed, 17 Jun 2026 18:04:24 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
+      <title>El Consejo de Europa quiere que España pague más en los despedidos y menos en los “cansados”</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-consejo-de-europa-quiere-que-espana-pague-mas-en-los-despedidos-y-menos-en-lo/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-consejo-de-europa-quiere-que-espana-pague-mas-en-los-despedidos-y-menos-en-lo/</guid>
+      <description>El gobierno se prepara para una reforma que, si la aprueba, hará que la indemnización por despido improcedente sea un río de plata que arrastre a los trabajadores y deje al Estado con un agujero más profundo que el del euro
+
+El Consejo de Europa, la institución que pretende ser la voz de la dignidad</description>
+      <pubDate>Wed, 17 Jun 2026 18:02:59 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Zapatero, hermandad o fachada: “confianza” sin joyas, pero con ruido</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/zapatero-hermandad-o-fachada-confianza-sin-joyas-pero-con-ruido/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/zapatero-hermandad-o-fachada-confianza-sin-joyas-pero-con-ruido/</guid>
@@ -142,30 +168,6 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Tue, 16 Jun 2026 09:02:03 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Susurro de las Sombras</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-2/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-2/</guid>
-      <description>El caso de Ángeles, una joven cuyo feminicidio fue clasificado como suicidio, revela la tragedia del silencio y la impunidad. Esta historia olvidada nos recuerda que las voces de las víctimas merecen ser escuchadas.</description>
-      <pubDate>Tue, 16 Jun 2026 06:01:48 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Amor y Sangre en la Penumbra</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</guid>
-      <description>Un crimen pasional en un barrio olvidado pone de manifiesto la fragilidad del amor y el silencioso sufrimiento de las víctimas. La historia de Clara, una artista que perdió la vida en manos de su pareja celoso, revela la indiferencia de un sistema que olvida a los que ya no están.</description>
-      <pubDate>Tue, 16 Jun 2026 06:01:02 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Cisjordania: De la Parcelita a Airbnb, ¡Qué Gran Oportunidad de Negocio!</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cisjordania-de-la-parcelita-a-airbnb-que-gran-oportunidad-de-negocio/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cisjordania-de-la-parcelita-a-airbnb-que-gran-oportunidad-de-negocio/</guid>
-      <description>El drama de la propiedad en Cisjordania se convierte en una oferta turística. ¿Quién necesita un hogar cuando puedes tener una experiencia en un asentamiento israelí?</description>
-      <pubDate>Mon, 15 Jun 2026 21:02:44 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
