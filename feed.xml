@@ -8,6 +8,30 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La sombra del silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-4/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-4/</guid>
+      <description>Un asesinato en un pueblo pequeño de España permanece encubierto durante décadas, revelando la complicidad del sistema. La historia de Miguel, un joven con sueños, necesita ser contada para no caer en el olvido.</description>
+      <pubDate>Thu, 18 Jun 2026 06:00:48 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>La Última Cacicada: ¿Qué Pasaría Si Cambiáramos El Veto Por Un Votón?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-ultima-cacicada-que-pasaria-si-cambiaramos-el-veto-por-un-voton/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-ultima-cacicada-que-pasaria-si-cambiaramos-el-veto-por-un-voton/</guid>
+      <description>El PP se siente víctima de una &#x27;cacicada&#x27; mientras la democracia se convierte en un teatro de marionetas. Pero, ¿y si en lugar de gritar, propusiéramos un nuevo juego?</description>
+      <pubDate>Thu, 18 Jun 2026 00:03:54 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
+      <title>¿Calor o Calor? El Verano Caliente que Nos Merecemos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/calor-o-calor-el-verano-caliente-que-nos-merecemos/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/calor-o-calor-el-verano-caliente-que-nos-merecemos/</guid>
+      <description>Las olas de calor se han convertido en un fenómeno tan predecible que ya deberían tener un programa de televisión propio. Mientras nos quejamos del calor, deberíamos preguntarnos: ¿qué hacemos al respecto?</description>
+      <pubDate>Wed, 17 Jun 2026 21:03:06 +0000</pubDate>
+      <category>general</category>
+    </item>
+    <item>
       <title>Crónica Negra: Susurros en la Escalera: El silencio que enterró a Ana</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-escalera-el-silencio-que-enterro-a-ana/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-escalera-el-silencio-que-enterro-a-ana/</guid>
@@ -144,30 +168,6 @@ El Consejo de Europa, la institución que pretende ser la voz de la dignidad</de
       <description>María Luisa Puente desapareció en 2014 y sus restos fueron hallados cuatro años después, revelando una violencia doméstica encubierta por la policía y la autoridad local. El caso muestra cómo el encubrimiento institucional retrasa la justicia y perpetúa la impunidad.</description>
       <pubDate>Tue, 16 Jun 2026 18:03:56 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>La Izquierda Recurre A Los Tribunales Contra El Proyecto De Ayuso De Condicionar Al Padrón El Acceso A La Tarjeta De Transportes — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-izquierda-recurre-a-los-tribunales-contra-el-proyecto-de-ayuso-de-condicionar/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-izquierda-recurre-a-los-tribunales-contra-el-proyecto-de-ayuso-de-condicionar/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Tue, 16 Jun 2026 09:03:11 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>Gavin Newsom Denuncia Una Persecución Política Impulsada Por Trump — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/gavin-newsom-denuncia-una-persecucion-politica-impulsada-por-trump-la-opinion-qu/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/gavin-newsom-denuncia-una-persecucion-politica-impulsada-por-trump-la-opinion-qu/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Tue, 16 Jun 2026 09:02:24 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>Última Hora Política, En Directo | El Pp Considera &quot;Indigna Del Cargo&quot; A La Directora De La Guardia Civil Y Pide Que Dimita Ya — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-el-pp-considera-indigna-del-cargo-a-la-directora/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-el-pp-considera-indigna-del-cargo-a-la-directora/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Tue, 16 Jun 2026 09:02:03 +0000</pubDate>
-      <category>politics</category>
     </item>
   </channel>
 </rss>
