@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Messi, el eterno mago: récords y sorpresas que desafían la lógica</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/messi-el-eterno-mago-records-y-sorpresas-que-desafian-la-logica/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/messi-el-eterno-mago-records-y-sorpresas-que-desafian-la-logica/</guid>
+      <description>Desde su debut en 2006 hasta su hazaña en 2026, Messi no deja de maravillarnos. ¿Qué más puede conseguir el genio del fútbol.</description>
+      <pubDate>Thu, 18 Jun 2026 09:01:51 +0000</pubDate>
+      <category>tech</category>
+    </item>
+    <item>
+      <title>Feijóo y Zapatero: Un Juego de Poder entre Joyas y Dictaduras</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/feijoo-y-zapatero-un-juego-de-poder-entre-joyas-y-dictaduras/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/feijoo-y-zapatero-un-juego-de-poder-entre-joyas-y-dictaduras/</guid>
+      <description>La reciente crítica de Feijóo a Zapatero a raíz de las acusaciones de corrupción desata un debate sobre la política española y sus trapos sucios. Así que aquí estamos, en un nuevo episodio de la telenovela política española.</description>
+      <pubDate>Thu, 18 Jun 2026 06:02:26 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Crónica Negra: La sombra del silencio</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-4/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-4/</guid>
@@ -152,22 +168,6 @@ El Consejo de Europa, la institución que pretende ser la voz de la dignidad</de
       <description>La brutalidad del arte y la política se cruzan en la vida y muerte de Semyon Skrepetsky, un artista ruso que desafió el régimen de Putin hasta el final. Ayer, Polonia se despertó con la noticia del asesinato de Robert Kuzovkov, más conocido como Semyon Skrepetsky, un caricaturista ruso que se atrevi</description>
       <pubDate>Tue, 16 Jun 2026 19:00:54 +0000</pubDate>
       <category>pop_culture</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El susurro del acero bajo la lluvia</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</guid>
-      <description>María Luisa Ortega fue empujada al suicidio por su agresor, pero la investigación oficial lo encubrió como un acto voluntario, silenciando la verdad. El caso muestra la falla del sistema judicial y mediático ante la violencia de género.</description>
-      <pubDate>Tue, 16 Jun 2026 18:04:19 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Sombras en la Sierra de Guadarrama</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-sierra-de-guadarrama/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-sierra-de-guadarrama/</guid>
-      <description>María Luisa Puente desapareció en 2014 y sus restos fueron hallados cuatro años después, revelando una violencia doméstica encubierta por la policía y la autoridad local. El caso muestra cómo el encubrimiento institucional retrasa la justicia y perpetúa la impunidad.</description>
-      <pubDate>Tue, 16 Jun 2026 18:03:56 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
