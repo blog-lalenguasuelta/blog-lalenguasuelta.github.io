@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de un Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-un-silencio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-un-silencio/</guid>
+      <description>La desaparición de Miguel González en un pueblo pequeño de España revela un oscuro entramado de silencio y complicidad. Su historia, olvidada por muchos, pone de manifiesto la fragilidad de la justicia en comunidades cerradas.</description>
+      <pubDate>Fri, 19 Jun 2026 06:04:36 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Luxemburgo y el Aborto: ¿Un Modelo a Seguir o Solo Otra Estrategia de Marketing Político?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/luxemburgo-y-el-aborto-un-modelo-a-seguir-o-solo-otra-estrategia-de-marketing-po/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/luxemburgo-y-el-aborto-un-modelo-a-seguir-o-solo-otra-estrategia-de-marketing-po/</guid>
@@ -159,14 +167,6 @@ El Consejo de Europa, la institución que pretende ser la voz de la dignidad</de
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-estatuto-de-2006-la-jugada-de-zapatero-que-rompio-el-pacto-de-1978-y-sigue-al/</guid>
       <description>Veinte años después, el “Proyecto Cataluña” de Zapatero se ha convertido en la pieza clave para entender la alianza PSOE‑nacionalistas y la espiral de acusaciones que rodean al expresidente. Una cifra que pocos recuerdan: el texto aprobó 157 amendos en el Congreso, 71 de ellos impulsados por fuerzas</description>
       <pubDate>Wed, 17 Jun 2026 12:04:48 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>¿Un ‘Guerra Fría’ en la Mesa? Cómo el Congreso español está reviviendo la crisis de 1977 mientras el pueblo cuenta los alquileres</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/un-guerra-fria-en-la-mesa-como-el-congreso-espanol-esta-reviviendo-la-crisis-de-/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/un-guerra-fria-en-la-mesa-como-el-congreso-espanol-esta-reviviendo-la-crisis-de-/</guid>
-      <description>El enfrentamiento entre Sánchez y Feijóo no es sólo una pelea de egos; es una recreación moderna de la parálisis parlamentaria de la Transición, con consecuencias palpables en la vida cotidiana de los ciudadanos.</description>
-      <pubDate>Wed, 17 Jun 2026 12:04:43 +0000</pubDate>
       <category>politics</category>
     </item>
   </channel>
