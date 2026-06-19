@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>El Brexit a los diez años: ¿un Reino Unido más roto o más resistente?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-brexit-a-los-diez-anos-un-reino-unido-mas-roto-o-mas-resistente/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-brexit-a-los-diez-anos-un-reino-unido-mas-roto-o-mas-resistente/</guid>
+      <description>Una década después del “Leave” la economía parece curvarse, pero la vida cotidiana muestra que la verdadera revolución está en la calle, la cultura y, de paso, en los cárteles que ahora usan nuestras casas como guarida. ¿Diez años de “salir de la Unión” y qué hemos conseguido.</description>
+      <pubDate>Fri, 19 Jun 2026 18:05:36 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Última Hora De La Actualidad Política, En Directo | Sánchez Deja En Manos De Zapatero La Decisión De Si Debería Entregar Las Joyas — La opinión que nadie te pidió</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-de-la-actualidad-politica-en-directo-sanchez-deja-en-manos-de-zapate/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-de-la-actualidad-politica-en-directo-sanchez-deja-en-manos-de-zapate/</guid>
@@ -160,14 +168,6 @@ El Consejo de Europa, la institución que pretende ser la voz de la dignidad</de
       <description>El ex presidente pide fe de los ciudadanos mientras evita la mención de un posible tesoro oculto; la audiencia se vuelve un circo de juicios y promesas vacías. Cuando el juez abre el expediente de Zapatero, la sala de la Audiencia Nacional parece un escenario de teatro cuasi‑real.</description>
       <pubDate>Wed, 17 Jun 2026 15:32:16 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>Sanciones de G7: ¿Una nueva guerra contra el carbón de Rusia?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/sanciones-de-g7-una-nueva-guerra-contra-el-carbon-de-rusia/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/sanciones-de-g7-una-nueva-guerra-contra-el-carbon-de-rusia/</guid>
-      <description>El G7 se lanza a la “economía fantasma” de Moscú y la pregunta es si la sanción es la de la guerra o la de la inversión. El martes, mientras las nubes cargaban sobre el Palais des Congrès en París, los líderes del G7 decidieron que la batalla contra Rusia ya no era solo sobre petróleo y gas, sino so</description>
-      <pubDate>Wed, 17 Jun 2026 15:04:43 +0000</pubDate>
-      <category>economy</category>
     </item>
   </channel>
 </rss>
