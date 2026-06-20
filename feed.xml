@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Begoña Gómez: De la Política a las Vacaciones... ¿O No?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/begona-gomez-de-la-politica-a-las-vacaciones-o-no/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/begona-gomez-de-la-politica-a-las-vacaciones-o-no/</guid>
+      <description>El magistrado le retira el pasaporte a Begoña Gómez, y no porque se vaya de vacaciones, sino por si decide hacer un viaje de “huida”. La política española es un tablero de Monopoly, pero en lugar de casas, lo que hay son pasaportes y acusaciones.</description>
+      <pubDate>Sat, 20 Jun 2026 15:45:39 +0000</pubDate>
+      <category>science</category>
+    </item>
+    <item>
       <title>La Paula Blasi, la presa del cambio climático en un país que premia la hipocresía</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-paula-blasi-la-presa-del-cambio-climatico-en-un-pais-que-premia-la-hipocresia/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-paula-blasi-la-presa-del-cambio-climatico-en-un-pais-que-premia-la-hipocresia/</guid>
@@ -160,14 +168,6 @@ Lo que dije hace una década sobre la nueva economía del “contenedor” era: 
       <description>Un asesinato en un pueblo pequeño de España permanece encubierto durante décadas, revelando la complicidad del sistema. La historia de Miguel, un joven con sueños, necesita ser contada para no caer en el olvido.</description>
       <pubDate>Thu, 18 Jun 2026 06:00:48 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>La Última Cacicada: ¿Qué Pasaría Si Cambiáramos El Veto Por Un Votón?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-ultima-cacicada-que-pasaria-si-cambiaramos-el-veto-por-un-voton/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-ultima-cacicada-que-pasaria-si-cambiaramos-el-veto-por-un-voton/</guid>
-      <description>El PP se siente víctima de una &#x27;cacicada&#x27; mientras la democracia se convierte en un teatro de marionetas. Pero, ¿y si en lugar de gritar, propusiéramos un nuevo juego?</description>
-      <pubDate>Thu, 18 Jun 2026 00:03:54 +0000</pubDate>
-      <category>politics</category>
     </item>
   </channel>
 </rss>
