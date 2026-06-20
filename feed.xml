@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de una Pasión Muerta</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-pasion-muerta/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-pasion-muerta/</guid>
+      <description>Un crimen pasional en un pequeño pueblo costero que dejó una huella profunda en la comunidad. La historia de Clara, una joven atrapada en un amor destructivo, revela las fallas de un sistema que ignora las voces de las víctimas.</description>
+      <pubDate>Sat, 20 Jun 2026 06:02:54 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>España: El Horno en el Que Nadie Quiere Cocinar</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/espana-el-horno-en-el-que-nadie-quiere-cocinar/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/espana-el-horno-en-el-que-nadie-quiere-cocinar/</guid>
+      <description>La ola de calor que asola España este verano no solo derrite el asfalto, sino que también nos obliga a reflexionar sobre la ineficacia de nuestras políticas climáticas y la inevitable llegada de un futuro ardiente. ¿Estamos preparados para el ‘Superniño’ o solo para el ‘Supercalor’?</description>
+      <pubDate>Sat, 20 Jun 2026 03:03:19 +0000</pubDate>
+      <category>international</category>
+    </item>
+    <item>
       <title>El “Agente” que te quita la mitad y el resto no lo sientes</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/el-agente-que-te-quita-la-mitad-y-el-resto-no-lo-sientes/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/el-agente-que-te-quita-la-mitad-y-el-resto-no-lo-sientes/</guid>
@@ -152,22 +168,6 @@ Lo que dije hace una década sobre la nueva economía del “contenedor” era: 
       <description>Las olas de calor se han convertido en un fenómeno tan predecible que ya deberían tener un programa de televisión propio. Mientras nos quejamos del calor, deberíamos preguntarnos: ¿qué hacemos al respecto?</description>
       <pubDate>Wed, 17 Jun 2026 21:03:06 +0000</pubDate>
       <category>general</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Susurros en la Escalera: El silencio que enterró a Ana</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-escalera-el-silencio-que-enterro-a-ana/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-escalera-el-silencio-que-enterro-a-ana/</guid>
-      <description>Una mujer asesinada por su pareja fue declarada suicida por la policía, pese a la evidencia de sus vecinos; la presión social y periodística reabrió el caso, revelando una agresión previa. El caso muestra la falla del sistema judicial frente a la violencia de género.</description>
-      <pubDate>Wed, 17 Jun 2026 18:05:30 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Zapatero entrega el “consentimiento expreso” y la Justicia sigue sin encontrar la señal de salida</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/zapatero-entrega-el-consentimiento-expreso-y-la-justicia-sigue-sin-encontrar-la-/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/zapatero-entrega-el-consentimiento-expreso-y-la-justicia-sigue-sin-encontrar-la-/</guid>
-      <description>El expresidente firma papeles como quien entrega el recibo del alquiler, mientras la ciudadanía se pregunta si algún día volverá a confiar en los tribunales. ¿Será que la única forma de demostrar inocencia en España hoy es firmar cada línea que el juez le pida, como quien entrega la llave de su casa</description>
-      <pubDate>Wed, 17 Jun 2026 18:04:24 +0000</pubDate>
-      <category>politics</category>
     </item>
   </channel>
 </rss>
