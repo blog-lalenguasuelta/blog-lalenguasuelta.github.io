@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Silencio del Acechador</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-acechador/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-acechador/</guid>
+      <description>Un asesino en serie menor operó en la oscuridad de Madrid durante los años 80 y 90, dejando un rastro de dolor y olvido. Este caso, aunque poco conocido, resalta los fallos del sistema y la importancia de recordar a las víctimas.</description>
+      <pubDate>Sun, 21 Jun 2026 06:01:24 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Líbano: La &quot;ayuda humanitaria&quot; es el eufemismo que usamos para mirar a otro lado</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/libano-la-ayuda-humanitaria-es-el-eufemismo-que-usamos-para-mirar-a-otro-lado/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/libano-la-ayuda-humanitaria-es-el-eufemismo-que-usamos-para-mirar-a-otro-lado/</guid>
@@ -160,14 +168,6 @@ Lo que dije hace una década sobre la nueva economía del “contenedor” era: 
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Thu, 18 Jun 2026 12:04:02 +0000</pubDate>
       <category>international</category>
-    </item>
-    <item>
-      <title>Última Hora Política, En Directo | Feijóo: &quot;Yo No Soy El Que Habla Mal De España En Europa, Es El Gobierno El Que Tiene Atónita A Europa&quot; Por La Corrupción — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-feijoo-yo-no-soy-el-que-habla-mal-de-espana-en-e-1/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-feijoo-yo-no-soy-el-que-habla-mal-de-espana-en-e-1/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Thu, 18 Jun 2026 12:02:14 +0000</pubDate>
-      <category>economy</category>
     </item>
   </channel>
 </rss>
