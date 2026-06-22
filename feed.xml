@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Susurros en la Noche</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-noche/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-noche/</guid>
+      <description>Ana, una madre y amiga, fue víctima de un feminicidio que las autoridades archivaron como suicidio. Su historia, aunque olvidada, clama por justicia y visibilización.</description>
+      <pubDate>Mon, 22 Jun 2026 06:00:53 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Colombia vira al ultra y el diablo está en los datos</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/colombia-vira-al-ultra-y-el-diablo-esta-en-los-datos/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/colombia-vira-al-ultra-y-el-diablo-esta-en-los-datos/</guid>
@@ -159,14 +167,6 @@ Lo que dije hace una década sobre la nueva economía del “contenedor” era: 
       <guid>https://blog-lalenguasuelta.github.io/articulo/espana-reforzara-su-despliegue-en-la-otan-con-tanqueros-cazas-y-una-fragata-ante-1/</guid>
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Thu, 18 Jun 2026 18:03:44 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>El Mito Del Sistema De Crédito Social: Por Qué Los Chinos Aplauden El Avance De La Ia Que Occidente Teme — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-mito-del-sistema-de-credito-social-por-que-los-chinos-aplauden-el-avance-de-l/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-mito-del-sistema-de-credito-social-por-que-los-chinos-aplauden-el-avance-de-l/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Thu, 18 Jun 2026 15:02:57 +0000</pubDate>
       <category>tech</category>
     </item>
   </channel>
