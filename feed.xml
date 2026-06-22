@@ -8,6 +8,30 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Los susurros del Panteón</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-los-susurros-del-panteon/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-los-susurros-del-panteon/</guid>
+      <description>Diego Hernández, un niño de siete años, fue asesinado en el Cementerio de la Chacarita en 2018; pese a pruebas forenses contundentes, el sospechoso quedó libre por fallos judiciales. El caso expone la impunidad y los vacíos del sistema judicial argentino ante crímenes contra menores.</description>
+      <pubDate>Mon, 22 Jun 2026 18:11:45 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: El eco de la sombra en Veracruz</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-la-sombra-en-veracruz/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-de-la-sombra-en-veracruz/</guid>
+      <description>Ana Lucía Pérez, estudiante de 22 años, fue secuestrada y torturada por la banda Los Gariboles en Veracruz; la investigación inicial la clasificó como desaparición voluntaria, pero la evidencia y la presión social llevaron a una condena tardía y parcial. El caso revela la falta de coordinación entre</description>
+      <pubDate>Mon, 22 Jun 2026 18:06:38 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>España Jubila Las Dudas Con Una Goleada Ante Arabia Saudí En El Mundial — La opinión que nadie te pidió</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/espana-jubila-las-dudas-con-una-goleada-ante-arabia-saudi-en-el-mundial-la-opini/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/espana-jubila-las-dudas-con-una-goleada-ante-arabia-saudi-en-el-mundial-la-opini/</guid>
+      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
+      <pubDate>Mon, 22 Jun 2026 18:02:27 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Xavier Torrens, Experto En Seguridad: «En España La Violencia Del Narco Alcanzará Pronto A La Población» — La opinión que nadie te pidió</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/xavier-torrens-experto-en-seguridad-en-espana-la-violencia-del-narco-alcanzara-p/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/xavier-torrens-experto-en-seguridad-en-espana-la-violencia-del-narco-alcanzara-p/</guid>
@@ -142,30 +166,6 @@
       <description>Una oleada de británicos, armados de picos y balones de cuero, cruzó el Atlántico en 1887 y sembró el fútbol en los pueblos mineros del centro de México, mucho antes de que la Selección se volviera mito mundial. Hace más de una centuria, mientras México todavía se curaba de la Independencia, una com</description>
       <pubDate>Sat, 20 Jun 2026 18:06:11 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>Merz quiere quemar el presupuesto europeo y la UE se pone a vender impuestos como churros</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/merz-quiere-quemar-el-presupuesto-europeo-y-la-ue-se-pone-a-vender-impuestos-com/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/merz-quiere-quemar-el-presupuesto-europeo-y-la-ue-se-pone-a-vender-impuestos-com/</guid>
-      <description>Mientras el presidente alemán le tira la piedra a España e Italia, el resto de Europa discute si gravar cripto, apuestas y gigantes corporativos para tapar el agujero fiscal. — ¿Qué tiene de nuevo el “plan de tierra quemada” de Merz y por qué debería importarnos más que el incendio del hotel en Repú</description>
-      <pubDate>Sat, 20 Jun 2026 18:04:13 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>Merz Busca Imponer Su Política De Tierra Quemada Con El Presupuesto Europeo Frente A La Alianza De España E Italia — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/merz-busca-imponer-su-politica-de-tierra-quemada-con-el-presupuesto-europeo-fren/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/merz-busca-imponer-su-politica-de-tierra-quemada-con-el-presupuesto-europeo-fren/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Sat, 20 Jun 2026 18:04:03 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>Begoña Gómez: De la Política a las Vacaciones... ¿O No?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/begona-gomez-de-la-politica-a-las-vacaciones-o-no/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/begona-gomez-de-la-politica-a-las-vacaciones-o-no/</guid>
-      <description>El magistrado le retira el pasaporte a Begoña Gómez, y no porque se vaya de vacaciones, sino por si decide hacer un viaje de “huida”. La política española es un tablero de Monopoly, pero en lugar de casas, lo que hay son pasaportes y acusaciones.</description>
-      <pubDate>Sat, 20 Jun 2026 15:45:39 +0000</pubDate>
-      <category>science</category>
     </item>
   </channel>
 </rss>
