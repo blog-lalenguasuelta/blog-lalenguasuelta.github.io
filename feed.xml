@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Bajo la sombra del amor asesino</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-bajo-la-sombra-del-amor-asesino/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-bajo-la-sombra-del-amor-asesino/</guid>
+      <description>Un crimen pasional en Villanueva revela la oscura realidad de un amor posesivo que acaba en tragedia. La historia de Clara Gómez, olvidada por la sociedad, nos recuerda la fragilidad de la vida y la necesidad de justicia.</description>
+      <pubDate>Tue, 23 Jun 2026 06:01:00 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Justicia a la Carta: La Nueva Comedia Española</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/justicia-a-la-carta-la-nueva-comedia-espanola/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/justicia-a-la-carta-la-nueva-comedia-espanola/</guid>
+      <description>En un país donde la justicia parece más un guion de comedia que un sistema legal, exploramos cómo la política se ha convertido en un espectáculo de entretenimiento de baja calidad.</description>
+      <pubDate>Tue, 23 Jun 2026 00:03:14 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La medida del asco: ¿Dónde quedó la dignidad?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-medida-del-asco-donde-quedo-la-dignidad/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-medida-del-asco-donde-quedo-la-dignidad/</guid>
@@ -149,22 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-susurros-en-la-noche/</guid>
       <description>Ana, una madre y amiga, fue víctima de un feminicidio que las autoridades archivaron como suicidio. Su historia, aunque olvidada, clama por justicia y visibilización.</description>
       <pubDate>Mon, 22 Jun 2026 06:00:53 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Colombia vira al ultra y el diablo está en los datos</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/colombia-vira-al-ultra-y-el-diablo-esta-en-los-datos/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/colombia-vira-al-ultra-y-el-diablo-esta-en-los-datos/</guid>
-      <description>La victoria de De la Espriella por la mínima desata el caos y pone en jaque la fiabilidad del preconteo electoral en un país partido. Y un día te levantas, te haces un café que sabe a derrota anticipada no importa lo bueno que sea el grano, a veces es el día, y lees que Abelardo de la Espriella, ese</description>
-      <pubDate>Mon, 22 Jun 2026 05:30:59 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Silencio del Acechador</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-acechador/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-acechador/</guid>
-      <description>Un asesino en serie menor operó en la oscuridad de Madrid durante los años 80 y 90, dejando un rastro de dolor y olvido. Este caso, aunque poco conocido, resalta los fallos del sistema y la importancia de recordar a las víctimas.</description>
-      <pubDate>Sun, 21 Jun 2026 06:01:24 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
