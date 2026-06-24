@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro de la Oscuridad</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad/</guid>
+      <description>Un crimen ritual en un pueblo aislado dejó a la comunidad sumida en el miedo y la desconfianza. La historia de Marta López, una joven cuya vida fue truncada, revela las sombras que se esconden en el alma de un lugar aparentemente tranquilo.</description>
+      <pubDate>Wed, 24 Jun 2026 06:03:00 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Detener el odio en Tortosa no es suficiente: el alquiler y el racismo siguen aquí</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/detener-el-odio-en-tortosa-no-es-suficiente-el-alquiler-y-el-racismo-siguen-aqui/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/detener-el-odio-en-tortosa-no-es-suficiente-el-alquiler-y-el-racismo-siguen-aqui/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/uruguay-en-situacion-limite-tras-empate-con-cabo-verde-la-opinion-que-nadie-te-p/</guid>
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Mon, 22 Jun 2026 12:01:54 +0000</pubDate>
-      <category>international</category>
-    </item>
-    <item>
-      <title>El Juez Peinado Pide el Pasaporte: La Identidad como Rehenes</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-juez-peinado-pide-el-pasaporte-la-identidad-como-rehenes/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-juez-peinado-pide-el-pasaporte-la-identidad-como-rehenes/</guid>
-      <description>Un magistrado exige el documento de Begoña Gómez mientras el Gobierno se revuelve, evidenciando que el control de tu identidad es la verdadera moneda de cambio. Ahí lo tienes, el circo de tres pistas en pleno apogeo.</description>
-      <pubDate>Mon, 22 Jun 2026 09:02:55 +0000</pubDate>
       <category>international</category>
     </item>
   </channel>

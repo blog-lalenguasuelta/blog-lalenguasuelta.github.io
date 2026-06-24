@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad/</loc>
+    <lastmod>2026-06-24T06:03:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/detener-el-odio-en-tortosa-no-es-suficiente-el-alquiler-y-el-racismo-siguen-aqui/</loc>
     <lastmod>2026-06-23T22:00:50Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -597,12 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-la-muerte-las-sombras-de-san-joaquin/</loc>
     <lastmod>2026-06-13T18:07:28Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sangre-y-el-hilo-masacre-en-la-fabrica-textil/</loc>
-    <lastmod>2026-06-13T18:06:13Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
