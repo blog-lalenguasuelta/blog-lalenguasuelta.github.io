@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Messi supera los 800 goles en Mundiales y la FIFA se queda sin excusa</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/messi-supera-los-800-goles-en-mundiales-y-la-fifa-se-queda-sin-excusa/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/messi-supera-los-800-goles-en-mundiales-y-la-fifa-se-queda-sin-excusa/</guid>
+      <description>El argentino bate un récord que hacía temblar a los historiadores del fútbol, mientras el planeta se debate entre cocaína, ébola y una ola de calor que derrite la factura de la luz. 819 goles en la historia de los mundiales.</description>
+      <pubDate>Wed, 24 Jun 2026 22:02:07 +0000</pubDate>
+      <category>tech</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Dama Azul de la Catedral: el eco de una ausencia</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-dama-azul-de-la-catedral-el-eco-de-una-ausencia/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-dama-azul-de-la-catedral-el-eco-de-una-ausencia/</guid>
@@ -158,14 +166,6 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Mon, 22 Jun 2026 19:01:07 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Los susurros del Panteón</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-los-susurros-del-panteon/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-los-susurros-del-panteon/</guid>
-      <description>Diego Hernández, un niño de siete años, fue asesinado en el Cementerio de la Chacarita en 2018; pese a pruebas forenses contundentes, el sospechoso quedó libre por fallos judiciales. El caso expone la impunidad y los vacíos del sistema judicial argentino ante crímenes contra menores.</description>
-      <pubDate>Mon, 22 Jun 2026 18:11:45 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
