@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/mundial-2030-espana-del-tiki-taka-al-plastico-plastico-en-la-final/</loc>
+    <lastmod>2026-06-25T03:03:58Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/messi-supera-los-800-goles-en-mundiales-y-la-fifa-se-queda-sin-excusa/</loc>
     <lastmod>2026-06-24T22:02:07Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -597,12 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-sombras-en-la-tierra/</loc>
     <lastmod>2026-06-15T06:00:56Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/vinicius-el-salvador-de-un-brasil-en-crisis-o-el-nuevo-mesias-del-futbol/</loc>
-    <lastmod>2026-06-15T00:05:19Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
