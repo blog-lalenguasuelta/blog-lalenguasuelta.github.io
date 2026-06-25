@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El último viaje de un taxista</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-viaje-de-un-taxista/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-viaje-de-un-taxista/</guid>
+      <description>El asesinato del taxista Andrés López en Córdoba, 2018, expuso la infiltración del crimen organizado en la policía. La investigación quedó incompleta, dejando una sombra de injusticia.</description>
+      <pubDate>Thu, 25 Jun 2026 18:03:52 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: El último pacto de la Luna Negra</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-pacto-de-la-luna-negra/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-pacto-de-la-luna-negra/</guid>
@@ -158,14 +166,6 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Tue, 23 Jun 2026 15:01:45 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>¡Bienvenidos al horno europeo! La nueva normalidad del calor extremo</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/bienvenidos-al-horno-europeo-la-nueva-normalidad-del-calor-extremo/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/bienvenidos-al-horno-europeo-la-nueva-normalidad-del-calor-extremo/</guid>
-      <description>Las temperaturas en Europa se están convirtiendo en un espectáculo tan absurdo como peligroso. Con el termómetro a punto de estallar y la gente buscando refugio en los congeladores, la &#x27;supervivencia&#x27; se convierte en la tendencia del verano.</description>
-      <pubDate>Tue, 23 Jun 2026 06:02:54 +0000</pubDate>
-      <category>international</category>
     </item>
   </channel>
 </rss>
