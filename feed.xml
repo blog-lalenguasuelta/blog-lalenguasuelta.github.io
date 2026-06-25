@@ -8,6 +8,30 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El último pacto de la Luna Negra</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-pacto-de-la-luna-negra/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-pacto-de-la-luna-negra/</guid>
+      <description>El caso de María Luisa Gutiérrez en San Juan de los Ríos, un crimen ritual sin resolver, muestra cómo la tradición y la sospecha pueden destruir una comunidad. La falta de justicia y la fragilidad del sistema dejan cicatrices que persisten en la memoria colectiva.</description>
+      <pubDate>Thu, 25 Jun 2026 18:02:34 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>La doble cara de España: más que un meme, un espejismo de dos mundos</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-doble-cara-de-espana-mas-que-un-meme-un-espejismo-de-dos-mundos/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-doble-cara-de-espana-mas-que-un-meme-un-espejismo-de-dos-mundos/</guid>
+      <description>Mientras escuchas la radio de la calle, la realidad se dobla y tu coche se siente como un coche de montaña en una pista de hielo. No es que España haya vuelto a ser un país de dos caras; lo que trasciende es que, cada vez que se abre la boca de la nación, nos dicen que estamos juntos, pero el eco de</description>
+      <pubDate>Thu, 25 Jun 2026 15:04:17 +0000</pubDate>
+      <category>tech</category>
+    </item>
+    <item>
+      <title>Sheinbaum Pone Su Sello Propio A Las Paces Con España — La opinión que nadie te pidió</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/sheinbaum-pone-su-sello-propio-a-las-paces-con-espana-la-opinion-que-nadie-te-pi-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/sheinbaum-pone-su-sello-propio-a-las-paces-con-espana-la-opinion-que-nadie-te-pi-1/</guid>
+      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
+      <pubDate>Thu, 25 Jun 2026 15:02:47 +0000</pubDate>
+      <category>tech</category>
+    </item>
+    <item>
       <title>Mundial 2030: España, ¿del &#x27;tiki-taka&#x27; al &#x27;plástico-plástico&#x27; en la final?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/mundial-2030-espana-del-tiki-taka-al-plastico-plastico-en-la-final/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/mundial-2030-espana-del-tiki-taka-al-plastico-plastico-en-la-final/</guid>
@@ -142,30 +166,6 @@
       <description>Las temperaturas en Europa se están convirtiendo en un espectáculo tan absurdo como peligroso. Con el termómetro a punto de estallar y la gente buscando refugio en los congeladores, la &#x27;supervivencia&#x27; se convierte en la tendencia del verano.</description>
       <pubDate>Tue, 23 Jun 2026 06:02:54 +0000</pubDate>
       <category>international</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Bajo la sombra del amor asesino</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-bajo-la-sombra-del-amor-asesino/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-bajo-la-sombra-del-amor-asesino/</guid>
-      <description>Un crimen pasional en Villanueva revela la oscura realidad de un amor posesivo que acaba en tragedia. La historia de Clara Gómez, olvidada por la sociedad, nos recuerda la fragilidad de la vida y la necesidad de justicia.</description>
-      <pubDate>Tue, 23 Jun 2026 06:01:00 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Justicia a la Carta: La Nueva Comedia Española</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/justicia-a-la-carta-la-nueva-comedia-espanola/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/justicia-a-la-carta-la-nueva-comedia-espanola/</guid>
-      <description>En un país donde la justicia parece más un guion de comedia que un sistema legal, exploramos cómo la política se ha convertido en un espectáculo de entretenimiento de baja calidad.</description>
-      <pubDate>Tue, 23 Jun 2026 00:03:14 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>La medida del asco: ¿Dónde quedó la dignidad?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-medida-del-asco-donde-quedo-la-dignidad/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-medida-del-asco-donde-quedo-la-dignidad/</guid>
-      <description>En un mundo en el que un consejero de Agricultura puede tener un máster que no cursó, y donde un piso de 40 m² en Lavapiés cuesta más que un riñón, la indignación se ha convertido en un eco lejano. ¿A quién le sorprende que la clase política no tenga ni idea de lo que es la vergüenza.</description>
-      <pubDate>Mon, 22 Jun 2026 22:00:56 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
