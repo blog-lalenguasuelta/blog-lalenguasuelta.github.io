@@ -2,9 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog-lalenguasuelta.github.io/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/greenspan-el-economista-que-predijo-el-pasado/</loc>
+    <lastmod>2026-06-26T03:04:31Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-terremoto-en-venezuela-en-vivo-dos-potentes-terremotos-sacuden-el-pais-dejand/</loc>
+    <lastmod>2026-06-25T21:02:11Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-viaje-de-un-taxista/</loc>
@@ -595,68 +607,56 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-semper-el-muro-se-les-cae-cada-semana-es-una-men/</loc>
-    <lastmod>2026-06-15T15:01:50Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/zapatero-joyas-y-la-ilusion-de-la-justicia-cuando-el-juicio-se-vuelve-espectacul/</loc>
-    <lastmod>2026-06-15T12:02:57Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/sucesos/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/society/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/economy/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/tech/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/international/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/politics/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/science/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/pop_culture/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/general/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
