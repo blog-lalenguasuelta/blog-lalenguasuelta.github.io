@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro del Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio-1/</guid>
+      <description>El asesinato de Manuel Ortega en un pueblo pequeño de España fue silenciado durante décadas, revelando un oscuro secreto de complicidad y miedo. A través de la voz de su esposa y un grupo de jóvenes investigadores, la verdad comienza a salir a la luz, desafiando el silencio que ha reinado por tanto </description>
+      <pubDate>Fri, 26 Jun 2026 06:01:08 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Greenspan: El Economista que Predijo el Pasado</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/greenspan-el-economista-que-predijo-el-pasado/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/greenspan-el-economista-que-predijo-el-pasado/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/felipe-gonzalez-sanchez-tiene-dos-opciones-dimitir-o-convocar-elecciones-la-opin/</guid>
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Tue, 23 Jun 2026 21:01:54 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El silencio del campo: la noche que Jerez perdió a una madre y una hija</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-campo-la-noche-que-jerez-perdio-a-una-madre-y-una-/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-campo-la-noche-que-jerez-perdio-a-una-madre-y-una-/</guid>
-      <description>María del Carmen y su hija Lucía fueron brutalmente asesinadas en su granja rural en 2013; la custodia del hijo quedó en manos de la familia del agresor sin pruebas, revelando la impunidad de la violencia de género en zonas rurales. El caso, archivado y revivido años después, muestra la falta de dil</description>
-      <pubDate>Tue, 23 Jun 2026 18:06:16 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
