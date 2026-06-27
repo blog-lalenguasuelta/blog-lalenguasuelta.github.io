@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/begona-y-pedro-vacaciones-de-lujo-en-tiempos-de-crisis-quien-dijo-que-esto-no-er/</loc>
+    <lastmod>2026-06-27T12:01:14Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/mairena-del-aljarafe-otra-victima-y-la-misma-historia-de-siempre/</loc>
     <lastmod>2026-06-27T09:01:03Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -597,12 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-las-sombras-2/</loc>
     <lastmod>2026-06-16T06:01:48Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-amor-y-sangre-en-la-penumbra/</loc>
-    <lastmod>2026-06-16T06:01:02Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
