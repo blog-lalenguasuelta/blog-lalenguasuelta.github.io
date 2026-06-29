@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Nuestros padres mintieron: el Brexit y el precio del carrito de la compra</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/nuestros-padres-mintieron-el-brexit-y-el-precio-del-carrito-de-la-compra/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/nuestros-padres-mintieron-el-brexit-y-el-precio-del-carrito-de-la-compra/</guid>
+      <description>¿Quién se atreve a defender la soberanía cuando el precio del café ha subido un 30%. En Malasaña, el alquiler es un lujo y el Brexit ha sido un colador de promesas vacías.</description>
+      <pubDate>Mon, 29 Jun 2026 09:01:50 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
       <title>Crónica Negra: Ecos de una Desaparición</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-desaparicion/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-desaparicion/</guid>
@@ -162,14 +170,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <description>El caso de María Luisa Gutiérrez en San Juan de los Ríos, un crimen ritual sin resolver, muestra cómo la tradición y la sospecha pueden destruir una comunidad. La falta de justicia y la fragilidad del sistema dejan cicatrices que persisten en la memoria colectiva.</description>
       <pubDate>Thu, 25 Jun 2026 18:02:34 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>La doble cara de España: más que un meme, un espejismo de dos mundos</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-doble-cara-de-espana-mas-que-un-meme-un-espejismo-de-dos-mundos/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-doble-cara-de-espana-mas-que-un-meme-un-espejismo-de-dos-mundos/</guid>
-      <description>Mientras escuchas la radio de la calle, la realidad se dobla y tu coche se siente como un coche de montaña en una pista de hielo. No es que España haya vuelto a ser un país de dos caras; lo que trasciende es que, cada vez que se abre la boca de la nación, nos dicen que estamos juntos, pero el eco de</description>
-      <pubDate>Thu, 25 Jun 2026 15:04:17 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
