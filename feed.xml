@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Sombra del Olvido</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-olvido/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-olvido/</guid>
+      <description>Clara Martín, madre y esposa, fue asesinada en un pequeño pueblo español en 1985, su caso fue encubierto durante décadas. Un periodista reabre la herida, exponiendo un sistema que falló y recordando que las historias olvidadas también merecen ser contadas.</description>
+      <pubDate>Mon, 29 Jun 2026 06:00:59 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>¿Adopcióny Marketing: ¿Una Foto Antes y Despues Es Un Publicidad Emocional? (Y Si Los Perros Ya Son Influencers Por Un Collar?)</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/adopciony-marketing-una-foto-antes-y-despues-es-un-publicidad-emocional-y-si-los/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/adopciony-marketing-una-foto-antes-y-despues-es-un-publicidad-emocional-y-si-los/</guid>
@@ -161,14 +169,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <guid>https://blog-lalenguasuelta.github.io/articulo/mundial-2030-espana-del-tiki-taka-al-plastico-plastico-en-la-final/</guid>
       <description>Mientras España se prepara para albergar la final del Mundial 2030, la posibilidad de jugar sobre césped artificial desata la polémica. ¿Es una solución vanguardista o la enésima chapuza &#x27;marca España&#x27; con graves costes ocultos y un regusto a microplásticos?</description>
       <pubDate>Thu, 25 Jun 2026 03:03:58 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>Messi supera los 800 goles en Mundiales y la FIFA se queda sin excusa</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/messi-supera-los-800-goles-en-mundiales-y-la-fifa-se-queda-sin-excusa/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/messi-supera-los-800-goles-en-mundiales-y-la-fifa-se-queda-sin-excusa/</guid>
-      <description>El argentino bate un récord que hacía temblar a los historiadores del fútbol, mientras el planeta se debate entre cocaína, ébola y una ola de calor que derrite la factura de la luz. 819 goles en la historia de los mundiales.</description>
-      <pubDate>Wed, 24 Jun 2026 22:02:07 +0000</pubDate>
       <category>tech</category>
     </item>
   </channel>
