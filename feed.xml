@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Ecos de una Desaparición</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-desaparicion/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-desaparicion/</guid>
+      <description>La desaparición de Marta, una joven de Granada, se convirtió en un eco de injusticia y olvido en la sociedad. Su historia resuena en la lucha por la verdad y la memoria de quienes han sido silenciados.</description>
+      <pubDate>Mon, 29 Jun 2026 06:01:45 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Susurro de la Oscuridad</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad-1/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad-1/</guid>
@@ -161,14 +169,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-doble-cara-de-espana-mas-que-un-meme-un-espejismo-de-dos-mundos/</guid>
       <description>Mientras escuchas la radio de la calle, la realidad se dobla y tu coche se siente como un coche de montaña en una pista de hielo. No es que España haya vuelto a ser un país de dos caras; lo que trasciende es que, cada vez que se abre la boca de la nación, nos dicen que estamos juntos, pero el eco de</description>
       <pubDate>Thu, 25 Jun 2026 15:04:17 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>Sheinbaum Pone Su Sello Propio A Las Paces Con España — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/sheinbaum-pone-su-sello-propio-a-las-paces-con-espana-la-opinion-que-nadie-te-pi-1/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/sheinbaum-pone-su-sello-propio-a-las-paces-con-espana-la-opinion-que-nadie-te-pi-1/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Thu, 25 Jun 2026 15:02:47 +0000</pubDate>
       <category>tech</category>
     </item>
   </channel>
