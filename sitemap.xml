@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad-1/</loc>
+    <lastmod>2026-06-29T06:01:13Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-olvido/</loc>
     <lastmod>2026-06-29T06:00:59Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -597,12 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/el-asesinato-de-un-artista-crimen-comun-o-mensaje-de-terror/</loc>
     <lastmod>2026-06-16T19:00:54Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-acero-bajo-la-lluvia/</loc>
-    <lastmod>2026-06-16T18:04:19Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

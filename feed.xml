@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro de la Oscuridad</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-de-la-oscuridad-1/</guid>
+      <description>Un crimen ritual conmocionó a la aislada aldea de Valdeluz, dejando una marca imborrable en sus habitantes. La historia de Marta, una joven llena de sueños, revela la oscuridad que puede esconderse tras la fachada de un pueblo aparentemente tranquilo.</description>
+      <pubDate>Mon, 29 Jun 2026 06:01:13 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Sombra del Olvido</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-olvido/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-olvido/</guid>
@@ -161,14 +169,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <guid>https://blog-lalenguasuelta.github.io/articulo/sheinbaum-pone-su-sello-propio-a-las-paces-con-espana-la-opinion-que-nadie-te-pi-1/</guid>
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Thu, 25 Jun 2026 15:02:47 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>Mundial 2030: España, ¿del &#x27;tiki-taka&#x27; al &#x27;plástico-plástico&#x27; en la final?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/mundial-2030-espana-del-tiki-taka-al-plastico-plastico-en-la-final/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/mundial-2030-espana-del-tiki-taka-al-plastico-plastico-en-la-final/</guid>
-      <description>Mientras España se prepara para albergar la final del Mundial 2030, la posibilidad de jugar sobre césped artificial desata la polémica. ¿Es una solución vanguardista o la enésima chapuza &#x27;marca España&#x27; con graves costes ocultos y un regusto a microplásticos?</description>
-      <pubDate>Thu, 25 Jun 2026 03:03:58 +0000</pubDate>
       <category>tech</category>
     </item>
   </channel>
