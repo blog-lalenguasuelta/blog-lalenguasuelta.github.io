@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Las Sombras del Olvido</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-olvido-2/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-olvido-2/</guid>
+      <description>La historia de &quot;El Pequeño Fantasma&quot; revela las sombras de un asesino en serie que operó sin ser detectado durante años. Un recordatorio escalofriante de cómo las voces de las víctimas siguen siendo ignoradas en un sistema que falla.</description>
+      <pubDate>Tue, 30 Jun 2026 06:00:52 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>¿Qué Implica El Nuevo Tipo De Cambio Para La Economía En Bolivia? — La opinión que nadie te pidió</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/que-implica-el-nuevo-tipo-de-cambio-para-la-economia-en-bolivia-la-opinion-que-n-2/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/que-implica-el-nuevo-tipo-de-cambio-para-la-economia-en-bolivia-la-opinion-que-n-2/</guid>
+      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
+      <pubDate>Mon, 29 Jun 2026 21:09:17 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Nuestros padres mintieron: el Brexit y el precio del carrito de la compra</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/nuestros-padres-mintieron-el-brexit-y-el-precio-del-carrito-de-la-compra/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/nuestros-padres-mintieron-el-brexit-y-el-precio-del-carrito-de-la-compra/</guid>
@@ -154,22 +170,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Thu, 25 Jun 2026 21:02:11 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El último viaje de un taxista</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-viaje-de-un-taxista/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-viaje-de-un-taxista/</guid>
-      <description>El asesinato del taxista Andrés López en Córdoba, 2018, expuso la infiltración del crimen organizado en la policía. La investigación quedó incompleta, dejando una sombra de injusticia.</description>
-      <pubDate>Thu, 25 Jun 2026 18:03:52 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El último pacto de la Luna Negra</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-pacto-de-la-luna-negra/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ultimo-pacto-de-la-luna-negra/</guid>
-      <description>El caso de María Luisa Gutiérrez en San Juan de los Ríos, un crimen ritual sin resolver, muestra cómo la tradición y la sospecha pueden destruir una comunidad. La falta de justicia y la fragilidad del sistema dejan cicatrices que persisten en la memoria colectiva.</description>
-      <pubDate>Thu, 25 Jun 2026 18:02:34 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
