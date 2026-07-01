@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Eco del Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-del-silencio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-del-silencio/</guid>
+      <description>El caso de María, víctima de violencia doméstica, revela la cruda realidad del silencio que rodea estos abusos. Su historia, aunque olvidada, es un recordatorio de que cada tragedia personal es un reflejo de una sociedad que aún lucha por escuchar.</description>
+      <pubDate>Wed, 01 Jul 2026 06:01:02 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La &quot;China milenaria&quot;: un decorado más que un destino turístico</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-china-milenaria-un-decorado-mas-que-un-destino-turistico/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-china-milenaria-un-decorado-mas-que-un-destino-turistico/</guid>
@@ -161,14 +169,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <guid>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-angel-victor-torres-preguntado-por-zapatero-dice/</guid>
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Fri, 26 Jun 2026 18:03:52 +0000</pubDate>
-      <category>tech</category>
-    </item>
-    <item>
-      <title>El Rey Felipe Vi Y Claudia Sheinbaum Entierran El Distanciamiento Entre España Y México Con Un Encuentro En Palacio Nacional — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-rey-felipe-vi-y-claudia-sheinbaum-entierran-el-distanciamiento-entre-espana-y/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-rey-felipe-vi-y-claudia-sheinbaum-entierran-el-distanciamiento-entre-espana-y/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Fri, 26 Jun 2026 15:31:04 +0000</pubDate>
       <category>tech</category>
     </item>
   </channel>
