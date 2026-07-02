@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: Entre las sombras de un suicidio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-entre-las-sombras-de-un-suicidio/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-entre-las-sombras-de-un-suicidio/</guid>
+      <description>La historia de Laura, una mujer cuya muerte fue archivada como suicidio, revela la lucha silenciosa que muchas mujeres enfrentan. Un caso que, aunque poco conocido, merece ser contado para recordar que la verdad siempre debe prevalecer.</description>
+      <pubDate>Thu, 02 Jul 2026 06:01:02 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>HazteOír: De vigías del WhatsApp a guardianes de graduaciones, ¿en serio?</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/hazteoir-de-vigias-del-whatsapp-a-guardianes-de-graduaciones-en-serio/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/hazteoir-de-vigias-del-whatsapp-a-guardianes-de-graduaciones-en-serio/</guid>
@@ -162,14 +170,6 @@ Yo estaba revisando el feed de Twitter cuando me topé con una frase que parece 
       <description>Con la política española en una montaña rusa de cambios, la designación de Juan Fernández como secretario general del PP de Catalunya promete un espectáculo digno de ver. ¿Alguien ha visto la última.</description>
       <pubDate>Sat, 27 Jun 2026 15:01:53 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>Begoña y Pedro: Vacaciones de lujo en tiempos de crisis... ¿Quién dijo que esto no era un reality show?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/begona-y-pedro-vacaciones-de-lujo-en-tiempos-de-crisis-quien-dijo-que-esto-no-er/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/begona-y-pedro-vacaciones-de-lujo-en-tiempos-de-crisis-quien-dijo-que-esto-no-er/</guid>
-      <description>Entre el glamour de un hotel en Benasque y la cruda realidad de los españoles, hay más distancia que entre el norte de África y el corazón de la Península. La imagen de Begoña Gómez y Pedro Sánchez disfrutando de sus vacaciones en un hotel de lujo en Benasque no podría ser más reveladora.</description>
-      <pubDate>Sat, 27 Jun 2026 12:01:14 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
