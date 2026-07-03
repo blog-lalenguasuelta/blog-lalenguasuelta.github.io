@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Sombra de las Almas Perdidas</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-las-almas-perdidas/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-las-almas-perdidas/</guid>
+      <description>El caso de Laura Medina revela la oscura realidad de un crimen ritual en una comunidad aislada de España. A través de su historia, se exploran los secretos y miedos que habitaban entre sus habitantes, dejando una huella imborrable en el pueblo.</description>
+      <pubDate>Fri, 03 Jul 2026 06:01:23 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Silencio de los Olvidados</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-los-olvidados-1/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-los-olvidados-1/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/trafico-humano-en-espana-una-nueva-serie-de-netflix-o-una-realidad-insoportable/</guid>
       <description>Mientras Netflix lanza series sobre el tráfico humano, España vive su propia trama de horror diario. Pero, ¿quién necesita ficción cuando la realidad supera la imaginación?</description>
       <pubDate>Tue, 30 Jun 2026 06:11:37 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Las Sombras del Olvido</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-olvido-2/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-del-olvido-2/</guid>
-      <description>La historia de &quot;El Pequeño Fantasma&quot; revela las sombras de un asesino en serie que operó sin ser detectado durante años. Un recordatorio escalofriante de cómo las voces de las víctimas siguen siendo ignoradas en un sistema que falla.</description>
-      <pubDate>Tue, 30 Jun 2026 06:00:52 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
