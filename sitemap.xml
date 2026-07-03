@@ -2,9 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://blog-lalenguasuelta.github.io/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-los-olvidados-1/</loc>
+    <lastmod>2026-07-03T06:01:03Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-6/</loc>
+    <lastmod>2026-07-03T06:01:01Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/como-funciona-la-alerta-de-terremotos-de-android-que-puede-salvar-millones-de-vi/</loc>
+    <lastmod>2026-07-02T21:36:01Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-pacto-de-la-vergenza-moreno-vox-y-la-realidad-andaluza/</loc>
+    <lastmod>2026-07-02T21:35:55Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/illa-apuntala-la-legislatura-con-la-aprobacion-de-los-presupuestos-de-la-mano-de/</loc>
+    <lastmod>2026-07-02T15:36:14Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/la-fiscalia-pide-imputar-a-la-jefa-de-la-guardia-civil-y-esto-es-solo-la-punta-d/</loc>
+    <lastmod>2026-07-02T09:36:15Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/el-ultimo-baile-de-manuel-arjona-que-nos-dejo-el-primer-locomia/</loc>
+    <lastmod>2026-07-02T06:37:29Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cuando-el-chiqui-se-va-la-muerte-de-un-icono-sin-un-plan-de-contingencia/</loc>
+    <lastmod>2026-07-02T06:37:11Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ritual-del-silencio/</loc>
@@ -559,104 +607,56 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/un-business-plan-para-no-ser-accionista-martinez-podia-cobrar-fuera-de-espana-y-/</loc>
-    <lastmod>2026-06-18T12:04:02Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-feijoo-yo-no-soy-el-que-habla-mal-de-espana-en-e-1/</loc>
-    <lastmod>2026-06-18T12:02:14Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-feijoo-yo-no-soy-el-que-habla-mal-de-espana-en-e/</loc>
-    <lastmod>2026-06-18T12:02:09Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/messi-el-eterno-mago-records-y-sorpresas-que-desafian-la-logica/</loc>
-    <lastmod>2026-06-18T09:01:51Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/feijoo-y-zapatero-un-juego-de-poder-entre-joyas-y-dictaduras/</loc>
-    <lastmod>2026-06-18T06:02:26Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-4/</loc>
-    <lastmod>2026-06-18T06:00:48Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/la-ultima-cacicada-que-pasaria-si-cambiaramos-el-veto-por-un-voton/</loc>
-    <lastmod>2026-06-18T00:03:54Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/calor-o-calor-el-verano-caliente-que-nos-merecemos/</loc>
-    <lastmod>2026-06-17T21:03:06Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/sucesos/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/society/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/economy/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/tech/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/international/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/politics/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/science/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/pop_culture/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://blog-lalenguasuelta.github.io/categoria/general/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
