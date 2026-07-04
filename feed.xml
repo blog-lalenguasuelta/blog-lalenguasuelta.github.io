@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>La mirada de póker de quienes nunca dimiten</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-mirada-de-poker-de-quienes-nunca-dimiten/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-mirada-de-poker-de-quienes-nunca-dimiten/</guid>
+      <description>Mientras un puñado de privilegiados ignoran la realidad, la gente sigue atrapada en su propia tragedia habitacional y social. Hay quienes dicen que la indiferencia es el verdadero monstruo de nuestros días.</description>
+      <pubDate>Sat, 04 Jul 2026 05:30:36 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
       <title>¿Especies distintas? La ministra de Igualdad y su peculiar visión de la evolución</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/especies-distintas-la-ministra-de-igualdad-y-su-peculiar-vision-de-la-evolucion/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/especies-distintas-la-ministra-de-igualdad-y-su-peculiar-vision-de-la-evolucion/</guid>
@@ -158,14 +166,6 @@
       <description>En un escenario donde los políticos parecen más actores de teatro que representantes del pueblo, la situación en Andalucía se convierte en una tragicomedia digna de un guion de Hollywood.</description>
       <pubDate>Wed, 01 Jul 2026 06:12:23 +0000</pubDate>
       <category>politics</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Eco del Silencio</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-del-silencio/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-eco-del-silencio/</guid>
-      <description>El caso de María, víctima de violencia doméstica, revela la cruda realidad del silencio que rodea estos abusos. Su historia, aunque olvidada, es un recordatorio de que cada tragedia personal es un reflejo de una sociedad que aún lucha por escuchar.</description>
-      <pubDate>Wed, 01 Jul 2026 06:01:02 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
