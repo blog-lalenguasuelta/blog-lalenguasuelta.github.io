@@ -7,6 +7,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</loc>
+    <lastmod>2026-07-04T18:00:55Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/quien-necesita-soluciones-cuando-podemos-tener-memes/</loc>
+    <lastmod>2026-07-04T11:35:36Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</loc>
     <lastmod>2026-07-04T09:01:15Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -591,18 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-una-pasion-muerta/</loc>
     <lastmod>2026-06-20T06:02:54Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/espana-el-horno-en-el-que-nadie-quiere-cocinar/</loc>
-    <lastmod>2026-06-20T03:03:19Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/el-agente-que-te-quita-la-mitad-y-el-resto-no-lo-sientes/</loc>
-    <lastmod>2026-06-19T19:01:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

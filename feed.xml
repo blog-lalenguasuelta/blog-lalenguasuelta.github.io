@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Puerta Cerrada</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</guid>
+      <description>La historia de Clara y sus hijos es un recordatorio trágico de la violencia doméstica que acecha en la oscuridad. Un caso olvidado que resuena en el silencio de una comunidad cómplice.</description>
+      <pubDate>Sat, 04 Jul 2026 18:00:55 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>¿Quién necesita soluciones cuando podemos tener memes?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/quien-necesita-soluciones-cuando-podemos-tener-memes/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/quien-necesita-soluciones-cuando-podemos-tener-memes/</guid>
+      <description>La política y la economía europea parecen una comedia de enredos, donde la única certeza es que la risa es el mejor antídoto ante la parálisis colectiva.</description>
+      <pubDate>Sat, 04 Jul 2026 11:35:36 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>La viralidad es el nuevo silencio, y Roxana ya no está</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</guid>
@@ -150,22 +166,6 @@
       <description>Un crimen ritual en el pueblo de Candeleda dejó una herida profunda en la comunidad. Clara, una madre querida, se convirtió en la víctima de un horror que reveló los secretos oscuros de un lugar olvidado.</description>
       <pubDate>Thu, 02 Jul 2026 06:01:30 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: Entre las sombras de un suicidio</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-entre-las-sombras-de-un-suicidio/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-entre-las-sombras-de-un-suicidio/</guid>
-      <description>La historia de Laura, una mujer cuya muerte fue archivada como suicidio, revela la lucha silenciosa que muchas mujeres enfrentan. Un caso que, aunque poco conocido, merece ser contado para recordar que la verdad siempre debe prevalecer.</description>
-      <pubDate>Thu, 02 Jul 2026 06:01:02 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>HazteOír: De vigías del WhatsApp a guardianes de graduaciones, ¿en serio?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/hazteoir-de-vigias-del-whatsapp-a-guardianes-de-graduaciones-en-serio/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/hazteoir-de-vigias-del-whatsapp-a-guardianes-de-graduaciones-en-serio/</guid>
-      <description>Un giro inesperado en la narrativa de la oposición a Begoña Gómez y sus derechos como madre. Lo que empezó como un veto se convierte en un desmadre mediático.</description>
-      <pubDate>Thu, 02 Jul 2026 05:30:50 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
