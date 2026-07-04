@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>La viralidad es el nuevo silencio, y Roxana ya no está</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</guid>
+      <description>Hemos construido un ecosistema digital que grita pero no actúa, dejando que las tragedias se repitan en bucle mientras miramos. Lo de Roxana Guzmán me ha dejado un nudo en el estómago que ni el kebab de anoche con extra de picante, para sentir algo ha conseguido aflojar.</description>
+      <pubDate>Sat, 04 Jul 2026 09:01:15 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
       <title>Crónica Negra: La sombra del silencio</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-7/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-7/</guid>
@@ -158,14 +166,6 @@
       <description>Un giro inesperado en la narrativa de la oposición a Begoña Gómez y sus derechos como madre. Lo que empezó como un veto se convierte en un desmadre mediático.</description>
       <pubDate>Thu, 02 Jul 2026 05:30:50 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>Taylor Swift: El Espejo Roto de la Cultura Pop</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/taylor-swift-el-espejo-roto-de-la-cultura-pop/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/taylor-swift-el-espejo-roto-de-la-cultura-pop/</guid>
-      <description>A medida que los fans de Taylor Swift alzan la voz, la sociedad española se enfrenta a sus propios espejos rotos. La cantante se convierte en símbolo de nuestras propias inseguridades y dilemas.</description>
-      <pubDate>Thu, 02 Jul 2026 00:36:57 +0000</pubDate>
-      <category>science</category>
     </item>
   </channel>
 </rss>
