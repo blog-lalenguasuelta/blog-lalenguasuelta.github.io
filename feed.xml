@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La sombra del silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-7/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-7/</guid>
+      <description>Un caso de violencia doméstica que culminó en tragedia múltiple, revelando fallos en el sistema de protección. La historia de Beatriz y sus hijos es un eco de un dolor que no debe ser olvidado.</description>
+      <pubDate>Sat, 04 Jul 2026 06:01:01 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: El Susurro del Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio-2/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio-2/</guid>
+      <description>En un pequeño pueblo de España, el asesinato de María Gómez fue encubierto durante décadas, revelando un oscuro secreto comunitario. Un periodista destapa la verdad, mostrando cómo el silencio y el miedo han marcado a una comunidad.</description>
+      <pubDate>Sat, 04 Jul 2026 06:01:01 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>La mirada de póker de quienes nunca dimiten</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/la-mirada-de-poker-de-quienes-nunca-dimiten/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/la-mirada-de-poker-de-quienes-nunca-dimiten/</guid>
@@ -150,22 +166,6 @@
       <description>A medida que los fans de Taylor Swift alzan la voz, la sociedad española se enfrenta a sus propios espejos rotos. La cantante se convierte en símbolo de nuestras propias inseguridades y dilemas.</description>
       <pubDate>Thu, 02 Jul 2026 00:36:57 +0000</pubDate>
       <category>science</category>
-    </item>
-    <item>
-      <title>Regularización Masiva En España: 1,2 Millones De Migrantes Esperan Integrarse A La Economía — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/regularizacion-masiva-en-espana-12-millones-de-migrantes-esperan-integrarse-a-la-1/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/regularizacion-masiva-en-espana-12-millones-de-migrantes-esperan-integrarse-a-la-1/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Wed, 01 Jul 2026 18:09:47 +0000</pubDate>
-      <category>economy</category>
-    </item>
-    <item>
-      <title>Andalucía: La Tragedia del Voto y el Arte de Hacer el Ridículo</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/andalucia-la-tragedia-del-voto-y-el-arte-de-hacer-el-ridiculo/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/andalucia-la-tragedia-del-voto-y-el-arte-de-hacer-el-ridiculo/</guid>
-      <description>En un escenario donde los políticos parecen más actores de teatro que representantes del pueblo, la situación en Andalucía se convierte en una tragicomedia digna de un guion de Hollywood.</description>
-      <pubDate>Wed, 01 Jul 2026 06:12:23 +0000</pubDate>
-      <category>politics</category>
     </item>
   </channel>
 </rss>
