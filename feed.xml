@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>España se lanza al espacio mientras el país arde en calor</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/espana-se-lanza-al-espacio-mientras-el-pais-arde-en-calor/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/espana-se-lanza-al-espacio-mientras-el-pais-arde-en-calor/</guid>
+      <description>La llegada de PLD Space a la escena espacial es un rayo de esperanza en un verano que amenaza con convertirse en una pesadilla térmica. Cuando pienso en la conquista del espacio, me imagino a un grupo de astronautas en trajes espaciales, flotando en gravedad cero y tomando café porque, claro, el caf</description>
+      <pubDate>Sun, 05 Jul 2026 22:00:56 +0000</pubDate>
+      <category>science</category>
+    </item>
+    <item>
+      <title>Más De 17.000 Hectáreas Quemadas Por Incendios Forestales En El Suroeste De Europa — La opinión que nadie te pidió</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/mas-de-17000-hectareas-quemadas-por-incendios-forestales-en-el-suroeste-de-europ/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/mas-de-17000-hectareas-quemadas-por-incendios-forestales-en-el-suroeste-de-europ/</guid>
+      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
+      <pubDate>Sun, 05 Jul 2026 17:52:29 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Colombia: ¿A octavos o a la gloria? Un solo gol entre 20 tiros</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/colombia-a-octavos-o-a-la-gloria-un-solo-gol-entre-20-tiros/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/colombia-a-octavos-o-a-la-gloria-un-solo-gol-entre-20-tiros/</guid>
@@ -150,22 +166,6 @@
       <description>La relación entre las instituciones y el poder político en España se ha vuelto un juego de sombras donde la verdad parece un lujo. La noticia de la imputación de Mercedes González, directora de la Guardia Civil, y su número dos, Manuel Llamas, en el caso Leire Díez es, en muchos aspectos, más que un</description>
       <pubDate>Thu, 02 Jul 2026 09:36:15 +0000</pubDate>
       <category>tech</category>
-    </item>
-    <item>
-      <title>El Último Baile de Manuel Arjona: ¿Qué Nos Dejó el Primer Locomía?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-ultimo-baile-de-manuel-arjona-que-nos-dejo-el-primer-locomia/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-ultimo-baile-de-manuel-arjona-que-nos-dejo-el-primer-locomia/</guid>
-      <description>La muerte de Manuel Arjona, miembro icónico de Locomía, no solo marca el final de una era, sino que también levanta un espejo hacia la sociedad española: ¿somos un país de fantasmas o de nostalgia?</description>
-      <pubDate>Thu, 02 Jul 2026 06:37:29 +0000</pubDate>
-      <category>international</category>
-    </item>
-    <item>
-      <title>Cuando el &#x27;Chiqui&#x27; se va: La muerte de un ícono sin un plan de contingencia</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cuando-el-chiqui-se-va-la-muerte-de-un-icono-sin-un-plan-de-contingencia/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cuando-el-chiqui-se-va-la-muerte-de-un-icono-sin-un-plan-de-contingencia/</guid>
-      <description>La muerte de Manuel Arjona, uno de los fundadores de Locomía, nos deja un vacío en la cultura pop y una pregunta: ¿qué hacemos ahora con nuestros recuerdos?</description>
-      <pubDate>Thu, 02 Jul 2026 06:37:11 +0000</pubDate>
-      <category>international</category>
     </item>
   </channel>
 </rss>
