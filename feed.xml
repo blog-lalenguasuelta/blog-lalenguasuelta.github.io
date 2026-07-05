@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Colombia: ¿A octavos o a la gloria? Un solo gol entre 20 tiros</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/colombia-a-octavos-o-a-la-gloria-un-solo-gol-entre-20-tiros/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/colombia-a-octavos-o-a-la-gloria-un-solo-gol-entre-20-tiros/</guid>
+      <description>Una victoria que sabe a gloria, aunque el fútbol sea un arte más cruel que el café de máquina. ¿Qué hace falta para que la felicidad no dependa de un penalti.</description>
+      <pubDate>Sun, 05 Jul 2026 12:02:16 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Puerta Cerrada</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</guid>
@@ -158,14 +166,6 @@
       <description>La muerte de Manuel Arjona, uno de los fundadores de Locomía, nos deja un vacío en la cultura pop y una pregunta: ¿qué hacemos ahora con nuestros recuerdos?</description>
       <pubDate>Thu, 02 Jul 2026 06:37:11 +0000</pubDate>
       <category>international</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Ritual del Silencio</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ritual-del-silencio/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-ritual-del-silencio/</guid>
-      <description>Un crimen ritual en el pueblo de Candeleda dejó una herida profunda en la comunidad. Clara, una madre querida, se convirtió en la víctima de un horror que reveló los secretos oscuros de un lugar olvidado.</description>
-      <pubDate>Thu, 02 Jul 2026 06:01:30 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
