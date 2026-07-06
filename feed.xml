@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Silencio de las Vecinas</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-vecinas/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-vecinas/</guid>
+      <description>El caso de Marta, una mujer cuyo feminicidio fue archivado como suicidio, pone de manifiesto la lucha de las vecinas por la verdad. A pesar de la indiferencia de las autoridades, su historia se convierte en un grito colectivo por justicia.</description>
+      <pubDate>Mon, 06 Jul 2026 06:00:57 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>España se lanza al espacio mientras el país arde en calor</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/espana-se-lanza-al-espacio-mientras-el-pais-arde-en-calor/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/espana-se-lanza-al-espacio-mientras-el-pais-arde-en-calor/</guid>
@@ -158,14 +166,6 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Thu, 02 Jul 2026 15:36:14 +0000</pubDate>
       <category>economy</category>
-    </item>
-    <item>
-      <title>La Fiscalía pide imputar a la jefa de la Guardia Civil y esto es solo la punta del iceberg</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-fiscalia-pide-imputar-a-la-jefa-de-la-guardia-civil-y-esto-es-solo-la-punta-d/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-fiscalia-pide-imputar-a-la-jefa-de-la-guardia-civil-y-esto-es-solo-la-punta-d/</guid>
-      <description>La relación entre las instituciones y el poder político en España se ha vuelto un juego de sombras donde la verdad parece un lujo. La noticia de la imputación de Mercedes González, directora de la Guardia Civil, y su número dos, Manuel Llamas, en el caso Leire Díez es, en muchos aspectos, más que un</description>
-      <pubDate>Thu, 02 Jul 2026 09:36:15 +0000</pubDate>
-      <category>tech</category>
     </item>
   </channel>
 </rss>
