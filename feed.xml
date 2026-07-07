@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Vallejo Nájera: el eco de la eugenesia que asusta en el siglo XXI</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/vallejo-najera-el-eco-de-la-eugenesia-que-asusta-en-el-siglo-xxi/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/vallejo-najera-el-eco-de-la-eugenesia-que-asusta-en-el-siglo-xxi/</guid>
+      <description>La defensa de la eugenesia por parte de Vallejo Nájera en los años 30 nunca fue un capítulo cerrado. Hoy, algunas de esas ideas vuelven a resurgir como fantasmas de un pasado aterrador.</description>
+      <pubDate>Tue, 07 Jul 2026 12:00:58 +0000</pubDate>
+      <category>pop_culture</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Última Llama</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-llama-1/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-llama-1/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-las-almas-perdidas/</guid>
       <description>El caso de Laura Medina revela la oscura realidad de un crimen ritual en una comunidad aislada de España. A través de su historia, se exploran los secretos y miedos que habitaban entre sus habitantes, dejando una huella imborrable en el pueblo.</description>
       <pubDate>Fri, 03 Jul 2026 06:01:23 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Silencio de los Olvidados</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-los-olvidados-1/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-los-olvidados-1/</guid>
-      <description>Un asesinato en un pueblo pequeño de España fue encubierto durante décadas, revelando las sombras de complicidad y miedo que existen en comunidades cerradas. La historia de María del Mar, una víctima olvidada, clama por justicia y reflexión sobre el sistema que permitió su olvido.</description>
-      <pubDate>Fri, 03 Jul 2026 06:01:03 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>
