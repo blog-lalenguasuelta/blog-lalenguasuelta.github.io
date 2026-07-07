@@ -8,6 +8,30 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Fuego, calor y negligencia: el colapso climático que ya está aquí</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/fuego-calor-y-negligencia-el-colapso-climatico-que-ya-esta-aqui/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/fuego-calor-y-negligencia-el-colapso-climatico-que-ya-esta-aqui/</guid>
+      <description>Un verano de incendios descontrolados muestra las grietas de nuestra era tecnológica y política, mientras el mundo celebra los últimos lanzamientos espaciales. Este junio, más de 19.000 hectáreas ardieron en Francia, España y Portugal en apenas 48 horas, según la Unión Europea.</description>
+      <pubDate>Tue, 07 Jul 2026 05:53:28 +0000</pubDate>
+      <category>tech</category>
+    </item>
+    <item>
+      <title>Chiringuitos: La Guerra del Sol, la Arena y la Legalidad</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/chiringuitos-la-guerra-del-sol-la-arena-y-la-legalidad/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/chiringuitos-la-guerra-del-sol-la-arena-y-la-legalidad/</guid>
+      <description>Los chiringuitos, ese emblema del verano español, se enfrentan a una batalla que va más allá de las sombrillas y las paellas: la lucha por su supervivencia en un mar de normativas y regulaciones. ¿Son los chiringuitos los héroes o los villanos de nuestras playas?</description>
+      <pubDate>Tue, 07 Jul 2026 02:53:49 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
+      <title>España: Donde el Escándalo es la Nueva Temporada de Netflix (y el final siempre es el mismo)</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/espana-donde-el-escandalo-es-la-nueva-temporada-de-netflix-y-el-final-siempre-es/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/espana-donde-el-escandalo-es-la-nueva-temporada-de-netflix-y-el-final-siempre-es/</guid>
+      <description>En un país adicto al drama, la política se ha convertido en un serial de estrenos constantes, donde la indignación pública es el *cliffhanger* y la amnesia colectiva, el inevitable *spoiler*.</description>
+      <pubDate>Mon, 06 Jul 2026 08:54:07 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Silencio de las Vecinas</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-vecinas/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-las-vecinas/</guid>
@@ -142,30 +166,6 @@
       <description>La historia de Marta y su hija Aina es un trágico recordatorio de la violencia doméstica en la sombra. Un caso que revela la falta de protección del sistema ante el dolor de muchas mujeres y niños.</description>
       <pubDate>Fri, 03 Jul 2026 06:01:01 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>¿Cómo Funciona La Alerta De Terremotos De Android Que Puede Salvar Millones De Vidas? — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/como-funciona-la-alerta-de-terremotos-de-android-que-puede-salvar-millones-de-vi/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/como-funciona-la-alerta-de-terremotos-de-android-que-puede-salvar-millones-de-vi/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Thu, 02 Jul 2026 21:36:01 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>El pacto de la vergüenza: Moreno, Vox y la realidad andaluza</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-pacto-de-la-vergenza-moreno-vox-y-la-realidad-andaluza/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-pacto-de-la-vergenza-moreno-vox-y-la-realidad-andaluza/</guid>
-      <description>Andalucía se prepara para una nueva era de desregulación y extremismo con un gobierno que promete más de lo mismo: desilusión y desesperanza. Juanma Moreno, el nuevo presidente de la Junta de Andalucía, se ha sacado de la manga un pacto que ni el más optimista de sus votantes se atrevería a califica</description>
-      <pubDate>Thu, 02 Jul 2026 21:35:55 +0000</pubDate>
-      <category>politics</category>
-    </item>
-    <item>
-      <title>Illa Apuntala La Legislatura Con La Aprobación De Los Presupuestos De La Mano De Erc Y Comuns — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/illa-apuntala-la-legislatura-con-la-aprobacion-de-los-presupuestos-de-la-mano-de/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/illa-apuntala-la-legislatura-con-la-aprobacion-de-los-presupuestos-de-la-mano-de/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Thu, 02 Jul 2026 15:36:14 +0000</pubDate>
-      <category>economy</category>
     </item>
   </channel>
 </rss>
