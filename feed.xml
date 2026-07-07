@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Última Llama</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-llama-1/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-llama-1/</guid>
+      <description>Una mujer y su pareja murieron en un ataque de violencia doméstica en Madrid. El sistema los falló por años.</description>
+      <pubDate>Tue, 07 Jul 2026 06:02:42 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Fuego, calor y negligencia: el colapso climático que ya está aquí</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/fuego-calor-y-negligencia-el-colapso-climatico-que-ya-esta-aqui/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/fuego-calor-y-negligencia-el-colapso-climatico-que-ya-esta-aqui/</guid>
@@ -157,14 +165,6 @@
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-de-los-olvidados-1/</guid>
       <description>Un asesinato en un pueblo pequeño de España fue encubierto durante décadas, revelando las sombras de complicidad y miedo que existen en comunidades cerradas. La historia de María del Mar, una víctima olvidada, clama por justicia y reflexión sobre el sistema que permitió su olvido.</description>
       <pubDate>Fri, 03 Jul 2026 06:01:03 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: La Sombra del Silencio</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-6/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-6/</guid>
-      <description>La historia de Marta y su hija Aina es un trágico recordatorio de la violencia doméstica en la sombra. Un caso que revela la falta de protección del sistema ante el dolor de muchas mujeres y niños.</description>
-      <pubDate>Fri, 03 Jul 2026 06:01:01 +0000</pubDate>
       <category>sucesos</category>
     </item>
   </channel>

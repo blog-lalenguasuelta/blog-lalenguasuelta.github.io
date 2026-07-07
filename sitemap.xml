@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-llama-1/</loc>
+    <lastmod>2026-07-07T06:02:42Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/fuego-calor-y-negligencia-el-colapso-climatico-que-ya-esta-aqui/</loc>
     <lastmod>2026-07-07T05:53:28Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -597,12 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/colombia-vira-al-ultra-y-el-diablo-esta-en-los-datos/</loc>
     <lastmod>2026-06-22T05:30:59Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-silencio-del-acechador/</loc>
-    <lastmod>2026-06-21T06:01:24Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
