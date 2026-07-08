@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: El Susurro del Olvido</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-olvido/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-olvido/</guid>
+      <description>El crimen pasional de Clara en Algeciras, una historia de amor y violencia que nunca llegó a ser contada en los medios. Un recordatorio de que las víctimas merecen ser recordadas, no olvidadas.</description>
+      <pubDate>Wed, 08 Jul 2026 06:01:05 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Vallejo Nájera: el eco de la eugenesia que asusta en el siglo XXI</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/vallejo-najera-el-eco-de-la-eugenesia-que-asusta-en-el-siglo-xxi/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/vallejo-najera-el-eco-de-la-eugenesia-que-asusta-en-el-siglo-xxi/</guid>
@@ -158,14 +166,6 @@
       <description>La actualidad española es un espectáculo en el que la risa y el llanto se entrelazan, pero lo que realmente se necesita es un dramaturgo que se atreva a escribir un final diferente.</description>
       <pubDate>Fri, 03 Jul 2026 06:37:05 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>Crónica Negra: La Sombra de las Almas Perdidas</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-las-almas-perdidas/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-las-almas-perdidas/</guid>
-      <description>El caso de Laura Medina revela la oscura realidad de un crimen ritual en una comunidad aislada de España. A través de su historia, se exploran los secretos y miedos que habitaban entre sus habitantes, dejando una huella imborrable en el pueblo.</description>
-      <pubDate>Fri, 03 Jul 2026 06:01:23 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
