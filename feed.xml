@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Ferran Torres: ¿Es la calma antes de la tormenta o solo un buen marketing?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/ferran-torres-es-la-calma-antes-de-la-tormenta-o-solo-un-buen-marketing/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/ferran-torres-es-la-calma-antes-de-la-tormenta-o-solo-un-buen-marketing/</guid>
+      <description>El futbolista está &quot;tranquilo&quot;, pero entre la crítica y el descontrol de precios en el alquiler, ¿hay algo más detrás de su aparente serenidad. Ferran Torres dice estar &quot;tranquilo&quot; tras su liberación parcial.</description>
+      <pubDate>Thu, 09 Jul 2026 12:01:01 +0000</pubDate>
+      <category>society</category>
+    </item>
+    <item>
+      <title>¿La justicia es un producto de lujo? El nuevo estatus del &#x27;pago por resultado&#x27;</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/la-justicia-es-un-producto-de-lujo-el-nuevo-estatus-del-pago-por-resultado/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/la-justicia-es-un-producto-de-lujo-el-nuevo-estatus-del-pago-por-resultado/</guid>
+      <description>En un mundo donde la justicia se ha convertido en un bien de consumo, ¿realmente podemos seguir llamando a esto una democracia? Aquí exploramos cómo el acceso a la justicia se ha convertido en un juego de ricos.</description>
+      <pubDate>Thu, 09 Jul 2026 11:53:55 +0000</pubDate>
+      <category>economy</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Última Cita</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-cita/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-cita/</guid>
@@ -150,22 +166,6 @@
       <description>Un caso de violencia doméstica que culminó en tragedia múltiple, revelando fallos en el sistema de protección. La historia de Beatriz y sus hijos es un eco de un dolor que no debe ser olvidado.</description>
       <pubDate>Sat, 04 Jul 2026 06:01:01 +0000</pubDate>
       <category>sucesos</category>
-    </item>
-    <item>
-      <title>Crónica Negra: El Susurro del Silencio</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio-2/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-silencio-2/</guid>
-      <description>En un pequeño pueblo de España, el asesinato de María Gómez fue encubierto durante décadas, revelando un oscuro secreto comunitario. Un periodista destapa la verdad, mostrando cómo el silencio y el miedo han marcado a una comunidad.</description>
-      <pubDate>Sat, 04 Jul 2026 06:01:01 +0000</pubDate>
-      <category>sucesos</category>
-    </item>
-    <item>
-      <title>La mirada de póker de quienes nunca dimiten</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-mirada-de-poker-de-quienes-nunca-dimiten/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-mirada-de-poker-de-quienes-nunca-dimiten/</guid>
-      <description>Mientras un puñado de privilegiados ignoran la realidad, la gente sigue atrapada en su propia tragedia habitacional y social. Hay quienes dicen que la indiferencia es el verdadero monstruo de nuestros días.</description>
-      <pubDate>Sat, 04 Jul 2026 05:30:36 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
