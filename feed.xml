@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Sombra del Silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-8/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-8/</guid>
+      <description>La historia de María, una víctima de violencia doméstica, y la tragedia que se desató en su hogar, revela los fallos del sistema en la protección de las víctimas. Su historia, aunque olvidada, resuena como un grito doloroso por justicia y atención.</description>
+      <pubDate>Thu, 09 Jul 2026 06:01:08 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Los Cuartos del Mundial 2026: ¿Fútbol o el algoritmo que nos predice?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/los-cuartos-del-mundial-2026-futbol-o-el-algoritmo-que-nos-predice/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/los-cuartos-del-mundial-2026-futbol-o-el-algoritmo-que-nos-predice/</guid>
+      <description>La épica de Argentina y la frustración de Colombia nos dicen más de nuestro futuro digital que del propio deporte rey. Me desperté el otro día con los cuartos de final del Mundial de 2026 ya cocinados, y lo primero que pensé no fue &quot;qué partidazo nos espera&quot; sino &quot;¿quién coño ha programado esto?&quot;.</description>
+      <pubDate>Wed, 08 Jul 2026 08:53:05 +0000</pubDate>
+      <category>politics</category>
+    </item>
+    <item>
       <title>Crónica Negra: El Susurro del Olvido</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-olvido/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-el-susurro-del-olvido/</guid>
@@ -150,22 +166,6 @@
       <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
       <pubDate>Fri, 03 Jul 2026 18:35:48 +0000</pubDate>
       <category>science</category>
-    </item>
-    <item>
-      <title>El Misterio del Camping Perfecto: ¿Un Oasis o un Espejismo?</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/el-misterio-del-camping-perfecto-un-oasis-o-un-espejismo/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/el-misterio-del-camping-perfecto-un-oasis-o-un-espejismo/</guid>
-      <description>Descubrimos por qué el mejor camping de España en la Costa Brava es más que una simple tienda de campaña: es un fenómeno social que desafía la lógica y la cordura de los españoles.</description>
-      <pubDate>Fri, 03 Jul 2026 06:38:54 +0000</pubDate>
-      <category>international</category>
-    </item>
-    <item>
-      <title>La España del Teatro del Absurdo: Risas, Llantos y un Guion Sin Final</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-espana-del-teatro-del-absurdo-risas-llantos-y-un-guion-sin-final/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-espana-del-teatro-del-absurdo-risas-llantos-y-un-guion-sin-final/</guid>
-      <description>La actualidad española es un espectáculo en el que la risa y el llanto se entrelazan, pero lo que realmente se necesita es un dramaturgo que se atreva a escribir un final diferente.</description>
-      <pubDate>Fri, 03 Jul 2026 06:37:05 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
