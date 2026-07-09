@@ -7,6 +7,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-cita/</loc>
+    <lastmod>2026-07-09T06:01:11Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-susurran/</loc>
+    <lastmod>2026-07-09T06:01:10Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-8/</loc>
     <lastmod>2026-07-09T06:01:08Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -591,18 +603,6 @@
   <url>
     <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-perdida-en-la-sombra-el-secuestro-de-una-joven-en-la-ciudad-de-mex/</loc>
     <lastmod>2026-06-22T06:08:53Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-ecos-de-silencio-en-los-remedios/</loc>
-    <lastmod>2026-06-22T06:07:48Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-soledad-de-una-mujer-hastiada/</loc>
-    <lastmod>2026-06-22T06:07:19Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

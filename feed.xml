@@ -8,6 +8,22 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La Última Cita</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-cita/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-ultima-cita/</guid>
+      <description>La historia de Laura resuena como un eco de las voces olvidadas en un crimen pasional. Su trágica muerte y el sistema que falló en protegerla nos invitan a reflexionar sobre la justicia y el silencio en nuestra sociedad.</description>
+      <pubDate>Thu, 09 Jul 2026 06:01:11 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
+      <title>Crónica Negra: Las Sombras que Susurran</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-susurran/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-que-susurran/</guid>
+      <description>Este capítulo narra la historia de un asesino en serie que operó en España sin ser detectado durante años, dejando un rastro de víctimas olvidadas. La indiferencia del sistema y la falta de atención hacia las voces vulnerables permiten que estas sombras persistan en nuestra sociedad.</description>
+      <pubDate>Thu, 09 Jul 2026 06:01:10 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Sombra del Silencio</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-8/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-8/</guid>
@@ -150,22 +166,6 @@
       <description>Mientras un puñado de privilegiados ignoran la realidad, la gente sigue atrapada en su propia tragedia habitacional y social. Hay quienes dicen que la indiferencia es el verdadero monstruo de nuestros días.</description>
       <pubDate>Sat, 04 Jul 2026 05:30:36 +0000</pubDate>
       <category>society</category>
-    </item>
-    <item>
-      <title>¿Especies distintas? La ministra de Igualdad y su peculiar visión de la evolución</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/especies-distintas-la-ministra-de-igualdad-y-su-peculiar-vision-de-la-evolucion/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/especies-distintas-la-ministra-de-igualdad-y-su-peculiar-vision-de-la-evolucion/</guid>
-      <description>Ana Redondo ha decidido que hombres y mujeres son como especies distintas. ¿Por qué no me sorprende.</description>
-      <pubDate>Fri, 03 Jul 2026 22:00:39 +0000</pubDate>
-      <category>society</category>
-    </item>
-    <item>
-      <title>Última Hora Política, En Directo | El Juez Del &#x27;Caso Zapatero Pide A La Udef Excluir Datos Personales Ajenos A La Investigación — La opinión que nadie te pidió</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-el-juez-del-caso-zapatero-pide-a-la-udef-excluir/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/ultima-hora-politica-en-directo-el-juez-del-caso-zapatero-pide-a-la-udef-excluir/</guid>
-      <description>Cuando la realidad supera a la ficción, solo queda reírse. O llorar.</description>
-      <pubDate>Fri, 03 Jul 2026 18:35:48 +0000</pubDate>
-      <category>science</category>
     </item>
   </channel>
 </rss>
