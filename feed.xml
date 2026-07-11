@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>Crónica Negra: La sombra del silencio</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-9/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-del-silencio-9/</guid>
+      <description>Elena, una mujer atrapada en una relación tóxica, es encontrada muerta. Las autoridades archivan el caso como suicidio, pero los vecinos saben la verdad. La lucha por la justicia revela las fallas del sistema y el eco de su historia resuena en la comunidad.</description>
+      <pubDate>Sat, 11 Jul 2026 06:01:04 +0000</pubDate>
+      <category>sucesos</category>
+    </item>
+    <item>
       <title>Crónica Negra: Las Sombras de la Verdad</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-de-la-verdad/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-las-sombras-de-la-verdad/</guid>
@@ -158,14 +166,6 @@
       <description>La política y la economía europea parecen una comedia de enredos, donde la única certeza es que la risa es el mejor antídoto ante la parálisis colectiva.</description>
       <pubDate>Sat, 04 Jul 2026 11:35:36 +0000</pubDate>
       <category>economy</category>
-    </item>
-    <item>
-      <title>La viralidad es el nuevo silencio, y Roxana ya no está</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/la-viralidad-es-el-nuevo-silencio-y-roxana-ya-no-esta/</guid>
-      <description>Hemos construido un ecosistema digital que grita pero no actúa, dejando que las tragedias se repitan en bucle mientras miramos. Lo de Roxana Guzmán me ha dejado un nudo en el estómago que ni el kebab de anoche con extra de picante, para sentir algo ha conseguido aflojar.</description>
-      <pubDate>Sat, 04 Jul 2026 09:01:15 +0000</pubDate>
-      <category>society</category>
     </item>
   </channel>
 </rss>
