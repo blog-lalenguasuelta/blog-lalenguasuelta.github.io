@@ -8,6 +8,14 @@
     <atom:link href="https://blog-lalenguasuelta.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
+      <title>El &#x27;bingo&#x27; de la catástrofe: ¿Qué desastre nos tocará esta semana?</title>
+      <link>https://blog-lalenguasuelta.github.io/articulo/el-bingo-de-la-catastrofe-que-desastre-nos-tocara-esta-semana/</link>
+      <guid>https://blog-lalenguasuelta.github.io/articulo/el-bingo-de-la-catastrofe-que-desastre-nos-tocara-esta-semana/</guid>
+      <description>En España, la tragedia se ha convertido en un espectáculo recurrente, donde la indignación pública dura lo que un tuit y las soluciones se pierden en el ruido de fondo, esperando el siguiente número del sorteo de la desgracia.</description>
+      <pubDate>Sat, 11 Jul 2026 08:54:04 +0000</pubDate>
+      <category>sports</category>
+    </item>
+    <item>
       <title>Crónica Negra: La Sombra de los Ciervos</title>
       <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-los-ciervos/</link>
       <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-sombra-de-los-ciervos/</guid>
@@ -158,14 +166,6 @@
       <description>Una victoria que sabe a gloria, aunque el fútbol sea un arte más cruel que el café de máquina. ¿Qué hace falta para que la felicidad no dependa de un penalti.</description>
       <pubDate>Sun, 05 Jul 2026 12:02:16 +0000</pubDate>
       <category>economy</category>
-    </item>
-    <item>
-      <title>Crónica Negra: La Puerta Cerrada</title>
-      <link>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</link>
-      <guid>https://blog-lalenguasuelta.github.io/articulo/cronica-negra-la-puerta-cerrada/</guid>
-      <description>La historia de Clara y sus hijos es un recordatorio trágico de la violencia doméstica que acecha en la oscuridad. Un caso olvidado que resuena en el silencio de una comunidad cómplice.</description>
-      <pubDate>Sat, 04 Jul 2026 18:00:55 +0000</pubDate>
-      <category>sucesos</category>
     </item>
   </channel>
 </rss>
